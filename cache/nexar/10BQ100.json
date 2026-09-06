@@ -1,0 +1,150 @@
+{
+ "mpn": "10BQ100",
+ "fetched_at": "2026-09-05T20:31:15",
+ "pro_fields": false,
+ "block": {
+  "hits": 7,
+  "parts": [
+   {
+    "id": "46526789",
+    "mpn": "10BQ100",
+    "name": "Vishay 10BQ100",
+    "octopartUrl": "https://octopart.com/part/vishay/10BQ100",
+    "manufacturer": {
+     "name": "Vishay"
+    },
+    "medianPrice1000": null,
+    "totalAvail": 18278,
+    "sellers": [
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Win Source"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 9550,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 545,
+          "price": 0.1028,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1330,
+          "price": 0.0843,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2055,
+          "price": 0.0818,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2835,
+          "price": 0.0791,
+          "currency": "USD"
+         },
+         {
+          "quantity": 3665,
+          "price": 0.0765,
+          "currency": "USD"
+         },
+         {
+          "quantity": 4905,
+          "price": 0.0685,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "NetSource Technology"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 22,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "UnikeyIC"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 363,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 2699,
+          "price": 0.2409,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ComSIT Distribution GmbH"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1824,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Suntronic"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 6156,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Unikeyic (ICkey)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 363,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 2699,
+          "price": 0.2409,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

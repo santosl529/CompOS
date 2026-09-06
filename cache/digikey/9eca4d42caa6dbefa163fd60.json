@@ -1,0 +1,23 @@
+{
+ "key": "9eca4d42caa6dbefa163fd60",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "289A651ZB03E715",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:21:25",
+ "body": {
+  "Products": [],
+  "ExactMatches": [],
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  }
+ },
+ "from_cache": false
+}

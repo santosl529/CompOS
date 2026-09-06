@@ -1,0 +1,337 @@
+{
+ "mpn": "3020403",
+ "fetched_at": "2026-09-05T20:31:20",
+ "pro_fields": false,
+ "block": {
+  "hits": 3,
+  "parts": [
+   {
+    "id": "22866384",
+    "mpn": "3020403",
+    "name": "Wurth Elektronik 3020403",
+    "octopartUrl": "https://octopart.com/part/wurth-elektronik/3020403",
+    "manufacturer": {
+     "name": "Wurth Elektronik"
+    },
+    "medianPrice1000": {
+     "price": 8.825,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 47251,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Newark"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 142,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 12.53,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5,
+          "price": 12.25,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 11.29,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 10.58,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 10.1,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 9.9,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 9.7,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "RS (Formerly Allied Electronics)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 100,
+          "price": 10.79,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 84,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 10.25,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5,
+          "price": 9.984,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 9.073,
+          "currency": "USD"
+         },
+         {
+          "quantity": 20,
+          "price": 8.398,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 7.942,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Mouser"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 24,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 10.25,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 8.4,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 7.95,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 7.95,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 7.95,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 7.95,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Component Search"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 686,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Easev"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 8625,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 3.70097,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 3.5159215,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 3.2198439,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 2.6646984,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Fmall Co., Limited"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 37270,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 7.526,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 7.0405,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 6.6359,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 6.0694,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "UnikeyIC"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 131,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 3,
+          "price": 11.55,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5,
+          "price": 11.088,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 10.3488,
+          "currency": "USD"
+         },
+         {
+          "quantity": 20,
+          "price": 10.164,
+          "currency": "USD"
+         },
+         {
+          "quantity": 40,
+          "price": 10.164,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Unikeyic (ICkey)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 131,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 3,
+          "price": 11.55,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5,
+          "price": 11.088,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 10.3488,
+          "currency": "USD"
+         },
+         {
+          "quantity": 20,
+          "price": 10.164,
+          "currency": "USD"
+         },
+         {
+          "quantity": 40,
+          "price": 10.164,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

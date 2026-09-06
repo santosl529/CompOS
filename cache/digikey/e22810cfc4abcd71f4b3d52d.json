@@ -1,0 +1,381 @@
+{
+ "key": "e22810cfc4abcd71f4b3d52d",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "10 nF 200V",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "60"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "60"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 2049,
+      "FilterValues": [
+       {
+        "Id": "10000 pF"
+       }
+      ]
+     },
+     {
+      "ParameterId": 14,
+      "FilterValues": [
+       {
+        "Id": "140848"
+       },
+       {
+        "Id": "83653"
+       }
+      ]
+     },
+     {
+      "ParameterId": 252,
+      "FilterValues": [
+       {
+        "Id": "242918"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:24:46",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CAP 0603 200V 10 NF X7R",
+     "DetailedDescription": "10000 pF \u00b110% 200V Ceramic Capacitor X7R 0603 (1608 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "CC0603KRX7RABB103",
+    "UnitPrice": 0.15,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7RABB103/20376230",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2488/0603%289mmthickness%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "13-CC0603KRX7RABB103TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 4000,
+        "UnitPrice": 0.0257,
+        "TotalPrice": 102.8
+       },
+       {
+        "BreakQuantity": 12000,
+        "UnitPrice": 0.02244,
+        "TotalPrice": 269.28
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 28000,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 4000,
+      "StandardPackage": 4000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "13-CC0603KRX7RABB103CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.15,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.081,
+        "TotalPrice": 0.81
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.056,
+        "TotalPrice": 2.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0483,
+        "TotalPrice": 4.83
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 30137,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "13-CC0603KRX7RABB103DKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.15,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.081,
+        "TotalPrice": 0.81
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.056,
+        "TotalPrice": 2.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0483,
+        "TotalPrice": 4.83
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 30137,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 30137,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6365329721112",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10000 pF",
+      "ValueText": "10000 pF"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "140848",
+      "ValueText": "200V"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422415",
+      "ValueText": "X7R"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39246",
+      "ValueText": "0603 (1608 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "7802",
+      "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "6031",
+      "ValueText": "0.035\" (0.90mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "21",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 1727,
+     "Name": "CC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "13-CC0603KRX7RABB103DKR",
+     "13-CC0603KRX7RABB103CT",
+     "13-CC0603KRX7RABB103TR"
+    ]
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

@@ -1,0 +1,71 @@
+{
+ "key": "783b2c488933a4b1a1e4b1dd",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1A",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "838"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "838"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 1719,
+      "FilterValues": [
+       {
+        "Id": "238738"
+       },
+       {
+        "Id": "69629"
+       },
+       {
+        "Id": "157291"
+       },
+       {
+        "Id": "163008"
+       },
+       {
+        "Id": "431431"
+       },
+       {
+        "Id": "182727"
+       },
+       {
+        "Id": "225290"
+       }
+      ]
+     },
+     {
+      "ParameterId": 252,
+      "FilterValues": [
+       {
+        "Id": "212478"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:04:42",
+ "body": {
+  "Products": [],
+  "ExactMatches": [],
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  }
+ },
+ "from_cache": false
+}

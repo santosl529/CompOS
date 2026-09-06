@@ -1,0 +1,234 @@
+{
+ "key": "cd05d7046c9cf3dd6798e58f",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "47 nF 500V",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "62"
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:24:43",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": ".047UF 310V",
+     "DetailedDescription": "47 nF Film Capacitor 310V 1500V (1.5kV) Paper, Metallized"
+    },
+    "Manufacturer": {
+     "Id": 399,
+     "Name": "KEMET"
+    },
+    "ManufacturerProductNumber": "SMP253FC5470MD32TR32",
+    "UnitPrice": 2.32848,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/kemet/SMP253FC5470MD32TR32/29795331",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/KEM_F3146_SMP253_Y2_310",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "399-SMP253FC5470MD32TR32TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1080,
+        "UnitPrice": 2.32848,
+        "TotalPrice": 2514.7584
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 399,
+       "Name": "KEMET"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1080,
+      "StandardPackage": 270,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "47 nF",
+      "ValueText": "47 nF"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1900",
+      "ValueText": "\u00b120%"
+     },
+     {
+      "ParameterId": 1292,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "String",
+      "ValueId": "185557",
+      "ValueText": "310V"
+     },
+     {
+      "ParameterId": 1293,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "String",
+      "ValueId": "99951",
+      "ValueText": "1500V (1.5kV)"
+     },
+     {
+      "ParameterId": 909,
+      "ParameterText": "Dielectric Material",
+      "ParameterType": "String",
+      "ValueId": "383900",
+      "ValueText": "Paper, Metallized"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 2097,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "31700",
+      "ValueText": "0.701\" L x 0.669\" W (17.80mm x 17.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "22115",
+      "ValueText": "0.402\" (10.20mm)"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "781600",
+      "ValueText": "PC Pins - Long Leads"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "343918",
+      "ValueText": "EMI Suppression"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "423152",
+      "ValueText": "Y2"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 62,
+       "ParentId": 3,
+       "Name": "Film Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/680/148/MKP%20SERIES%2010.5H%2C18.0L_tmb%2864x64%29.jpg",
+       "SeoDescription": "Film capacitors are based on the use of plastic film materials as a dielectric. An electrostatic (non-polarized) capacitor type having generally favorable parameter stability and loss characteristics relative to other types, a wide variety of construction and material variations exist that allow film capacitors to be adapted for a wide range of purposes, ranging from small-signal applications in which ceramics are competitive to power applications where electrolytics are the likely alternative.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "19",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 49543,
+     "Name": "SMP253"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "",
+     "HtsusCode": ""
+    },
+    "OtherNames": [
+     "P101FK473M310V",
+     "399-SMP253FC5470MD32TR32TR"
+    ]
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 399,
+     "Value": "KEMET",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

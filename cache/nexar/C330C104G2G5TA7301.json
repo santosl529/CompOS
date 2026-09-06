@@ -1,0 +1,76 @@
+{
+ "mpn": "C330C104G2G5TA7301",
+ "fetched_at": "2026-09-05T20:30:56",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "79796855",
+    "mpn": "C330C104G2G5TA7301",
+    "name": "Yageo Group C330C104G2G5TA7301",
+    "octopartUrl": "https://octopart.com/part/kemet/C330C104G2G5TA7301",
+    "manufacturer": {
+     "name": "Yageo Group"
+    },
+    "medianPrice1000": null,
+    "totalAvail": 7580,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 182,
+        "prices": [
+         {
+          "quantity": 1500,
+          "price": 2.91476,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "TIST Technology Co., Limited"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 7580,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2.9526,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 2.80497,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 2.65734,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 2.421132,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

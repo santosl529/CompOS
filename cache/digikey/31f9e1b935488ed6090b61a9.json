@@ -1,0 +1,23 @@
+{
+ "key": "31f9e1b935488ed6090b61a9",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "25M101-154A",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:21:31",
+ "body": {
+  "Products": [],
+  "ExactMatches": [],
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  }
+ },
+ "from_cache": false
+}

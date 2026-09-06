@@ -1,0 +1,78 @@
+{
+ "mpn": "4590-105K",
+ "fetched_at": "2026-09-05T20:31:14",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "391207",
+    "mpn": "4590-105K",
+    "name": "API Delevan 4590-105K",
+    "octopartUrl": "https://octopart.com/part/api-delevan/4590-105K",
+    "manufacturer": {
+     "name": "API Delevan"
+    },
+    "medianPrice1000": {
+     "price": 7.5898,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 100,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TTI"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 100,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 10.96,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 133,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 4.2196,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Abacus Technologies"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 15,
+        "prices": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

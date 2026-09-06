@@ -1,0 +1,78 @@
+{
+ "key": "raw_87dcde39c18c801f",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "9420801.14"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:16",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "91495403",
+       "mpn": "9420801.14",
+       "name": "Julabo 9420801.14",
+       "octopartUrl": "https://octopart.com/part/julabo/9420801.14",
+       "manufacturer": {
+        "name": "Julabo"
+       },
+       "medianPrice1000": {
+        "price": 62117,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 669,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey Marketplace"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 1,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 62117,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Component Search"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 668,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "99155763-1356-4e44-b890-5a13a438cdf0"
+  }
+ },
+ "from_cache": false
+}

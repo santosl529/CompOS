@@ -1,0 +1,169 @@
+{
+ "key": "raw_25648f556f0f0065",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "10BQ100"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:15",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 7,
+     "parts": [
+      {
+       "id": "46526789",
+       "mpn": "10BQ100",
+       "name": "Vishay 10BQ100",
+       "octopartUrl": "https://octopart.com/part/vishay/10BQ100",
+       "manufacturer": {
+        "name": "Vishay"
+       },
+       "medianPrice1000": null,
+       "totalAvail": 18278,
+       "sellers": [
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Win Source"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 9550,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 545,
+             "price": 0.1028,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1330,
+             "price": 0.0843,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2055,
+             "price": 0.0818,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2835,
+             "price": 0.0791,
+             "currency": "USD"
+            },
+            {
+             "quantity": 3665,
+             "price": 0.0765,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4905,
+             "price": 0.0685,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "NetSource Technology"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 22,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 1,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "UnikeyIC"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 363,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 2699,
+             "price": 0.2409,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "ComSIT Distribution GmbH"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 1824,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Suntronic"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 6156,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Unikeyic (ICkey)"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 363,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 2699,
+             "price": 0.2409,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "feedfdb6-0b72-4688-b67c-c2019989f7eb"
+  }
+ },
+ "from_cache": false
+}

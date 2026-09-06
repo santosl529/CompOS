@@ -1,0 +1,4 @@
+assembly_id,name,parent_assembly_id
+power_distribution,Power distribution,
+signal_conditioning,Signal conditioning,
+interconnect,Interconnect,

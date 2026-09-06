@@ -1,0 +1,11 @@
+{
+  "_comment": "Heuristics for mapping tables exported from the QPL/QML Access databases (mdb-export) to the qpl.csv contract. The real schema was NOT inspected when this was written. Each contract column lists candidate source column names, matched case-insensitively after removing spaces/underscores. First match wins. Tables that lack a part-number-like AND a manufacturer-like column are skipped and logged.",
+  "columns": {
+    "governing_spec": ["SPEC", "SPECIFICATION", "SPEC_NUMBER", "SPECNUMBER", "DOCUMENT", "DOC_NUMBER", "QPL", "QPL_NUMBER", "MIL_SPEC", "MILSPEC"],
+    "manufacturer_name": ["MANUFACTURER", "MANUFACTURER_NAME", "MFR", "MFR_NAME", "MFG", "MFG_NAME", "COMPANY", "COMPANY_NAME", "VENDOR", "SOURCE"],
+    "cage_code": ["CAGE", "CAGE_CODE", "CAGECODE", "CAGE_CD"],
+    "qualified_part_number": ["PART_NUMBER", "PARTNUMBER", "PART_NO", "PART", "QUALIFIED_PART", "MFR_PART_NUMBER", "MANUFACTURER_PART_NUMBER", "GOVT_PART_NUMBER", "GOVERNMENT_DESIGNATION", "MIL_PART_NUMBER", "TYPE_DESIGNATION"],
+    "qualification_date": ["QUAL_DATE", "QUALIFICATION_DATE", "DATE_QUALIFIED", "DATE", "APPROVAL_DATE", "EFFECTIVE_DATE"]
+  },
+  "required_for_row": ["qualified_part_number", "manufacturer_name"]
+}

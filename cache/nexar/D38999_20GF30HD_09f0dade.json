@@ -1,0 +1,105 @@
+{
+ "mpn": "D38999/20GF30HD",
+ "fetched_at": "2026-09-05T20:31:02",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "157364130",
+    "mpn": "D38999/20GF30HD",
+    "name": "Glenair D38999/20GF30HD",
+    "octopartUrl": "https://octopart.com/part/glenair/D38999%2F20GF30HD",
+    "manufacturer": {
+     "name": "Glenair"
+    },
+    "medianPrice1000": {
+     "price": 1119.9,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 7,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Powell Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 7,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2506.8,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2,
+          "price": 2251.42,
+          "currency": "USD"
+         },
+         {
+          "quantity": 4,
+          "price": 1928.83,
+          "currency": "USD"
+         },
+         {
+          "quantity": 7,
+          "price": 1478.55,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1142.52,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Avnet"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 35,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2456.86,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2,
+          "price": 1991.04761,
+          "currency": "USD"
+         },
+         {
+          "quantity": 4,
+          "price": 1671.65333,
+          "currency": "USD"
+         },
+         {
+          "quantity": 7,
+          "price": 1248.12987,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1097.28,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

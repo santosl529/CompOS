@@ -1,0 +1,3869 @@
+{
+ "key": "3503b031e3cc55630722cabc",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "film fixed resistor",
+  "Limit": 10,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "2"
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T13:50:56",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "RES 10K OHM 1% 1/16W 0402",
+     "DetailedDescription": "10 kOhms \u00b11% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 738,
+     "Name": "Stackpole Electronics Inc"
+    },
+    "ManufacturerProductNumber": "RMCF0402FT10K0",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402FT10K0/1761433",
+    "DatasheetUrl": "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7182/MFG_RMCF_series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "RMCF0402FT10K0TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00302,
+        "TotalPrice": 30.2
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00266,
+        "TotalPrice": 53.2
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00249,
+        "TotalPrice": 74.7
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00231,
+        "TotalPrice": 115.5
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.0022,
+        "TotalPrice": 154.0
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.0021,
+        "TotalPrice": 210.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 738,
+       "Name": "Stackpole Electronics Inc"
+      },
+      "QuantityAvailableforPackageType": 16390000,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "RMCF0402FT10K0CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.02,
+        "TotalPrice": 0.2
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0144,
+        "TotalPrice": 0.36
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0114,
+        "TotalPrice": 0.57
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0091,
+        "TotalPrice": 0.91
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00692,
+        "TotalPrice": 1.73
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0057,
+        "TotalPrice": 2.85
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00475,
+        "TotalPrice": 4.75
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00327,
+        "TotalPrice": 16.35
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 738,
+       "Name": "Stackpole Electronics Inc"
+      },
+      "QuantityAvailableforPackageType": 16395101,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "RMCF0402FT10K0DKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.02,
+        "TotalPrice": 0.2
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0144,
+        "TotalPrice": 0.36
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0114,
+        "TotalPrice": 0.57
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0091,
+        "TotalPrice": 0.91
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00692,
+        "TotalPrice": 1.73
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0057,
+        "TotalPrice": 2.85
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00475,
+        "TotalPrice": 4.75
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00327,
+        "TotalPrice": 16.35
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 738,
+       "Name": "Stackpole Electronics Inc"
+      },
+      "QuantityAvailableforPackageType": 16395101,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 16395101,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 kOhms",
+      "ValueText": "10 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "7854",
+      "ValueText": "0.063W, 1/16W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "316914",
+      "ValueText": "Automotive AEC-Q200"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 18619,
+     "Name": "RMCF"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "RMCF1/16S10K1%R-ND",
+     "RMCF1/16S10K1%R",
+     "RMCF1/16S10KFRCT-ND",
+     "RMCF1/16S10K1%RTR",
+     "RMCF0402FT10K0CT",
+     "RMCF1/16S10K1%RDKR",
+     "RMCF0402FT10K0-ND",
+     "RMCF1/16S10KFRDKR-ND",
+     "RMCF1/16S10K1%RDKR-ND",
+     "RMCF0402FT10K0DKR",
+     "RMCF0402FT10K0TR",
+     "RMCF1/16S10KFRTR",
+     "RMCF0402FT10K0INACTIVE",
+     "RMCF1/16S10K1%RCT-ND",
+     "RMCF1/16S10K1%RTR-ND",
+     "RMCF1/16S10KFRDKR",
+     "RMC 1/16S 10K 1% R",
+     "RMC1/16S10KFR",
+     "RMCF1/16S10KFRTR-ND",
+     "RMCF1/16S10KFRCT",
+     "Q7044609C",
+     "RMC1/16S10K1%R",
+     "RMCF1/16S10K1%RCT",
+     "RMC1/16S10KFR-ND",
+     "RMCF 1/16S 10K 1% R",
+     "RMC1/16S10K1%R-ND"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 10K OHM 1% 1/16W 0402",
+     "DetailedDescription": "10 kOhms \u00b11% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "RC0402FR-0710KL",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-0710KL/726523",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4849/13_0402-%281005-metric%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-10.0KLRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00329,
+        "TotalPrice": 32.9
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00291,
+        "TotalPrice": 58.2
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00273,
+        "TotalPrice": 81.9
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00253,
+        "TotalPrice": 126.5
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00242,
+        "TotalPrice": 169.4
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00231,
+        "TotalPrice": 231.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 13359274,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-10.0KLRCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.021,
+        "TotalPrice": 0.21
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0152,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.012,
+        "TotalPrice": 0.6
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0097,
+        "TotalPrice": 0.97
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0074,
+        "TotalPrice": 1.85
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00612,
+        "TotalPrice": 3.06
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00512,
+        "TotalPrice": 5.12
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 13359274,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-10.0KLRDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.021,
+        "TotalPrice": 0.21
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0152,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.012,
+        "TotalPrice": 0.6
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0097,
+        "TotalPrice": 0.97
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0074,
+        "TotalPrice": 1.85
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00612,
+        "TotalPrice": 3.06
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00512,
+        "TotalPrice": 5.12
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 13359274,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 13359274,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 kOhms",
+      "ValueText": "10 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "7854",
+      "ValueText": "0.063W, 1/16W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "376928",
+      "ValueText": "Moisture Resistant"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 81248,
+     "Name": "RC_L"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "311-10.0KLRCT",
+     "232270671003L",
+     "311-10.0KLRTR",
+     "Q2371065",
+     "RC0402FR0710KL",
+     "311-10.0KLRDKR",
+     "9C04021A1002FLPF3"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 10K OHM 1% 1/16W 0402",
+     "DetailedDescription": "10 kOhms \u00b11% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 541,
+     "Name": "Vishay Dale"
+    },
+    "ManufacturerProductNumber": "CRCW040210K0FKED",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vishay-dale/CRCW040210K0FKED/1178121",
+    "DatasheetUrl": "https://www.vishay.com/docs/20035/dcrcwe3.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/596/Vishay-CRCW-0402.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "541-10.0KLTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00551,
+        "TotalPrice": 55.1
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00499,
+        "TotalPrice": 99.8
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00473,
+        "TotalPrice": 141.9
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00445,
+        "TotalPrice": 222.5
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00429,
+        "TotalPrice": 300.3
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00414,
+        "TotalPrice": 414.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 541,
+       "Name": "Vishay Dale"
+      },
+      "QuantityAvailableforPackageType": 11186305,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "541-10.0KLCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.032,
+        "TotalPrice": 0.32
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0236,
+        "TotalPrice": 0.59
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0192,
+        "TotalPrice": 0.96
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0157,
+        "TotalPrice": 1.57
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.01228,
+        "TotalPrice": 3.07
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.01034,
+        "TotalPrice": 5.17
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00882,
+        "TotalPrice": 8.82
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00642,
+        "TotalPrice": 32.1
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 541,
+       "Name": "Vishay Dale"
+      },
+      "QuantityAvailableforPackageType": 11186305,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "541-10.0KLDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.032,
+        "TotalPrice": 0.32
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0236,
+        "TotalPrice": 0.59
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0192,
+        "TotalPrice": 0.96
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0157,
+        "TotalPrice": 1.57
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.01228,
+        "TotalPrice": 3.07
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.01034,
+        "TotalPrice": 5.17
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00882,
+        "TotalPrice": 8.82
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00642,
+        "TotalPrice": 32.1
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 541,
+       "Name": "Vishay Dale"
+      },
+      "QuantityAvailableforPackageType": 11186305,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 11186305,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 kOhms",
+      "ValueText": "10 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "7854",
+      "ValueText": "0.063W, 1/16W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "316914",
+      "ValueText": "Automotive AEC-Q200"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 468990,
+     "Name": "CRCW0402"
+    },
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "21",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 118888,
+     "Name": "D/CRCW e3"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "541-10.0KLCT",
+     "541-10.0KLTR",
+     "541-10.0KLDKR",
+     "D10/CRCW0402 100 10K 1% ET7 E3"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 0 OHM JUMPER 1/16W 0402",
+     "DetailedDescription": "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "RC0402JR-070RL",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/RC0402JR-070RL/726406",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4849/13_0402-%281005-metric%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-0.0JRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00212,
+        "TotalPrice": 21.2
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00191,
+        "TotalPrice": 38.2
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.0018,
+        "TotalPrice": 54.0
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00168,
+        "TotalPrice": 84.0
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00161,
+        "TotalPrice": 112.7
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00153,
+        "TotalPrice": 153.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 9520000,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-0.0JRCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.01,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0064,
+        "TotalPrice": 0.16
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0056,
+        "TotalPrice": 0.28
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0048,
+        "TotalPrice": 0.48
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00404,
+        "TotalPrice": 1.01
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00356,
+        "TotalPrice": 1.78
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00313,
+        "TotalPrice": 3.13
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00237,
+        "TotalPrice": 11.85
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 9533375,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-0.0JRDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.01,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0064,
+        "TotalPrice": 0.16
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0056,
+        "TotalPrice": 0.28
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0048,
+        "TotalPrice": 0.48
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00404,
+        "TotalPrice": 1.01
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00356,
+        "TotalPrice": 1.78
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00313,
+        "TotalPrice": 3.13
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00237,
+        "TotalPrice": 11.85
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 9533375,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 9533375,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0 Ohms",
+      "ValueText": "0 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "362150",
+      "ValueText": "Jumper"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "376928",
+      "ValueText": "Moisture Resistant"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 81248,
+     "Name": "RC_L"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "Q2676045",
+     "311-0.0JRDKR",
+     "311-0.0JRTR",
+     "9C04021A0R00JLPF3",
+     "232270591001L",
+     "311-0.0JRCT",
+     "RC0402JR070RL",
+     "Q2591868"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 100K OHM 1% 1/16W 0402",
+     "DetailedDescription": "100 kOhms \u00b11% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "RC0402FR-07100KL",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/RC0402FR-07100KL/726526",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4849/13_0402-%281005-metric%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-100KLRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.0031,
+        "TotalPrice": 31.0
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00275,
+        "TotalPrice": 55.0
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00257,
+        "TotalPrice": 77.1
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00239,
+        "TotalPrice": 119.5
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00228,
+        "TotalPrice": 159.6
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00218,
+        "TotalPrice": 218.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 8270000,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-100KLRCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.021,
+        "TotalPrice": 0.21
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0152,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.012,
+        "TotalPrice": 0.6
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0097,
+        "TotalPrice": 0.97
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0074,
+        "TotalPrice": 1.85
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00612,
+        "TotalPrice": 3.06
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00512,
+        "TotalPrice": 5.12
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 8285905,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-100KLRDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.021,
+        "TotalPrice": 0.21
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0152,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.012,
+        "TotalPrice": 0.6
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0097,
+        "TotalPrice": 0.97
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0074,
+        "TotalPrice": 1.85
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00612,
+        "TotalPrice": 3.06
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00512,
+        "TotalPrice": 5.12
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 8285905,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 8285905,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "100 kOhms",
+      "ValueText": "100 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "7854",
+      "ValueText": "0.063W, 1/16W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "376928",
+      "ValueText": "Moisture Resistant"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 81248,
+     "Name": "RC_L"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "232270671004L",
+     "RC0402FR07100KL",
+     "9C04021A1003FLPF3",
+     "311-100KLRDKR",
+     "2266-RC0402FR-07100KLTR",
+     "311-100KLRCT",
+     "311-100KLRTR",
+     "Q2720359"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES SMD 10K OHM 1% 1/16W 0402",
+     "DetailedDescription": "10 kOhms \u00b11% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 118,
+     "Name": "Bourns Inc."
+    },
+    "ManufacturerProductNumber": "CR0402-FX-1002GLF",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/bourns-inc/CR0402-FX-1002GLF/3593192",
+    "DatasheetUrl": "https://bourns.com/docs/product-datasheets/cr.pdf?sfvrsn=574d41f6_14",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/505/CR0402-%281005-Metric%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "CR0402-FX-1002GLFTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00203,
+        "TotalPrice": 20.3
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00176,
+        "TotalPrice": 35.2
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00164,
+        "TotalPrice": 49.2
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.0015,
+        "TotalPrice": 75.0
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00142,
+        "TotalPrice": 99.4
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00134,
+        "TotalPrice": 134.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 118,
+       "Name": "Bourns Inc."
+      },
+      "QuantityAvailableforPackageType": 8190000,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "CR0402-FX-1002GLFCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.015,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0108,
+        "TotalPrice": 0.27
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0084,
+        "TotalPrice": 0.42
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0067,
+        "TotalPrice": 0.67
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.005,
+        "TotalPrice": 1.25
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00406,
+        "TotalPrice": 2.03
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00335,
+        "TotalPrice": 3.35
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00223,
+        "TotalPrice": 11.15
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 118,
+       "Name": "Bourns Inc."
+      },
+      "QuantityAvailableforPackageType": 8191711,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "CR0402-FX-1002GLFDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.015,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0108,
+        "TotalPrice": 0.27
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0084,
+        "TotalPrice": 0.42
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0067,
+        "TotalPrice": 0.67
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.005,
+        "TotalPrice": 1.25
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00406,
+        "TotalPrice": 2.03
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00335,
+        "TotalPrice": 3.35
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00223,
+        "TotalPrice": 11.15
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 118,
+       "Name": "Bourns Inc."
+      },
+      "QuantityAvailableforPackageType": 8191711,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 8191711,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 kOhms",
+      "ValueText": "10 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "7854",
+      "ValueText": "0.063W, 1/16W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 121044,
+     "Name": "CR0402"
+    },
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "16",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 27646,
+     "Name": "CR0402"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "CR0402-FX-1002GLFDKR",
+     "CR0402-FX-1002GLFCT",
+     "CR0402FX1002GLF",
+     "CR0402-FX-1002GLFTR",
+     "2266-CR0402-FX-1002GLFTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 0 OHM JUMPER 1/10W 0603",
+     "DetailedDescription": "0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "RC0603JR-070RL",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/RC0603JR-070RL/726675",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4848/13_0603-%281608-metric%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-0.0GRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00349,
+        "TotalPrice": 17.45
+       },
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00313,
+        "TotalPrice": 31.3
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.00295,
+        "TotalPrice": 44.25
+       },
+       {
+        "BreakQuantity": 25000,
+        "UnitPrice": 0.00274,
+        "TotalPrice": 68.5
+       },
+       {
+        "BreakQuantity": 35000,
+        "UnitPrice": 0.00261,
+        "TotalPrice": 91.35
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00249,
+        "TotalPrice": 124.5
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 7949190,
+      "MinimumOrderQuantity": 5000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-0.0GRCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.011,
+        "TotalPrice": 0.11
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0088,
+        "TotalPrice": 0.22
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0076,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0066,
+        "TotalPrice": 0.66
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00556,
+        "TotalPrice": 1.39
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0049,
+        "TotalPrice": 2.45
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00432,
+        "TotalPrice": 4.32
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 7949190,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-0.0GRDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.011,
+        "TotalPrice": 0.11
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0088,
+        "TotalPrice": 0.22
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0076,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0066,
+        "TotalPrice": 0.66
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00556,
+        "TotalPrice": 1.39
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0049,
+        "TotalPrice": 2.45
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00432,
+        "TotalPrice": 4.32
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 7949190,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 7949190,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0 Ohms",
+      "ValueText": "0 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "362150",
+      "ValueText": "Jumper"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "14064",
+      "ValueText": "0.1W, 1/10W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "376928",
+      "ValueText": "Moisture Resistant"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39246",
+      "ValueText": "0603 (1608 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39245",
+      "ValueText": "0603"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "7802",
+      "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "5314",
+      "ValueText": "0.022\" (0.55mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 81248,
+     "Name": "RC_L"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "232270296001L",
+     "311-0.0GRDKR",
+     "311-0.0GRCT",
+     "9C06031A0R00JLPFT",
+     "311-0.0GRTR",
+     "3198-021-90030",
+     "RC0603JR070RL",
+     "Q2587234E"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 4.7K OHM 5% 1/16W 0402",
+     "DetailedDescription": "4.7 kOhms \u00b15% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "RC0402JR-074K7L",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/RC0402JR-074K7L/726477",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4849/13_0402-%281005-metric%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-4.7KJRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00284,
+        "TotalPrice": 28.4
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.0025,
+        "TotalPrice": 50.0
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00234,
+        "TotalPrice": 70.2
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00216,
+        "TotalPrice": 108.0
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00206,
+        "TotalPrice": 144.2
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00196,
+        "TotalPrice": 196.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 7238010,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-4.7KJRCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.11,
+        "TotalPrice": 0.11
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.02,
+        "TotalPrice": 0.2
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0144,
+        "TotalPrice": 0.36
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0114,
+        "TotalPrice": 0.57
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0092,
+        "TotalPrice": 0.92
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00696,
+        "TotalPrice": 1.74
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00574,
+        "TotalPrice": 2.87
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00478,
+        "TotalPrice": 4.78
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00327,
+        "TotalPrice": 16.35
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 7238246,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-4.7KJRDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.019,
+        "TotalPrice": 0.19
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0136,
+        "TotalPrice": 0.34
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0108,
+        "TotalPrice": 0.54
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0087,
+        "TotalPrice": 0.87
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0066,
+        "TotalPrice": 1.65
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.00542,
+        "TotalPrice": 2.71
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00451,
+        "TotalPrice": 4.51
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00309,
+        "TotalPrice": 15.45
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 7238246,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 7238246,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "4.7 kOhms",
+      "ValueText": "4.7 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "2503",
+      "ValueText": "\u00b15%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "7854",
+      "ValueText": "0.063W, 1/16W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "376928",
+      "ValueText": "Moisture Resistant"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 81248,
+     "Name": "RC_L"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "9C04021A4701JLPF3",
+     "311-4.7KJRTR",
+     "311-4.7KJRDKR",
+     "RC0402JR074K7L",
+     "311-4.7KJRCT",
+     "232270570472L",
+     "Q2519886"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES SMD 1K OHM 1% 1/10W 0402",
+     "DetailedDescription": "1 kOhms \u00b11% 0.1W, 1/10W Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 10,
+     "Name": "Panasonic Industry"
+    },
+    "ManufacturerProductNumber": "ERJ-2RKF1001X",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/panasonic-industry/ERJ-2RKF1001X/79729",
+    "DatasheetUrl": "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/957/ERJ-PA2-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "P1.00KLTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00574,
+        "TotalPrice": 57.4
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00519,
+        "TotalPrice": 103.8
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00492,
+        "TotalPrice": 147.6
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00463,
+        "TotalPrice": 231.5
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00446,
+        "TotalPrice": 312.2
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00431,
+        "TotalPrice": 431.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 10,
+       "Name": "Panasonic Industry"
+      },
+      "QuantityAvailableforPackageType": 7120826,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "P1.00KLCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.031,
+        "TotalPrice": 0.31
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0232,
+        "TotalPrice": 0.58
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0188,
+        "TotalPrice": 0.94
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0155,
+        "TotalPrice": 1.55
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.01208,
+        "TotalPrice": 3.02
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.01018,
+        "TotalPrice": 5.09
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00868,
+        "TotalPrice": 8.68
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00631,
+        "TotalPrice": 31.55
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 10,
+       "Name": "Panasonic Industry"
+      },
+      "QuantityAvailableforPackageType": 7120826,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "P1.00KLDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.031,
+        "TotalPrice": 0.31
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0232,
+        "TotalPrice": 0.58
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0188,
+        "TotalPrice": 0.94
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0155,
+        "TotalPrice": 1.55
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.01208,
+        "TotalPrice": 3.02
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.01018,
+        "TotalPrice": 5.09
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00868,
+        "TotalPrice": 8.68
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00631,
+        "TotalPrice": 31.55
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 10,
+       "Name": "Panasonic Industry"
+      },
+      "QuantityAvailableforPackageType": 7120826,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 7120826,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 kOhms",
+      "ValueText": "1 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "14064",
+      "ValueText": "0.1W, 1/10W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "316914",
+      "ValueText": "Automotive AEC-Q200"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 609999,
+     "Name": "ERJ-2RK"
+    },
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "15",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 88690,
+     "Name": "ERJ-2RK"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "ERJ-2RKF1001",
+     "ERJ2RKF1001",
+     "P1.00KLCT",
+     "P1.00KLTR",
+     "P1.00KLDKR",
+     "Q7525805K",
+     "ERJ2RKF1001X",
+     "P1.00KLDKR-NDR",
+     "P1.00KLTR-NDR",
+     "P1.00KLCT-NDR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 0 OHM JUMPER 1/16W 0402",
+     "DetailedDescription": "0 Ohms Jumper Chip Resistor 0402 (1005 Metric) Automotive AEC-Q200 Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 738,
+     "Name": "Stackpole Electronics Inc"
+    },
+    "ManufacturerProductNumber": "RMCF0402ZT0R00",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/stackpole-electronics-inc/RMCF0402ZT0R00/1756905",
+    "DatasheetUrl": "https://www.seielect.com/catalog/SEI-RMCF_RMCP.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7182/MFG_RMCF_series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "RMCF0402ZT0R00TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.00184,
+        "TotalPrice": 18.4
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.00165,
+        "TotalPrice": 33.0
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.00156,
+        "TotalPrice": 46.8
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.00145,
+        "TotalPrice": 72.5
+       },
+       {
+        "BreakQuantity": 70000,
+        "UnitPrice": 0.00138,
+        "TotalPrice": 96.6
+       },
+       {
+        "BreakQuantity": 100000,
+        "UnitPrice": 0.00132,
+        "TotalPrice": 132.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 738,
+       "Name": "Stackpole Electronics Inc"
+      },
+      "QuantityAvailableforPackageType": 6667299,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "RMCF0402ZT0R00CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.01,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0056,
+        "TotalPrice": 0.14
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0048,
+        "TotalPrice": 0.24
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0042,
+        "TotalPrice": 0.42
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00352,
+        "TotalPrice": 0.88
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0031,
+        "TotalPrice": 1.55
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00272,
+        "TotalPrice": 2.72
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00206,
+        "TotalPrice": 10.3
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 738,
+       "Name": "Stackpole Electronics Inc"
+      },
+      "QuantityAvailableforPackageType": 6667299,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "RMCF0402ZT0R00DKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.01,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0056,
+        "TotalPrice": 0.14
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0048,
+        "TotalPrice": 0.24
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0042,
+        "TotalPrice": 0.42
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.00352,
+        "TotalPrice": 0.88
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0031,
+        "TotalPrice": 1.55
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.00272,
+        "TotalPrice": 2.72
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.00206,
+        "TotalPrice": 10.3
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 738,
+       "Name": "Stackpole Electronics Inc"
+      },
+      "QuantityAvailableforPackageType": 6667299,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 6667299,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0 Ohms",
+      "ValueText": "0 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "362150",
+      "ValueText": "Jumper"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "316914",
+      "ValueText": "Automotive AEC-Q200"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39158",
+      "ValueText": "0402 (1005 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "39157",
+      "ValueText": "0402"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "6310",
+      "ValueText": "0.039\" L x 0.020\" W (1.00mm x 0.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "4914",
+      "ValueText": "0.016\" (0.40mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "21",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 18619,
+     "Name": "RMCF"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "RMCF 1/16S 0 R",
+     "RMCF0402ZT0R00-ND",
+     "RMCF1/16S0RTR-ND",
+     "RMCF1/16S0RCT",
+     "RMCF0402ZT0R00CT",
+     "RMCF1/16S0RDKR-ND",
+     "RMCF1/16S0RDKR",
+     "RMCF0402ZT0R00TR",
+     "RMCF0402ZT0R00DKR",
+     "Q7049154C",
+     "RMCF1/16S0R",
+     "RMCF1/16S0RTR",
+     "RMCF1/16S0RCT-ND",
+     "RMCF1/16S0R-ND"
+    ]
+   }
+  ],
+  "ProductsCount": 1516077,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 4900,
+     "Value": "3RLab, Inc.",
+     "ProductCount": 9
+    },
+    {
+     "Id": 1528,
+     "Value": "Adafruit Industries LLC",
+     "ProductCount": 9
+    },
+    {
+     "Id": 5433,
+     "Value": "AEM, Inc.",
+     "ProductCount": 11
+    },
+    {
+     "Id": 600470,
+     "Value": "Aillen",
+     "ProductCount": 293
+    },
+    {
+     "Id": 1284,
+     "Value": "American Technical Ceramics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 600261,
+     "Value": "ARCOL",
+     "ProductCount": 25
+    },
+    {
+     "Id": 6650,
+     "Value": "ATE Electronics s.r.l.",
+     "ProductCount": 686
+    },
+    {
+     "Id": 118,
+     "Value": "Bourns Inc.",
+     "ProductCount": 9708
+    },
+    {
+     "Id": 4506,
+     "Value": "C&B/RESI",
+     "ProductCount": 3754
+    },
+    {
+     "Id": 683,
+     "Value": "Caddock Electronics Inc.",
+     "ProductCount": 356
+    },
+    {
+     "Id": 4713,
+     "Value": "Cal-Chip Electronics, Inc.",
+     "ProductCount": 14782
+    },
+    {
+     "Id": 60,
+     "Value": "CTS Resistor Products",
+     "ProductCount": 1031
+    },
+    {
+     "Id": 2037,
+     "Value": "Delta Electronics/Cyntec",
+     "ProductCount": 503
+    },
+    {
+     "Id": 283,
+     "Value": "Eaton - Electronics Division",
+     "ProductCount": 279
+    },
+    {
+     "Id": 2315,
+     "Value": "Kamaya Inc.",
+     "ProductCount": 13536
+    },
+    {
+     "Id": 2019,
+     "Value": "KOA Speer Electronics, Inc.",
+     "ProductCount": 319962
+    },
+    {
+     "Id": 478,
+     "Value": "KYOCERA AVX",
+     "ProductCount": 150
+    },
+    {
+     "Id": 18,
+     "Value": "Littelfuse Inc.",
+     "ProductCount": 831
+    },
+    {
+     "Id": 4491,
+     "Value": "Lumimax Optoelectronic Technology",
+     "ProductCount": 998
+    },
+    {
+     "Id": 1465,
+     "Value": "MACOM Technology Solutions",
+     "ProductCount": 5
+    },
+    {
+     "Id": 2997,
+     "Value": "Meritek",
+     "ProductCount": 2588
+    },
+    {
+     "Id": 5934,
+     "Value": "Miba Resistors",
+     "ProductCount": 51
+    },
+    {
+     "Id": 5705,
+     "Value": "Milliohm Electronics",
+     "ProductCount": 449
+    },
+    {
+     "Id": 811,
+     "Value": "Murata Power Solutions Inc.",
+     "ProductCount": 25
+    },
+    {
+     "Id": 3372,
+     "Value": "NextGen Components",
+     "ProductCount": 8
+    },
+    {
+     "Id": 601926,
+     "Value": "NIC Components",
+     "ProductCount": 75
+    },
+    {
+     "Id": 4835,
+     "Value": "NIC Components Corp",
+     "ProductCount": 332
+    },
+    {
+     "Id": 273,
+     "Value": "Ohmite",
+     "ProductCount": 4602
+    },
+    {
+     "Id": 600464,
+     "Value": "Panasonic",
+     "ProductCount": 14
+    },
+    {
+     "Id": 10,
+     "Value": "Panasonic Industry",
+     "ProductCount": 76925
+    },
+    {
+     "Id": 5440,
+     "Value": "Prosperity Dielectrics Co. Ltd",
+     "ProductCount": 82
+    },
+    {
+     "Id": 4855,
+     "Value": "RCD Components",
+     "ProductCount": 2516
+    },
+    {
+     "Id": 696,
+     "Value": "Riedon products by Bourns",
+     "ProductCount": 846
+    },
+    {
+     "Id": 846,
+     "Value": "Rohm Semiconductor",
+     "ProductCount": 18503
+    },
+    {
+     "Id": 1276,
+     "Value": "Samsung Electro-Mechanics",
+     "ProductCount": 8218
+    },
+    {
+     "Id": 1568,
+     "Value": "SparkFun Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 738,
+     "Value": "Stackpole Electronics Inc",
+     "ProductCount": 210601
+    },
+    {
+     "Id": 408,
+     "Value": "Susumu",
+     "ProductCount": 35979
+    },
+    {
+     "Id": 994,
+     "Value": "TE Connectivity",
+     "ProductCount": 269
+    },
+    {
+     "Id": 17,
+     "Value": "TE Connectivity AMP Connectors",
+     "ProductCount": 46
+    },
+    {
+     "Id": 223,
+     "Value": "TE Connectivity Measurement Specialties",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1712,
+     "Value": "TE Connectivity Passive Product",
+     "ProductCount": 51569
+    },
+    {
+     "Id": 41,
+     "Value": "TE Connectivity Potter & Brumfield Relays",
+     "ProductCount": 1
+    },
+    {
+     "Id": 4075,
+     "Value": "Tecdia Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 6322,
+     "Value": "Tepro-Vamistor",
+     "ProductCount": 210
+    },
+    {
+     "Id": 296,
+     "Value": "Texas Instruments",
+     "ProductCount": 23
+    },
+    {
+     "Id": 4463,
+     "Value": "Thin Film Technology Corp.",
+     "ProductCount": 723
+    },
+    {
+     "Id": 602463,
+     "Value": "Thunder Components Ltd.",
+     "ProductCount": 186
+    },
+    {
+     "Id": 1575,
+     "Value": "TT Electronics/BI Magnetics",
+     "ProductCount": 12
+    },
+    {
+     "Id": 989,
+     "Value": "TT Electronics/IRC",
+     "ProductCount": 339
+    },
+    {
+     "Id": 985,
+     "Value": "TT Electronics/Welwyn",
+     "ProductCount": 554
+    },
+    {
+     "Id": 1173,
+     "Value": "TTM Technologies, Inc.",
+     "ProductCount": 25
+    },
+    {
+     "Id": 2679,
+     "Value": "Venkel",
+     "ProductCount": 2487
+    },
+    {
+     "Id": 2577,
+     "Value": "Viking Tech",
+     "ProductCount": 36679
+    },
+    {
+     "Id": 2056,
+     "Value": "Visaton GmbH & Co. KG",
+     "ProductCount": 9
+    },
+    {
+     "Id": 749,
+     "Value": "Vishay",
+     "ProductCount": 27821
+    },
+    {
+     "Id": 56,
+     "Value": "Vishay Beyschlag/Draloric/BC Components",
+     "ProductCount": 15315
+    },
+    {
+     "Id": 541,
+     "Value": "Vishay Dale",
+     "ProductCount": 357484
+    },
+    {
+     "Id": 764,
+     "Value": "Vishay Dale Thin Film",
+     "ProductCount": 68655
+    },
+    {
+     "Id": 909,
+     "Value": "Vishay Electro-Films",
+     "ProductCount": 4196
+    },
+    {
+     "Id": 716,
+     "Value": "Vishay Sfernice",
+     "ProductCount": 24260
+    },
+    {
+     "Id": 3579,
+     "Value": "Vishay Techno",
+     "ProductCount": 744
+    },
+    {
+     "Id": 804,
+     "Value": "VPG Foil Resistors",
+     "ProductCount": 80
+    },
+    {
+     "Id": 1292,
+     "Value": "Walsin Technology Corporation",
+     "ProductCount": 5106
+    },
+    {
+     "Id": 2266,
+     "Value": "WEC",
+     "ProductCount": 292
+    },
+    {
+     "Id": 732,
+     "Value": "W\u00fcrth Elektronik",
+     "ProductCount": 560
+    },
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 189182
+    },
+    {
+     "Id": 311,
+     "Value": "Yageo America",
+     "ProductCount": 498
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

@@ -1,0 +1,133 @@
+{
+ "key": "raw_817dcd945332b639",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "0805J0500120MCTE07"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:58",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "148662085",
+       "mpn": "0805J0500120MCTE07",
+       "name": "Knowles 0805J0500120MCTE07",
+       "octopartUrl": "https://octopart.com/part/knowles-syfer/0805J0500120MCTE07",
+       "manufacturer": {
+        "name": "Knowles"
+       },
+       "medianPrice1000": {
+        "price": 0.3624,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 0,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Onlinecomponents.com"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 70,
+           "prices": [
+            {
+             "quantity": 750,
+             "price": 0.3624,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1500,
+             "price": 0.2718,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2250,
+             "price": 0.2537,
+             "currency": "USD"
+            },
+            {
+             "quantity": 3000,
+             "price": 0.2486,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Master Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 70,
+           "prices": [
+            {
+             "quantity": 750,
+             "price": 0.3624,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1500,
+             "price": 0.2718,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2250,
+             "price": 0.2537,
+             "currency": "USD"
+            },
+            {
+             "quantity": 3000,
+             "price": 0.2486,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 77,
+           "prices": [
+            {
+             "quantity": 3000,
+             "price": 0.28637,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "7a14de63-0136-4a28-8fe4-65a856f2bdef"
+  }
+ },
+ "from_cache": false
+}

@@ -1,0 +1,534 @@
+================================================================================
+PART SUBSTITUTION PIPELINE -- SCHEMA AND DESIGN DECISIONS
+================================================================================
+
+Shared contract between the data pipeline (Python, outside Foundry) and the
+Foundry application. Neither side changes anything here unilaterally.
+
+Each section gives the structure, then WHY it is that way. The rationale
+matters more than the columns -- most of these decisions were made after
+something broke, and the reasoning is what stops it being undone later.
+
+
+================================================================================
+1. GOVERNMENT LAYER (what the part must be)
+================================================================================
+
+  federal_items                          [PK: nsn]
+      nsn, fsc, item_name, governing_spec_ref, cage_code
+        |
+        |--< requirement_profiles        [PK: requirement_id]
+        |       requirement_id, nsn(FK), requirement_name, operator,
+        |       value, uom, requirement_class, source, source_spec_id(FK),
+        |       conflicting_value, conflicting_source
+        |
+        |--< price_history               [PK: price_id]
+        |       price_id, nsn(FK), fiscal_year, unit_price_avg,
+        |       quantity, vendor_cage, contract_count
+        |
+        >--- specifications              [PK: spec_id]
+                spec_id, title, requirement_count
+                  |
+                  |--< spec_requirements [PK: spec_requirement_id]
+                  |       spec_requirement_id, spec_id(FK), requirement_name,
+                  |       operator, value, uom, requirement_class,
+                  |       confidence, source_page
+                  |
+                  |--< requirement_profiles.source_spec_id
+
+--- WHY THREE TABLES FOR REQUIREMENTS ---
+
+Requirements arrive from two different places and have to end up in one.
+
+  PUB LOG characteristics  -- structured, reliable, often sparse
+  MIL-SPEC extraction      -- rich, unstructured, LLM-derived, fallible
+
+requirement_profiles is the MERGED view, one row per requirement per NSN.
+This is the only table the application queries.
+
+--- MERGE PRECEDENCE, WITH A CONFIDENCE FLOOR ---
+
+Where both sources cover the same attribute:
+
+    spec extraction confidence >= 0.70   --> specification wins
+    spec extraction confidence <  0.70   --> PUB LOG wins; the extraction
+                                             is retained in spec_requirements
+                                             for provenance only
+
+Without a floor, an LLM misreading a table in a MIL-SPEC PDF silently beats
+reliable structured data, and the resulting row looks identical to a good
+one. The precedence rule is right -- specifications ARE more authoritative
+than catalog characteristics -- but only when the extraction is trustworthy.
+
+--- CONFLICTS ARE STORED, NOT LOGGED ---
+
+When the two sources disagree, the losing value goes in conflicting_value
+and its origin in conflicting_source. Both nullable.
+
+Logging to stdout means the disagreement vanishes. Storing it makes source
+disagreement a QUERYABLE FINDING -- "PUB LOG and MIL-DTL-38999 disagree on
+operating temperature for this NSN" is genuinely interesting output, not
+diagnostics.
+
+specifications and spec_requirements exist for PROVENANCE ONLY. They carry
+confidence and source_page so an extracted requirement can be checked
+against the original PDF. An LLM-extracted requirement nobody can audit is
+worse than a missing one.
+
+This split also makes S3/S4 cuttable. If spec extraction fails or runs out
+of time, requirement_profiles still works -- every row just has
+source = publog_characteristics and a null source_spec_id.
+
+--- WHY federal_items IS THE HUB ---
+
+Requirements, prices, candidates, and slots all key off nsn. If S1 fails,
+nothing downstream exists. That is why it is step 1 in the build order and
+why it gets tested against 5 hand-picked NSNs before anything else is built.
+
+
+================================================================================
+2. COMMERCIAL LAYER (what you can buy)
+================================================================================
+
+  commercial_parts                       [PK: mpn]
+      mpn, manufacturer, lifecycle_status, median_price,
+      stock_qty, lead_time_days, datasheet_url, distributor_count
+
+--- WHY lifecycle_status AND distributor_count MATTER MOST ---
+
+These two fields are the reason the Nexar/Octopart quota gets spent at all.
+Digi-Key gives parametric search for free; it does not give cross-distributor
+lifecycle or multi-source availability.
+
+An obsolete or single-distributor candidate is a bad substitution regardless
+of price. Obsolescence and single-sourcing are the substantive findings.
+Price is secondary.
+
+
+================================================================================
+3. MATCHING LAYER (the join -- this is the product)
+================================================================================
+
+  substitution_candidates                [PK: candidate_id]
+      candidate_id, nsn(FK), candidate_mpn(FK), risk_level, risk_rank,
+      pass_count, fail_count, marginal_count, unknown_count,
+      qpl_listed, gov_unit_price, gov_quantity, commercial_unit_price,
+      commercial_basis_qty, price_delta_indicative, rationale
+        |
+        |  nsn            --> federal_items.nsn
+        |  candidate_mpn  --> commercial_parts.mpn
+        |
+        |--< spec_deltas                 [PK: delta_id]
+                delta_id, candidate_id(FK), nsn, candidate_mpn,
+                requirement_name, required_value, candidate_value, verdict
+
+--- WHY candidate_id IS A SURROGATE KEY ---
+
+  Format: {nsn}__{candidate_mpn}
+
+The natural key is composite (nsn + candidate_mpn). Foundry object types
+accept only a SINGLE primary key property. A composite makes the
+substitution_candidates -> spec_deltas link unreliable.
+
+nsn and candidate_mpn remain as ordinary properties. Nothing is lost.
+
+--- WHY THERE IS NO "estimated_savings" FIELD ---
+
+    gov_unit_price          contract unit price, most recent fiscal year
+    gov_quantity            quantity on that contract
+    commercial_unit_price   distributor median price
+    commercial_basis_qty    quantity break that price is quoted at
+    price_delta_indicative  gov_unit_price - commercial_unit_price
+
+These two prices ARE NOT COMPARABLE. The government figure is a contract
+unit price carrying qualification, lot traceability, low-quantity buys, and
+contract overhead. The commercial figure is typically a volume break at
+around 1000 units.
+
+Subtracting one from the other does not measure savings. It mostly measures
+QUANTITY and QUALIFICATION.
+
+So the field is named price_delta_indicative, not estimated_savings, and
+both source prices plus both quantity bases are carried alongside it. The UI
+must display all four -- never the delta alone.
+
+A procurement officer will check this number first. It is the single easiest
+claim in the whole project to falsify, and calling a quantity effect a
+saving is exactly the naive framing this tool exists to argue against.
+
+If time allows, normalize both to a stated quantity basis and say which.
+If not, the honest column names and side-by-side display are sufficient.
+
+Null when either input is missing. NEVER default to 0 -- the UI must
+distinguish "no data" from "no difference". If every approved candidate has
+a null delta, display "Unavailable", not "$0".
+
+--- WHY THE DELTA IS COMPUTED UPSTREAM ---
+
+So the candidate table can sort on it SERVER-SIDE. A function-backed derived
+column cannot be reliably sorted on in Workshop.
+
+Cost: S10 (price history) must run BEFORE S9's final pass. S10 costs no API
+quota, so this is a cheap reorder.
+
+--- HOW qpl_listed IS DERIVED ---
+
+    Join qpl on (qualified_part_number AND cage_code)
+    -- or (qualified_part_number AND manufacturer_name) where CAGE is absent
+    -- filtered to qpl.governing_spec = federal_items.governing_spec_ref
+
+The PAIR is what makes the join safe. Matching on qualified_part_number
+alone is forbidden (see section 6) because MPNs are not unique across
+manufacturers, and a false qualification match is the most dangerous error
+this tool can produce.
+
+Written down explicitly because section 6 forbids the obvious mechanism
+without naming the replacement, and someone will otherwise reimplement the
+dangerous version.
+
+qpl_listed gates risk_level = low. It is the highest-consequence boolean in
+the schema. If the join cannot be made confidently, emit false -- never
+null-coerced-to-true.
+
+--- WHY THIS TABLE IS THE PRODUCT ---
+
+It is the only table joining the government and commercial worlds. Everything
+else is either input to it or explanation of it.
+
+The output is never "here is a cheaper part". It is "this candidate meets
+9 of 11 requirements, fails operating temperature, and is not QPL-listed
+against the governing specification."
+
+That framing matters: MIL-SPEC parts are expensive because of qualification
+(temperature range, vibration, lot traceability, QPL status), not vendor
+markup. A tool that only shows price deltas is making a claim a procurement
+officer knows is wrong.
+
+--- SORT PRECEDENCE ENFORCES THAT ARGUMENT ---
+
+    PRIMARY:    risk_rank ascending
+    SECONDARY:  price_delta_indicative descending, WITHIN a risk band only
+
+Price is never the primary sort and is never sortable across risk bands.
+
+Whatever is sortable becomes the default sort, and the default sort IS the
+argument the interface is making. Materializing a price delta and then
+letting it lead would undercut the entire pitch. Risk leads; price breaks
+ties.
+
+
+================================================================================
+4. ASSEMBLY LAYER (where parts sit)
+================================================================================
+
+  assemblies                             [PK: assembly_id]
+      assembly_id, name, parent_assembly_id (self-referencing)
+        |
+        |--< slots                       [PK: slot_id]
+                slot_id, assembly_id(FK), slot_name, baseline_nsn(FK)
+                  |
+                  |  baseline_nsn --> federal_items.nsn
+                  |
+                  |--< interfaces        [PK: interface_id]
+                          interface_id, slot_a(FK), slot_b(FK),
+                          constrained_attribute, match_rule
+
+--- WHY SLOTS INSTEAD OF SUBSTITUTING PARTS DIRECTLY ---
+
+A Slot is a POSITION in the assembly. Substitution replaces what fills the
+slot; it never mutates the assembly.
+
+If you overwrite the part in the assembly you lose the baseline, and with it
+the ability to audit, revert, or compare. With slots:
+
+  current part = the approved substitution for this slot in the active
+                 configuration, else the slot's baseline_nsn
+
+That one rule gives baseline-vs-modified comparison for free.
+
+--- WHY assembly STRUCTURE IS SYNTHETIC ---
+
+Real weapon system bills of material run into ITAR. Assembly names must be
+generic (power_distribution, signal_conditioning). Catalog data is real;
+assembly structure is invented.
+
+State this in the UI. It is a strength -- it shows the data governance was
+thought about -- not a caveat to bury.
+
+--- WHY INTERFACE COMPARISON IS DIRECTIONAL ---
+
+  slot_a = LEFT operand, slot_b = RIGHT operand
+
+      numeric_gte           value(a) >= value(b)
+      numeric_lte           value(a) <= value(b)
+      numeric_equal         value(a) == value(b)
+      exact                 string equality
+      numeric_within_pct:N  abs(a-b) / abs(b) * 100 <= N
+
+gte, lte, and within_pct are all asymmetric. Without a stated convention the
+function author has to guess which side is which, and half the constraints
+would evaluate backwards while still returning plausible-looking results.
+
+Edge cases:
+      parse failure / missing / non-finite  --> severity 'unverified'
+      within_pct where b == 0               --> pass only if a == 0
+
+constrained_attribute must EXACTLY match a requirement_name present in
+requirement_profiles. S11 validates this and fails loudly -- a dangling
+attribute reference produces silent non-checking, which looks like the
+system working.
+
+--- WHY CONFLICTS ARE REPORTED, NEVER RESOLVED ---
+
+Compatibility is order-dependent: substituting A then B can succeed where
+the reverse fails. That is real engineering behaviour, but in a UI it looks
+like a bug when the user backtracks.
+
+Solution: re-evaluate EVERY interface across the whole configuration after
+each decision, and surface violations as a live list. A conflicting choice
+is flagged, not blocked. The user decides.
+
+Do NOT implement constraint solving or auto-optimization. That is a genuine
+CSP and it will consume the entire build.
+
+
+================================================================================
+5. DECISION LAYER (empty at load, written by Foundry actions)
+================================================================================
+
+  configurations                         [PK: config_id]
+      config_id, name, created_by, created_at
+        |
+        |--< substitution_decisions      [PK: decision_id]
+                decision_id, config_id(FK), slot_id(FK), candidate_id(FK),
+                chosen_mpn, verdict, is_current, justification,
+                decided_by, decided_at, superseded_at
+                  |
+                  |  slot_id      --> slots.slot_id
+                  |  candidate_id --> substitution_candidates.candidate_id
+
+  decision_id is deterministic: {config_id}__{slot_id}__{candidate_id}
+
+--- STATE RULES ---
+
+      - Active approval:  verdict = approved AND is_current = true
+      - At most ONE active approval per (config_id, slot_id)
+      - Approving supersedes the prior approval atomically:
+            is_current = false, superseded_at stamped
+      - Rejections and flags always have is_current = false
+      - Revert sets is_current = false
+      - NOTHING IS EVER DELETED
+
+--- WHY is_current INSTEAD OF DELETING ---
+
+Deleting a superseded approval destroys its justification, and the
+justification is the entire point of the audit trail. But leaving two
+approvals active makes "which part is currently in this slot?"
+nondeterministic.
+
+is_current resolves both: deterministic current state AND full decision
+history. Costs two columns.
+
+--- WHY justification IS REQUIRED WITH NO DEFAULT ---
+
+It is what makes the output an audit trail rather than a toy. An approval
+with no stated reason is not a procurement decision, it is a click.
+
+--- WHY THE ACTION TAKES A CANDIDATE OBJECT, NOT AN MPN ---
+
+A free-form MPN parameter lets a caller submit a valid part number that
+belongs to a DIFFERENT federal item. Passing the SubstitutionCandidate
+object makes that impossible by construction.
+
+If a free-form parameter is unavoidable, validate that the candidate exists,
+that candidate_mpn matches, and that nsn equals slot.baseline_nsn.
+
+
+================================================================================
+6. UNLINKED (reference only)
+================================================================================
+
+  qpl                                    [PK: qpl_id]
+      qpl_id, governing_spec, manufacturer_name, cage_code,
+      qualified_part_number, qualification_date
+
+--- WHY qpl IS NOT JOINED ---
+
+qpl_listed is already materialized as a boolean on substitution_candidates,
+so the application never needs to traverse to it.
+
+DO NOT link commercial_parts.mpn to qpl.qualified_part_number.
+Manufacturer part numbers are not guaranteed unique across manufacturers,
+so that join can produce false qualification matches -- the most dangerous
+possible error in this tool.
+
+
+================================================================================
+7. PIPELINE-ONLY (never reach Foundry)
+================================================================================
+
+  mcrl              nsn, reference_part_number, cage_code
+  characteristics   nsn, attribute_name, attribute_value, uom
+
+S1 outputs, consumed by S5, then done. mcrl is the NSN <-> manufacturer part
+number cross-reference -- the join key that makes the whole project work, but
+only during ingestion.
+
+
+================================================================================
+8. ENUMS
+================================================================================
+
+  requirement_class   electrical | mechanical | environmental |
+                      qualification | traceability
+
+  source              publog_characteristics | spec_extraction |
+                      manual_override
+
+  operator            eq | gte | lte | range | in_set | boolean
+
+      Appears on requirement_profiles and spec_requirements. CLOSED SET,
+      for the same reason match_rule is closed -- an open enum is a contract
+      violation waiting to happen, one table over.
+
+      DELIBERATELY SEPARATE from match_rule. operator describes how a
+      requirement constrains a single part ("operating temp gte -55C").
+      match_rule describes how two parts must agree with each other
+      ("both sides within 5%"). Different jobs, different vocabularies.
+      Do not merge them.
+
+      'range' uses value formatted "min|max". 'in_set' uses pipe-delimited
+      allowed values. Both are pre-normalized like everything else.
+
+  lifecycle_status    active | nrnd | obsolete | unknown
+
+  risk_level          low | medium | high
+  risk_rank           1 | 2 | 3
+
+      *** SORT ON risk_rank, NEVER ON risk_level ***
+
+      Alphabetical ordering of the strings gives:  high -> low -> medium
+
+      That is not obviously wrong on screen. It silently presents the
+      WORST candidates first while looking like it sorted correctly.
+      This is why the integer exists.
+
+  verdict (spec_deltas)
+                      pass | fail | marginal | unknown
+
+      *** 'unknown' IS NEVER TREATED AS 'pass' ***
+
+      An unverifiable requirement is a risk, not a success. It must use
+      warning semantics and be visually distinct from pass in the UI.
+      A high proportion of unknowns is itself a finding.
+
+  verdict (substitution_decisions)
+                      approved | rejected | flagged_for_test
+
+  match_rule          exact | numeric_equal | numeric_gte |
+                      numeric_lte | numeric_within_pct:N
+
+      Closed set. The pipeline emits only these; Foundry implements only
+      these. Anything else is a contract violation, not a feature request.
+
+
+================================================================================
+9. NORMALIZATION CONTRACT
+================================================================================
+
+All values in requirement_profiles.value and spec_deltas.candidate_value are
+PRE-NORMALIZED to a single unit per attribute by the pipeline.
+
+Foundry performs NO unit conversion.
+
+--- WHY ---
+
+Two places doing normalization means two places that can disagree, and no
+way to tell which produced a wrong number. Unit mismatch does not raise an
+error -- it returns a confident wrong answer.
+
+If a value looks wrong in Foundry, fix it upstream and re-upload. Do not
+patch it in a Pipeline Builder transform.
+
+
+================================================================================
+10. RISK SCORING
+================================================================================
+
+Per requirement, each candidate gets one of: pass | fail | marginal | unknown
+
+Rolled up:
+
+  high    -- any qualification-class requirement fails,
+             OR more than 2 requirements fail
+  medium  -- 1-2 non-qualification requirements fail,
+             OR more than 30% unknown,
+             OR more than 30% marginal
+  low     -- all requirements pass or marginal, AND QPL-listed,
+             AND marginal count is at most 30%
+
+--- WHY marginal IS CAPPED TOO ---
+
+Without a cap, a candidate with eleven marginals and zero fails scores low.
+Eleven attributes that each nearly miss is not a low-risk substitution; it
+is a part that is wrong in eleven small ways. Same reasoning as the unknown
+cap -- accumulated near-misses are a finding, not a pass.
+
+--- WHY qualification-CLASS FAILURES ARE AUTOMATIC HIGH ---
+
+Electrical and mechanical specs are negotiable with testing. Qualification
+and traceability requirements (QPL status, lot traceability, DFARS
+counterfeit rules) are not. A part that fails those cannot be substituted
+regardless of how well it matches on paper.
+
+--- WHY UNKNOWNS DRIVE RISK UPWARD ---
+
+A candidate with 10 passes and 5 unknowns is not better than one with 12
+passes and 3 fails. It is less understood. Treating absence of evidence as
+a pass is the single most dangerous failure mode in this tool.
+
+
+================================================================================
+11. FILE LIST (pipeline output to Foundry)
+================================================================================
+
+  federal_items.csv          assemblies.csv
+  mcrl.csv                   slots.csv
+  characteristics.csv        interfaces.csv
+  qpl.csv                    requirement_profiles.csv
+  specifications.csv         substitution_candidates.csv
+  spec_requirements.csv      spec_deltas.csv
+  commercial_parts.csv       price_history.csv
+
+  configurations and substitution_decisions are created empty in Foundry as
+  writeback datasets. The pipeline does not emit them.
+
+
+================================================================================
+12. DATA PROVENANCE (must be surfaced in the UI)
+================================================================================
+
+  Federal catalog, characteristics, cross-references .... DLA PUB LOG
+  Qualification data ................................... DLA QPL
+  Specification requirements ........................... ASSIST (MIL-SPEC)
+  Commercial part data ................................. Digi-Key, Octopart
+  Historical government pricing ........................ USAspending.gov
+  Assembly structure ................................... SYNTHETIC
+
+Nothing was scraped from a source that prohibits it. This is worth being
+able to say out loud.
+
+--- STATED SCOPE BOUNDARY: EXPORT CONTROL ---
+
+This tool does NOT model export control classification. There is no
+requirement_class for it and no field on substitution_candidates. A
+substitution scored low risk here has not been assessed for ITAR or EAR
+implications.
+
+This is a deliberate cut, not an oversight. The synthetic assembly structure
+handles the larger ITAR exposure -- no real bill of material is represented
+-- but export classification of individual parts is out of scope.
+
+State this in the UI alongside the provenance table. A named boundary reads
+as judgment; a silent gap reads as a miss.
+

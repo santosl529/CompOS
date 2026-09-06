@@ -1,0 +1,1614 @@
+{
+ "key": "fb08ee39df64b016e7ae91aa",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "143122",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:22:26",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CRYSTAL 32.7680KHZ 4PF SMD",
+     "DetailedDescription": "32.768 kHz \u00b120ppm Crystal 4pF 85 kOhms 2-SMD, No Lead"
+    },
+    "Manufacturer": {
+     "Id": 535,
+     "Name": "Abracon LLC"
+    },
+    "ManufacturerProductNumber": "ABS05W-32.768KHZ-K-2-T",
+    "UnitPrice": 2.26,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/abracon-llc/ABS05W-32-768KHZ-K-2-T/8346613",
+    "DatasheetUrl": "https://www.waldom.com/upload/parts/datasheets/mf-abr/abr-abs05w-32768khz-k-2-t.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/895/MFG_ABS05W.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "535-14312-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 1.42625,
+        "TotalPrice": 7131.25
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 535,
+       "Name": "Abracon LLC"
+      },
+      "QuantityAvailableforPackageType": 5000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 5000,
+      "StandardPackage": 5000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "535-14312-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.4,
+        "TotalPrice": 2.4
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.082,
+        "TotalPrice": 20.82
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.9688,
+        "TotalPrice": 49.22
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.8874,
+        "TotalPrice": 94.37
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.8094,
+        "TotalPrice": 180.94
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.71116,
+        "TotalPrice": 427.79
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 1.64046,
+        "TotalPrice": 820.23
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 1.6218,
+        "TotalPrice": 1621.8
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 535,
+       "Name": "Abracon LLC"
+      },
+      "QuantityAvailableforPackageType": 9604,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "535-14312-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.26,
+        "TotalPrice": 2.26
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.964,
+        "TotalPrice": 19.64
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.8576,
+        "TotalPrice": 46.44
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.7806,
+        "TotalPrice": 89.03
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.707,
+        "TotalPrice": 170.7
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.61432,
+        "TotalPrice": 403.58
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 1.5476,
+        "TotalPrice": 773.8
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 1.53,
+        "TotalPrice": 1530.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 535,
+       "Name": "Abracon LLC"
+      },
+      "QuantityAvailableforPackageType": 9604,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 9604,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6199253411001",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "362592",
+      "ValueText": "kHz Crystal (Tuning Fork)"
+     },
+     {
+      "ParameterId": 2150,
+      "ParameterText": "Frequency",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "32.768 kHz",
+      "ValueText": "32.768 kHz"
+     },
+     {
+      "ParameterId": 253,
+      "ParameterText": "Frequency Stability",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 537,
+      "ParameterText": "Frequency Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1940",
+      "ValueText": "\u00b120ppm"
+     },
+     {
+      "ParameterId": 35,
+      "ParameterText": "Load Capacitance",
+      "ParameterType": "String",
+      "ValueId": "228183",
+      "ValueText": "4pF"
+     },
+     {
+      "ParameterId": 2082,
+      "ParameterText": "ESR (Equivalent Series Resistance)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "85 kOhms",
+      "ValueText": "85 kOhms"
+     },
+     {
+      "ParameterId": 538,
+      "ParameterText": "Operating Mode",
+      "ParameterType": "String",
+      "ValueId": "349771",
+      "ValueText": "Fundamental"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "168669",
+      "ValueText": "2-SMD, No Lead"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "852695",
+      "ValueText": "2-SMD (1.6x1)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "7833",
+      "ValueText": "0.063\" L x 0.039\" W (1.60mm x 1.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "5212",
+      "ValueText": "0.020\" (0.50mm)"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 12,
+     "ParentId": 0,
+     "Name": "Crystals, Oscillators, Resonators",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/140/638/4-SMD_2.0x1.6_tmb.jpg",
+     "SeoDescription": "Crystal, oscillator, and resonator products are devices used as sources or references for frequency generation and time measurement. Based in most cases on the physical vibration of some mechanical structure that vibrates at a known frequency, they are further classified along lines of their specific implementation and the degree to which additional supporting functions are incorporated, enabling convenience of use or higher attainable degrees of precision and/or accuracy.",
+     "ChildCategories": [
+      {
+       "CategoryId": 171,
+       "ParentId": 12,
+       "Name": "Crystals",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/142/959/MFG_4606_C1_tmb%2864x64%29.jpg",
+       "SeoDescription": "Crystal products are passive components most commonly used as time or frequency references in electronic systems. Consisting of a piezoelectric crystal that mechanically vibrates at a known frequency, their use requires provision of an external oscillator circuit with carefully designed capacitance, drive voltage, and series resistance characteristics, to generate a signal at the indicated crystal frequency that operates successfully over the operating temperature range, without damaging the crystal element. Active devices which integrate this additional necessary circuitry are considered oscillators and are catalogued separately.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 63014,
+     "Name": "ABS05W"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8541.60.0010"
+    },
+    "OtherNames": [
+     "535-14312-1",
+     "535-14312-6",
+     "535-14312-2",
+     "2266-ABS05W-32.768KHZ-K-2-T-535"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "IC NAND 4-CIR 2-IN 14-SOIC",
+     "DetailedDescription": "NAND Gate IC 4 Channel Open Collector 14-SOIC"
+    },
+    "Manufacturer": {
+     "Id": 296,
+     "Name": "Texas Instruments"
+    },
+    "ManufacturerProductNumber": "SN74F38DR",
+    "UnitPrice": 0.55,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/texas-instruments/SN74F38DR/528568",
+    "DatasheetUrl": "https://www.ti.com/lit/ds/symlink/sn74f38.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8457/MFG_296%7E4040047-5%7ED%7E14.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "296-14312-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.24414,
+        "TotalPrice": 610.35
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.23742,
+        "TotalPrice": 1187.1
+       },
+       {
+        "BreakQuantity": 7500,
+        "UnitPrice": 0.23406,
+        "TotalPrice": 1755.45
+       },
+       {
+        "BreakQuantity": 12500,
+        "UnitPrice": 0.23032,
+        "TotalPrice": 2879.0
+       },
+       {
+        "BreakQuantity": 17500,
+        "UnitPrice": 0.22815,
+        "TotalPrice": 3992.625
+       },
+       {
+        "BreakQuantity": 25000,
+        "UnitPrice": 0.22605,
+        "TotalPrice": 5651.25
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 296,
+       "Name": "Texas Instruments"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MinimumOrderQuantity": 2500,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "296-14312-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.55,
+        "TotalPrice": 0.55
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.385,
+        "TotalPrice": 3.85
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.3448,
+        "TotalPrice": 8.62
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.3,
+        "TotalPrice": 30.0
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.27868,
+        "TotalPrice": 69.67
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.26586,
+        "TotalPrice": 132.93
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.25857,
+        "TotalPrice": 258.57
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 296,
+       "Name": "Texas Instruments"
+      },
+      "QuantityAvailableforPackageType": 2009,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "296-14312-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.55,
+        "TotalPrice": 0.55
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.385,
+        "TotalPrice": 3.85
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.3448,
+        "TotalPrice": 8.62
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.3,
+        "TotalPrice": 30.0
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.27868,
+        "TotalPrice": 69.67
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.26586,
+        "TotalPrice": 132.93
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.25857,
+        "TotalPrice": 258.57
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 296,
+       "Name": "Texas Instruments"
+      },
+      "QuantityAvailableforPackageType": 2009,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     },
+     {
+      "DigiKeyProductNumber": "2156-SN74F38DR-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 837,
+        "UnitPrice": 0.36,
+        "TotalPrice": 301.32
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2156,
+       "Name": "Rochester Electronics, LLC"
+      },
+      "QuantityAvailableforPackageType": 16531,
+      "MinimumOrderQuantity": 837,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 18540,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 247,
+      "ParameterText": "Logic Type",
+      "ParameterType": "String",
+      "ValueId": "378818",
+      "ValueText": "NAND Gate"
+     },
+     {
+      "ParameterId": 2094,
+      "ParameterText": "Number of Circuits",
+      "ParameterType": "Double",
+      "ValueId": "4",
+      "ValueText": "4"
+     },
+     {
+      "ParameterId": 667,
+      "ParameterText": "Number of Inputs",
+      "ParameterType": "String",
+      "ValueId": "121326",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "382141",
+      "ValueText": "Open Collector"
+     },
+     {
+      "ParameterId": 276,
+      "ParameterText": "Voltage - Supply",
+      "ParameterType": "String",
+      "ValueId": "208699",
+      "ValueText": "4.5V ~ 5.5V"
+     },
+     {
+      "ParameterId": 592,
+      "ParameterText": "Current - Output High, Low",
+      "ParameterType": "String",
+      "ValueId": "394",
+      "ValueText": "-, 64mA"
+     },
+     {
+      "ParameterId": 1543,
+      "ParameterText": "Input Logic Level - Low",
+      "ParameterType": "String",
+      "ValueId": "36543",
+      "ValueText": "0.8V"
+     },
+     {
+      "ParameterId": 1542,
+      "ParameterText": "Input Logic Level - High",
+      "ParameterType": "String",
+      "ValueId": "168722",
+      "ValueText": "2V"
+     },
+     {
+      "ParameterId": 1552,
+      "ParameterText": "Max Propagation Delay @ V, Max CL",
+      "ParameterType": "String",
+      "ValueId": "82244",
+      "ValueText": "12.5ns @ 5V, 50pF"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "38976",
+      "ValueText": "0\u00b0C ~ 70\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "97322",
+      "ValueText": "14-SOIC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "97323",
+      "ValueText": "14-SOIC (0.154\", 3.90mm Width)"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 1213,
+     "Name": "74F38"
+    },
+    "Category": {
+     "CategoryId": 32,
+     "ParentId": 0,
+     "Name": "Integrated Circuits (ICs)",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+     "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2019,
+       "ParentId": 32,
+       "Name": "Logic",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/312/8-TSSOP%2C-8-MSOP-3x3mm_tmb.jpg",
+       "SeoDescription": "Logic components operate using two voltage levels. These two levels are referred to as High or Low, On or Off, True or False, or simply 1 or 0. There are many components included in this category, such as Buffers, Drivers, Receivers, Transceivers, Comparators, Counters, Dividers, FIFOs Memory, Flip Flops, Gates, Inverters, Latches, Multivibrators, Parity Generators, Shift Registers, Signal Switches, Multiplexers, Decoders, Translators, Level Shifters, Universal Bus FUnctions, and More.",
+       "ChildCategories": [
+        {
+         "CategoryId": 705,
+         "ParentId": 2019,
+         "Name": "Gates and Inverters",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/958/564/296_14-DIP_tmb.jpg",
+         "SeoDescription": "Products in the logic gate and inverter family perform elementary logical operations on individual logic signals such as AND, NOT, OR, etc. Unlike flip-flops they do not have a capacity to store information and respond immediately to the signals presented to their inputs. Though long supplanted by implementations in integrated circuit form for realizing complex functions, discrete gates remain available for use in circumstances where only very simple logical functions are needed.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "9",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 462,
+     "Name": "74F"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8542.39.0070"
+    },
+    "OtherNames": [
+     "296-14312-6",
+     "-SN74F38DRE4",
+     "-SN74F38DRG4",
+     "296-14312-2",
+     "SN74F38DRG4",
+     "296-14312-1",
+     "-SN74F38DRE4-NDR",
+     "2156-SN74F38DR",
+     "-SN74F38DRG4-NDR",
+     "-SN74F38DR-NDR",
+     "SN74F38DRE4-ND",
+     "SN74F38DRG4-ND",
+     "TEXTISSN74F38DR",
+     "SN74F38DRE4",
+     "-296-14312-1-ND",
+     "-296-14312-1",
+     "296-14312-6-NDR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 10M OHM 1/2W 1% AXIAL",
+     "DetailedDescription": "10 MOhms \u00b11% 0.6W Through Hole Resistor Axial Flame Retardant Coating, Moisture Resistant, Safety Metal Film"
+    },
+    "Manufacturer": {
+     "Id": 541,
+     "Name": "Vishay Dale"
+    },
+    "ManufacturerProductNumber": "CMF5510M000FKEA",
+    "UnitPrice": 2.3,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vishay-dale/CMF5510M000FKEA/3613754",
+    "DatasheetUrl": "https://www.vishay.com/docs/31018/cmfind.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/647/CMF07.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "541-4312-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.68916,
+        "TotalPrice": 3445.8
+       },
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.65127,
+        "TotalPrice": 6512.7
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.63182,
+        "TotalPrice": 9477.3
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 541,
+       "Name": "Vishay Dale"
+      },
+      "QuantityAvailableforPackageType": 5000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 5000,
+      "StandardPackage": 5000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "541-4312-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.3,
+        "TotalPrice": 2.3
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.523,
+        "TotalPrice": 15.23
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.3132,
+        "TotalPrice": 32.83
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.1816,
+        "TotalPrice": 59.08
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.0696,
+        "TotalPrice": 106.96
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.94704,
+        "TotalPrice": 236.76
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.87032,
+        "TotalPrice": 435.16
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.80514,
+        "TotalPrice": 805.14
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 541,
+       "Name": "Vishay Dale"
+      },
+      "QuantityAvailableforPackageType": 5254,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 5254,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 MOhms",
+      "ValueText": "10 MOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "31461",
+      "ValueText": "0.6W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374915",
+      "ValueText": "Metal Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "347606",
+      "ValueText": "Flame Retardant Coating, Moisture Resistant, Safety"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242941",
+      "ValueText": "-55\u00b0C ~ 175\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317190",
+      "ValueText": "Axial"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "317190",
+      "ValueText": "Axial"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "9123",
+      "ValueText": "0.090\" Dia x 0.240\" L (2.29mm x 6.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 468984,
+     "Name": "CMF55"
+    },
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 53,
+       "ParentId": 2,
+       "Name": "Through Hole Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/165/374/OX470KE_tmb%2864x64%29.jpg",
+       "SeoDescription": "Through-Hole Resistors are devices which oppose the flow of current. They have two wire terminals which are designed to be inserted and soldered to a printed circuit board (PCB) or are used in a breadboard. The characteristics are resistance (0 ohms to 500 G ohms), tolerance (jumper, \u00b10.001% to \u00b15%), power (watts), and composition (carbon composition, carbon film, ceramic, metal element, metal film, metal foil, metal oxide film, thick film, thin film, or wirewound).",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 10148,
+     "Name": "CMF"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": [
+     "541-4312-1",
+     "541-4312-2",
+     "CMF5510M000FKEA-ND"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP CER 0.047UF 16V X7R 0805",
+     "DetailedDescription": "0.047 \u00b5F \u00b110% 16V Ceramic Capacitor X7R 0805 (2012 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "CC0805KRX7R7BB473",
+    "UnitPrice": 0.16,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/CC0805KRX7R7BB473/5884207",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2485/0805%288%5E5mm%20thickness%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-4312-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 4000,
+        "UnitPrice": 0.02918,
+        "TotalPrice": 116.72
+       },
+       {
+        "BreakQuantity": 12000,
+        "UnitPrice": 0.02563,
+        "TotalPrice": 307.56
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 4000,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 4000,
+      "StandardPackage": 4000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-4312-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.16,
+        "TotalPrice": 0.16
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.089,
+        "TotalPrice": 0.89
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.062,
+        "TotalPrice": 3.1
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0537,
+        "TotalPrice": 5.37
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.03982,
+        "TotalPrice": 19.91
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 10582,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-4312-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.16,
+        "TotalPrice": 0.16
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.089,
+        "TotalPrice": 0.89
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.062,
+        "TotalPrice": 3.1
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0537,
+        "TotalPrice": 5.37
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.03982,
+        "TotalPrice": 19.91
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 10582,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 10582,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6365329721112",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.047 \u00b5F",
+      "ValueText": "0.047 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "108742",
+      "ValueText": "16V"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422415",
+      "ValueText": "X7R"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "354807",
+      "ValueText": "High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39329",
+      "ValueText": "0805 (2012 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "8569",
+      "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "6126",
+      "ValueText": "0.037\" (0.95mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 1727,
+     "Name": "CC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "311-4312-1",
+     "223878015645",
+     "311-4312-2",
+     "08052R473K7B20D",
+     "CC0805KRX7R7BB473-ND",
+     "2266-CC0805KRX7R7BB473",
+     "311-4312-6"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES 200K OHM 5% 9W AXIAL",
+     "DetailedDescription": "200 kOhms \u00b15% 9W Through Hole Resistor Axial Flame Proof, Pulse Withstanding, Safety Metal Oxide Film"
+    },
+    "Manufacturer": {
+     "Id": 1712,
+     "Name": "TE Connectivity Passive Product"
+    },
+    "ManufacturerProductNumber": "ROX9J200K",
+    "UnitPrice": 2.99,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-passive-product/ROX9J200K/9926548",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773271&DocType=Data%20Sheet&DocLang=English&DocFormat=pdf&PartCntxt=8-2176416-7",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2779/7-8-9-Watt-Rox-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "A143122-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.99,
+        "TotalPrice": 2.99
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.999,
+        "TotalPrice": 19.99
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.73,
+        "TotalPrice": 43.25
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.5618,
+        "TotalPrice": 78.09
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.4185,
+        "TotalPrice": 141.85
+       },
+       {
+        "BreakQuantity": 300,
+        "UnitPrice": 1.2343,
+        "TotalPrice": 370.29
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 1.14028,
+        "TotalPrice": 684.168
+       },
+       {
+        "BreakQuantity": 1200,
+        "UnitPrice": 1.06041,
+        "TotalPrice": 1272.492
+       },
+       {
+        "BreakQuantity": 5100,
+        "UnitPrice": 0.93036,
+        "TotalPrice": 4744.836
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1712,
+       "Name": "TE Connectivity Passive Product"
+      },
+      "QuantityAvailableforPackageType": 1155,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 300,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 1155,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "200 kOhms",
+      "ValueText": "200 kOhms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "2503",
+      "ValueText": "\u00b15%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "305591",
+      "ValueText": "9W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374930",
+      "ValueText": "Metal Oxide Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "347591",
+      "ValueText": "Flame Proof, Pulse Withstanding, Safety"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "273325",
+      "ValueText": "-700ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242948",
+      "ValueText": "-55\u00b0C ~ 200\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317190",
+      "ValueText": "Axial"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "317190",
+      "ValueText": "Axial"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "19448",
+      "ValueText": "0.335\" Dia x 2.126\" L (8.50mm x 54.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 209007,
+     "Name": "ROX9"
+    },
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 53,
+       "ParentId": 2,
+       "Name": "Through Hole Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/165/374/OX470KE_tmb%2864x64%29.jpg",
+       "SeoDescription": "Through-Hole Resistors are devices which oppose the flow of current. They have two wire terminals which are designed to be inserted and soldered to a printed circuit board (PCB) or are used in a breadboard. The characteristics are resistance (0 ohms to 500 G ohms), tolerance (jumper, \u00b10.001% to \u00b15%), power (watts), and composition (carbon composition, carbon film, ceramic, metal element, metal film, metal foil, metal oxide film, thick film, thin film, or wirewound).",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 26160,
+     "Name": "ROX, Neohm"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": [
+     "A143122",
+     "8-2176416-7"
+    ]
+   }
+  ],
+  "ProductsCount": 43,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 535,
+     "Value": "Abracon LLC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1178,
+     "Value": "Amphenol Aerospace Operations",
+     "ProductCount": 12
+    },
+    {
+     "Id": 60,
+     "Value": "CTS Resistor Products",
+     "ProductCount": 10
+    },
+    {
+     "Id": 8,
+     "Value": "DigiKey",
+     "ProductCount": 3
+    },
+    {
+     "Id": 164,
+     "Value": "Hammond Manufacturing",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1195,
+     "Value": "HARTING",
+     "ProductCount": 1
+    },
+    {
+     "Id": 54,
+     "Value": "Mill-Max Manufacturing Corp.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 23,
+     "Value": "Molex",
+     "ProductCount": 1
+    },
+    {
+     "Id": 493,
+     "Value": "Nichicon",
+     "ProductCount": 1
+    },
+    {
+     "Id": 298,
+     "Value": "Panduit Corp",
+     "ProductCount": 1
+    },
+    {
+     "Id": 277,
+     "Value": "Phoenix Contact",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3473,
+     "Value": "Siemens",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2543,
+     "Value": "Sifam Tinsley Instrumentation Inc",
+     "ProductCount": 1
+    },
+    {
+     "Id": 497,
+     "Value": "STMicroelectronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 445,
+     "Value": "TDK",
+     "ProductCount": 1
+    },
+    {
+     "Id": 844,
+     "Value": "TE Connectivity Aerospace, Defense and Marine",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1712,
+     "Value": "TE Connectivity Passive Product",
+     "ProductCount": 1
+    },
+    {
+     "Id": 296,
+     "Value": "Texas Instruments",
+     "ProductCount": 1
+    },
+    {
+     "Id": 541,
+     "Value": "Vishay Dale",
+     "ProductCount": 1
+    },
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

@@ -1,0 +1,61 @@
+mpn,manufacturer,lifecycle_status,median_price,stock_qty,lead_time_days,datasheet_url,distributor_count,lifecycle_raw,price_basis_qty,nexar_part_id,matched_mpn,seller_count,authorized_distributor_count,octopart_url,fetched_at
+0409-201-1800,TE Connectivity / DEUTSCH,unknown,9.44,75463.0,0.0,,14.0,,1000.0,77014310,0409-201-1800,24,5,https://octopart.com/part/te-connectivity-deutsch/0409-201-1800,2026-09-05T20:31:08
+0409-201-2400,TE Connectivity / DEUTSCH,unknown,9.18,41916.0,0.0,,18.0,,1000.0,77014311,0409-201-2400,27,7,https://octopart.com/part/te-connectivity-deutsch/0409-201-2400,2026-09-05T20:31:08
+07-0201-0237,Chomerics,unknown,85.96,5.0,56.0,,1.0,,1000.0,97342261,07-0201-0237,1,1,https://octopart.com/part/chomerics/07-0201-0237,2026-09-05T20:31:19
+07-0201-0875,Chomerics,unknown,56.0853,3.0,56.0,,1.0,,1000.0,97342263,07-0201-0875,1,1,https://octopart.com/part/chomerics/07-0201-0875,2026-09-05T20:31:17
+07-0202-0094,Chomerics,unknown,104.81,8.0,56.0,,1.0,,1000.0,97342265,07-0202-0094,1,1,https://octopart.com/part/chomerics/07-0202-0094,2026-09-05T20:31:20
+0805J0500100MCTE07,Knowles,unknown,0.3624,0.0,70.0,,0.0,,1000.0,148661468,0805J0500100MCTE07,3,0,https://octopart.com/part/knowles-syfer/0805J0500100MCTE07,2026-09-05T20:30:57
+0805J0500120MCTE07,Knowles,unknown,0.3624,0.0,70.0,,0.0,,1000.0,148662085,0805J0500120MCTE07,3,0,https://octopart.com/part/knowles-syfer/0805J0500120MCTE07,2026-09-05T20:30:58
+0805J0500220MCTE07,Knowles,unknown,0.3824,0.0,70.0,,0.0,,1000.0,109264430,0805J0500220MCTE07,3,0,https://octopart.com/part/knowles-syfer/0805J0500220MCTE07,2026-09-05T20:30:58
+1-206062-3,TE Connectivity,unknown,6.30725,16767.0,0.0,,21.0,,1000.0,41294408,1-206062-3,28,12,https://octopart.com/part/te-connectivity/1-206062-3,2026-09-05T20:31:09
+10BQ100,Vishay,unknown,,18278.0,,,6.0,,,46526789,10BQ100,6,0,https://octopart.com/part/vishay/10BQ100,2026-09-05T20:31:15
+110991327,Seeed Studio,unknown,1.045,43087.0,14.0,,8.0,,1000.0,104808882,110991327,9,4,https://octopart.com/part/seeed-studio/110991327,2026-09-05T20:31:18
+1812Y1K00473KST,Knowles,unknown,0.82353,117463.0,70.0,,5.0,,1000.0,67090002,1812Y1K00473KST,11,2,https://octopart.com/part/knowles-syfer/1812Y1K00473KST,2026-09-05T20:30:54
+1825AC473KAT1A,KYOCERA AVX,unknown,0.74943,136747.0,224.0,,14.0,,1000.0,71038306,1825AC473KAT1A,15,2,https://octopart.com/part/kyocera-avx/1825AC473KAT1A,2026-09-05T20:30:54
+1N4002,Diotec,unknown,0.0371,368461.0,4.0,,12.0,,1000.0,22658669,1N4002,15,3,https://octopart.com/part/diotec/1N4002,2026-09-05T20:31:15
+1N4002G,onsemi,unknown,0.0582,562465921.0,0.0,,33.0,,1000.0,2485,1N4002G,35,11,https://octopart.com/part/onsemi/1N4002G,2026-09-05T20:31:16
+2118707-2,TE Connectivity,unknown,0.562,761619.0,0.0,,21.0,,1000.0,78747988,2118707-2,30,11,https://octopart.com/part/te-connectivity/2118707-2,2026-09-05T20:31:21
+217-36CTRE6,Wakefield-Vette,unknown,119.8,163700.0,112.0,,12.0,,1000.0,6670487,217-36CTRE6,13,8,https://octopart.com/part/wakefield-vette/217-36CTRE6,2026-09-05T20:31:18
+3020403,Wurth Elektronik,unknown,8.825,47251.0,84.0,,7.0,,1000.0,22866384,3020403,9,2,https://octopart.com/part/wurth-elektronik/3020403,2026-09-05T20:31:20
+30205005,Wurth Elektronik,unknown,4.4879,19075.0,84.0,,11.0,,1000.0,73282503,30205005,12,3,https://octopart.com/part/wurth-elektronik/30205005,2026-09-05T20:31:21
+3082,Keystone,unknown,0.316,16074.0,0.0,,6.0,,1000.0,19707797,3082,15,3,https://octopart.com/part/keystone/3082,2026-09-05T20:31:19
+3522150RJT,TE Connectivity,unknown,0.314,112359.0,0.0,,18.0,,1000.0,65688696,3522150RJT,23,9,https://octopart.com/part/te-connectivity/3522150RJT,2026-09-05T20:30:53
+3540150RJT,TE Connectivity,unknown,0.8296,34061.0,0.0,,8.0,,1000.0,99171193,3540150RJT,15,4,https://octopart.com/part/te-connectivity/3540150RJT,2026-09-05T20:30:53
+4590-105J,API Delevan,unknown,5.2668,1.0,133.0,,0.0,,1000.0,16223121,4590-105J,1,0,https://octopart.com/part/api-delevan/4590-105J,2026-09-05T20:31:14
+4590-105K,API Delevan,unknown,7.5898,100.0,15.0,,1.0,,1000.0,391207,4590-105K,3,1,https://octopart.com/part/api-delevan/4590-105K,2026-09-05T20:31:14
+4590R-105J,API Delevan,unknown,5.2668,1.0,133.0,,0.0,,1000.0,16960047,4590R-105J,1,0,https://octopart.com/part/api-delevan/4590R-105J,2026-09-05T20:31:15
+885342208026,Wurth Elektronik,unknown,0.099,50069.0,280.0,,5.0,,1000.0,155541069,885342208026,5,3,https://octopart.com/part/wurth-elektronik/885342208026,2026-09-05T20:30:55
+9420801.14,Julabo,unknown,62117.0,669.0,,,2.0,,1000.0,91495403,9420801.14,2,1,https://octopart.com/part/julabo/9420801.14,2026-09-05T20:31:16
+9420801.16.T,Julabo,unknown,65200.0,2.0,,,1.0,,1000.0,91495404,9420801.16.T,1,1,https://octopart.com/part/julabo/9420801.16.T,2026-09-05T20:31:17
+AC05AT0001500JAC00,Vishay,unknown,0.45514,3646.0,0.0,,5.0,,1000.0,89780039,AC05AT0001500JAC00,7,2,https://octopart.com/part/vishay/AC05AT0001500JAC00,2026-09-05T20:30:52
+C330C104G2G5TA,Yageo Group,unknown,2.91476,11726.0,182.0,,2.0,,1000.0,79796853,C330C104G2G5TA,3,0,https://octopart.com/part/kemet/C330C104G2G5TA,2026-09-05T20:30:56
+C330C104G2G5TA7301,Yageo Group,unknown,,7580.0,182.0,,1.0,,,79796855,C330C104G2G5TA7301,2,0,https://octopart.com/part/kemet/C330C104G2G5TA7301,2026-09-05T20:30:56
+C330C104GAG5TA,Yageo Group,unknown,2.91476,18327.0,105.0,,2.0,,1000.0,79796860,C330C104GAG5TA,3,0,https://octopart.com/part/kemet/C330C104GAG5TA,2026-09-05T20:30:57
+CC0603KRX7RABB103,Yageo Group,unknown,0.027,353433.0,56.0,,10.0,,1000.0,140050303,CC0603KRX7RABB103,14,2,https://octopart.com/part/yageo-group/CC0603KRX7RABB103,2026-09-05T20:30:55
+D38999/20GD97JB,Glenair,unknown,954.304,4.0,35.0,,1.0,,1000.0,157363631,D38999/20GD97JB,2,1,https://octopart.com/part/glenair/D38999%2F20GD97JB,2026-09-05T20:31:09
+D38999/20GD97JC,Amphenol,unknown,,0.0,,,0.0,,,32891965,D38999/20GD97JC,0,0,https://octopart.com/part/amphenol/D38999%2F20GD97JC,2026-09-05T20:31:10
+D38999/20GD97JD,Glenair,unknown,954.304,1.0,35.0,,1.0,,1000.0,157363642,D38999/20GD97JD,2,1,https://octopart.com/part/glenair/D38999%2F20GD97JD,2026-09-05T20:31:10
+D38999/20GE2PC,Glenair,unknown,1197.78,9.0,35.0,,1.0,,1000.0,164331962,D38999/20GE2PC,2,1,https://octopart.com/part/glenair/D38999%2F20GE2PC,2026-09-05T20:31:06
+D38999/20GE2PD,Glenair,unknown,1197.78,8.0,35.0,,1.0,,1000.0,164331968,D38999/20GE2PD,2,1,https://octopart.com/part/glenair/D38999%2F20GE2PD,2026-09-05T20:31:07
+D38999/20GE2PE,Glenair,unknown,1197.78,7.0,35.0,,1.0,,1000.0,164331973,D38999/20GE2PE,2,1,https://octopart.com/part/glenair/D38999%2F20GE2PE,2026-09-05T20:31:07
+D38999/20GF30HD,Glenair,unknown,1119.9,7.0,35.0,,1.0,,1000.0,157364130,D38999/20GF30HD,2,1,https://octopart.com/part/glenair/D38999%2F20GF30HD,2026-09-05T20:31:02
+D38999/20GF30HE,Glenair,unknown,1119.67,10.0,35.0,,1.0,,1000.0,157364134,D38999/20GF30HE,2,1,https://octopart.com/part/glenair/D38999%2F20GF30HE,2026-09-05T20:31:02
+D38999/20GF30HN,Glenair,unknown,1119.67,5.0,35.0,,1.0,,1000.0,157364140,D38999/20GF30HN,2,1,https://octopart.com/part/glenair/D38999%2F20GF30HN,2026-09-05T20:31:03
+D38999/20JC98PN,Amphenol,unknown,78.3751,736.0,112.0,,7.0,,1000.0,947198,D38999/20JC98PN,13,5,https://octopart.com/part/amphenol/D38999%2F20JC98PN,2026-09-05T20:31:05
+D38999/20JE26PN,Amphenol Aerospace,unknown,94.2191,614.0,98.0,,8.0,,1000.0,49669464,D38999/20JE26PN,13,6,https://octopart.com/part/amphenol-aerospace/D38999%2F20JE26PN,2026-09-05T20:31:12
+D38999/20JE26SN,Amphenol Aerospace,unknown,87.0012,803.0,112.0,,7.0,,1000.0,49669468,D38999/20JE26SN,12,5,https://octopart.com/part/amphenol-aerospace/D38999%2F20JE26SN,2026-09-05T20:31:13
+D38999/20MC98PN,Amphenol,unknown,80.302,2853.0,112.0,,11.0,,1000.0,2465890,D38999/20MC98PN,16,9,https://octopart.com/part/amphenol/D38999%2F20MC98PN,2026-09-05T20:31:05
+D38999/20MC98SN,Amphenol,unknown,96.78,944.0,112.0,,8.0,,1000.0,5425184,D38999/20MC98SN,14,6,https://octopart.com/part/amphenol/D38999%2F20MC98SN,2026-09-05T20:31:06
+D38999/24GH97JN,Glenair,unknown,958.125,0.0,35.0,,0.0,,1000.0,157368292,D38999/24GH97JN,1,0,https://octopart.com/part/glenair/D38999%2F24GH97JN,2026-09-05T20:30:59
+D38999/24GH99JB,Glenair,unknown,945.737,0.0,35.0,,0.0,,1000.0,157368344,D38999/24GH99JB,1,0,https://octopart.com/part/glenair/D38999%2F24GH99JB,2026-09-05T20:30:59
+D38999/24GH99JC,Glenair,unknown,945.737,0.0,35.0,,0.0,,1000.0,157368350,D38999/24GH99JC,1,0,https://octopart.com/part/glenair/D38999%2F24GH99JC,2026-09-05T20:31:00
+D38999/25YG24XC,TE Connectivity / DEUTSCH,unknown,200.22,0.0,,,0.0,,1000.0,58734954,D38999/25YG24XC,1,0,https://octopart.com/part/te-connectivity-deutsch/D38999%2F25YG24XC,2026-09-05T20:31:03
+D38999/25YG24XD,TE Connectivity / DEUTSCH,unknown,200.22,0.0,,,0.0,,1000.0,58734955,D38999/25YG24XD,1,0,https://octopart.com/part/te-connectivity-deutsch/D38999%2F25YG24XD,2026-09-05T20:31:04
+D38999/25YG24XE,TE Connectivity / DEUTSCH,unknown,200.22,0.0,,,0.0,,1000.0,58734956,D38999/25YG24XE,1,0,https://octopart.com/part/te-connectivity-deutsch/D38999%2F25YG24XE,2026-09-05T20:31:04
+D38999/26FE26PN,Amphenol Aerospace,unknown,53.423,1305.0,14.0,,11.0,,1000.0,49674200,D38999/26FE26PN,16,9,https://octopart.com/part/amphenol-aerospace/D38999%2F26FE26PN,2026-09-05T20:31:13
+D38999/26GC4JC,Glenair,unknown,1045.72,1.0,35.0,,1.0,,1000.0,157368029,D38999/26GC4JC,2,1,https://octopart.com/part/glenair/D38999%2F26GC4JC,2026-09-05T20:31:11
+D38999/26GC4JD,Glenair,unknown,1045.72,1.0,35.0,,1.0,,1000.0,157368036,D38999/26GC4JD,2,1,https://octopart.com/part/glenair/D38999%2F26GC4JD,2026-09-05T20:31:11
+D38999/40WB2PC,Glenair,unknown,909.331,8.0,0.0,,2.0,,1000.0,164349529,D38999/40WB2PC,7,2,https://octopart.com/part/glenair/D38999%2F40WB2PC,2026-09-05T20:31:12
+TXR15AB00-1008AI,TE Connectivity / Raychem,unknown,196.9,34433.0,0.0,,14.0,,1000.0,42378473,TXR15AB00-1008AI,23,9,https://octopart.com/part/te-connectivity-raychem/TXR15AB00-1008AI,2026-09-05T20:31:00
+TXR40AB00-1210BI,TE Connectivity / Raychem,unknown,287.978,237.0,14.0,,12.0,,1000.0,42392600,TXR40AB00-1210BI,20,8,https://octopart.com/part/te-connectivity-raychem/TXR40AB00-1210BI,2026-09-05T20:31:01
+TXR40AB90-2412BI,TE Connectivity / Raychem,unknown,272.307,244.0,0.0,,9.0,,1000.0,42357303,TXR40AB90-2412BI,20,6,https://octopart.com/part/te-connectivity-raychem/TXR40AB90-2412BI,2026-09-05T20:31:01

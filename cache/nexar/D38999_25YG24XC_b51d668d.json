@@ -1,0 +1,51 @@
+{
+ "mpn": "D38999/25YG24XC",
+ "fetched_at": "2026-09-05T20:31:03",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "58734954",
+    "mpn": "D38999/25YG24XC",
+    "name": "TE Connectivity / DEUTSCH D38999/25YG24XC",
+    "octopartUrl": "https://octopart.com/part/te-connectivity-deutsch/D38999%2F25YG24XC",
+    "manufacturer": {
+     "name": "TE Connectivity / DEUTSCH"
+    },
+    "medianPrice1000": {
+     "price": 200.22,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 0,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "RS (Formerly Allied Electronics)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 100,
+          "price": 217.63,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 200.22,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

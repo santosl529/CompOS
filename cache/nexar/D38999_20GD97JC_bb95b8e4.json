@@ -1,0 +1,22 @@
+{
+ "mpn": "D38999/20GD97JC",
+ "fetched_at": "2026-09-05T20:31:10",
+ "pro_fields": false,
+ "block": {
+  "hits": 5,
+  "parts": [
+   {
+    "id": "32891965",
+    "mpn": "D38999/20GD97JC",
+    "name": "Amphenol D38999/20GD97JC",
+    "octopartUrl": "https://octopart.com/part/amphenol/D38999%2F20GD97JC",
+    "manufacturer": {
+     "name": "Amphenol"
+    },
+    "medianPrice1000": null,
+    "totalAvail": 0,
+    "sellers": []
+   }
+  ]
+ }
+}

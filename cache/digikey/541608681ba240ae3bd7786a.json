@@ -1,0 +1,3392 @@
+{
+ "key": "541608681ba240ae3bd7786a",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "connector",
+  "Limit": 10,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "2005"
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T13:50:54",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CONN SEALING PLUG SZ 12 & 16 WHT",
+     "DetailedDescription": "Connector Plug, Sealing 12, 16 White"
+    },
+    "Manufacturer": {
+     "Id": 889,
+     "Name": "Amphenol Sine Systems Corp"
+    },
+    "ManufacturerProductNumber": "A114017",
+    "UnitPrice": 0.11,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-sine-systems-corp/A114017/2125230",
+    "DatasheetUrl": "https://www.amphenol-sine.com/pdf/catalog/A-Series-Contacts.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/646/MFG_A114017-white.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "889-1058-ND",
+      "PackageType": {
+       "Id": 61,
+       "Name": "Box"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.11,
+        "TotalPrice": 0.11
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.09,
+        "TotalPrice": 0.9
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0844,
+        "TotalPrice": 2.11
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0802,
+        "TotalPrice": 4.01
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0764,
+        "TotalPrice": 7.64
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.07156,
+        "TotalPrice": 17.89
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.06814,
+        "TotalPrice": 34.07
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.06488,
+        "TotalPrice": 64.88
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.06081,
+        "TotalPrice": 152.025
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 889,
+       "Name": "Amphenol Sine Systems Corp"
+      },
+      "QuantityAvailableforPackageType": 48471,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 48471,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "387979",
+      "ValueText": "Plug, Sealing"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "312321",
+      "ValueText": "AHD and AT\u2122 Series"
+     },
+     {
+      "ParameterId": 215,
+      "ParameterText": "Shell Size - Insert",
+      "ParameterType": "String",
+      "ValueId": "80957",
+      "ValueText": "12, 16"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "421080",
+      "ValueText": "White"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 162407,
+     "Name": "A114017"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 329,
+         "ParentId": 2005,
+         "Name": "Circular Connector Accessories",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/715/MFG_PX0733_tmb.jpg",
+         "SeoDescription": "Circular Connector accessories are supplementary items used with circular connectors. The available accessory types are adapter, adjuster, alignment disc, anchor, back shell, blanking plug, cable clamp, cable grip, cable gland, cable seal, cap, coding ring, compression nut, EMI gasket, faceplate, handles, hood, nut, o-ring, sealing boot, sleeve, snap-ring, wall plate, and wire seal.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "12",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 116681,
+     "Name": "A Series\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "889-1058",
+     "3937-A114017-889",
+     "2403-A114017"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SEAL PLUG",
+     "DetailedDescription": "Connector Plug, Sealing Red"
+    },
+    "Manufacturer": {
+     "Id": 1508,
+     "Name": "TE Connectivity Deutsch Connectors"
+    },
+    "ManufacturerProductNumber": "0413-204-2005",
+    "UnitPrice": 0.12,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-deutsch-ict-connectors/0413-204-2005/7387531",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773950-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=0413-204-2005&DocFormat=pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/746/MFG_0413-204-2005.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1734-1839-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.12,
+        "TotalPrice": 0.12
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.103,
+        "TotalPrice": 1.03
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.0968,
+        "TotalPrice": 2.42
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0924,
+        "TotalPrice": 4.62
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0879,
+        "TotalPrice": 8.79
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0824,
+        "TotalPrice": 20.6
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.07844,
+        "TotalPrice": 39.22
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.07469,
+        "TotalPrice": 74.69
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.07,
+        "TotalPrice": 175.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1734,
+       "Name": "TE Connectivity Deutsch ICT Connectors"
+      },
+      "QuantityAvailableforPackageType": 228329,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 228329,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "387979",
+      "ValueText": "Plug, Sealing"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "353191",
+      "ValueText": "HD Series Connectors, Contact SZ 20"
+     },
+     {
+      "ParameterId": 215,
+      "ParameterText": "Shell Size - Insert",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "388448",
+      "ValueText": "Polybutylene Terephthalate (PBT)"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "395219",
+      "ValueText": "Red"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 593603,
+     "Name": "0413-204"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 329,
+         "ParentId": 2005,
+         "Name": "Circular Connector Accessories",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/715/MFG_PX0733_tmb.jpg",
+         "SeoDescription": "Circular Connector accessories are supplementary items used with circular connectors. The available accessory types are adapter, adjuster, alignment disc, anchor, back shell, blanking plug, cable clamp, cable grip, cable gland, cable seal, cap, coding ring, compression nut, EMI gasket, faceplate, handles, hood, nut, o-ring, sealing boot, sleeve, snap-ring, wall plate, and wire seal.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "13",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 34375,
+     "Name": "HD30"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "3926.90.4590"
+    },
+    "OtherNames": [
+     "-0413-204-2005-LSI",
+     "1734-1839",
+     "-0413-204-2005-SI",
+     "-0413-204-2005-CSI",
+     "Q10976247",
+     "Q12393310",
+     "0413-204-2005-ND",
+     "2992-0413-204-2005"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SEALING PLUG",
+     "DetailedDescription": "Connector Plug, Sealing 22 Black"
+    },
+    "Manufacturer": {
+     "Id": 1508,
+     "Name": "TE Connectivity Deutsch Connectors"
+    },
+    "ManufacturerProductNumber": "MS27488-22-2",
+    "UnitPrice": 0.15,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-deutsch-connectors/MS27488-22-2/18086736",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7FMS27488-xx-x%7FC%7Fpdf%7FEnglish%7FENG_CD_MS27488-xx-x_C.pdf%7FMS27488-22-2",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6452/1508_MS27488-22-2.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1508-MS27488-22-2-ND",
+      "PackageType": {
+       "Id": 61,
+       "Name": "Box"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.15,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.131,
+        "TotalPrice": 1.31
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.1224,
+        "TotalPrice": 3.06
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.1166,
+        "TotalPrice": 5.83
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.1109,
+        "TotalPrice": 11.09
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.10396,
+        "TotalPrice": 25.99
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.09898,
+        "TotalPrice": 49.49
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.09425,
+        "TotalPrice": 94.25
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.08834,
+        "TotalPrice": 220.85
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1508,
+       "Name": "TE Connectivity Deutsch Connectors"
+      },
+      "QuantityAvailableforPackageType": 55772,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 55772,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "387979",
+      "ValueText": "Plug, Sealing"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "333423",
+      "ValueText": "Contacts, Size 22"
+     },
+     {
+      "ParameterId": 215,
+      "ParameterText": "Shell Size - Insert",
+      "ParameterType": "String",
+      "ValueId": "146545",
+      "ValueText": "22"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "388732",
+      "ValueText": "Polyphenylsulfone (PPSU)"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "319929",
+      "ValueText": "Black"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "375798",
+      "ValueText": "Military"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "789240",
+      "ValueText": "MIL-DTL-38999"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 329,
+         "ParentId": 2005,
+         "Name": "Circular Connector Accessories",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/715/MFG_PX0733_tmb.jpg",
+         "SeoDescription": "Circular Connector accessories are supplementary items used with circular connectors. The available accessory types are adapter, adjuster, alignment disc, anchor, back shell, blanking plug, cable clamp, cable grip, cable gland, cable seal, cap, coding ring, compression nut, EMI gasket, faceplate, handles, hood, nut, o-ring, sealing boot, sleeve, snap-ring, wall plate, and wire seal.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "4",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "844-MS27488-22-2",
+     "844-MS27488-22-2-ND",
+     "1508-MS27488-22-2"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "83723, SERIES III SEALING PLUG",
+     "DetailedDescription": "Connector Plug, Sealing 20 Red"
+    },
+    "Manufacturer": {
+     "Id": 1178,
+     "Name": "Amphenol Aerospace Operations"
+    },
+    "ManufacturerProductNumber": "MS27488-20",
+    "UnitPrice": 0.25,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-aerospace-operations/MS27488-20/5131686",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6145/38999-catalog.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3731/MS27488-20.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "MS27488-20-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.25,
+        "TotalPrice": 0.25
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.214,
+        "TotalPrice": 2.14
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2004,
+        "TotalPrice": 5.01
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.1908,
+        "TotalPrice": 9.54
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.1816,
+        "TotalPrice": 18.16
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.17024,
+        "TotalPrice": 42.56
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.1621,
+        "TotalPrice": 81.05
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.15435,
+        "TotalPrice": 154.35
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.14468,
+        "TotalPrice": 361.7
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1178,
+       "Name": "Amphenol Aerospace Operations"
+      },
+      "QuantityAvailableforPackageType": 34790,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 34790,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "387979",
+      "ValueText": "Plug, Sealing"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "333421",
+      "ValueText": "Contacts, Size 20"
+     },
+     {
+      "ParameterId": 215,
+      "ParameterText": "Shell Size - Insert",
+      "ParameterType": "String",
+      "ValueId": "137796",
+      "ValueText": "20"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "395219",
+      "ValueText": "Red"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "375798",
+      "ValueText": "Military"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "789240",
+      "ValueText": "MIL-DTL-38999"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 162724,
+     "Name": "MS27488"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 329,
+         "ParentId": 2005,
+         "Name": "Circular Connector Accessories",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/715/MFG_PX0733_tmb.jpg",
+         "SeoDescription": "Circular Connector accessories are supplementary items used with circular connectors. The available accessory types are adapter, adjuster, alignment disc, anchor, back shell, blanking plug, cable clamp, cable grip, cable gland, cable seal, cap, coding ring, compression nut, EMI gasket, faceplate, handles, hood, nut, o-ring, sealing boot, sleeve, snap-ring, wall plate, and wire seal.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "Q9232256",
+     "3937-MS27488-20",
+     "1178-MS27488-20",
+     "Q12230303",
+     "Q8908982",
+     "10-405996-020",
+     "1178-MS27488-20-ND"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONN SEALING PLUG WHITE",
+     "DetailedDescription": "Connector Plug, Sealing White"
+    },
+    "Manufacturer": {
+     "Id": 1508,
+     "Name": "TE Connectivity Deutsch Connectors"
+    },
+    "ManufacturerProductNumber": "114017-ZZ",
+    "UnitPrice": 0.29,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-deutsch-ict-connectors/114017-ZZ/6566679",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773950-7&DocType=Data%20Sheet&DocLang=English&PartCntxt=114017-ZZ&DocFormat=pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2521/114017-ZZ.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1734-1115-ND",
+      "PackageType": {
+       "Id": 61,
+       "Name": "Box"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.29,
+        "TotalPrice": 0.29
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.249,
+        "TotalPrice": 2.49
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2332,
+        "TotalPrice": 5.83
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.222,
+        "TotalPrice": 11.1
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2114,
+        "TotalPrice": 21.14
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.19812,
+        "TotalPrice": 49.53
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.18864,
+        "TotalPrice": 94.32
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.17962,
+        "TotalPrice": 179.62
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.16836,
+        "TotalPrice": 420.9
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1734,
+       "Name": "TE Connectivity Deutsch ICT Connectors"
+      },
+      "QuantityAvailableforPackageType": 254194,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 254194,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "387979",
+      "ValueText": "Plug, Sealing"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "353189",
+      "ValueText": "HD Series Connectors, Contact SZ 12, 16"
+     },
+     {
+      "ParameterId": 215,
+      "ParameterText": "Shell Size - Insert",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "388448",
+      "ValueText": "Polybutylene Terephthalate (PBT)"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "421080",
+      "ValueText": "White"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 594639,
+     "Name": "114017"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 329,
+         "ParentId": 2005,
+         "Name": "Circular Connector Accessories",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/715/MFG_PX0733_tmb.jpg",
+         "SeoDescription": "Circular Connector accessories are supplementary items used with circular connectors. The available accessory types are adapter, adjuster, alignment disc, anchor, back shell, blanking plug, cable clamp, cable grip, cable gland, cable seal, cap, coding ring, compression nut, EMI gasket, faceplate, handles, hood, nut, o-ring, sealing boot, sleeve, snap-ring, wall plate, and wire seal.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "13",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 34375,
+     "Name": "HD30"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "-114017-SI",
+     "-114017-CSI",
+     "-114017-LSI",
+     "1734-1115"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONTACT SOCKET 21-25AWG CRIMP",
+     "DetailedDescription": "Socket Contact 21-25 AWG Size 22 Crimp Gold"
+    },
+    "Manufacturer": {
+     "Id": 670,
+     "Name": "JAE Electronics"
+    },
+    "ManufacturerProductNumber": "JN1-22-22S-10000",
+    "UnitPrice": 0.31,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jae-electronics/JN1-22-22S-10000/1283182",
+    "DatasheetUrl": "//media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/JN1_JN2_Series_2018.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/589/JN1-22-22S-10000.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "670-1049-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.16399,
+        "TotalPrice": 1639.9
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.15617,
+        "TotalPrice": 3123.4
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.15177,
+        "TotalPrice": 4553.1
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.1464,
+        "TotalPrice": 7320.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 670,
+       "Name": "JAE Electronics"
+      },
+      "QuantityAvailableforPackageType": 20000,
+      "MinimumOrderQuantity": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "670-1049-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.31,
+        "TotalPrice": 0.31
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.267,
+        "TotalPrice": 2.67
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2504,
+        "TotalPrice": 6.26
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.2384,
+        "TotalPrice": 11.92
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.227,
+        "TotalPrice": 22.7
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.2128,
+        "TotalPrice": 53.2
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.20262,
+        "TotalPrice": 101.31
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.19294,
+        "TotalPrice": 192.94
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.18085,
+        "TotalPrice": 452.125
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 670,
+       "Name": "JAE Electronics"
+      },
+      "QuantityAvailableforPackageType": 40831,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 40831,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402766",
+      "ValueText": "Signal, Stamped"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "404675",
+      "ValueText": "Socket"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "146545",
+      "ValueText": "22"
+     },
+     {
+      "ParameterId": 931,
+      "ParameterText": "Wire Gauge or Range - AWG",
+      "ParameterType": "String",
+      "ValueId": "145467",
+      "ValueText": "21-25 AWG"
+     },
+     {
+      "ParameterId": 932,
+      "ParameterText": "Wire Gauge or Range - mm\u00b2",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1942,
+      "ParameterText": "Wire Gauge or Range - Coaxial",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "333922",
+      "ValueText": "Copper Alloy"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "179759",
+      "ValueText": "3.94\u00b5in (0.10\u00b5m)"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "380059",
+      "ValueText": "Nickel"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "359073",
+      "ValueText": "Insulation Support"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 576102,
+     "Name": "JN1-22-2"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 330,
+         "ParentId": 2005,
+         "Name": "Circular Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/821/133/M39029%5E56-348_tmb%2864x64%29.jpg",
+         "SeoDescription": "Circular Connector Contacts are male or female terminals that are used in\u00a0circular connectors.\u00a0The available types are coaxial, fluidic, machined, power, quadrax, radsok, signal, stamped, thermocouple, triax, and twinax.\u00a0 They come\u00a0as\u00a0either pins or sockets and range\u00a0in contact size from 0 to 23.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3242,
+     "Name": "JN1"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "JN12222S10000",
+     "670-1049-1",
+     "670-1049-2"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONTACT SOCKET 17-20AWG CRIMP",
+     "DetailedDescription": "Socket Contact 17-20 AWG Size 2.5mm Crimp Tin"
+    },
+    "Manufacturer": {
+     "Id": 17,
+     "Name": "TE Connectivity AMP Connectors"
+    },
+    "ManufacturerProductNumber": "929974-1",
+    "UnitPrice": 0.35,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/929974-1/2188266",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1-1773962-8&DocType=Data%20Sheet&DocLang=English&PartCntxt=929974-1&DocFormat=pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2416/2.5mm%20System.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "A126104TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.19907,
+        "TotalPrice": 597.21
+       },
+       {
+        "BreakQuantity": 6000,
+        "UnitPrice": 0.18957,
+        "TotalPrice": 1137.42
+       },
+       {
+        "BreakQuantity": 9000,
+        "UnitPrice": 0.18422,
+        "TotalPrice": 1657.98
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.1777,
+        "TotalPrice": 2665.5
+       },
+       {
+        "BreakQuantity": 21000,
+        "UnitPrice": 0.17353,
+        "TotalPrice": 3644.13
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.16922,
+        "TotalPrice": 5076.6
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 17,
+       "Name": "TE Connectivity AMP Connectors"
+      },
+      "QuantityAvailableforPackageType": 30000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 3000,
+      "StandardPackage": 3000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "A126104CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.35,
+        "TotalPrice": 0.35
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.298,
+        "TotalPrice": 2.98
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2792,
+        "TotalPrice": 6.98
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.2658,
+        "TotalPrice": 13.29
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2532,
+        "TotalPrice": 25.32
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.23728,
+        "TotalPrice": 59.32
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.22592,
+        "TotalPrice": 112.96
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.21513,
+        "TotalPrice": 215.13
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 17,
+       "Name": "TE Connectivity AMP Connectors"
+      },
+      "QuantityAvailableforPackageType": 30132,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 30132,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "389457",
+      "ValueText": "Power, Stamped"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "404675",
+      "ValueText": "Socket"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "131817",
+      "ValueText": "2.5mm"
+     },
+     {
+      "ParameterId": 931,
+      "ParameterText": "Wire Gauge or Range - AWG",
+      "ParameterType": "String",
+      "ValueId": "110929",
+      "ValueText": "17-20 AWG"
+     },
+     {
+      "ParameterId": 932,
+      "ParameterText": "Wire Gauge or Range - mm\u00b2",
+      "ParameterType": "String",
+      "ValueId": "25182",
+      "ValueText": "0.5 ~ 1.0mm\u00b2"
+     },
+     {
+      "ParameterId": 1942,
+      "ParameterText": "Wire Gauge or Range - Coaxial",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "333922",
+      "ValueText": "Copper Alloy"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "412237",
+      "ValueText": "Tin"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "200487",
+      "ValueText": "39.4\u00b5in (1.00\u00b5m)"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "412237",
+      "ValueText": "Tin"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "359073",
+      "ValueText": "Insulation Support"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 209758,
+     "Name": "929974"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 330,
+         "ParentId": 2005,
+         "Name": "Circular Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/821/133/M39029%5E56-348_tmb%2864x64%29.jpg",
+         "SeoDescription": "Circular Connector Contacts are male or female terminals that are used in\u00a0circular connectors.\u00a0The available types are coaxial, fluidic, machined, power, quadrax, radsok, signal, stamped, thermocouple, triax, and twinax.\u00a0 They come\u00a0as\u00a0either pins or sockets and range\u00a0in contact size from 0 to 23.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 20755,
+     "Name": "2.5mm System"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "3937-929974-1TR",
+     "2266-929974-1TR",
+     "-CB3853-000-SI",
+     "-CB3853-000-LSI-ND",
+     "929974-1-ND",
+     "-CB3853-000-LSI",
+     "A126104CT",
+     "-929974-1-LSI",
+     "-CB3853-000-CSI",
+     "-CB3853-000-SI-ND",
+     "-929974-1-CSI",
+     "-929974-1-SI",
+     "A126104TR",
+     "-CB3853-000-CSI-ND"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONTACT SOCKET 26-30AWG CRIMP",
+     "DetailedDescription": "Socket Contact 26-30 AWG Size Crimp Gold"
+    },
+    "Manufacturer": {
+     "Id": 26,
+     "Name": "Hirose Electric Co Ltd"
+    },
+    "ManufacturerProductNumber": "HR30-SC-211",
+    "UnitPrice": 0.38,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/hirose-electric-co-ltd/HR30-SC-211/417997",
+    "DatasheetUrl": "https://www.hirose.com/product/download/?distributor=digikey&type=catalogue&lang=en&num=HR30-6J-6P(31)",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4004/HR30-SC-211.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "HR881TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.20056,
+        "TotalPrice": 2005.6
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.191,
+        "TotalPrice": 3820.0
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.18561,
+        "TotalPrice": 5568.3
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.17905,
+        "TotalPrice": 8952.5
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 26,
+       "Name": "Hirose Electric Co Ltd"
+      },
+      "QuantityAvailableforPackageType": 30000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 10000,
+      "StandardPackage": 10000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "HR881CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.38,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.327,
+        "TotalPrice": 3.27
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.3064,
+        "TotalPrice": 7.66
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.2916,
+        "TotalPrice": 14.58
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2777,
+        "TotalPrice": 27.77
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.26024,
+        "TotalPrice": 65.06
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.2478,
+        "TotalPrice": 123.9
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.23596,
+        "TotalPrice": 235.96
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.22118,
+        "TotalPrice": 552.95
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 26,
+       "Name": "Hirose Electric Co Ltd"
+      },
+      "QuantityAvailableforPackageType": 35213,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 35213,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/4646383580001",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402766",
+      "ValueText": "Signal, Stamped"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "404675",
+      "ValueText": "Socket"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 931,
+      "ParameterText": "Wire Gauge or Range - AWG",
+      "ParameterType": "String",
+      "ValueId": "160587",
+      "ValueText": "26-30 AWG"
+     },
+     {
+      "ParameterId": 932,
+      "ParameterText": "Wire Gauge or Range - mm\u00b2",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1942,
+      "ParameterText": "Wire Gauge or Range - Coaxial",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "386549",
+      "ValueText": "Phosphor Bronze"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "386549",
+      "ValueText": "Phosphor Bronze"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 173247,
+     "Name": "HR30"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 330,
+         "ParentId": 2005,
+         "Name": "Circular Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/821/133/M39029%5E56-348_tmb%2864x64%29.jpg",
+         "SeoDescription": "Circular Connector Contacts are male or female terminals that are used in\u00a0circular connectors.\u00a0The available types are coaxial, fluidic, machined, power, quadrax, radsok, signal, stamped, thermocouple, triax, and twinax.\u00a0 They come\u00a0as\u00a0either pins or sockets and range\u00a0in contact size from 0 to 23.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "16",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 883,
+     "Name": "HR30"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "HR881CT",
+     "HR881TR",
+     "*HR30-SC-211",
+     "HR30SC211",
+     "130-0017-3-00"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONTACT SOCKET 21-25AWG CRIMP",
+     "DetailedDescription": "Socket Contact 21-25 AWG Size 22 Crimp Gold"
+    },
+    "Manufacturer": {
+     "Id": 670,
+     "Name": "JAE Electronics"
+    },
+    "ManufacturerProductNumber": "JN1-22-22S-PKG100",
+    "UnitPrice": 0.38,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jae-electronics/JN1-22-22S-PKG100/1283183",
+    "DatasheetUrl": "//media.digikey.com/pdf/Data%20Sheets/JAE%20PDFs/JN1_JN2_Series_2018.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/588/JN1-22-22S-PKG100.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "670-1050-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.38,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.322,
+        "TotalPrice": 3.22
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.3012,
+        "TotalPrice": 7.53
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.287,
+        "TotalPrice": 14.35
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2732,
+        "TotalPrice": 27.32
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.25604,
+        "TotalPrice": 64.01
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.24378,
+        "TotalPrice": 121.89
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.23214,
+        "TotalPrice": 232.14
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.2176,
+        "TotalPrice": 544.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 670,
+       "Name": "JAE Electronics"
+      },
+      "QuantityAvailableforPackageType": 8553,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 8553,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402766",
+      "ValueText": "Signal, Stamped"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "404675",
+      "ValueText": "Socket"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "146545",
+      "ValueText": "22"
+     },
+     {
+      "ParameterId": 931,
+      "ParameterText": "Wire Gauge or Range - AWG",
+      "ParameterType": "String",
+      "ValueId": "145467",
+      "ValueText": "21-25 AWG"
+     },
+     {
+      "ParameterId": 932,
+      "ParameterText": "Wire Gauge or Range - mm\u00b2",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1942,
+      "ParameterText": "Wire Gauge or Range - Coaxial",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "333922",
+      "ValueText": "Copper Alloy"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "179759",
+      "ValueText": "3.94\u00b5in (0.10\u00b5m)"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "380059",
+      "ValueText": "Nickel"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "359073",
+      "ValueText": "Insulation Support"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 576102,
+     "Name": "JN1-22-2"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 330,
+         "ParentId": 2005,
+         "Name": "Circular Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/821/133/M39029%5E56-348_tmb%2864x64%29.jpg",
+         "SeoDescription": "Circular Connector Contacts are male or female terminals that are used in\u00a0circular connectors.\u00a0The available types are coaxial, fluidic, machined, power, quadrax, radsok, signal, stamped, thermocouple, triax, and twinax.\u00a0 They come\u00a0as\u00a0either pins or sockets and range\u00a0in contact size from 0 to 23.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3242,
+     "Name": "JN1"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "JN12222SPKG100",
+     "670-1050"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONTACT PIN 18-20AWG CRIMP TIN",
+     "DetailedDescription": "Pin Contact 18-20 AWG Size 1.5mm Crimp Tin"
+    },
+    "Manufacturer": {
+     "Id": 17,
+     "Name": "TE Connectivity AMP Connectors"
+    },
+    "ManufacturerProductNumber": "1703013-1",
+    "UnitPrice": 0.43,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/1703013-1/2054220",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1654286_Connector_System_for_Circular&DocType=CS&DocLang=English",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4216/1703013-1.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "A126773TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 3500,
+        "UnitPrice": 0.24129,
+        "TotalPrice": 844.515
+       },
+       {
+        "BreakQuantity": 7000,
+        "UnitPrice": 0.22978,
+        "TotalPrice": 1608.46
+       },
+       {
+        "BreakQuantity": 10500,
+        "UnitPrice": 0.2233,
+        "TotalPrice": 2344.65
+       },
+       {
+        "BreakQuantity": 17500,
+        "UnitPrice": 0.2154,
+        "TotalPrice": 3769.5
+       },
+       {
+        "BreakQuantity": 24500,
+        "UnitPrice": 0.21035,
+        "TotalPrice": 5153.575
+       },
+       {
+        "BreakQuantity": 35000,
+        "UnitPrice": 0.20513,
+        "TotalPrice": 7179.55
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 17,
+       "Name": "TE Connectivity AMP Connectors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MinimumOrderQuantity": 3500,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "A126773CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.43,
+        "TotalPrice": 0.43
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.365,
+        "TotalPrice": 3.65
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.342,
+        "TotalPrice": 8.55
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.3258,
+        "TotalPrice": 16.29
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.3102,
+        "TotalPrice": 31.02
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.29072,
+        "TotalPrice": 72.68
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.27684,
+        "TotalPrice": 138.42
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.26361,
+        "TotalPrice": 263.61
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 17,
+       "Name": "TE Connectivity AMP Connectors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "389457",
+      "ValueText": "Power, Stamped"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "387327",
+      "ValueText": "Pin"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "55358",
+      "ValueText": "1.5mm"
+     },
+     {
+      "ParameterId": 931,
+      "ParameterText": "Wire Gauge or Range - AWG",
+      "ParameterType": "String",
+      "ValueId": "114910",
+      "ValueText": "18-20 AWG"
+     },
+     {
+      "ParameterId": 932,
+      "ParameterText": "Wire Gauge or Range - mm\u00b2",
+      "ParameterType": "String",
+      "ValueId": "25182",
+      "ValueText": "0.5 ~ 1.0mm\u00b2"
+     },
+     {
+      "ParameterId": 1942,
+      "ParameterText": "Wire Gauge or Range - Coaxial",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "333922",
+      "ValueText": "Copper Alloy"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "412237",
+      "ValueText": "Tin"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "200487",
+      "ValueText": "39.4\u00b5in (1.00\u00b5m)"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "412237",
+      "ValueText": "Tin"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "359073",
+      "ValueText": "Insulation Support"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 233738,
+     "Name": "1703013"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 330,
+         "ParentId": 2005,
+         "Name": "Circular Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/821/133/M39029%5E56-348_tmb%2864x64%29.jpg",
+         "SeoDescription": "Circular Connector Contacts are male or female terminals that are used in\u00a0circular connectors.\u00a0The available types are coaxial, fluidic, machined, power, quadrax, radsok, signal, stamped, thermocouple, triax, and twinax.\u00a0 They come\u00a0as\u00a0either pins or sockets and range\u00a0in contact size from 0 to 23.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 20757,
+     "Name": "1.5mm System"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "-1703013-1-CSI",
+     "A126773CT",
+     "-1703013-1-SI",
+     "-1703013-1-LSI",
+     "1703013-1-ND",
+     "A126773TR",
+     "3937-1703013-1TR"
+    ]
+   }
+  ],
+  "ProductsCount": 3292527,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 19,
+     "Value": "3M",
+     "ProductCount": 7
+    },
+    {
+     "Id": 601780,
+     "Value": "Abbotec",
+     "ProductCount": 23
+    },
+    {
+     "Id": 535,
+     "Value": "Abracon LLC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 4294,
+     "Value": "Aces Connectors",
+     "ProductCount": 3
+    },
+    {
+     "Id": 1528,
+     "Value": "Adafruit Industries LLC",
+     "ProductCount": 7
+    },
+    {
+     "Id": 2057,
+     "Value": "Adam Tech",
+     "ProductCount": 559
+    },
+    {
+     "Id": 2084,
+     "Value": "Advantech Corporation",
+     "ProductCount": 4
+    },
+    {
+     "Id": 601782,
+     "Value": "Aero Electric",
+     "ProductCount": 79
+    },
+    {
+     "Id": 602487,
+     "Value": "Aiconics",
+     "ProductCount": 2
+    },
+    {
+     "Id": 4134,
+     "Value": "AirBorn, a Molex company",
+     "ProductCount": 45
+    },
+    {
+     "Id": 216,
+     "Value": "Alpha Wire",
+     "ProductCount": 54
+    },
+    {
+     "Id": 1920,
+     "Value": "Altech Corporation",
+     "ProductCount": 152
+    },
+    {
+     "Id": 3331,
+     "Value": "American Micro Products",
+     "ProductCount": 4
+    },
+    {
+     "Id": 4513,
+     "Value": "American Recorder Technologies, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1178,
+     "Value": "Amphenol Aerospace Operations",
+     "ProductCount": 1099295
+    },
+    {
+     "Id": 600312,
+     "Value": "Amphenol Air LB",
+     "ProductCount": 1
+    },
+    {
+     "Id": 602456,
+     "Value": "Amphenol Air LB France",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601084,
+     "Value": "Amphenol Air LB Germany",
+     "ProductCount": 25610
+    },
+    {
+     "Id": 1812,
+     "Value": "Amphenol Alden Products Company",
+     "ProductCount": 19
+    },
+    {
+     "Id": 600366,
+     "Value": "Amphenol Audio",
+     "ProductCount": 412
+    },
+    {
+     "Id": 626,
+     "Value": "Amphenol CONEC",
+     "ProductCount": 681
+    },
+    {
+     "Id": 600073,
+     "Value": "Amphenol Corporation",
+     "ProductCount": 72522
+    },
+    {
+     "Id": 1968,
+     "Value": "Amphenol Fiber Systems International",
+     "ProductCount": 7
+    },
+    {
+     "Id": 2188,
+     "Value": "Amphenol ICC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 664,
+     "Value": "Amphenol ICC (Commercial Products)",
+     "ProductCount": 48
+    },
+    {
+     "Id": 609,
+     "Value": "Amphenol ICC (FCI)",
+     "ProductCount": 6
+    },
+    {
+     "Id": 339,
+     "Value": "Amphenol Industrial Operations",
+     "ProductCount": 200710
+    },
+    {
+     "Id": 600321,
+     "Value": "Amphenol Interconnect India",
+     "ProductCount": 1696
+    },
+    {
+     "Id": 600313,
+     "Value": "Amphenol Limited",
+     "ProductCount": 40280
+    },
+    {
+     "Id": 600314,
+     "Value": "Amphenol LTD",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1754,
+     "Value": "Amphenol LTW",
+     "ProductCount": 4599
+    },
+    {
+     "Id": 4995,
+     "Value": "Amphenol LTW",
+     "ProductCount": 21
+    },
+    {
+     "Id": 602065,
+     "Value": "Amphenol Matrix",
+     "ProductCount": 122
+    },
+    {
+     "Id": 1967,
+     "Value": "Amphenol NEXUS Technologies",
+     "ProductCount": 262
+    },
+    {
+     "Id": 4239,
+     "Value": "Amphenol Onanon",
+     "ProductCount": 19
+    },
+    {
+     "Id": 623,
+     "Value": "Amphenol PCD",
+     "ProductCount": 28837
+    },
+    {
+     "Id": 1032,
+     "Value": "Amphenol PCD Shenzhen",
+     "ProductCount": 280
+    },
+    {
+     "Id": 4306,
+     "Value": "Amphenol Positronic",
+     "ProductCount": 625
+    },
+    {
+     "Id": 115,
+     "Value": "Amphenol RF",
+     "ProductCount": 1
+    },
+    {
+     "Id": 889,
+     "Value": "Amphenol Sine Systems Corp",
+     "ProductCount": 4112
+    },
+    {
+     "Id": 600315,
+     "Value": "Amphenol Socapex",
+     "ProductCount": 2928
+    },
+    {
+     "Id": 1678,
+     "Value": "Amphenol SV Microwave",
+     "ProductCount": 10
+    },
+    {
+     "Id": 300637,
+     "Value": "Amphenol Tuchel Industrial",
+     "ProductCount": 1208
+    },
+    {
+     "Id": 2243,
+     "Value": "Anderson Power Products, Inc.",
+     "ProductCount": 63
+    },
+    {
+     "Id": 39,
+     "Value": "Aratas (Formerly Omron Components)",
+     "ProductCount": 9
+    },
+    {
+     "Id": 123,
+     "Value": "Assmann WSW Components",
+     "ProductCount": 507
+    },
+    {
+     "Id": 4827,
+     "Value": "ATTEND Technology",
+     "ProductCount": 184
+    },
+    {
+     "Id": 3425,
+     "Value": "AVR Global Technologies, Inc",
+     "ProductCount": 4
+    },
+    {
+     "Id": 2170,
+     "Value": "Banner Engineering Corporation",
+     "ProductCount": 88
+    },
+    {
+     "Id": 135,
+     "Value": "Belden Inc.",
+     "ProductCount": 71
+    },
+    {
+     "Id": 4931,
+     "Value": "BERNIER Connect",
+     "ProductCount": 82
+    },
+    {
+     "Id": 708,
+     "Value": "Bulgin",
+     "ProductCount": 2497
+    },
+    {
+     "Id": 3692,
+     "Value": "Caplugs",
+     "ProductCount": 635
+    },
+    {
+     "Id": 1864,
+     "Value": "Carlo Gavazzi Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 2150,
+     "Value": "Chogori Technologies Inc.",
+     "ProductCount": 194
+    },
+    {
+     "Id": 6725,
+     "Value": "CHY-TECH (H.K.) INDUSTRIAL CO., LIMITED",
+     "ProductCount": 25
+    },
+    {
+     "Id": 116,
+     "Value": "Cinch Connectivity Solutions",
+     "ProductCount": 1959
+    },
+    {
+     "Id": 24,
+     "Value": "Cinch Connectivity Solutions Johnson",
+     "ProductCount": 30
+    },
+    {
+     "Id": 4654,
+     "Value": "CLIFF Electronic Components Ltd",
+     "ProductCount": 152
+    },
+    {
+     "Id": 1175,
+     "Value": "CNC Tech",
+     "ProductCount": 19
+    },
+    {
+     "Id": 6169,
+     "Value": "Cnlinko",
+     "ProductCount": 617
+    },
+    {
+     "Id": 602346,
+     "Value": "Cole Hersee",
+     "ProductCount": 33
+    },
+    {
+     "Id": 600258,
+     "Value": "Conesys",
+     "ProductCount": 58315
+    },
+    {
+     "Id": 468,
+     "Value": "Conxall/Switchcraft",
+     "ProductCount": 7070
+    },
+    {
+     "Id": 601784,
+     "Value": "Corsair",
+     "ProductCount": 6563
+    },
+    {
+     "Id": 16,
+     "Value": "Desco",
+     "ProductCount": 1
+    },
+    {
+     "Id": 602458,
+     "Value": "Detco Industries Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 4252,
+     "Value": "di-soric",
+     "ProductCount": 35
+    },
+    {
+     "Id": 600448,
+     "Value": "Digiwave",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2861,
+     "Value": "Dinkle Corporation, USA",
+     "ProductCount": 3
+    },
+    {
+     "Id": 4627,
+     "Value": "Ease Electronics",
+     "ProductCount": 233
+    },
+    {
+     "Id": 283,
+     "Value": "Eaton - Electronics Division",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5730,
+     "Value": "Eaton Electrical",
+     "ProductCount": 1
+    },
+    {
+     "Id": 95,
+     "Value": "Eaton Tripp Lite",
+     "ProductCount": 4
+    },
+    {
+     "Id": 602488,
+     "Value": "Elector Adaptor",
+     "ProductCount": 2
+    },
+    {
+     "Id": 602253,
+     "Value": "Ella Engineering",
+     "ProductCount": 2
+    },
+    {
+     "Id": 145,
+     "Value": "Essentra Components",
+     "ProductCount": 35
+    },
+    {
+     "Id": 601785,
+     "Value": "Fastener Specialty",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2171,
+     "Value": "Festo Corporation",
+     "ProductCount": 64
+    },
+    {
+     "Id": 4829,
+     "Value": "Finecables",
+     "ProductCount": 23
+    },
+    {
+     "Id": 2961,
+     "Value": "GES High Voltage",
+     "ProductCount": 53
+    },
+    {
+     "Id": 1448,
+     "Value": "Glenair",
+     "ProductCount": 1102825
+    },
+    {
+     "Id": 1939,
+     "Value": "GlobTek, Inc.",
+     "ProductCount": 14
+    },
+    {
+     "Id": 1195,
+     "Value": "HARTING",
+     "ProductCount": 941
+    },
+    {
+     "Id": 952,
+     "Value": "Harwin Inc.",
+     "ProductCount": 63
+    },
+    {
+     "Id": 602243,
+     "Value": "Hirelco",
+     "ProductCount": 2
+    },
+    {
+     "Id": 26,
+     "Value": "Hirose Electric Co Ltd",
+     "ProductCount": 3209
+    },
+    {
+     "Id": 1797,
+     "Value": "Hirschmann",
+     "ProductCount": 23
+    },
+    {
+     "Id": 480,
+     "Value": "Honeywell Sensing and Productivity Solutions",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1566,
+     "Value": "Honeywell Sensing and Productivity Solutions T&M",
+     "ProductCount": 5
+    },
+    {
+     "Id": 602339,
+     "Value": "HTP",
+     "ProductCount": 14
+    },
+    {
+     "Id": 2244,
+     "Value": "HVM Technology, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 4529,
+     "Value": "iCONN Systems LLC",
+     "ProductCount": 329
+    },
+    {
+     "Id": 602077,
+     "Value": "Icotronix",
+     "ProductCount": 18
+    },
+    {
+     "Id": 2330,
+     "Value": "ifm efector, inc.",
+     "ProductCount": 92
+    },
+    {
+     "Id": 1937,
+     "Value": "IO Audio Technologies",
+     "ProductCount": 67
+    },
+    {
+     "Id": 600341,
+     "Value": "ISC Engineering",
+     "ProductCount": 36
+    },
+    {
+     "Id": 2685,
+     "Value": "ISL Products International",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1003,
+     "Value": "ITT Cannon, LLC",
+     "ProductCount": 86645
+    },
+    {
+     "Id": 1408,
+     "Value": "ITT VEAM",
+     "ProductCount": 118
+    },
+    {
+     "Id": 602489,
+     "Value": "J-tech Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 670,
+     "Value": "JAE Electronics",
+     "ProductCount": 1201
+    },
+    {
+     "Id": 602401,
+     "Value": "Jameco ValuePro",
+     "ProductCount": 4
+    },
+    {
+     "Id": 3937,
+     "Value": "JRH Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 455,
+     "Value": "JST Sales America Inc.",
+     "ProductCount": 5
+    },
+    {
+     "Id": 399,
+     "Value": "KEMET",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2092,
+     "Value": "Kycon, Inc.",
+     "ProductCount": 80
+    },
+    {
+     "Id": 5073,
+     "Value": "L-com",
+     "ProductCount": 197
+    },
+    {
+     "Id": 2181,
+     "Value": "LAPP",
+     "ProductCount": 289
+    },
+    {
+     "Id": 1798,
+     "Value": "Leader Tech Inc.",
+     "ProductCount": 465
+    },
+    {
+     "Id": 6334,
+     "Value": "LEI Indias",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1124,
+     "Value": "LEMO",
+     "ProductCount": 15035
+    },
+    {
+     "Id": 18,
+     "Value": "Littelfuse Inc.",
+     "ProductCount": 9
+    },
+    {
+     "Id": 5346,
+     "Value": "Littelfuse/Commercial Vehicle Products",
+     "ProductCount": 191
+    },
+    {
+     "Id": 1794,
+     "Value": "Lumberg Automation",
+     "ProductCount": 601
+    },
+    {
+     "Id": 5405,
+     "Value": "Lumberg Inc",
+     "ProductCount": 348
+    },
+    {
+     "Id": 4224,
+     "Value": "Meltric",
+     "ProductCount": 99
+    },
+    {
+     "Id": 602345,
+     "Value": "Menbers",
+     "ProductCount": 126
+    },
+    {
+     "Id": 154,
+     "Value": "MENDA",
+     "ProductCount": 30
+    },
+    {
+     "Id": 1849,
+     "Value": "METZ CONNECT USA Inc.",
+     "ProductCount": 61
+    },
+    {
+     "Id": 602349,
+     "Value": "Milnec",
+     "ProductCount": 190721
+    },
+    {
+     "Id": 3942,
+     "Value": "Milspecwest, LLC",
+     "ProductCount": 727
+    },
+    {
+     "Id": 23,
+     "Value": "Molex",
+     "ProductCount": 1739
+    },
+    {
+     "Id": 600362,
+     "Value": "Moxa",
+     "ProductCount": 3
+    },
+    {
+     "Id": 314,
+     "Value": "Mueller Electric Co",
+     "ProductCount": 61
+    },
+    {
+     "Id": 5088,
+     "Value": "Murrelektronik, Inc",
+     "ProductCount": 166
+    },
+    {
+     "Id": 5600,
+     "Value": "My Cable Mart",
+     "ProductCount": 12
+    },
+    {
+     "Id": 2247,
+     "Value": "Nanmac",
+     "ProductCount": 1
+    },
+    {
+     "Id": 600148,
+     "Value": "Neutrik",
+     "ProductCount": 361
+    },
+    {
+     "Id": 6473,
+     "Value": "Neutrik Americas, Inc.",
+     "ProductCount": 760
+    },
+    {
+     "Id": 3679,
+     "Value": "Nextron",
+     "ProductCount": 25
+    },
+    {
+     "Id": 2770,
+     "Value": "NI",
+     "ProductCount": 5
+    },
+    {
+     "Id": 37,
+     "Value": "NorComp Inc.",
+     "ProductCount": 1830
+    },
+    {
+     "Id": 1907,
+     "Value": "ODU",
+     "ProductCount": 20729
+    },
+    {
+     "Id": 1188,
+     "Value": "Olimex LTD",
+     "ProductCount": 2
+    },
+    {
+     "Id": 5880,
+     "Value": "Omega",
+     "ProductCount": 51
+    },
+    {
+     "Id": 2262,
+     "Value": "Omnetics",
+     "ProductCount": 71
+    },
+    {
+     "Id": 236,
+     "Value": "Omron Automation and Safety",
+     "ProductCount": 176
+    },
+    {
+     "Id": 52,
+     "Value": "On Shore Technology Inc.",
+     "ProductCount": 63
+    },
+    {
+     "Id": 600499,
+     "Value": "ORing Networking",
+     "ProductCount": 2
+    },
+    {
+     "Id": 4081,
+     "Value": "P1 Technologies",
+     "ProductCount": 61
+    },
+    {
+     "Id": 298,
+     "Value": "Panduit Corp",
+     "ProductCount": 5
+    },
+    {
+     "Id": 1944,
+     "Value": "Parker Chomerics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3985,
+     "Value": "Pasternack",
+     "ProductCount": 9
+    },
+    {
+     "Id": 2403,
+     "Value": "PEI-Genesis",
+     "ProductCount": 568
+    },
+    {
+     "Id": 3250,
+     "Value": "Peplink",
+     "ProductCount": 2
+    },
+    {
+     "Id": 2046,
+     "Value": "Pepperl+Fuchs, Inc.",
+     "ProductCount": 101
+    },
+    {
+     "Id": 277,
+     "Value": "Phoenix Contact",
+     "ProductCount": 5209
+    },
+    {
+     "Id": 501,
+     "Value": "Pomona Electronics",
+     "ProductCount": 15
+    },
+    {
+     "Id": 2668,
+     "Value": "Power Dynamics, Inc.",
+     "ProductCount": 18
+    },
+    {
+     "Id": 1212,
+     "Value": "Preci-Dip",
+     "ProductCount": 35
+    },
+    {
+     "Id": 6496,
+     "Value": "Prodaconn",
+     "ProductCount": 1
+    },
+    {
+     "Id": 602461,
+     "Value": "Protective Closures",
+     "ProductCount": 73
+    },
+    {
+     "Id": 601915,
+     "Value": "Quell",
+     "ProductCount": 29512
+    },
+    {
+     "Id": 2201,
+     "Value": "Radiall USA, Inc.",
+     "ProductCount": 4465
+    },
+    {
+     "Id": 601349,
+     "Value": "Raychem",
+     "ProductCount": 1489
+    },
+    {
+     "Id": 68,
+     "Value": "Red Lion Controls",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601786,
+     "Value": "RMS",
+     "ProductCount": 15
+    },
+    {
+     "Id": 1868,
+     "Value": "Rosenberger",
+     "ProductCount": 40
+    },
+    {
+     "Id": 2223,
+     "Value": "Same Sky (Formerly CUI Devices)",
+     "ProductCount": 488
+    },
+    {
+     "Id": 612,
+     "Value": "Samtec Inc.",
+     "ProductCount": 64
+    },
+    {
+     "Id": 2981,
+     "Value": "Sanoxy",
+     "ProductCount": 2
+    },
+    {
+     "Id": 5516,
+     "Value": "Schaltbau",
+     "ProductCount": 14
+    },
+    {
+     "Id": 4008,
+     "Value": "Schneider Electric",
+     "ProductCount": 1
+    },
+    {
+     "Id": 486,
+     "Value": "SCHURTER Inc.",
+     "ProductCount": 23
+    },
+    {
+     "Id": 1569,
+     "Value": "SCS",
+     "ProductCount": 11
+    },
+    {
+     "Id": 3445,
+     "Value": "Sealing Devices, Inc",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1597,
+     "Value": "Seeed Technology Co., Ltd",
+     "ProductCount": 1
+    },
+    {
+     "Id": 6207,
+     "Value": "Sensata-BEI Encoders",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1724,
+     "Value": "Sensata-BEI Sensors",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1882,
+     "Value": "SICK, Inc.",
+     "ProductCount": 133
+    },
+    {
+     "Id": 3473,
+     "Value": "Siemens",
+     "ProductCount": 24
+    },
+    {
+     "Id": 275,
+     "Value": "Singatron Enterprises Co Ltd",
+     "ProductCount": 2
+    },
+    {
+     "Id": 5527,
+     "Value": "SOMMER CABLE",
+     "ProductCount": 48
+    },
+    {
+     "Id": 666,
+     "Value": "Souriau-Sunbank by Eaton",
+     "ProductCount": 26156
+    },
+    {
+     "Id": 1568,
+     "Value": "SparkFun Electronics",
+     "ProductCount": 2
+    },
+    {
+     "Id": 602246,
+     "Value": "SPI Connects",
+     "ProductCount": 78606
+    },
+    {
+     "Id": 601787,
+     "Value": "Step'n Components",
+     "ProductCount": 17
+    },
+    {
+     "Id": 380,
+     "Value": "Stewart Connector",
+     "ProductCount": 37
+    },
+    {
+     "Id": 600256,
+     "Value": "Sure-Seal Connections",
+     "ProductCount": 100
+    },
+    {
+     "Id": 2299,
+     "Value": "Switch Components",
+     "ProductCount": 22
+    },
+    {
+     "Id": 137,
+     "Value": "Switchcraft Inc.",
+     "ProductCount": 1673
+    },
+    {
+     "Id": 2585,
+     "Value": "TE - Kissling",
+     "ProductCount": 2
+    },
+    {
+     "Id": 994,
+     "Value": "TE Connectivity",
+     "ProductCount": 867
+    },
+    {
+     "Id": 844,
+     "Value": "TE Connectivity Aerospace, Defense and Marine",
+     "ProductCount": 6932
+    },
+    {
+     "Id": 450,
+     "Value": "TE Connectivity ALCOSWITCH Switches",
+     "ProductCount": 1
+    },
+    {
+     "Id": 17,
+     "Value": "TE Connectivity AMP Connectors",
+     "ProductCount": 11615
+    },
+    {
+     "Id": 1508,
+     "Value": "TE Connectivity Deutsch Connectors",
+     "ProductCount": 120394
+    },
+    {
+     "Id": 2684,
+     "Value": "TE Connectivity Erni",
+     "ProductCount": 183
+    },
+    {
+     "Id": 223,
+     "Value": "TE Connectivity Measurement Specialties",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1712,
+     "Value": "TE Connectivity Passive Product",
+     "ProductCount": 1
+    },
+    {
+     "Id": 484,
+     "Value": "TE Connectivity Raychem Cable Protection",
+     "ProductCount": 3465
+    },
+    {
+     "Id": 2452,
+     "Value": "TE Intercontec",
+     "ProductCount": 1217
+    },
+    {
+     "Id": 2269,
+     "Value": "Telegartner Inc",
+     "ProductCount": 22
+    },
+    {
+     "Id": 5452,
+     "Value": "Telemecanique Sensors",
+     "ProductCount": 25
+    },
+    {
+     "Id": 839,
+     "Value": "Tensility International Corp",
+     "ProductCount": 411
+    },
+    {
+     "Id": 4335,
+     "Value": "Traktronix",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601788,
+     "Value": "Tri-Star Electronics",
+     "ProductCount": 99
+    },
+    {
+     "Id": 4912,
+     "Value": "TYCLON",
+     "ProductCount": 4
+    },
+    {
+     "Id": 2946,
+     "Value": "WAGO Corporation",
+     "ProductCount": 68
+    },
+    {
+     "Id": 2266,
+     "Value": "WEC",
+     "ProductCount": 421
+    },
+    {
+     "Id": 5831,
+     "Value": "WEE",
+     "ProductCount": 2
+    },
+    {
+     "Id": 281,
+     "Value": "Weidm\u00fcller",
+     "ProductCount": 994
+    },
+    {
+     "Id": 5040,
+     "Value": "Weipu Connector",
+     "ProductCount": 1186
+    },
+    {
+     "Id": 732,
+     "Value": "W\u00fcrth Elektronik",
+     "ProductCount": 67
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

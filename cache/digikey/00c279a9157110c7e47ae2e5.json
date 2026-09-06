@@ -1,0 +1,30 @@
+{
+ "key": "00c279a9157110c7e47ae2e5",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "electrical plug connector body",
+  "Limit": 10,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "436"
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T13:52:05",
+ "body": {
+  "Products": [],
+  "ExactMatches": [],
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  }
+ },
+ "from_cache": false
+}

@@ -1,0 +1,5 @@
+_stage,_drop_reason,nsn,fsc,item_name,notes,nsn_raw,niin,cage_code,part_number,rncc,rnvc,mrc,requirement_statement,clear_text_reply
+identification,target NSN not present in PUB LOG identification,5910000000004,5910,"CAPACITOR,FIXED,ELECTROLYTIC",PLACEHOLDER NSN — not verified against PUB LOG.,5910-00-000-0004,000000004,,,,,,,
+identification,target NSN not present in PUB LOG identification,5961000000005,5961,"SEMICONDUCTOR DEVICE,DIODE",PLACEHOLDER NSN — not verified against PUB LOG.,5961-00-000-0005,000000005,,,,,,,
+reference,reference row with empty part number,,,,,,000000003,,,3,2,,,
+characteristics,characteristic with empty statement or reply,,,,,,000000002,,,,,AAXP,POWER DISSIPATION RATING,

@@ -1,0 +1,518 @@
+{
+ "key": "6bd15264881ba8e5eb02dd04",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "2002-1551-003",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:21:45",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "SMB F STR NA CL 2.6/50S",
+     "DetailedDescription": "SMB Connector Plug, Female Socket 50 Ohms Free Hanging (In-Line) Solder"
+    },
+    "Manufacturer": {
+     "Id": 2201,
+     "Name": "Radiall USA, Inc."
+    },
+    "ManufacturerProductNumber": "2002-1551-003",
+    "UnitPrice": 25.6,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/radiall-usa-inc/2002-1551-003/10521753",
+    "DatasheetUrl": "https://radiall-files.s3.amazonaws.com/tds/coaxialconnectors/2002-1551-003.PDF",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4530/MFG_2002-1551-003.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "2201-2002-1551-003-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 25.6,
+        "TotalPrice": 25.6
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 21.754,
+        "TotalPrice": 217.54
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 20.392,
+        "TotalPrice": 509.8
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 19.419,
+        "TotalPrice": 970.95
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 18.4926,
+        "TotalPrice": 1849.26
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 17.336,
+        "TotalPrice": 4334.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 16.50974,
+        "TotalPrice": 8254.87
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2201,
+       "Name": "Radiall USA, Inc."
+      },
+      "QuantityAvailableforPackageType": 157,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 157,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 801,
+      "ParameterText": "Connector Style",
+      "ParameterType": "String",
+      "ValueId": "404096",
+      "ValueText": "SMB"
+     },
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "387920",
+      "ValueText": "Plug, Female Socket"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 1652,
+      "ParameterText": "Shield Termination",
+      "ParameterType": "String",
+      "ValueId": "330651",
+      "ValueText": "Clamp"
+     },
+     {
+      "ParameterId": 60,
+      "ParameterText": "Impedance",
+      "ParameterType": "String",
+      "ValueId": "770446",
+      "ValueText": "50 Ohms"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "349292",
+      "ValueText": "Free Hanging (In-Line)"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 164,
+      "ParameterText": "Cable Group",
+      "ParameterType": "String",
+      "ValueId": "396419",
+      "ValueText": "RG-174, 316"
+     },
+     {
+      "ParameterId": 518,
+      "ParameterText": "Fastening Type",
+      "ParameterType": "String",
+      "ValueId": "404607",
+      "ValueText": "Snap-On"
+     },
+     {
+      "ParameterId": 2157,
+      "ParameterText": "Frequency - Max",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "4 GHz",
+      "ValueText": "4 GHz"
+     },
+     {
+      "ParameterId": 2171,
+      "ParameterText": "Number of Ports",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1401,
+      "ParameterText": "Housing Color",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1654,
+      "ParameterText": "Center Contact Material",
+      "ParameterType": "String",
+      "ValueId": "319471",
+      "ValueText": "Beryllium Copper"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 591938,
+     "Name": "2002-1551"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2007,
+       "ParentId": 20,
+       "Name": "Coaxial Connectors (RF)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/302/375/MFG_112954_tmb%2864x64%29.jpg",
+       "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+       "ChildCategories": [
+        {
+         "CategoryId": 437,
+         "ParentId": 2007,
+         "Name": "Coaxial Connector (RF) Assemblies",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/201/184/6741_tmb.jpg",
+         "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "52",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4010"
+    },
+    "OtherNames": [
+     "2201-2002-1551-003"
+    ]
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [
+   {
+    "Description": {
+     "ProductDescription": "SMB F STR NA CL 2.6/50S",
+     "DetailedDescription": "SMB Connector Plug, Female Socket 50 Ohms Free Hanging (In-Line) Solder"
+    },
+    "Manufacturer": {
+     "Id": 2201,
+     "Name": "Radiall USA, Inc."
+    },
+    "ManufacturerProductNumber": "2002-1551-003",
+    "UnitPrice": 25.6,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/radiall-usa-inc/2002-1551-003/10521753",
+    "DatasheetUrl": "https://radiall-files.s3.amazonaws.com/tds/coaxialconnectors/2002-1551-003.PDF",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4530/MFG_2002-1551-003.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "2201-2002-1551-003-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 25.6,
+        "TotalPrice": 25.6
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 21.754,
+        "TotalPrice": 217.54
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 20.392,
+        "TotalPrice": 509.8
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 19.419,
+        "TotalPrice": 970.95
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 18.4926,
+        "TotalPrice": 1849.26
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 17.336,
+        "TotalPrice": 4334.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 16.50974,
+        "TotalPrice": 8254.87
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2201,
+       "Name": "Radiall USA, Inc."
+      },
+      "QuantityAvailableforPackageType": 157,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 157,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 801,
+      "ParameterText": "Connector Style",
+      "ParameterType": "String",
+      "ValueId": "404096",
+      "ValueText": "SMB"
+     },
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "387920",
+      "ValueText": "Plug, Female Socket"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 1652,
+      "ParameterText": "Shield Termination",
+      "ParameterType": "String",
+      "ValueId": "330651",
+      "ValueText": "Clamp"
+     },
+     {
+      "ParameterId": 60,
+      "ParameterText": "Impedance",
+      "ParameterType": "String",
+      "ValueId": "770446",
+      "ValueText": "50 Ohms"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "349292",
+      "ValueText": "Free Hanging (In-Line)"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 164,
+      "ParameterText": "Cable Group",
+      "ParameterType": "String",
+      "ValueId": "396419",
+      "ValueText": "RG-174, 316"
+     },
+     {
+      "ParameterId": 518,
+      "ParameterText": "Fastening Type",
+      "ParameterType": "String",
+      "ValueId": "404607",
+      "ValueText": "Snap-On"
+     },
+     {
+      "ParameterId": 2157,
+      "ParameterText": "Frequency - Max",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "4 GHz",
+      "ValueText": "4 GHz"
+     },
+     {
+      "ParameterId": 2171,
+      "ParameterText": "Number of Ports",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1401,
+      "ParameterText": "Housing Color",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1654,
+      "ParameterText": "Center Contact Material",
+      "ParameterType": "String",
+      "ValueId": "319471",
+      "ValueText": "Beryllium Copper"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 591938,
+     "Name": "2002-1551"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2007,
+       "ParentId": 20,
+       "Name": "Coaxial Connectors (RF)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/302/375/MFG_112954_tmb%2864x64%29.jpg",
+       "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+       "ChildCategories": [
+        {
+         "CategoryId": 437,
+         "ParentId": 2007,
+         "Name": "Coaxial Connector (RF) Assemblies",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/201/184/6741_tmb.jpg",
+         "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "52",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4010"
+    },
+    "OtherNames": [
+     "2201-2002-1551-003"
+    ]
+   }
+  ],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 2201,
+     "Value": "Radiall USA, Inc.",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

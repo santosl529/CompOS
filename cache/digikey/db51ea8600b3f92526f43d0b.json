@@ -1,0 +1,3731 @@
+{
+ "key": "db51ea8600b3f92526f43d0b",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "10A",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "201"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "201"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 130,
+      "FilterValues": [
+       {
+        "Id": "340489"
+       }
+      ]
+     },
+     {
+      "ParameterId": 66,
+      "FilterValues": [
+       {
+        "Id": "72454"
+       },
+       {
+        "Id": "72456"
+       },
+       {
+        "Id": "72464"
+       },
+       {
+        "Id": "72465"
+       },
+       {
+        "Id": "72470"
+       },
+       {
+        "Id": "72471"
+       },
+       {
+        "Id": "102517"
+       },
+       {
+        "Id": "102519"
+       },
+       {
+        "Id": "112164"
+       },
+       {
+        "Id": "142054"
+       }
+      ]
+     },
+     {
+      "ParameterId": 2144,
+      "FilterValues": [
+       {
+        "Id": "28 V"
+       },
+       {
+        "Id": "30 V"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:24:56",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 360,
+     "Name": "NKK Switches"
+    },
+    "ManufacturerProductNumber": "WT21S",
+    "UnitPrice": 32.89,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/nkk-switches/WT21S/1007035",
+    "DatasheetUrl": "https://www.nkkswitches.com/pdf/WT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1049/WT21S.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "360-1957-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 32.89,
+        "TotalPrice": 32.89
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 28.378,
+        "TotalPrice": 283.78
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 26.7536,
+        "TotalPrice": 668.84
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 25.5844,
+        "TotalPrice": 1279.22
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 24.4645,
+        "TotalPrice": 2446.45
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 23.05568,
+        "TotalPrice": 5763.92
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 360,
+       "Name": "NKK Switches"
+      },
+      "QuantityAvailableforPackageType": 237,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 237,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6220646485001",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72470",
+      "ValueText": "10A (AC/DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "405023",
+      "ValueText": "Solder Lug"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330033",
+      "ValueText": "Circular - 12.50mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "370016",
+      "ValueText": "M12 x 1"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "344604",
+      "ValueText": "Epoxy Sealed Terminals"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "181560",
+      "ValueText": "-30\u00b0C ~ 70\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 127005,
+     "Name": "-"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 223,
+    "Series": {
+     "Id": 1496,
+     "Name": "WT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "360-1251INACTIVE",
+     "360-1251-ND",
+     "360-1251",
+     "360-1957",
+     "WT21S-RO",
+     "3937-WT21S"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 360,
+     "Name": "NKK Switches"
+    },
+    "ManufacturerProductNumber": "WT21L",
+    "UnitPrice": 71.7,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/nkk-switches/WT21L/1027416",
+    "DatasheetUrl": "https://www.nkkswitches.com/pdf/WT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/581/MFG_WT21L.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "360-2938-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 71.7,
+        "TotalPrice": 71.7
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 59.257,
+        "TotalPrice": 592.57
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 55.17,
+        "TotalPrice": 1379.25
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 52.4306,
+        "TotalPrice": 2621.53
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 49.9896,
+        "TotalPrice": 4998.96
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 360,
+       "Name": "NKK Switches"
+      },
+      "QuantityAvailableforPackageType": 37,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 37,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6220646485001",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72470",
+      "ValueText": "10A (AC/DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "421432",
+      "ValueText": "Wire Leads"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330033",
+      "ValueText": "Circular - 12.50mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "370016",
+      "ValueText": "M12 x 1"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "344604",
+      "ValueText": "Epoxy Sealed Terminals"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "181560",
+      "ValueText": "-30\u00b0C ~ 70\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 127005,
+     "Name": "-"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 55,
+    "Series": {
+     "Id": 1496,
+     "Name": "WT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "WT21L-RO",
+     "-WT21L-RO-ND",
+     "-WT21L-RO",
+     "3937-WT21L",
+     "-WT21L",
+     "360-1253",
+     "360-1253-ND",
+     "360-2938",
+     "WT21L-ND",
+     "WT21L-RO-ND",
+     "360-1253INACTIVE"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "TOGGLE SWITCH 3500 IP67 SEALED",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "CT41-001N022",
+    "UnitPrice": 18.23,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/CT41-001N022/25993726",
+    "DatasheetUrl": "https://www.apem.com/medias/download/toggle_switches_serie_CT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6822/CT41-001N022.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-CT41-001N022-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 18.23,
+        "TotalPrice": 18.23
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 15.732,
+        "TotalPrice": 157.32
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 14.8336,
+        "TotalPrice": 370.84
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 14.1864,
+        "TotalPrice": 709.32
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 13.5665,
+        "TotalPrice": 1356.65
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 12.7868,
+        "TotalPrice": 3196.7
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 12.22556,
+        "TotalPrice": 6112.78
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 43,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 43,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72456",
+      "ValueText": "10A (AC), 15A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "28 V",
+      "ValueText": "28 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3586,
+     "Name": "CT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "679-CT41-001N022",
+     "CT41001N022"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 360,
+     "Name": "NKK Switches"
+    },
+    "ManufacturerProductNumber": "WT21T",
+    "UnitPrice": 34.39,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/nkk-switches/WT21T/1007036",
+    "DatasheetUrl": "https://www.nkkswitches.com/pdf/WT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2585/WT21T%20%282%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "360-1958-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 34.39,
+        "TotalPrice": 34.39
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 29.672,
+        "TotalPrice": 296.72
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 27.9728,
+        "TotalPrice": 699.32
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 26.7502,
+        "TotalPrice": 1337.51
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 25.5788,
+        "TotalPrice": 2557.88
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 24.10536,
+        "TotalPrice": 6026.34
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 360,
+       "Name": "NKK Switches"
+      },
+      "QuantityAvailableforPackageType": 29,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 29,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6220646485001",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72470",
+      "ValueText": "10A (AC/DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330033",
+      "ValueText": "Circular - 12.50mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "370016",
+      "ValueText": "M12 x 1"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "344604",
+      "ValueText": "Epoxy Sealed Terminals"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "181560",
+      "ValueText": "-30\u00b0C ~ 70\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 127005,
+     "Name": "-"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 487,
+    "Series": {
+     "Id": 1496,
+     "Name": "WT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "360-1252INACTIVE",
+     "360-1252",
+     "360-1252-ND",
+     "360-1958",
+     "3937-WT21T",
+     "WT21T-RO"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "TOGGLE SWITCH 3500 IP67 SEALED",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "CT41-021N022",
+    "UnitPrice": 24.28,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/CT41-021N022/25993738",
+    "DatasheetUrl": "https://www.apem.com/medias/download/toggle_switches_serie_CT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1891/CT37031N002.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-CT41-021N022-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 24.28,
+        "TotalPrice": 24.28
+       },
+       {
+        "BreakQuantity": 15,
+        "UnitPrice": 20.41533,
+        "TotalPrice": 306.22995
+       },
+       {
+        "BreakQuantity": 30,
+        "UnitPrice": 19.525,
+        "TotalPrice": 585.75
+       },
+       {
+        "BreakQuantity": 60,
+        "UnitPrice": 18.672,
+        "TotalPrice": 1120.32
+       },
+       {
+        "BreakQuantity": 105,
+        "UnitPrice": 18.00981,
+        "TotalPrice": 1891.03005
+       },
+       {
+        "BreakQuantity": 255,
+        "UnitPrice": 17.00537,
+        "TotalPrice": 4336.36935
+       },
+       {
+        "BreakQuantity": 510,
+        "UnitPrice": 16.2581,
+        "TotalPrice": 8291.631
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 67,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 67,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72456",
+      "ValueText": "10A (AC), 15A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "28 V",
+      "ValueText": "28 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "405102",
+      "ValueText": "Solder, Quick Connect - 0.250\" (6.3mm)"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3586,
+     "Name": "CT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "CT41021N022",
+     "679-CT41-021N022"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "CT41001N020",
+    "UnitPrice": 39.61,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/CT41001N020/4966102",
+    "DatasheetUrl": "https://www.apem.com/storage/datasheets/files/toggle_switches_serie_CT/media/toggle-switches-serie-CT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1252/CT41001N020.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-3608-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 39.61,
+        "TotalPrice": 39.61
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 34.17,
+        "TotalPrice": 341.7
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 32.2124,
+        "TotalPrice": 805.31
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 30.8038,
+        "TotalPrice": 1540.19
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 29.4542,
+        "TotalPrice": 2945.42
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 27.75652,
+        "TotalPrice": 6939.13
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72456",
+      "ValueText": "10A (AC), 15A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "28 V",
+      "ValueText": "28 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "400880",
+      "ValueText": "Sealed - Fully"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 479728,
+     "Name": "CT41001"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3586,
+     "Name": "CT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "679-3608",
+     "6196-CT41001N020"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "CT41021N000",
+    "UnitPrice": 36.9,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/CT41021N000/4966103",
+    "DatasheetUrl": "https://www.apem.com/storage/datasheets/files/toggle_switches_serie_CT/media/toggle-switches-serie-CT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1912/CT41021N000.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-3609-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 36.9,
+        "TotalPrice": 36.9
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 31.832,
+        "TotalPrice": 318.32
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 30.0088,
+        "TotalPrice": 750.22
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 28.6968,
+        "TotalPrice": 1434.84
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 27.4397,
+        "TotalPrice": 2743.97
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 25.8586,
+        "TotalPrice": 6464.65
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72456",
+      "ValueText": "10A (AC), 15A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "28 V",
+      "ValueText": "28 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "405102",
+      "ValueText": "Solder, Quick Connect - 0.250\" (6.3mm)"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "400880",
+      "ValueText": "Sealed - Fully"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 479729,
+     "Name": "CT41021"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3586,
+     "Name": "CT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "6196-CT41021N000",
+     "679-3609"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "CT41001N000",
+    "UnitPrice": 30.0088,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/CT41001N000/4966101",
+    "DatasheetUrl": "https://www.apem.com/storage/datasheets/files/toggle_switches_serie_CT/media/toggle-switches-serie-CT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1174/CT41001N000.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-3607-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 30.0088,
+        "TotalPrice": 750.22
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72456",
+      "ValueText": "10A (AC), 15A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "28 V",
+      "ValueText": "28 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "360066",
+      "ValueText": "IP67 - Dust Tight, Waterproof"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "400880",
+      "ValueText": "Sealed - Fully"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 479728,
+     "Name": "CT41001"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3586,
+     "Name": "CT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "679-3607"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "664103LM",
+    "UnitPrice": 61.7848,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/664103LM/1798925",
+    "DatasheetUrl": "https://www.apem.com/idec-apem/en_US/medias/toggle-switches-series-6000.pdf?context=bWFzdGVyfGRvY3VtZW50c3wyNDc3MTk4fGFwcGxpY2F0aW9uL3BkZnxoYmYvaDc3LzkyNDgxNDExNDgxOTAvdG9nZ2xlX3N3aXRjaGVzX3Nlcmllc182MDAwLnBkZnxjYjhiNDYzYjUwN2U1ZDcyNmQ4MmQ0YTc4NzY0N2E5YzU",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "664103LM-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 61.7848,
+        "TotalPrice": 1544.62
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72465",
+      "ValueText": "10A (AC), 6.5A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "371796",
+      "ValueText": "Matte Black Finish"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 490483,
+     "Name": "664103"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 400,
+     "Name": "6000"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "6196-664103LM",
+     "2266-664103LM"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "TOGGLE SWITCH 6000 MIL GRADE",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "664103",
+    "UnitPrice": 63.7556,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/664103/24876327",
+    "DatasheetUrl": "",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-664103-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 63.7556,
+        "TotalPrice": 1593.89
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72465",
+      "ValueText": "10A (AC), 6.5A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 400,
+     "Name": "6000"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "679-664103"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "TOGGLE SWITCH 6000 MIL GRADE",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "664303LM",
+    "UnitPrice": 85.328,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/664303LM/24871931",
+    "DatasheetUrl": "",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-664303LM-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 85.328,
+        "TotalPrice": 2133.2
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "381660",
+      "ValueText": "Off-Mom"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72465",
+      "ValueText": "10A (AC), 6.5A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 400,
+     "Name": "6000"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "679-664303LM"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "TOGGLE SWITCH 6000 MIL GRADE",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "664203LM",
+    "UnitPrice": 85.328,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/664203LM/24872263",
+    "DatasheetUrl": "",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "679-664203LM-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 85.328,
+        "TotalPrice": 2133.2
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72465",
+      "ValueText": "10A (AC), 6.5A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "109705",
+      "ValueText": "17.50mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 400,
+     "Name": "6000"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "679-664203LM"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 125V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 679,
+     "Name": "APEM Inc."
+    },
+    "ManufacturerProductNumber": "664103K2V/2",
+    "UnitPrice": 107.8308,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/apem-inc/664103K2V-2/1798924",
+    "DatasheetUrl": "https://www.apem.com/idec-apem/en_US/medias/toggle-switches-series-6000.pdf?context=bWFzdGVyfGRvY3VtZW50c3wyNDc3MTk4fGFwcGxpY2F0aW9uL3BkZnxoYmYvaDc3LzkyNDgxNDExNDgxOTAvdG9nZ2xlX3N3aXRjaGVzX3Nlcmllc182MDAwLnBkZnxjYjhiNDYzYjUwN2U1ZDcyNmQ4MmQ0YTc4NzY0N2E5YzU",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "664103K2V/2-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 107.8308,
+        "TotalPrice": 2695.77
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 679,
+       "Name": "APEM Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72465",
+      "ValueText": "10A (AC), 6.5A (DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "125 V",
+      "ValueText": "125 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 V",
+      "ValueText": "30 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "366630",
+      "ValueText": "Locking Lever"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "117202",
+      "ValueText": "19.40mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "405023",
+      "ValueText": "Solder Lug"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330029",
+      "ValueText": "Circular - 12.20mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "99280",
+      "ValueText": "15/32-32"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "371796",
+      "ValueText": "Matte Black Finish"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 490483,
+     "Name": "664103"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 400,
+     "Name": "6000"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": [
+     "664103K2V2"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "SWITCH TOGGLE DPST 10A 250V",
+     "DetailedDescription": "Toggle Switch DPST Panel Mount"
+    },
+    "Manufacturer": {
+     "Id": 708,
+     "Name": "Bulgin"
+    },
+    "ManufacturerProductNumber": "SX0784",
+    "UnitPrice": 0.0,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/bulgin/SX0784/3962693",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/504/SX0780%2CSX0790.pdf",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "SX0784-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 708,
+       "Name": "Bulgin"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 1,
+     "Status": "Obsolete"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6314074484112",
+    "Parameters": [
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "383652",
+      "ValueText": "Panel Mount"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "340489",
+      "ValueText": "DPST"
+     },
+     {
+      "ParameterId": 235,
+      "ParameterText": "Switch Function",
+      "ParameterType": "String",
+      "ValueId": "382044",
+      "ValueText": "On-Off"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "72470",
+      "ValueText": "10A (AC/DC)"
+     },
+     {
+      "ParameterId": 2143,
+      "ParameterText": "Voltage Rating - AC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "250 V",
+      "ValueText": "250 V"
+     },
+     {
+      "ParameterId": 2144,
+      "ParameterText": "Voltage Rating - DC",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "28 V",
+      "ValueText": "28 V"
+     },
+     {
+      "ParameterId": 545,
+      "ParameterText": "Actuator Type",
+      "ParameterType": "String",
+      "ValueId": "407973",
+      "ValueText": "Standard Round"
+     },
+     {
+      "ParameterId": 544,
+      "ParameterText": "Actuator Length",
+      "ParameterType": "String",
+      "ValueId": "116963",
+      "ValueText": "19.10mm"
+     },
+     {
+      "ParameterId": 528,
+      "ParameterText": "Illumination",
+      "ParameterType": "String",
+      "ValueId": "380363",
+      "ValueText": "Non-Illuminated"
+     },
+     {
+      "ParameterId": 522,
+      "ParameterText": "Illumination Type, Color",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 524,
+      "ParameterText": "Illumination Voltage (Nominal)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 258,
+      "ParameterText": "Termination Style",
+      "ParameterType": "String",
+      "ValueId": "400555",
+      "ValueText": "Screw Terminal"
+     },
+     {
+      "ParameterId": 783,
+      "ParameterText": "Panel Cutout Dimensions",
+      "ParameterType": "String",
+      "ValueId": "330027",
+      "ValueText": "Circular - 12.00mm Dia"
+     },
+     {
+      "ParameterId": 534,
+      "ParameterText": "Bushing Thread",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "139428",
+      "ValueText": "-20\u00b0C ~ 85\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 690938,
+     "Name": "SX078"
+    },
+    "Category": {
+     "CategoryId": 15,
+     "ParentId": 0,
+     "Name": "Switches",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/274/017/MFG_TL3215_tmb.jpg",
+     "SeoDescription": "Switches are devices used to interrupt the flow of electrical current in one or more circuits, under the direct physical control of some outside mechanism such as a user's finger or thumb, a magnet, or a moving machine component. Organization of sub-groups within the category occurs along lines of the physical style or form of switches' actuators, or a particular application or purpose for which they are designed.",
+     "ChildCategories": [
+      {
+       "CategoryId": 201,
+       "ParentId": 15,
+       "Name": "Toggle Switches",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/820/952/VERTICLE%20TOGGLE%20SWITCH%20TO53-1307_tmb%2864x64%29.jpg",
+       "SeoDescription": "Toggle switches are mechanical devices that make or break electrical connections in a circuit by the closing or opening electrical contacts when the protruding actuator is manually moved (toggled) from one position (throw) to another. Toggle switches are defined by their number of poles and throws. Pole refers to the number of separate circuits that the switch controls. A single-pole, single throw switch controls just one circuit as in a simple on/off switch that connects or disconnects two terminals. Changeover contacts are double throw.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "DateLastBuyChance": "2014-11-30T06:00:00+00:00",
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 1444,
+     "Name": "SX"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.50.9065"
+    },
+    "OtherNames": []
+   }
+  ],
+  "ProductsCount": 14,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 679,
+     "Value": "APEM Inc.",
+     "ProductCount": 10
+    },
+    {
+     "Id": 708,
+     "Value": "Bulgin",
+     "ProductCount": 1
+    },
+    {
+     "Id": 360,
+     "Value": "NKK Switches",
+     "ProductCount": 3
+    }
+   ],
+   "Packaging": [
+    {
+     "Id": 3,
+     "Value": "Bulk",
+     "ProductCount": 12
+    },
+    {
+     "Id": 17,
+     "Value": "Tray",
+     "ProductCount": 2
+    }
+   ],
+   "Status": [
+    {
+     "Id": 0,
+     "Value": "Active",
+     "ProductCount": 13
+    },
+    {
+     "Id": 1,
+     "Value": "Obsolete",
+     "ProductCount": 1
+    }
+   ],
+   "Series": [
+    {
+     "Id": 400,
+     "Value": "6000",
+     "ProductCount": 5
+    },
+    {
+     "Id": 3586,
+     "Value": "CT",
+     "ProductCount": 5
+    },
+    {
+     "Id": 1444,
+     "Value": "SX",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1496,
+     "Value": "WT",
+     "ProductCount": 3
+    }
+   ],
+   "ParametricFilters": [
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 69,
+     "ParameterName": "Mounting Type",
+     "FilterValues": [
+      {
+       "ProductCount": 14,
+       "ValueId": "383652",
+       "ValueName": "Panel Mount"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 130,
+     "ParameterName": "Circuit",
+     "FilterValues": [
+      {
+       "ProductCount": 14,
+       "ValueId": "340489",
+       "ValueName": "DPST"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 235,
+     "ParameterName": "Switch Function",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "381660",
+       "ValueName": "Off-Mom"
+      },
+      {
+       "ProductCount": 13,
+       "ValueId": "382044",
+       "ValueName": "On-Off"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 66,
+     "ParameterName": "Current Rating (Amps)",
+     "FilterValues": [
+      {
+       "ProductCount": 5,
+       "ValueId": "72456",
+       "ValueName": "10A (AC), 15A (DC)"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "72465",
+       "ValueName": "10A (AC), 6.5A (DC)"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "72470",
+       "ValueName": "10A (AC/DC)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "UnitOfMeasure",
+     "ParameterId": 2143,
+     "ParameterName": "Voltage Rating - AC",
+     "FilterValues": [
+      {
+       "ProductCount": 13,
+       "ValueId": "125 V",
+       "ValueName": "125 V"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "250 V",
+       "ValueName": "250 V"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "UnitOfMeasure",
+     "ParameterId": 2144,
+     "ParameterName": "Voltage Rating - DC",
+     "FilterValues": [
+      {
+       "ProductCount": 6,
+       "ValueId": "28 V",
+       "ValueName": "28 V"
+      },
+      {
+       "ProductCount": 8,
+       "ValueId": "30 V",
+       "ValueName": "30 V"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 545,
+     "ParameterName": "Actuator Type",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "366630",
+       "ValueName": "Locking Lever"
+      },
+      {
+       "ProductCount": 13,
+       "ValueId": "407973",
+       "ValueName": "Standard Round"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 544,
+     "ParameterName": "Actuator Length",
+     "FilterValues": [
+      {
+       "ProductCount": 12,
+       "ValueId": "109705",
+       "ValueName": "17.50mm"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "116963",
+       "ValueName": "19.10mm"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "117202",
+       "ValueName": "19.40mm"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 528,
+     "ParameterName": "Illumination",
+     "FilterValues": [
+      {
+       "ProductCount": 14,
+       "ValueId": "380363",
+       "ValueName": "Non-Illuminated"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 522,
+     "ParameterName": "Illumination Type, Color",
+     "FilterValues": [
+      {
+       "ProductCount": 14,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 524,
+     "ParameterName": "Illumination Voltage (Nominal)",
+     "FilterValues": [
+      {
+       "ProductCount": 14,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 258,
+     "ParameterName": "Termination Style",
+     "FilterValues": [
+      {
+       "ProductCount": 9,
+       "ValueId": "400555",
+       "ValueName": "Screw Terminal"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "405023",
+       "ValueName": "Solder Lug"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "405102",
+       "ValueName": "Solder, Quick Connect - 0.250\" (6.3mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "421432",
+       "ValueName": "Wire Leads"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 783,
+     "ParameterName": "Panel Cutout Dimensions",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "330027",
+       "ValueName": "Circular - 12.00mm Dia"
+      },
+      {
+       "ProductCount": 10,
+       "ValueId": "330029",
+       "ValueName": "Circular - 12.20mm Dia"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "330033",
+       "ValueName": "Circular - 12.50mm Dia"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 534,
+     "ParameterName": "Bushing Thread",
+     "FilterValues": [
+      {
+       "ProductCount": 10,
+       "ValueId": "99280",
+       "ValueName": "15/32-32"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "370016",
+       "ValueName": "M12 x 1"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 697,
+     "ParameterName": "Ingress Protection",
+     "FilterValues": [
+      {
+       "ProductCount": 6,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 8,
+       "ValueId": "360066",
+       "ValueName": "IP67 - Dust Tight, Waterproof"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 5,
+     "ParameterName": "Features",
+     "FilterValues": [
+      {
+       "ProductCount": 6,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "344604",
+       "ValueName": "Epoxy Sealed Terminals"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "371796",
+       "ValueName": "Matte Black Finish"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "400880",
+       "ValueName": "Sealed - Fully"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 201,
+      "Value": "Toggle Switches"
+     },
+     "ParameterType": "String",
+     "ParameterId": 252,
+     "ParameterName": "Operating Temperature",
+     "FilterValues": [
+      {
+       "ProductCount": 10,
+       "ValueId": "212617",
+       "ValueName": "-40\u00b0C ~ 85\u00b0C"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "181560",
+       "ValueName": "-30\u00b0C ~ 70\u00b0C"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "139428",
+       "ValueName": "-20\u00b0C ~ 85\u00b0C"
+      }
+     ]
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

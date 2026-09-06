@@ -1,0 +1,138 @@
+nsn,candidate_mpn,manufacturer,attribute_name,attribute_value,uom
+5935-00-104-9650,TXR40AB00-1210BI,TE Connectivity / Raychem,operating_temp_max,175,C
+5935-00-104-9650,TXR40AB00-1210BI,TE Connectivity / Raychem,operating_temp_min,-65,C
+5935-00-104-9650,TXR40AC00-2410AI,TE Connectivity / Raychem,operating_temp_max,200,C
+5935-00-104-9650,TXR40AC00-2410AI,TE Connectivity / Raychem,operating_temp_min,-65,C
+5935-00-104-9650,TXR15AB00-1008AI,TE Connectivity / Raychem,operating_temp_max,175,C
+5935-00-104-9650,TXR15AB00-1008AI,TE Connectivity / Raychem,operating_temp_min,-65,C
+5935-00-104-9650,2081890-1,TE Connectivity,operating_temp_max,155,C
+5935-00-104-9650,2081890-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-104-9650,2081890-1,TE Connectivity,shell_material,stainless steel,
+5935-00-104-9650,2081559-1,TE Connectivity,contact_count,1,count
+5935-00-104-9650,2081559-1,TE Connectivity,operating_temp_max,125,C
+5935-00-104-9650,2081559-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-104-9650,2081554-1,TE Connectivity,contact_count,1,count
+5935-00-104-9650,2081554-1,TE Connectivity,operating_temp_max,85,C
+5935-00-104-9650,2081554-1,TE Connectivity,operating_temp_min,-40,C
+5935-00-104-9650,2081888-1,TE Connectivity,operating_temp_max,155,C
+5935-00-104-9650,2081888-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-104-9650,2081888-1,TE Connectivity,shell_material,stainless steel,
+5935-00-104-9650,TXR41AB90-1810AI,TE Connectivity / Raychem,operating_temp_max,175,C
+5935-00-104-9650,TXR41AB90-1810AI,TE Connectivity / Raychem,operating_temp_min,-65,C
+5935-00-104-9650,TXR40AB90-2412BI,TE Connectivity / Raychem,operating_temp_max,175,C
+5935-00-104-9650,TXR40AB90-2412BI,TE Connectivity / Raychem,operating_temp_min,-65,C
+5999-01-129-4193,2118707-2,TE Connectivity,contact_count,1,count
+5999-01-129-4193,2118707-2,TE Connectivity,current_rating,0.75,A
+5999-01-129-4193,2118707-2,TE Connectivity,operating_temp_max,85,C
+5999-01-129-4193,2118707-2,TE Connectivity,operating_temp_min,-55,C
+5999-01-129-4193,480-0016-2250-10000,TE Connectivity,operating_temp_max,200,C
+5999-01-129-4193,480-0016-2250-10000,TE Connectivity,operating_temp_min,-60,C
+5999-01-129-4193,3020403,Wurth Elektronik,operating_temp_max,85,C
+5999-01-129-4193,3020403,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-129-4193,30205005,Wurth Elektronik,operating_temp_max,85,C
+5999-01-129-4193,30205005,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-222-0064,2118707-2,TE Connectivity,contact_count,1,count
+5999-01-222-0064,2118707-2,TE Connectivity,current_rating,0.75,A
+5999-01-222-0064,2118707-2,TE Connectivity,operating_temp_max,85,C
+5999-01-222-0064,2118707-2,TE Connectivity,operating_temp_min,-55,C
+5999-01-222-0064,480-0016-2250-10000,TE Connectivity,operating_temp_max,200,C
+5999-01-222-0064,480-0016-2250-10000,TE Connectivity,operating_temp_min,-60,C
+5999-01-222-0064,3020403,Wurth Elektronik,operating_temp_max,85,C
+5999-01-222-0064,3020403,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-222-0064,30205005,Wurth Elektronik,operating_temp_max,85,C
+5999-01-222-0064,30205005,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-240-8049,2118707-2,TE Connectivity,contact_count,1,count
+5999-01-240-8049,2118707-2,TE Connectivity,current_rating,0.75,A
+5999-01-240-8049,2118707-2,TE Connectivity,operating_temp_max,85,C
+5999-01-240-8049,2118707-2,TE Connectivity,operating_temp_min,-55,C
+5999-01-240-8049,480-0016-2250-10000,TE Connectivity,operating_temp_max,200,C
+5999-01-240-8049,480-0016-2250-10000,TE Connectivity,operating_temp_min,-60,C
+5999-01-240-8049,3020403,Wurth Elektronik,operating_temp_max,85,C
+5999-01-240-8049,3020403,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-240-8049,30205005,Wurth Elektronik,operating_temp_max,85,C
+5999-01-240-8049,30205005,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-294-4489,2118707-2,TE Connectivity,contact_count,1,count
+5999-01-294-4489,2118707-2,TE Connectivity,current_rating,0.75,A
+5999-01-294-4489,2118707-2,TE Connectivity,operating_temp_max,85,C
+5999-01-294-4489,2118707-2,TE Connectivity,operating_temp_min,-55,C
+5999-01-294-4489,480-0016-2250-10000,TE Connectivity,operating_temp_max,200,C
+5999-01-294-4489,480-0016-2250-10000,TE Connectivity,operating_temp_min,-60,C
+5999-01-294-4489,3020403,Wurth Elektronik,operating_temp_max,85,C
+5999-01-294-4489,3020403,Wurth Elektronik,operating_temp_min,-40,C
+5999-01-294-4489,30205005,Wurth Elektronik,operating_temp_max,85,C
+5999-01-294-4489,30205005,Wurth Elektronik,operating_temp_min,-40,C
+5935-00-079-5458,HBL5865VY,Hubbell Wiring Device-Kellems,contact_count,2,count
+5935-00-079-5458,HBL5865VY,Hubbell Wiring Device-Kellems,contact_plating,brass,
+5935-00-079-5458,HBL5865VY,Hubbell Wiring Device-Kellems,operating_temp_max,75,C
+5935-00-079-5458,HBL5865VY,Hubbell Wiring Device-Kellems,operating_temp_min,-40,C
+5935-00-079-5458,HBL5666VY,Hubbell Wiring Device-Kellems,contact_count,3,count
+5935-00-079-5458,HBL5666VY,Hubbell Wiring Device-Kellems,operating_temp_max,75,C
+5935-00-079-5458,HBL5666VY,Hubbell Wiring Device-Kellems,operating_temp_min,-40,C
+5935-00-079-5458,207654-1,TE Connectivity,contact_count,1,count
+5935-00-079-5458,207654-1,TE Connectivity,operating_temp_max,130,C
+5935-00-079-5458,207654-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-079-5458,1811633-1,TE Connectivity,operating_temp_max,125,C
+5935-00-079-5458,1811633-1,TE Connectivity,operating_temp_min,-65,C
+5935-00-079-5458,200821-1,TE Connectivity,contact_count,1,count
+5935-00-079-5458,200821-1,TE Connectivity,operating_temp_max,105,C
+5935-00-079-5458,200821-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-079-5458,PT06E-14-5P(SR),Amphenol Industrial,contact_count,5,count
+5935-00-079-5458,PT06E-14-5P(SR),Amphenol Industrial,contact_plating,gold,
+5935-00-079-5458,PT06E-14-5P(SR),Amphenol Industrial,operating_temp_max,125,C
+5935-00-079-5458,PT06E-14-5P(SR),Amphenol Industrial,operating_temp_min,-55,C
+5935-00-079-5458,PT06E-14-5P(SR),Amphenol Industrial,shell_material,aluminum,
+5935-00-079-5458,PT06A-10-6S(SR),Amphenol Industrial,contact_count,6,count
+5935-00-079-5458,PT06A-10-6S(SR),Amphenol Industrial,contact_plating,gold,
+5935-00-079-5458,PT06A-10-6S(SR),Amphenol Industrial,operating_temp_max,125,C
+5935-00-079-5458,PT06A-10-6S(SR),Amphenol Industrial,operating_temp_min,-55,C
+5935-00-079-5458,PT06A-10-6S(SR),Amphenol Industrial,shell_material,aluminum,
+5935-00-105-4641,HBL5865VY,Hubbell Wiring Device-Kellems,contact_count,2,count
+5935-00-105-4641,HBL5865VY,Hubbell Wiring Device-Kellems,contact_plating,brass,
+5935-00-105-4641,HBL5865VY,Hubbell Wiring Device-Kellems,operating_temp_max,75,C
+5935-00-105-4641,HBL5865VY,Hubbell Wiring Device-Kellems,operating_temp_min,-40,C
+5935-00-105-4641,HBL5666VY,Hubbell Wiring Device-Kellems,contact_count,3,count
+5935-00-105-4641,HBL5666VY,Hubbell Wiring Device-Kellems,operating_temp_max,75,C
+5935-00-105-4641,HBL5666VY,Hubbell Wiring Device-Kellems,operating_temp_min,-40,C
+5935-00-105-4641,207654-1,TE Connectivity,contact_count,1,count
+5935-00-105-4641,207654-1,TE Connectivity,operating_temp_max,130,C
+5935-00-105-4641,207654-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-105-4641,1811633-1,TE Connectivity,operating_temp_max,125,C
+5935-00-105-4641,1811633-1,TE Connectivity,operating_temp_min,-65,C
+5935-00-105-4641,200821-1,TE Connectivity,contact_count,1,count
+5935-00-105-4641,200821-1,TE Connectivity,operating_temp_max,105,C
+5935-00-105-4641,200821-1,TE Connectivity,operating_temp_min,-55,C
+5935-00-105-4641,PT06E-14-5P(SR),Amphenol Industrial,contact_count,5,count
+5935-00-105-4641,PT06E-14-5P(SR),Amphenol Industrial,contact_plating,gold,
+5935-00-105-4641,PT06E-14-5P(SR),Amphenol Industrial,operating_temp_max,125,C
+5935-00-105-4641,PT06E-14-5P(SR),Amphenol Industrial,operating_temp_min,-55,C
+5935-00-105-4641,PT06E-14-5P(SR),Amphenol Industrial,shell_material,aluminum,
+5935-00-105-4641,PT06A-10-6S(SR),Amphenol Industrial,contact_count,6,count
+5935-00-105-4641,PT06A-10-6S(SR),Amphenol Industrial,contact_plating,gold,
+5935-00-105-4641,PT06A-10-6S(SR),Amphenol Industrial,operating_temp_max,125,C
+5935-00-105-4641,PT06A-10-6S(SR),Amphenol Industrial,operating_temp_min,-55,C
+5935-00-105-4641,PT06A-10-6S(SR),Amphenol Industrial,shell_material,aluminum,
+5935-01-151-1226,HBL5865VY,Hubbell Wiring Device-Kellems,contact_count,2,count
+5935-01-151-1226,HBL5865VY,Hubbell Wiring Device-Kellems,contact_plating,brass,
+5935-01-151-1226,HBL5865VY,Hubbell Wiring Device-Kellems,operating_temp_max,75,C
+5935-01-151-1226,HBL5865VY,Hubbell Wiring Device-Kellems,operating_temp_min,-40,C
+5935-01-151-1226,HBL5666VY,Hubbell Wiring Device-Kellems,contact_count,3,count
+5935-01-151-1226,HBL5666VY,Hubbell Wiring Device-Kellems,operating_temp_max,75,C
+5935-01-151-1226,HBL5666VY,Hubbell Wiring Device-Kellems,operating_temp_min,-40,C
+5935-01-151-1226,207654-1,TE Connectivity,contact_count,1,count
+5935-01-151-1226,207654-1,TE Connectivity,operating_temp_max,130,C
+5935-01-151-1226,207654-1,TE Connectivity,operating_temp_min,-55,C
+5935-01-151-1226,1811633-1,TE Connectivity,operating_temp_max,125,C
+5935-01-151-1226,1811633-1,TE Connectivity,operating_temp_min,-65,C
+5935-01-151-1226,200821-1,TE Connectivity,contact_count,1,count
+5935-01-151-1226,200821-1,TE Connectivity,operating_temp_max,105,C
+5935-01-151-1226,200821-1,TE Connectivity,operating_temp_min,-55,C
+5935-01-151-1226,PT06E-14-5P(SR),Amphenol Industrial,contact_count,5,count
+5935-01-151-1226,PT06E-14-5P(SR),Amphenol Industrial,contact_plating,gold,
+5935-01-151-1226,PT06E-14-5P(SR),Amphenol Industrial,operating_temp_max,125,C
+5935-01-151-1226,PT06E-14-5P(SR),Amphenol Industrial,operating_temp_min,-55,C
+5935-01-151-1226,PT06E-14-5P(SR),Amphenol Industrial,shell_material,aluminum,
+5935-01-151-1226,PT06A-10-6S(SR),Amphenol Industrial,contact_count,6,count
+5935-01-151-1226,PT06A-10-6S(SR),Amphenol Industrial,contact_plating,gold,
+5935-01-151-1226,PT06A-10-6S(SR),Amphenol Industrial,operating_temp_max,125,C
+5935-01-151-1226,PT06A-10-6S(SR),Amphenol Industrial,operating_temp_min,-55,C
+5935-01-151-1226,PT06A-10-6S(SR),Amphenol Industrial,shell_material,aluminum,

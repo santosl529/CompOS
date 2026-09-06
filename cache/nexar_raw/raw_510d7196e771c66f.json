@@ -1,0 +1,563 @@
+{
+ "key": "raw_510d7196e771c66f",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "CC0603KRX7RABB103"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:55",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "140050303",
+       "mpn": "CC0603KRX7RABB103",
+       "name": "Yageo Group CC0603KRX7RABB103",
+       "octopartUrl": "https://octopart.com/part/yageo-group/CC0603KRX7RABB103",
+       "manufacturer": {
+        "name": "Yageo Group"
+       },
+       "medianPrice1000": {
+        "price": 0.027,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 353433,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Newark"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 18768,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 10,
+             "price": 0.045,
+             "currency": "USD"
+            },
+            {
+             "quantity": 20,
+             "price": 0.044,
+             "currency": "USD"
+            },
+            {
+             "quantity": 30,
+             "price": 0.042,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.041,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.039,
+             "currency": "USD"
+            },
+            {
+             "quantity": 250,
+             "price": 0.035,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.03,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.027,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 18768,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 500,
+             "price": 0.03,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.027,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 30137,
+           "factoryLeadDays": 117,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.15,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.081,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.056,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0483,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.0355,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 30137,
+           "factoryLeadDays": 117,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.15,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.081,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.056,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0483,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.0355,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 30137,
+           "factoryLeadDays": 117,
+           "prices": [
+            {
+             "quantity": 4000,
+             "price": 0.0257,
+             "currency": "USD"
+            },
+            {
+             "quantity": 12000,
+             "price": 0.02244,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Avnet"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 56,
+           "prices": [
+            {
+             "quantity": 4000,
+             "price": 0.01078,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Arrow Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 4000,
+             "price": 0.0111,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Mouser"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.11,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.043,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.043,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.037,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.025,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.018,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "UnikeyIC"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 18017,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 830,
+             "price": 0.0459,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0409,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2000,
+             "price": 0.0327,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4000,
+             "price": 0.0271,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "TIST Technology Co., Limited"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 8060,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.0217,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.020615,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.01953,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.017794,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "ICSuperman Co."
+         },
+         "offers": [
+          {
+           "inventoryLevel": 4322,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.088,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.0854,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0836,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.081,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0792,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Ansinor"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 4950,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 100,
+             "price": 0.05328,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.05328,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.04698,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Classic Components"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 12000,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "ODG (Origin Data Global)"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 184,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 17560,
+             "price": 0.0034,
+             "currency": "USD"
+            },
+            {
+             "quantity": 37314,
+             "price": 0.0032,
+             "currency": "USD"
+            },
+            {
+             "quantity": 59702,
+             "price": 0.003,
+             "currency": "USD"
+            },
+            {
+             "quantity": 82347,
+             "price": 0.0029,
+             "currency": "USD"
+            },
+            {
+             "quantity": 106610,
+             "price": 0.0028,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "LCSC"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 100,
+             "price": 0.0055,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0044,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4000,
+             "price": 0.0036,
+             "currency": "USD"
+            },
+            {
+             "quantity": 8000,
+             "price": 0.0032,
+             "currency": "USD"
+            },
+            {
+             "quantity": 48000,
+             "price": 0.0029,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100000,
+             "price": 0.0027,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Cytech Systems"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 84864,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Unikeyic (ICkey)"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 18017,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 830,
+             "price": 0.0459,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0409,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2000,
+             "price": 0.0327,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4000,
+             "price": 0.0271,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "db7031cb-0d5e-4e5c-a47e-ca5f5e3e3c44"
+  }
+ },
+ "from_cache": false
+}

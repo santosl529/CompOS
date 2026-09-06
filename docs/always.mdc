@@ -1,0 +1,6 @@
+---
+alwaysApply: true
+---
+Follow the instructions in CLAUDE.md at the project root for all conventions,
+stack details, the project spec/PRD, and definition of done. Treat CLAUDE.md
+as the source of truth.

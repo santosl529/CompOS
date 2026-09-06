@@ -1,0 +1,59 @@
+{
+ "mpn": "9420801.14",
+ "fetched_at": "2026-09-05T20:31:16",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "91495403",
+    "mpn": "9420801.14",
+    "name": "Julabo 9420801.14",
+    "octopartUrl": "https://octopart.com/part/julabo/9420801.14",
+    "manufacturer": {
+     "name": "Julabo"
+    },
+    "medianPrice1000": {
+     "price": 62117,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 669,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey Marketplace"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 62117,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Component Search"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 668,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

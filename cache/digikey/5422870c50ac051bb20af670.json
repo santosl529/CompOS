@@ -1,0 +1,371 @@
+{
+ "key": "5422870c50ac051bb20af670",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1995-8-29",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:21:58",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "RES 300 OHM 1% 1/4W 1206",
+     "DetailedDescription": "300 Ohms \u00b11% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "RC1206FR-07300RL",
+    "UnitPrice": 0.1,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/RC1206FR-07300RL/728804",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/PYU-RC_GROUP_51_ROHS_L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4842/Yageo-0603.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "311-300FRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.01125,
+        "TotalPrice": 56.25
+       },
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.01023,
+        "TotalPrice": 102.3
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.00973,
+        "TotalPrice": 145.95
+       },
+       {
+        "BreakQuantity": 25000,
+        "UnitPrice": 0.0092,
+        "TotalPrice": 230.0
+       },
+       {
+        "BreakQuantity": 35000,
+        "UnitPrice": 0.00889,
+        "TotalPrice": 311.15
+       },
+       {
+        "BreakQuantity": 50000,
+        "UnitPrice": 0.0086,
+        "TotalPrice": 430.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 100000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 5000,
+      "StandardPackage": 5000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-300FRCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.047,
+        "TotalPrice": 0.47
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.036,
+        "TotalPrice": 0.9
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0296,
+        "TotalPrice": 1.48
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0247,
+        "TotalPrice": 2.47
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0198,
+        "TotalPrice": 4.95
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.01698,
+        "TotalPrice": 8.49
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.01477,
+        "TotalPrice": 14.77
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 104777,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "311-300FRDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.1,
+        "TotalPrice": 0.1
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.047,
+        "TotalPrice": 0.47
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.036,
+        "TotalPrice": 0.9
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0296,
+        "TotalPrice": 1.48
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0247,
+        "TotalPrice": 2.47
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.0198,
+        "TotalPrice": 4.95
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.01698,
+        "TotalPrice": 8.49
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.01477,
+        "TotalPrice": 14.77
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 104777,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 104777,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "300 Ohms",
+      "ValueText": "300 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1131",
+      "ValueText": "\u00b11%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "16543",
+      "ValueText": "0.25W, 1/4W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "411742",
+      "ValueText": "Thick Film"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "376928",
+      "ValueText": "Moisture Resistant"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1378",
+      "ValueText": "\u00b1100ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "83711",
+      "ValueText": "1206 (3216 Metric)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "83708",
+      "ValueText": "1206"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10682",
+      "ValueText": "0.122\" L x 0.063\" W (3.10mm x 1.60mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "5511",
+      "ValueText": "0.026\" (0.65mm)"
+     },
+     {
+      "ParameterId": 1127,
+      "ParameterText": "Number of Terminations",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 52,
+       "ParentId": 2,
+       "Name": "Chip Resistor - Surface Mount",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/683/989/MFG_RMC%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Resistors provide opposition to current flow, in a manner that is proportional to the electric potential (voltage) imposed across them, and which is ideally unaffected by signal frequency or changes in temperature. Resistors described as surface mount chip types are designed to be affixed to the surface of a printed circuit board and incorporate a single resistor per device package.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "17",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 81248,
+     "Name": "RC_L"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0030"
+    },
+    "OtherNames": [
+     "2266-RC1206FR-07300RLTR",
+     "9C12063A3000FKPFT",
+     "311-300FRDKR",
+     "RC1206FR07300RL",
+     "232272463001L",
+     "311-300FRTR",
+     "311-300FRCT"
+    ]
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

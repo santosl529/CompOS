@@ -1,0 +1,10 @@
+fsc,digikey_category_id,driving_attributes,tolerance_rules
+5905,53|54|52,resistance|resistance_tolerance|power_rating|operating_temp_max,resistance:within_pct:1|resistance_tolerance:lte|power_rating:gte|operating_temp_max:gte
+5910,60|62,capacitance|voltage_rating|capacitance_tolerance|operating_temp_max,capacitance:within_pct:5|voltage_rating:gte|capacitance_tolerance:lte|operating_temp_max:gte
+5915,838|835|845,insertion_loss|current_rating|voltage_rating|operating_temp_max,insertion_loss:gte|current_rating:gte|voltage_rating:gte|operating_temp_max:gte
+5930,201,contact_configuration|current_rating|voltage_rating|operating_temp_max,contact_configuration:exact|current_rating:gte|voltage_rating:gte|operating_temp_max:gte
+5935,436|320|313|378|329,operating_temp_min|operating_temp_max|contact_count|shell_size,operating_temp_min:lte|operating_temp_max:gte|contact_count:exact|shell_size:exact
+5945,189|188,coil_voltage|contact_rating|contact_configuration|operating_temp_max,coil_voltage:exact|contact_rating:gte|contact_configuration:exact|operating_temp_max:gte
+5950,71|166,inductance|current_rating|dc_resistance|operating_temp_max,inductance:within_pct:10|current_rating:gte|dc_resistance:lte|operating_temp_max:gte
+5961,280,voltage_rating|current_rating|package_type|junction_temp_max,voltage_rating:gte|current_rating:gte|package_type:exact|junction_temp_max:gte
+5999,332|219|945|869|226,operating_temp_min|operating_temp_max|contact_count|current_rating,operating_temp_min:lte|operating_temp_max:gte|contact_count:exact|current_rating:gte

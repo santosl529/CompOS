@@ -1,0 +1,3453 @@
+{
+ "key": "2fff62272a709c953a82be33",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1 Ohms",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "54"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "54"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 2085,
+      "FilterValues": [
+       {
+        "Id": "1 Ohms"
+       },
+       {
+        "Id": "1.01 Ohms"
+       }
+      ]
+     },
+     {
+      "ParameterId": 3,
+      "FilterValues": [
+       {
+        "Id": "651"
+       },
+       {
+        "Id": "696"
+       },
+       {
+        "Id": "731"
+       },
+       {
+        "Id": "816"
+       },
+       {
+        "Id": "848"
+       },
+       {
+        "Id": "976"
+       }
+      ]
+     },
+     {
+      "ParameterId": 2,
+      "FilterValues": [
+       {
+        "Id": "16543"
+       },
+       {
+        "Id": "28682"
+       },
+       {
+        "Id": "121219"
+       },
+       {
+        "Id": "55874"
+       },
+       {
+        "Id": "126280"
+       },
+       {
+        "Id": "132405"
+       },
+       {
+        "Id": "203013"
+       },
+       {
+        "Id": "178030"
+       },
+       {
+        "Id": "249624"
+       },
+       {
+        "Id": "832934"
+       },
+       {
+        "Id": "281382"
+       },
+       {
+        "Id": "270802"
+       },
+       {
+        "Id": "74706"
+       },
+       {
+        "Id": "832933"
+       },
+       {
+        "Id": "87914"
+       },
+       {
+        "Id": "82285"
+       },
+       {
+        "Id": "103654"
+       },
+       {
+        "Id": "108856"
+       },
+       {
+        "Id": "112627"
+       },
+       {
+        "Id": "832936"
+       },
+       {
+        "Id": "143920"
+       },
+       {
+        "Id": "147237"
+       },
+       {
+        "Id": "159285"
+       },
+       {
+        "Id": "165919"
+       },
+       {
+        "Id": "184672"
+       },
+       {
+        "Id": "197789"
+       },
+       {
+        "Id": "215373"
+       },
+       {
+        "Id": "220556"
+       },
+       {
+        "Id": "222349"
+       },
+       {
+        "Id": "226202"
+       },
+       {
+        "Id": "238788"
+       },
+       {
+        "Id": "240029"
+       },
+       {
+        "Id": "243968"
+       },
+       {
+        "Id": "834492"
+       },
+       {
+        "Id": "257693"
+       },
+       {
+        "Id": "264051"
+       },
+       {
+        "Id": "274125"
+       },
+       {
+        "Id": "275684"
+       },
+       {
+        "Id": "278200"
+       },
+       {
+        "Id": "287677"
+       },
+       {
+        "Id": "299942"
+       },
+       {
+        "Id": "875295"
+       },
+       {
+        "Id": "302687"
+       },
+       {
+        "Id": "69725"
+       },
+       {
+        "Id": "875223"
+       },
+       {
+        "Id": "78506"
+       },
+       {
+        "Id": "78992"
+       },
+       {
+        "Id": "84363"
+       },
+       {
+        "Id": "85881"
+       },
+       {
+        "Id": "100697"
+       },
+       {
+        "Id": "106038"
+       },
+       {
+        "Id": "111600"
+       },
+       {
+        "Id": "118266"
+       },
+       {
+        "Id": "140906"
+       },
+       {
+        "Id": "147977"
+       },
+       {
+        "Id": "148602"
+       },
+       {
+        "Id": "150756"
+       },
+       {
+        "Id": "153623"
+       },
+       {
+        "Id": "157350"
+       },
+       {
+        "Id": "162891"
+       },
+       {
+        "Id": "164562"
+       },
+       {
+        "Id": "182825"
+       },
+       {
+        "Id": "189726"
+       },
+       {
+        "Id": "193240"
+       },
+       {
+        "Id": "198443"
+       },
+       {
+        "Id": "213886"
+       },
+       {
+        "Id": "221525"
+       },
+       {
+        "Id": "237376"
+       },
+       {
+        "Id": "243373"
+       },
+       {
+        "Id": "256311"
+       },
+       {
+        "Id": "262542"
+       },
+       {
+        "Id": "273347"
+       },
+       {
+        "Id": "277644"
+       },
+       {
+        "Id": "286619"
+       },
+       {
+        "Id": "291010"
+       },
+       {
+        "Id": "68412"
+       },
+       {
+        "Id": "72057"
+       },
+       {
+        "Id": "77205"
+       },
+       {
+        "Id": "83664"
+       },
+       {
+        "Id": "99977"
+       },
+       {
+        "Id": "140155"
+       },
+       {
+        "Id": "156828"
+       }
+      ]
+     },
+     {
+      "ParameterId": 252,
+      "FilterValues": [
+       {
+        "Id": "262192"
+       },
+       {
+        "Id": "242918"
+       },
+       {
+        "Id": "242925"
+       },
+       {
+        "Id": "242931"
+       },
+       {
+        "Id": "242934"
+       },
+       {
+        "Id": "242940"
+       },
+       {
+        "Id": "242941"
+       },
+       {
+        "Id": "242948"
+       },
+       {
+        "Id": "242960"
+       },
+       {
+        "Id": "242963"
+       },
+       {
+        "Id": "242965"
+       },
+       {
+        "Id": "242968"
+       },
+       {
+        "Id": "242969"
+       },
+       {
+        "Id": "242971"
+       },
+       {
+        "Id": "242975"
+       },
+       {
+        "Id": "242976"
+       },
+       {
+        "Id": "467739"
+       },
+       {
+        "Id": "236089"
+       },
+       {
+        "Id": "236107"
+       },
+       {
+        "Id": "212478"
+       },
+       {
+        "Id": "212489"
+       },
+       {
+        "Id": "212512"
+       },
+       {
+        "Id": "212540"
+       },
+       {
+        "Id": "212553"
+       },
+       {
+        "Id": "156418"
+       },
+       {
+        "Id": "139808"
+       },
+       {
+        "Id": "156659"
+       },
+       {
+        "Id": "162764"
+       },
+       {
+        "Id": "192777"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:24:27",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "RH-5 1 .1% C02",
+     "DetailedDescription": "1 Ohms \u00b10.1% 7.5W Wirewound Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 541,
+     "Name": "Vishay Dale"
+    },
+    "ManufacturerProductNumber": "RH0051R000BC02",
+    "UnitPrice": 227.0,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vishay-dale/RH0051R000BC02/26251565",
+    "DatasheetUrl": "https://www.vishay.com/docs/30201/rhnh.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2574/RH%20SERIES%2015.24x16.41mm.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "541-RH0051R000BC02-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 227.0,
+        "TotalPrice": 227.0
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 173.844,
+        "TotalPrice": 1738.44
+       },
+       {
+        "BreakQuantity": 30,
+        "UnitPrice": 157.008,
+        "TotalPrice": 4710.24
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 150.5466,
+        "TotalPrice": 7527.33
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 541,
+       "Name": "Vishay Dale"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 10,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "270802",
+      "ValueText": "7.5W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "421681",
+      "ValueText": "Wirewound"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "2617",
+      "ValueText": "\u00b150ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242965",
+      "ValueText": "-55\u00b0C ~ 250\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "312981",
+      "ValueText": "Aluminum"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "28917",
+      "ValueText": "0.600\" L x 0.646\" W (15.24mm x 16.41mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "19389",
+      "ValueText": "0.335\" (8.51mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "405024",
+      "ValueText": "Solder Lugs"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317208",
+      "ValueText": "Axial, Box"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "48",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 24462,
+     "Name": "RH"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "RoHS non-compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0080"
+    },
+    "OtherNames": [
+     "541-RH0051R000BC02"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES CHAS MNT 1 OHM 0.1% 5W",
+     "DetailedDescription": "1 Ohms \u00b10.1% 5W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "Y00261R00000B0L",
+    "UnitPrice": 38.0516,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/Y00261R00000B0L/4217611",
+    "DatasheetUrl": "https://vpgfoilresistors.com/products/current-sense-resistors/vpr5/datasheet",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "Y00261R00000B0L-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 38.0516,
+        "TotalPrice": 951.29
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "249624",
+      "ValueText": "5W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1401",
+      "ValueText": "\u00b110ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242931",
+      "ValueText": "-55\u00b0C ~ 150\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "336101",
+      "ValueText": "Current Sense, Non-Inductive"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "312981",
+      "ValueText": "Aluminum"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "400517",
+      "ValueText": "Screw Holes"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "41639",
+      "ValueText": "1.030\" L x 0.312\" W (26.16mm x 7.93mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23617",
+      "ValueText": "0.450\" (11.43mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "421432",
+      "ValueText": "Wire Leads"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317208",
+      "ValueText": "Axial, Box"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 40655,
+     "Name": "VPR5"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "RoHS non-compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES CHAS MNT 1 OHM 0.1% 5W",
+     "DetailedDescription": "1 Ohms \u00b10.1% 5W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "Y00261R00000B9L",
+    "UnitPrice": 38.0516,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/Y00261R00000B9L/4217612",
+    "DatasheetUrl": "https://vpgfoilresistors.com/products/current-sense-resistors/vpr5/datasheet",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "Y00261R00000B9L-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 38.0516,
+        "TotalPrice": 951.29
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "249624",
+      "ValueText": "5W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1401",
+      "ValueText": "\u00b110ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242931",
+      "ValueText": "-55\u00b0C ~ 150\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "336101",
+      "ValueText": "Current Sense, Non-Inductive"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "312981",
+      "ValueText": "Aluminum"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "400517",
+      "ValueText": "Screw Holes"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "41639",
+      "ValueText": "1.030\" L x 0.312\" W (26.16mm x 7.93mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23617",
+      "ValueText": "0.450\" (11.43mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "421432",
+      "ValueText": "Wire Leads"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317208",
+      "ValueText": "Axial, Box"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 40655,
+     "Name": "VPR5"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES CHAS MNT 1 OHM 0.1% 7W",
+     "DetailedDescription": "1 Ohms \u00b10.1% 7W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "Y00271R00000B0L",
+    "UnitPrice": 38.0516,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/Y00271R00000B0L/4217630",
+    "DatasheetUrl": "https://vpgfoilresistors.com/products/current-sense-resistors/vpr7/datasheet",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "Y00271R00000B0L-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 38.0516,
+        "TotalPrice": 951.29
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "281382",
+      "ValueText": "7W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1401",
+      "ValueText": "\u00b110ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242931",
+      "ValueText": "-55\u00b0C ~ 150\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "336101",
+      "ValueText": "Current Sense, Non-Inductive"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "312981",
+      "ValueText": "Aluminum"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "400517",
+      "ValueText": "Screw Holes"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "41639",
+      "ValueText": "1.030\" L x 0.312\" W (26.16mm x 7.93mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23617",
+      "ValueText": "0.450\" (11.43mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "421432",
+      "ValueText": "Wire Leads"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317208",
+      "ValueText": "Axial, Box"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 40656,
+     "Name": "VPR7"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "RoHS non-compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "RES CHAS MNT 1 OHM 0.1% 7W",
+     "DetailedDescription": "1 Ohms \u00b10.1% 7W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "Y00271R00000B9L",
+    "UnitPrice": 38.0516,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/Y00271R00000B9L/4217631",
+    "DatasheetUrl": "https://vpgfoilresistors.com/products/current-sense-resistors/vpr7/datasheet",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "Y00271R00000B9L-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 38.0516,
+        "TotalPrice": 951.29
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "281382",
+      "ValueText": "7W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1401",
+      "ValueText": "\u00b110ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242931",
+      "ValueText": "-55\u00b0C ~ 150\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "336101",
+      "ValueText": "Current Sense, Non-Inductive"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "312981",
+      "ValueText": "Aluminum"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "400517",
+      "ValueText": "Screw Holes"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "41639",
+      "ValueText": "1.030\" L x 0.312\" W (26.16mm x 7.93mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23617",
+      "ValueText": "0.450\" (11.43mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "421432",
+      "ValueText": "Wire Leads"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317208",
+      "ValueText": "Axial, Box"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 40656,
+     "Name": "VPR7"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "VFP-3T 1R00000 0.5%",
+     "DetailedDescription": "1 Ohms \u00b10.5% 10W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "Y07331R00000D9L",
+    "UnitPrice": 44.0904,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/Y07331R00000D9L/21832330",
+    "DatasheetUrl": "https://vpgfoilresistors.com/products/through-hole-leaded-resistors/vfp3/datasheet",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "804-Y07331R00000D9L-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 44.0904,
+        "TotalPrice": 1102.26
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 25,
+      "StandardPackage": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "976",
+      "ValueText": "\u00b10.5%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "74706",
+      "ValueText": "10W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "2086",
+      "ValueText": "\u00b12ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242931",
+      "ValueText": "-55\u00b0C ~ 150\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "336101",
+      "ValueText": "Current Sense, Non-Inductive"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "54620",
+      "ValueText": "1.575\" L x 0.276\" W (40.01mm x 7.01mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "34482",
+      "ValueText": "0.803\" (20.40mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "168694",
+      "ValueText": "2-Terminal"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392278",
+      "ValueText": "Radial"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "28",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 40640,
+     "Name": "VFP-3"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": [
+     "804-Y07331R00000D9L"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RESFOIL FWP227 T227  1R 0.1% 60W",
+     "DetailedDescription": "1 Ohms \u00b10.1% 60W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 696,
+     "Name": "Riedon products by Bourns"
+    },
+    "ManufacturerProductNumber": "FWP2274P-1R00-B",
+    "UnitPrice": 82.5748,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/riedon-products-by-bourns/FWP2274P-1R00-B/28264734",
+    "DatasheetUrl": "https://www.bourns.com/docs/product-datasheets/FWP227x.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8890/MFG_FWP2272N-1R00-x.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "696-FWP2274P-1R00-B-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 82.5748,
+        "TotalPrice": 20643.7
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 696,
+       "Name": "Riedon products by Bourns"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 250,
+      "StandardPackage": 50,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "257693",
+      "ValueText": "60W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "2617",
+      "ValueText": "\u00b150ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212489",
+      "ValueText": "-40\u00b0C ~ 130\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "344589",
+      "ValueText": "Epoxy Coated"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "52735",
+      "ValueText": "1.496\" L x 1.024\" W (38.00mm x 26.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "22115",
+      "ValueText": "0.402\" (10.20mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "370531",
+      "ValueText": "M4 Threaded"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "405395",
+      "ValueText": "SOT-227-4"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "16",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 142553,
+     "Name": "FWP227x"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.29.0000"
+    },
+    "OtherNames": [
+     "696-FWP2274P-1R00-B"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PCW1R0000B 15 PPM",
+     "DetailedDescription": "1 Ohms \u00b10.1% 10W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "PCW1R0000B",
+    "UnitPrice": 83.95,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/PCW1R0000B/21828715",
+    "DatasheetUrl": "https://www.alpha-elec.co.jp/w2img/202210101033402016071918245767013_PB-PC(E)_final_25Apr2016.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5752/MFG_804_PC.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "804-PCW1R0000B-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 83.95,
+        "TotalPrice": 83.95
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "74706",
+      "ValueText": "10W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1565",
+      "ValueText": "\u00b115ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "312981",
+      "ValueText": "Aluminum"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "54625",
+      "ValueText": "1.575\" L x 0.787\" W (40.00mm x 20.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14372",
+      "ValueText": "0.205\" (5.20mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "228442",
+      "ValueText": "4-Terminal"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392278",
+      "ValueText": "Radial"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 5290,
+     "Name": "PC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": [
+     "804-PCW1R0000B"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PCX1R0000B 5 PPM",
+     "DetailedDescription": "1 Ohms \u00b10.1% 10W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "PCX1R0000B",
+    "UnitPrice": 102.34,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/PCX1R0000B/8581188",
+    "DatasheetUrl": "https://www.alpha-elec.co.jp/w2img/202210101033402016071918245767013_PB-PC(E)_final_25Apr2016.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5752/MFG_804_PC.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "PCX1R0000B-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 102.34,
+        "TotalPrice": 102.34
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "74706",
+      "ValueText": "10W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "2648",
+      "ValueText": "\u00b15ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "54625",
+      "ValueText": "1.575\" L x 0.787\" W (40.00mm x 20.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14372",
+      "ValueText": "0.205\" (5.20mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "228442",
+      "ValueText": "4-Terminal"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392278",
+      "ValueText": "Radial"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 5290,
+     "Name": "PC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "PCY1R0000B 2.5 PPM",
+     "DetailedDescription": "1 Ohms \u00b10.1% 10W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "PCY1R0000B",
+    "UnitPrice": 128.2,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/PCY1R0000B/8581196",
+    "DatasheetUrl": "https://www.alpha-elec.co.jp/w2img/202210101033402016071918245767013_PB-PC(E)_final_25Apr2016.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5752/MFG_804_PC.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "PCY1R0000B-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 128.2,
+        "TotalPrice": 128.2
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "74706",
+      "ValueText": "10W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1821",
+      "ValueText": "\u00b12.5ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242934",
+      "ValueText": "-55\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "54625",
+      "ValueText": "1.575\" L x 0.787\" W (40.00mm x 20.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14372",
+      "ValueText": "0.205\" (5.20mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "228442",
+      "ValueText": "4-Terminal"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392278",
+      "ValueText": "Radial"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 5290,
+     "Name": "PC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.21.0090"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "FNPX1R000B 5 PPM SHUNT",
+     "DetailedDescription": "1 Ohms \u00b10.1% 500W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "FNPX1R000B",
+    "UnitPrice": 513.81,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/FNPX1R000B/21829684",
+    "DatasheetUrl": "https://www.alpha-elec.co.jp/w2img/202210071329002016072016474612600_FNP(EN)_final_26Feb2021.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5783/MFG_FNPxx.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "804-FNPX1R000B-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 513.81,
+        "TotalPrice": 513.81
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "731",
+      "ValueText": "\u00b10.1%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "237376",
+      "ValueText": "500W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "2648",
+      "ValueText": "\u00b15ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "796042",
+      "ValueText": "2.756\" L x 2.165\" W (70.00mm x 55.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "34945",
+      "ValueText": "0.827\" (21.00mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "370647",
+      "ValueText": "M6 Threaded"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "405394",
+      "ValueText": "SOT-227-2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 64558,
+     "Name": "FNP"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.29.0000"
+    },
+    "OtherNames": [
+     "804-FNPX1R000B"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "FNPY1R000A 2.5 PPM SHUNT",
+     "DetailedDescription": "1 Ohms \u00b10.05% 500W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "FNPY1R000A",
+    "UnitPrice": 567.91,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/FNPY1R000A/21829103",
+    "DatasheetUrl": "https://www.alpha-elec.co.jp/w2img/202210071329002016072016474612600_FNP(EN)_final_26Feb2021.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5783/MFG_FNPxx.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "804-FNPY1R000A-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 567.91,
+        "TotalPrice": 567.91
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "696",
+      "ValueText": "\u00b10.05%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "237376",
+      "ValueText": "500W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1821",
+      "ValueText": "\u00b12.5ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "796042",
+      "ValueText": "2.756\" L x 2.165\" W (70.00mm x 55.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "34945",
+      "ValueText": "0.827\" (21.00mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "370647",
+      "ValueText": "M6 Threaded"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "405394",
+      "ValueText": "SOT-227-2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 64558,
+     "Name": "FNP"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.29.0000"
+    },
+    "OtherNames": [
+     "804-FNPY1R000A"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "FNPZ1R000A 1 PPM SHUNT",
+     "DetailedDescription": "1 Ohms \u00b10.05% 500W Metal Foil Chassis Mount Resistor"
+    },
+    "Manufacturer": {
+     "Id": 804,
+     "Name": "VPG Foil Resistors"
+    },
+    "ManufacturerProductNumber": "FNPZ1R000A",
+    "UnitPrice": 1045.38,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/vpg-foil-resistors/FNPZ1R000A/21830462",
+    "DatasheetUrl": "https://www.alpha-elec.co.jp/w2img/202210071329002016072016474612600_FNP(EN)_final_26Feb2021.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5783/MFG_FNPxx.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "804-FNPZ1R000A-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 1045.38,
+        "TotalPrice": 1045.38
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 804,
+       "Name": "VPG Foil Resistors"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2085,
+      "ParameterText": "Resistance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 Ohms",
+      "ValueText": "1 Ohms"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "696",
+      "ValueText": "\u00b10.05%"
+     },
+     {
+      "ParameterId": 2,
+      "ParameterText": "Power (Watts)",
+      "ParameterType": "String",
+      "ValueId": "237376",
+      "ValueText": "500W"
+     },
+     {
+      "ParameterId": 174,
+      "ParameterText": "Composition",
+      "ParameterType": "String",
+      "ValueId": "374916",
+      "ValueText": "Metal Foil"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "1660",
+      "ValueText": "\u00b11ppm/\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1349,
+      "ParameterText": "Coating, Housing Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "347750",
+      "ValueText": "Flanges"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "796042",
+      "ValueText": "2.756\" L x 2.165\" W (70.00mm x 55.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "34945",
+      "ValueText": "0.827\" (21.00mm)"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "370647",
+      "ValueText": "M6 Threaded"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "405394",
+      "ValueText": "SOT-227-2"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 2,
+     "ParentId": 0,
+     "Name": "Resistors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+     "SeoDescription": "Products within this category include fixed-value (non-adjustable) resistors and related mounting accessories, organized according to their physical form factor or the method by which they are physically and electrically connected within an end application. Adjustable or variable-value resistors (also known as potentiometers or rheostats) are found separately, in a category of their own.",
+     "ChildCategories": [
+      {
+       "CategoryId": 54,
+       "ParentId": 2,
+       "Name": "Chassis Mount Resistors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/639/316/FVT%20SERIES_tmb%2864x64%29.jpg",
+       "SeoDescription": "Chassis mount resistors are passive components that oppose the flow of current and are used to adjust signal levels, divide voltages, bias active elements, or terminate transmission lines among other uses. These resistors are typically larger and may dissipate up to 2500 watts of heat energy. They are mounted using housing flanges, screws, braces, or brackets.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 64558,
+     "Name": "FNP"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8533.29.0000"
+    },
+    "OtherNames": [
+     "804-FNPZ1R000A"
+    ]
+   }
+  ],
+  "ProductsCount": 13,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 696,
+     "Value": "Riedon products by Bourns",
+     "ProductCount": 1
+    },
+    {
+     "Id": 541,
+     "Value": "Vishay Dale",
+     "ProductCount": 1
+    },
+    {
+     "Id": 804,
+     "Value": "VPG Foil Resistors",
+     "ProductCount": 11
+    }
+   ],
+   "Packaging": [
+    {
+     "Id": 3,
+     "Value": "Bulk",
+     "ProductCount": 13
+    }
+   ],
+   "Status": [
+    {
+     "Id": 0,
+     "Value": "Active",
+     "ProductCount": 13
+    }
+   ],
+   "Series": [
+    {
+     "Id": 64558,
+     "Value": "FNP",
+     "ProductCount": 3
+    },
+    {
+     "Id": 142553,
+     "Value": "FWP227x",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5290,
+     "Value": "PC",
+     "ProductCount": 3
+    },
+    {
+     "Id": 24462,
+     "Value": "RH",
+     "ProductCount": 1
+    },
+    {
+     "Id": 40640,
+     "Value": "VFP-3",
+     "ProductCount": 1
+    },
+    {
+     "Id": 40655,
+     "Value": "VPR5",
+     "ProductCount": 2
+    },
+    {
+     "Id": 40656,
+     "Value": "VPR7",
+     "ProductCount": 2
+    }
+   ],
+   "ParametricFilters": [
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "UnitOfMeasure",
+     "ParameterId": 2085,
+     "ParameterName": "Resistance",
+     "FilterValues": [
+      {
+       "ProductCount": 13,
+       "ValueId": "1 Ohms",
+       "ValueName": "1 Ohms"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 3,
+     "ParameterName": "Tolerance",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "696",
+       "ValueName": "\u00b10.05%"
+      },
+      {
+       "ProductCount": 10,
+       "ValueId": "731",
+       "ValueName": "\u00b10.1%"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "976",
+       "ValueName": "\u00b10.5%"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 2,
+     "ParameterName": "Power (Watts)",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "249624",
+       "ValueName": "5W"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "281382",
+       "ValueName": "7W"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "270802",
+       "ValueName": "7.5W"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "74706",
+       "ValueName": "10W"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "257693",
+       "ValueName": "60W"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "237376",
+       "ValueName": "500W"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 174,
+     "ParameterName": "Composition",
+     "FilterValues": [
+      {
+       "ProductCount": 12,
+       "ValueId": "374916",
+       "ValueName": "Metal Foil"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "421681",
+       "ValueName": "Wirewound"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 17,
+     "ParameterName": "Temperature Coefficient",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "1660",
+       "ValueName": "\u00b11ppm/\u00b0C"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "2086",
+       "ValueName": "\u00b12ppm/\u00b0C"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "1821",
+       "ValueName": "\u00b12.5ppm/\u00b0C"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "2648",
+       "ValueName": "\u00b15ppm/\u00b0C"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "1401",
+       "ValueName": "\u00b110ppm/\u00b0C"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "1565",
+       "ValueName": "\u00b115ppm/\u00b0C"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "2617",
+       "ValueName": "\u00b150ppm/\u00b0C"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 252,
+     "ParameterName": "Operating Temperature",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "242918",
+       "ValueName": "-55\u00b0C ~ 125\u00b0C"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "242931",
+       "ValueName": "-55\u00b0C ~ 150\u00b0C"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "242934",
+       "ValueName": "-55\u00b0C ~ 155\u00b0C"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "242965",
+       "ValueName": "-55\u00b0C ~ 250\u00b0C"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "212489",
+       "ValueName": "-40\u00b0C ~ 130\u00b0C"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 5,
+     "ParameterName": "Features",
+     "FilterValues": [
+      {
+       "ProductCount": 8,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "336101",
+       "ValueName": "Current Sense, Non-Inductive"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1349,
+     "ParameterName": "Coating, Housing Type",
+     "FilterValues": [
+      {
+       "ProductCount": 6,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 6,
+       "ValueId": "312981",
+       "ValueName": "Aluminum"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "344589",
+       "ValueName": "Epoxy Coated"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1061,
+     "ParameterName": "Mounting Feature",
+     "FilterValues": [
+      {
+       "ProductCount": 9,
+       "ValueId": "347750",
+       "ValueName": "Flanges"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "400517",
+       "ValueName": "Screw Holes"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 46,
+     "ParameterName": "Size / Dimension",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "28917",
+       "ValueName": "0.600\" L x 0.646\" W (15.24mm x 16.41mm)"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "41639",
+       "ValueName": "1.030\" L x 0.312\" W (26.16mm x 7.93mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "52735",
+       "ValueName": "1.496\" L x 1.024\" W (38.00mm x 26.00mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "54620",
+       "ValueName": "1.575\" L x 0.276\" W (40.01mm x 7.01mm)"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "54625",
+       "ValueName": "1.575\" L x 0.787\" W (40.00mm x 20.00mm)"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "796042",
+       "ValueName": "2.756\" L x 2.165\" W (70.00mm x 55.00mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1500,
+     "ParameterName": "Height - Seated (Max)",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "14372",
+       "ValueName": "0.205\" (5.20mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "19389",
+       "ValueName": "0.335\" (8.51mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "22115",
+       "ValueName": "0.402\" (10.20mm)"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "23617",
+       "ValueName": "0.450\" (11.43mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "34482",
+       "ValueName": "0.803\" (20.40mm)"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "34945",
+       "ValueName": "0.827\" (21.00mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 4,
+     "ParameterName": "Lead Style",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "168694",
+       "ValueName": "2-Terminal"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "228442",
+       "ValueName": "4-Terminal"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "370531",
+       "ValueName": "M4 Threaded"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "370647",
+       "ValueName": "M6 Threaded"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "405024",
+       "ValueName": "Solder Lugs"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "421432",
+       "ValueName": "Wire Leads"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 16,
+     "ParameterName": "Package / Case",
+     "FilterValues": [
+      {
+       "ProductCount": 5,
+       "ValueId": "317208",
+       "ValueName": "Axial, Box"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "392278",
+       "ValueName": "Radial"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "405394",
+       "ValueName": "SOT-227-2"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "405395",
+       "ValueName": "SOT-227-4"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1531,
+     "ParameterName": "Failure Rate",
+     "FilterValues": [
+      {
+       "ProductCount": 13,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1977,
+     "ParameterName": "Grade",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 54,
+      "Value": "Chassis Mount Resistors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 2700,
+     "ParameterName": "Qualification",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

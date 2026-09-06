@@ -1,0 +1,568 @@
+{
+ "mpn": "1825AC473KAT1A",
+ "fetched_at": "2026-09-05T20:30:54",
+ "pro_fields": false,
+ "block": {
+  "hits": 2,
+  "parts": [
+   {
+    "id": "71038306",
+    "mpn": "1825AC473KAT1A",
+    "name": "KYOCERA AVX 1825AC473KAT1A",
+    "octopartUrl": "https://octopart.com/part/kyocera-avx/1825AC473KAT1A",
+    "manufacturer": {
+     "name": "KYOCERA AVX"
+    },
+    "medianPrice1000": {
+     "price": 0.74943,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 136747,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Arrow Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.84,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 9051,
+        "factoryLeadDays": 224,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.64,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.07,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.8454,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.776,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 9051,
+        "factoryLeadDays": 224,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.64,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.07,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.8454,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.776,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 9051,
+        "factoryLeadDays": 224,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.64,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.07,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.8454,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.776,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 9051,
+        "factoryLeadDays": 224,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 0.65886,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1500,
+          "price": 0.60447,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Avnet"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 224,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Win Source"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 3360,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 105,
+          "price": 0.618,
+          "currency": "USD"
+         },
+         {
+          "quantity": 260,
+          "price": 0.5071,
+          "currency": "USD"
+         },
+         {
+          "quantity": 395,
+          "price": 0.4913,
+          "currency": "USD"
+         },
+         {
+          "quantity": 545,
+          "price": 0.4754,
+          "currency": "USD"
+         },
+         {
+          "quantity": 705,
+          "price": 0.4596,
+          "currency": "USD"
+         },
+         {
+          "quantity": 945,
+          "price": 0.412,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ICSuperman Co."
+      },
+      "offers": [
+       {
+        "inventoryLevel": 12150,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.072,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.0398,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 1.0184,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.9862,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.9648,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "TIST Technology Co., Limited"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 10000,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.612,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.5814,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.5508,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.50184,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "UnikeyIC"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 9051,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 0.9169,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1500,
+          "price": 0.8412,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Worldway Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 23720,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 7,
+          "price": 0.4815,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.4725,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.4636,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.4458,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.436884,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Ansinor"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 11043,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 10,
+          "price": 0.57646,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.57646,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.53375,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.45689,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Bettlink"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 10000,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.60459,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.52572,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.4694,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.43869,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.39415,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "SHENGYU ELECTRONICS"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 7760,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.7703,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.7549,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.73,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.71,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.68,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Quest"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 374,
+        "factoryLeadDays": null,
+        "prices": []
+       },
+       {
+        "inventoryLevel": 68,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2,
+          "currency": "USD"
+         },
+         {
+          "quantity": 4,
+          "price": 1.6,
+          "currency": "USD"
+         },
+         {
+          "quantity": 14,
+          "price": 1,
+          "currency": "USD"
+         },
+         {
+          "quantity": 61,
+          "price": 0.6,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ODG (Origin Data Global)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1000,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 45,
+          "price": 1.0226,
+          "currency": "USD"
+         },
+         {
+          "quantity": 94,
+          "price": 0.9624,
+          "currency": "USD"
+         },
+         {
+          "quantity": 150,
+          "price": 0.9023,
+          "currency": "USD"
+         },
+         {
+          "quantity": 215,
+          "price": 0.8421,
+          "currency": "USD"
+         },
+         {
+          "quantity": 289,
+          "price": 0.782,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ComSIT Distribution GmbH"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 2965,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Unikeyic (ICkey)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 9051,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 0.9169,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1500,
+          "price": 0.8412,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "key": "raw_105b65777e6dce7b",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "D38999/24GH97JN"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:59",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "157368292",
+       "mpn": "D38999/24GH97JN",
+       "name": "Glenair D38999/24GH97JN",
+       "octopartUrl": "https://octopart.com/part/glenair/D38999%2F24GH97JN",
+       "manufacturer": {
+        "name": "Glenair"
+       },
+       "medianPrice1000": {
+        "price": 958.125,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 0,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Avnet"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 35,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 2404.9597,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2,
+             "price": 2114.63,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4,
+             "price": 1759.8808,
+             "currency": "USD"
+            },
+            {
+             "quantity": 7,
+             "price": 1309.3608,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 958.125,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "4cb8e850-212c-4ff2-98be-eedb17b0fd7a"
+  }
+ },
+ "from_cache": false
+}

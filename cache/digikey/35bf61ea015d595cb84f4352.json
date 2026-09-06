@@ -1,0 +1,436 @@
+{
+ "key": "35bf61ea015d595cb84f4352",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1N5612",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:22:24",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "TVS DIODE 49VWM 78.5VC G AXIAL",
+     "DetailedDescription": "78.5V Clamp 116A (8/20\u00b5s) Ipp Tvs Diode Through Hole G, Axial"
+    },
+    "Manufacturer": {
+     "Id": 150,
+     "Name": "Microchip Technology"
+    },
+    "ManufacturerProductNumber": "1N5612",
+    "UnitPrice": 85.624,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/microchip-technology/1N5612/7607041",
+    "DatasheetUrl": "https://ww1.microchip.com/downloads/aemDocuments/documents/HRDS/ProductDocuments/DataSheets/1N5610-1N5613.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7424/MFG_1N5612.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1N5612-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 85.624,
+        "TotalPrice": 8562.4
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 150,
+       "Name": "Microchip Technology"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 100,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "423536",
+      "ValueText": "Zener"
+     },
+     {
+      "ParameterId": 1729,
+      "ParameterText": "Unidirectional Channels",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 761,
+      "ParameterText": "Voltage - Reverse Standoff (Typ)",
+      "ParameterType": "String",
+      "ValueId": "227151",
+      "ValueText": "49V"
+     },
+     {
+      "ParameterId": 1731,
+      "ParameterText": "Voltage - Breakdown (Min)",
+      "ParameterType": "String",
+      "ValueId": "242597",
+      "ValueText": "54V"
+     },
+     {
+      "ParameterId": 1732,
+      "ParameterText": "Voltage - Clamping (Max) @ Ipp",
+      "ParameterType": "String",
+      "ValueId": "279558",
+      "ValueText": "78.5V"
+     },
+     {
+      "ParameterId": 714,
+      "ParameterText": "Current - Peak Pulse (10/1000\u00b5s)",
+      "ParameterType": "String",
+      "ValueId": "79170",
+      "ValueText": "116A (8/20\u00b5s)"
+     },
+     {
+      "ParameterId": 1733,
+      "ParameterText": "Power - Peak Pulse",
+      "ParameterType": "String",
+      "ValueId": "99978",
+      "ValueText": "1500W (1.5kW)"
+     },
+     {
+      "ParameterId": 1734,
+      "ParameterText": "Power Line Protection",
+      "ParameterType": "String",
+      "ValueId": "380240",
+      "ValueText": "No"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 566,
+      "ParameterText": "Capacitance @ Frequency",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242943",
+      "ValueText": "-55\u00b0C ~ 175\u00b0C (TJ)"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "350099",
+      "ValueText": "G, Axial"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "350099",
+      "ValueText": "G, Axial"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 9,
+     "ParentId": 0,
+     "Name": "Circuit Protection",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+     "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2040,
+       "ParentId": 9,
+       "Name": "Transient Voltage Suppressors (TVS)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/256/835/DO-214AA_SMB_tmb%2864x64%29.jpg",
+       "SeoDescription": "TVS, or Transient Voltage Suppressors are devices designed to limit or prevent temporary surges or spikes within a specific voltage level.",
+       "ChildCategories": [
+        {
+         "CategoryId": 144,
+         "ParentId": 2040,
+         "Name": "TVS Diodes",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/332/776/112%3BDO214AA%28SMBJ%29%3B%3B2_tmb%2864x64%29.jpg",
+         "SeoDescription": "TVS Diodes are a semiconductor device designed to limit or stop surges in a specific voltage level. The items in this family are designed using diodes (a component that conducts in just one direction). TVS is an acronym for Transient Voltage Suppression (Suppressor). The types are steering (rail to rail) or Zener with the characteristics of unidirectional channels, bidirectional channels, voltage \u2013 reverse standoff, voltage \u2013 breakdown, voltage \u2013 clamping, current \u2013 peak pulse, power \u2013 peak pulse, and power line protection.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "36",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8541.10.0080"
+    },
+    "OtherNames": []
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [
+   {
+    "Description": {
+     "ProductDescription": "TVS DIODE 49VWM 78.5VC G AXIAL",
+     "DetailedDescription": "78.5V Clamp 116A (8/20\u00b5s) Ipp Tvs Diode Through Hole G, Axial"
+    },
+    "Manufacturer": {
+     "Id": 150,
+     "Name": "Microchip Technology"
+    },
+    "ManufacturerProductNumber": "1N5612",
+    "UnitPrice": 85.624,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/microchip-technology/1N5612/7607041",
+    "DatasheetUrl": "https://ww1.microchip.com/downloads/aemDocuments/documents/HRDS/ProductDocuments/DataSheets/1N5610-1N5613.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/7424/MFG_1N5612.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1N5612-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 85.624,
+        "TotalPrice": 8562.4
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 150,
+       "Name": "Microchip Technology"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 100,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "423536",
+      "ValueText": "Zener"
+     },
+     {
+      "ParameterId": 1729,
+      "ParameterText": "Unidirectional Channels",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 761,
+      "ParameterText": "Voltage - Reverse Standoff (Typ)",
+      "ParameterType": "String",
+      "ValueId": "227151",
+      "ValueText": "49V"
+     },
+     {
+      "ParameterId": 1731,
+      "ParameterText": "Voltage - Breakdown (Min)",
+      "ParameterType": "String",
+      "ValueId": "242597",
+      "ValueText": "54V"
+     },
+     {
+      "ParameterId": 1732,
+      "ParameterText": "Voltage - Clamping (Max) @ Ipp",
+      "ParameterType": "String",
+      "ValueId": "279558",
+      "ValueText": "78.5V"
+     },
+     {
+      "ParameterId": 714,
+      "ParameterText": "Current - Peak Pulse (10/1000\u00b5s)",
+      "ParameterType": "String",
+      "ValueId": "79170",
+      "ValueText": "116A (8/20\u00b5s)"
+     },
+     {
+      "ParameterId": 1733,
+      "ParameterText": "Power - Peak Pulse",
+      "ParameterType": "String",
+      "ValueId": "99978",
+      "ValueText": "1500W (1.5kW)"
+     },
+     {
+      "ParameterId": 1734,
+      "ParameterText": "Power Line Protection",
+      "ParameterType": "String",
+      "ValueId": "380240",
+      "ValueText": "No"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 566,
+      "ParameterText": "Capacitance @ Frequency",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242943",
+      "ValueText": "-55\u00b0C ~ 175\u00b0C (TJ)"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "350099",
+      "ValueText": "G, Axial"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "350099",
+      "ValueText": "G, Axial"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 9,
+     "ParentId": 0,
+     "Name": "Circuit Protection",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/180/750/FHAC0001ZXJ_tmb.jpg",
+     "SeoDescription": "Circuit protection devices include products used to protect electrical circuits from damage caused by hazards such as static discharge (such as Transient Voltage Suppression diodes and gas discharge tubes) as well as products designed to reduce the risk of fire caused by electrical overload or circuit failure, such as fuses and circuit breakers. Related accessories designed for use with such products are also included, such as fuse holders, fuse pullers, and mounting bases for circuit breakers.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2040,
+       "ParentId": 9,
+       "Name": "Transient Voltage Suppressors (TVS)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/256/835/DO-214AA_SMB_tmb%2864x64%29.jpg",
+       "SeoDescription": "TVS, or Transient Voltage Suppressors are devices designed to limit or prevent temporary surges or spikes within a specific voltage level.",
+       "ChildCategories": [
+        {
+         "CategoryId": 144,
+         "ParentId": 2040,
+         "Name": "TVS Diodes",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/332/776/112%3BDO214AA%28SMBJ%29%3B%3B2_tmb%2864x64%29.jpg",
+         "SeoDescription": "TVS Diodes are a semiconductor device designed to limit or stop surges in a specific voltage level. The items in this family are designed using diodes (a component that conducts in just one direction). TVS is an acronym for Transient Voltage Suppression (Suppressor). The types are steering (rail to rail) or Zener with the characteristics of unidirectional channels, bidirectional channels, voltage \u2013 reverse standoff, voltage \u2013 breakdown, voltage \u2013 clamping, current \u2013 peak pulse, power \u2013 peak pulse, and power line protection.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "36",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8541.10.0080"
+    },
+    "OtherNames": []
+   }
+  ],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 150,
+     "Value": "Microchip Technology",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

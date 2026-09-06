@@ -1,0 +1,41 @@
+{
+ "key": "raw_bb95b8e4135b8791",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "D38999/20GD97JC"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:10",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 5,
+     "parts": [
+      {
+       "id": "32891965",
+       "mpn": "D38999/20GD97JC",
+       "name": "Amphenol D38999/20GD97JC",
+       "octopartUrl": "https://octopart.com/part/amphenol/D38999%2F20GD97JC",
+       "manufacturer": {
+        "name": "Amphenol"
+       },
+       "medianPrice1000": null,
+       "totalAvail": 0,
+       "sellers": []
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "62f84da9-2779-4295-91cd-7b44abcbe2cb"
+  }
+ },
+ "from_cache": false
+}

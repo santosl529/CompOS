@@ -1,0 +1,243 @@
+{
+ "mpn": "110991327",
+ "fetched_at": "2026-09-05T20:31:18",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "104808882",
+    "mpn": "110991327",
+    "name": "Seeed Studio 110991327",
+    "octopartUrl": "https://octopart.com/part/seeed-studio/110991327",
+    "manufacturer": {
+     "name": "Seeed Studio"
+    },
+    "medianPrice1000": {
+     "price": 1.045,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 43087,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Master Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 9,
+        "factoryLeadDays": 14,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.1,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Onlinecomponents.com"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 9,
+        "factoryLeadDays": 14,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.1,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 25224,
+        "factoryLeadDays": 119,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.99,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Arrow Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 1.021,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 0.8949,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Mouser"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 884,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.99,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.99,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.99,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.99,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.99,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.99,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Component Stockers USA"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 6352,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.93,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.93,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.93,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.96,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "UnikeyIC"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 20,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 3,
+          "price": 1.5373,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Fly-Wing Technology"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 10560,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.8712,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Unikeyic (ICkey)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 20,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 3,
+          "price": 1.5373,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

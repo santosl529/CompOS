@@ -1,0 +1,104 @@
+{
+ "mpn": "C330C104G2G5TA",
+ "fetched_at": "2026-09-05T20:30:56",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "79796853",
+    "mpn": "C330C104G2G5TA",
+    "name": "Yageo Group C330C104G2G5TA",
+    "octopartUrl": "https://octopart.com/part/kemet/C330C104G2G5TA",
+    "manufacturer": {
+     "name": "Yageo Group"
+    },
+    "medianPrice1000": {
+     "price": 2.91476,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 11726,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 182,
+        "prices": [
+         {
+          "quantity": 250,
+          "price": 2.91476,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "TIST Technology Co., Limited"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 2900,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 3.4069,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 3.236555,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 3.06621,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 2.793658,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Digi-ic_SMART PIONEER"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 8826,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 100,
+          "price": 5.2,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 5.2,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

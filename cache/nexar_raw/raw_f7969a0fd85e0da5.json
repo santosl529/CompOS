@@ -1,0 +1,123 @@
+{
+ "key": "raw_f7969a0fd85e0da5",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "C330C104G2G5TA"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:56",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "79796853",
+       "mpn": "C330C104G2G5TA",
+       "name": "Yageo Group C330C104G2G5TA",
+       "octopartUrl": "https://octopart.com/part/kemet/C330C104G2G5TA",
+       "manufacturer": {
+        "name": "Yageo Group"
+       },
+       "medianPrice1000": {
+        "price": 2.91476,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 11726,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 182,
+           "prices": [
+            {
+             "quantity": 250,
+             "price": 2.91476,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "TIST Technology Co., Limited"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 2900,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 3.4069,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 3.236555,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 3.06621,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 2.793658,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Digi-ic_SMART PIONEER"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 8826,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 100,
+             "price": 5.2,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 5.2,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "fd2c06b4-ab69-4a11-a214-b024461a724e"
+  }
+ },
+ "from_cache": false
+}

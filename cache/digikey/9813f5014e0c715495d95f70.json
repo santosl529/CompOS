@@ -1,0 +1,30 @@
+{
+ "key": "9813f5014e0c715495d95f70",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1 mH 500 mA",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "166"
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:26:51",
+ "body": {
+  "Products": [],
+  "ExactMatches": [],
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  }
+ },
+ "from_cache": false
+}

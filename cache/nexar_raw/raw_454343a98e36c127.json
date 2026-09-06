@@ -1,0 +1,80 @@
+{
+ "key": "raw_454343a98e36c127",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "07-0201-0875"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:17",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 3,
+     "parts": [
+      {
+       "id": "97342263",
+       "mpn": "07-0201-0875",
+       "name": "Chomerics 07-0201-0875",
+       "octopartUrl": "https://octopart.com/part/chomerics/07-0201-0875",
+       "manufacturer": {
+        "name": "Chomerics"
+       },
+       "medianPrice1000": {
+        "price": 56.0853,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 3,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 3,
+           "factoryLeadDays": 56,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 72.1,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 63.302,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 60.2564,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 56.0853,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "5fb9a8e8-4222-435c-978c-1c9d065f3e1f"
+  }
+ },
+ "from_cache": false
+}

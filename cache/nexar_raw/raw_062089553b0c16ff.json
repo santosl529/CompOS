@@ -1,0 +1,95 @@
+{
+ "key": "raw_062089553b0c16ff",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "C330C104G2G5TA7301"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:56",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "79796855",
+       "mpn": "C330C104G2G5TA7301",
+       "name": "Yageo Group C330C104G2G5TA7301",
+       "octopartUrl": "https://octopart.com/part/kemet/C330C104G2G5TA7301",
+       "manufacturer": {
+        "name": "Yageo Group"
+       },
+       "medianPrice1000": null,
+       "totalAvail": 7580,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 182,
+           "prices": [
+            {
+             "quantity": 1500,
+             "price": 2.91476,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "TIST Technology Co., Limited"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 7580,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 2.9526,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 2.80497,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 2.65734,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 2.421132,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "7cf17630-83aa-46b6-bce0-68df3ee15f78"
+  }
+ },
+ "from_cache": false
+}

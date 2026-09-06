@@ -1,0 +1,1304 @@
+{
+ "key": "52540c83d5ecd91f415c4c95",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "18936-6",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:22:19",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CAP ALUM 470UF 20% 35V RADIAL TH",
+     "DetailedDescription": "470 \u00b5F 35 V Aluminum Electrolytic Capacitors Radial, Can 5000 Hrs @ 105\u00b0C"
+    },
+    "Manufacturer": {
+     "Id": 1189,
+     "Name": "Rubycon"
+    },
+    "ManufacturerProductNumber": "35ZLQ470MEFC10X16",
+    "UnitPrice": 0.83,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/rubycon/35ZLQ470MEFC10X16/6049879",
+    "DatasheetUrl": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLQ.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2195/MFG_ZLQ-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1189-3662-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.83,
+        "TotalPrice": 0.83
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.521,
+        "TotalPrice": 5.21
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.3912,
+        "TotalPrice": 19.56
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.3502,
+        "TotalPrice": 35.02
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.27932,
+        "TotalPrice": 139.66
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.25696,
+        "TotalPrice": 256.96
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.22899,
+        "TotalPrice": 686.97
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.21853,
+        "TotalPrice": 1092.65
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1189,
+       "Name": "Rubycon"
+      },
+      "QuantityAvailableforPackageType": 1261,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 1261,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "470 \u00b5F",
+      "ValueText": "470 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1900",
+      "ValueText": "\u00b120%"
+     },
+     {
+      "ParameterId": 2079,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "35 V",
+      "ValueText": "35 V"
+     },
+     {
+      "ParameterId": 724,
+      "ParameterText": "ESR (Equivalent Series Resistance)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 725,
+      "ParameterText": "Lifetime @ Temp.",
+      "ParameterType": "String",
+      "ValueId": "236531",
+      "ValueText": "5000 Hrs @ 105\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212434",
+      "ValueText": "-40\u00b0C ~ 105\u00b0C"
+     },
+     {
+      "ParameterId": 52,
+      "ParameterText": "Polarization",
+      "ParameterType": "String",
+      "ValueId": "388275",
+      "ValueText": "Polar"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 2253,
+      "ParameterText": "Ripple Current @ Low Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "1.062 A @ 120 Hz",
+      "ValueText": "1.062 A @ 120 Hz"
+     },
+     {
+      "ParameterId": 2080,
+      "ParameterText": "Impedance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "25 mOhms",
+      "ValueText": "25 mOhms"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "13741",
+      "ValueText": "0.197\" (5.00mm)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "21491",
+      "ValueText": "0.394\" Dia (10.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "30889",
+      "ValueText": "0.689\" (17.50mm)"
+     },
+     {
+      "ParameterId": 884,
+      "ParameterText": "Surface Mount Land Size",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392320",
+      "ValueText": "Radial, Can"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 58,
+       "ParentId": 3,
+       "Name": "Aluminum Electrolytic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/236/495/VX-Series-5x12mm_tmb%2864x64%29.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Polarized aluminum electrolytic capacitors have an anode electrode (+) made of pure aluminum foil, electrolyte that acts as the cathode, and a thin insulating layer of aluminum oxide that acts as the dielectric. Electrolytic capacitors have higher capacitance-voltage (CV) product per unit volume than ceramic capacitors or film capacitors. Applications include audio, automotive, bypass, decoupling, and motor starting capacitors.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "20",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 53666,
+     "Name": "ZLQ"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.22.0020"
+    },
+    "OtherNames": [
+     "1189-3662"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP ALUM 1000UF 20% 35V RADIAL",
+     "DetailedDescription": "1000 \u00b5F 35 V Aluminum Electrolytic Capacitors Radial, Can 6000 Hrs @ 105\u00b0C"
+    },
+    "Manufacturer": {
+     "Id": 1189,
+     "Name": "Rubycon"
+    },
+    "ManufacturerProductNumber": "35ZLQ1000MEFC12.5X20",
+    "UnitPrice": 1.41,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/rubycon/35ZLQ1000MEFC12-5X20/6050014",
+    "DatasheetUrl": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLQ.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2195/MFG_ZLQ-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1189-3665-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 1.41,
+        "TotalPrice": 1.41
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.902,
+        "TotalPrice": 9.02
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.6918,
+        "TotalPrice": 34.59
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.6253,
+        "TotalPrice": 62.53
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.51068,
+        "TotalPrice": 255.34
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.47457,
+        "TotalPrice": 474.57
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.42943,
+        "TotalPrice": 1288.29
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.41256,
+        "TotalPrice": 2062.8
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1189,
+       "Name": "Rubycon"
+      },
+      "QuantityAvailableforPackageType": 4664,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 4664,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1000 \u00b5F",
+      "ValueText": "1000 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1900",
+      "ValueText": "\u00b120%"
+     },
+     {
+      "ParameterId": 2079,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "35 V",
+      "ValueText": "35 V"
+     },
+     {
+      "ParameterId": 724,
+      "ParameterText": "ESR (Equivalent Series Resistance)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 725,
+      "ParameterText": "Lifetime @ Temp.",
+      "ParameterType": "String",
+      "ValueId": "255724",
+      "ValueText": "6000 Hrs @ 105\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212434",
+      "ValueText": "-40\u00b0C ~ 105\u00b0C"
+     },
+     {
+      "ParameterId": 52,
+      "ParameterText": "Polarization",
+      "ParameterType": "String",
+      "ValueId": "388275",
+      "ValueText": "Polar"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 2253,
+      "ParameterText": "Ripple Current @ Low Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "1.614 A @ 120 Hz",
+      "ValueText": "1.614 A @ 120 Hz"
+     },
+     {
+      "ParameterId": 2260,
+      "ParameterText": "Ripple Current @ High Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "2.69 A @ 100 kHz",
+      "ValueText": "2.69 A @ 100 kHz"
+     },
+     {
+      "ParameterId": 2080,
+      "ParameterText": "Impedance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "16 mOhms",
+      "ValueText": "16 mOhms"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "13741",
+      "ValueText": "0.197\" (5.00mm)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "24783",
+      "ValueText": "0.492\" Dia (12.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "35710",
+      "ValueText": "0.866\" (22.00mm)"
+     },
+     {
+      "ParameterId": 884,
+      "ParameterText": "Surface Mount Land Size",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392320",
+      "ValueText": "Radial, Can"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 58,
+       "ParentId": 3,
+       "Name": "Aluminum Electrolytic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/236/495/VX-Series-5x12mm_tmb%2864x64%29.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Polarized aluminum electrolytic capacitors have an anode electrode (+) made of pure aluminum foil, electrolyte that acts as the cathode, and a thin insulating layer of aluminum oxide that acts as the dielectric. Electrolytic capacitors have higher capacitance-voltage (CV) product per unit volume than ceramic capacitors or film capacitors. Applications include audio, automotive, bypass, decoupling, and motor starting capacitors.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "30",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 53666,
+     "Name": "ZLQ"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.22.0020"
+    },
+    "OtherNames": [
+     "1189-3665"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP ALUM 2200UF 20% 35V RADIAL",
+     "DetailedDescription": "2200 \u00b5F 35 V Aluminum Electrolytic Capacitors Radial, Can 6000 Hrs @ 105\u00b0C"
+    },
+    "Manufacturer": {
+     "Id": 1189,
+     "Name": "Rubycon"
+    },
+    "ManufacturerProductNumber": "35ZLQ2200MEFC12.5X35",
+    "UnitPrice": 2.48,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/rubycon/35ZLQ2200MEFC12-5X35/6050017",
+    "DatasheetUrl": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLQ.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2195/MFG_ZLQ-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1189-3669-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.48,
+        "TotalPrice": 2.48
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.638,
+        "TotalPrice": 16.38
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.286,
+        "TotalPrice": 64.3
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.1749,
+        "TotalPrice": 117.49
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 0.96698,
+        "TotalPrice": 580.188
+       },
+       {
+        "BreakQuantity": 1200,
+        "UnitPrice": 0.90973,
+        "TotalPrice": 1091.676
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.84866,
+        "TotalPrice": 2545.98
+       },
+       {
+        "BreakQuantity": 5400,
+        "UnitPrice": 0.81669,
+        "TotalPrice": 4410.126
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1189,
+       "Name": "Rubycon"
+      },
+      "QuantityAvailableforPackageType": 657,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 657,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "2200 \u00b5F",
+      "ValueText": "2200 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1900",
+      "ValueText": "\u00b120%"
+     },
+     {
+      "ParameterId": 2079,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "35 V",
+      "ValueText": "35 V"
+     },
+     {
+      "ParameterId": 724,
+      "ParameterText": "ESR (Equivalent Series Resistance)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 725,
+      "ParameterText": "Lifetime @ Temp.",
+      "ParameterType": "String",
+      "ValueId": "255724",
+      "ValueText": "6000 Hrs @ 105\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212434",
+      "ValueText": "-40\u00b0C ~ 105\u00b0C"
+     },
+     {
+      "ParameterId": 52,
+      "ParameterText": "Polarization",
+      "ParameterType": "String",
+      "ValueId": "388275",
+      "ValueText": "Polar"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 2253,
+      "ParameterText": "Ripple Current @ Low Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "2.66 A @ 120 Hz",
+      "ValueText": "2.66 A @ 120 Hz"
+     },
+     {
+      "ParameterId": 2260,
+      "ParameterText": "Ripple Current @ High Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "3.8 A @ 100 kHz",
+      "ValueText": "3.8 A @ 100 kHz"
+     },
+     {
+      "ParameterId": 2080,
+      "ParameterText": "Impedance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 mOhms",
+      "ValueText": "10 mOhms"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "13741",
+      "ValueText": "0.197\" (5.00mm)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "24783",
+      "ValueText": "0.492\" Dia (12.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "52163",
+      "ValueText": "1.457\" (37.00mm)"
+     },
+     {
+      "ParameterId": 884,
+      "ParameterText": "Surface Mount Land Size",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392320",
+      "ValueText": "Radial, Can"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 58,
+       "ParentId": 3,
+       "Name": "Aluminum Electrolytic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/236/495/VX-Series-5x12mm_tmb%2864x64%29.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Polarized aluminum electrolytic capacitors have an anode electrode (+) made of pure aluminum foil, electrolyte that acts as the cathode, and a thin insulating layer of aluminum oxide that acts as the dielectric. Electrolytic capacitors have higher capacitance-voltage (CV) product per unit volume than ceramic capacitors or film capacitors. Applications include audio, automotive, bypass, decoupling, and motor starting capacitors.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "34",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 53666,
+     "Name": "ZLQ"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.22.0020"
+    },
+    "OtherNames": [
+     "1189-3669"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP ALUM 330UF 20% 35V RADIAL TH",
+     "DetailedDescription": "330 \u00b5F 35 V Aluminum Electrolytic Capacitors Radial, Can 5000 Hrs @ 105\u00b0C"
+    },
+    "Manufacturer": {
+     "Id": 1189,
+     "Name": "Rubycon"
+    },
+    "ManufacturerProductNumber": "35ZLQ330MEFC10X12.5",
+    "UnitPrice": 0.8,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/rubycon/35ZLQ330MEFC10X12-5/6049877",
+    "DatasheetUrl": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLQ.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2195/MFG_ZLQ-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1189-3660-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.8,
+        "TotalPrice": 0.8
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.501,
+        "TotalPrice": 5.01
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.376,
+        "TotalPrice": 18.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.3362,
+        "TotalPrice": 33.62
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.26774,
+        "TotalPrice": 133.87
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.24612,
+        "TotalPrice": 246.12
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.21909,
+        "TotalPrice": 657.27
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.20898,
+        "TotalPrice": 1044.9
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1189,
+       "Name": "Rubycon"
+      },
+      "QuantityAvailableforPackageType": 2980,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 2980,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "330 \u00b5F",
+      "ValueText": "330 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1900",
+      "ValueText": "\u00b120%"
+     },
+     {
+      "ParameterId": 2079,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "35 V",
+      "ValueText": "35 V"
+     },
+     {
+      "ParameterId": 724,
+      "ParameterText": "ESR (Equivalent Series Resistance)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 725,
+      "ParameterText": "Lifetime @ Temp.",
+      "ParameterType": "String",
+      "ValueId": "236531",
+      "ValueText": "5000 Hrs @ 105\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212434",
+      "ValueText": "-40\u00b0C ~ 105\u00b0C"
+     },
+     {
+      "ParameterId": 52,
+      "ParameterText": "Polarization",
+      "ParameterType": "String",
+      "ValueId": "388275",
+      "ValueText": "Polar"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 2253,
+      "ParameterText": "Ripple Current @ Low Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "808.5 mA @ 120 Hz",
+      "ValueText": "808.5 mA @ 120 Hz"
+     },
+     {
+      "ParameterId": 2260,
+      "ParameterText": "Ripple Current @ High Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "1.47 A @ 100 kHz",
+      "ValueText": "1.47 A @ 100 kHz"
+     },
+     {
+      "ParameterId": 2080,
+      "ParameterText": "Impedance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "35 mOhms",
+      "ValueText": "35 mOhms"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "13741",
+      "ValueText": "0.197\" (5.00mm)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "21491",
+      "ValueText": "0.394\" Dia (10.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "27105",
+      "ValueText": "0.551\" (14.00mm)"
+     },
+     {
+      "ParameterId": 884,
+      "ParameterText": "Surface Mount Land Size",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392320",
+      "ValueText": "Radial, Can"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 58,
+       "ParentId": 3,
+       "Name": "Aluminum Electrolytic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/236/495/VX-Series-5x12mm_tmb%2864x64%29.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Polarized aluminum electrolytic capacitors have an anode electrode (+) made of pure aluminum foil, electrolyte that acts as the cathode, and a thin insulating layer of aluminum oxide that acts as the dielectric. Electrolytic capacitors have higher capacitance-voltage (CV) product per unit volume than ceramic capacitors or film capacitors. Applications include audio, automotive, bypass, decoupling, and motor starting capacitors.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 53666,
+     "Name": "ZLQ"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.22.0020"
+    },
+    "OtherNames": [
+     "1189-3660"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP ALUM 680UF 20% 35V RADIAL TH",
+     "DetailedDescription": "680 \u00b5F 35 V Aluminum Electrolytic Capacitors Radial, Can 5000 Hrs @ 105\u00b0C"
+    },
+    "Manufacturer": {
+     "Id": 1189,
+     "Name": "Rubycon"
+    },
+    "ManufacturerProductNumber": "35ZLQ680MEFC10X20",
+    "UnitPrice": 1.08,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/rubycon/35ZLQ680MEFC10X20/6049880",
+    "DatasheetUrl": "https://www.rubycon.co.jp/wp-content/uploads/catalog-aluminum/ZLQ.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2195/MFG_ZLQ-Series.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1189-3663-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 1.08,
+        "TotalPrice": 1.08
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.687,
+        "TotalPrice": 6.87
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.5214,
+        "TotalPrice": 26.07
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.469,
+        "TotalPrice": 46.9
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.37858,
+        "TotalPrice": 189.29
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.35008,
+        "TotalPrice": 350.08
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.31443,
+        "TotalPrice": 943.29
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.30111,
+        "TotalPrice": 1505.55
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1189,
+       "Name": "Rubycon"
+      },
+      "QuantityAvailableforPackageType": 1102,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 1102,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "680 \u00b5F",
+      "ValueText": "680 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1900",
+      "ValueText": "\u00b120%"
+     },
+     {
+      "ParameterId": 2079,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "35 V",
+      "ValueText": "35 V"
+     },
+     {
+      "ParameterId": 724,
+      "ParameterText": "ESR (Equivalent Series Resistance)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 725,
+      "ParameterText": "Lifetime @ Temp.",
+      "ParameterType": "String",
+      "ValueId": "236531",
+      "ValueText": "5000 Hrs @ 105\u00b0C"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212434",
+      "ValueText": "-40\u00b0C ~ 105\u00b0C"
+     },
+     {
+      "ParameterId": 52,
+      "ParameterText": "Polarization",
+      "ParameterType": "String",
+      "ValueId": "388275",
+      "ValueText": "Polar"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 2253,
+      "ParameterText": "Ripple Current @ Low Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "1.172 A @ 120 Hz",
+      "ValueText": "1.172 A @ 120 Hz"
+     },
+     {
+      "ParameterId": 2260,
+      "ParameterText": "Ripple Current @ High Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "2.13 A @ 100 kHz",
+      "ValueText": "2.13 A @ 100 kHz"
+     },
+     {
+      "ParameterId": 2080,
+      "ParameterText": "Impedance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "18 mOhms",
+      "ValueText": "18 mOhms"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "13741",
+      "ValueText": "0.197\" (5.00mm)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "21491",
+      "ValueText": "0.394\" Dia (10.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "35710",
+      "ValueText": "0.866\" (22.00mm)"
+     },
+     {
+      "ParameterId": 884,
+      "ParameterText": "Surface Mount Land Size",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "392320",
+      "ValueText": "Radial, Can"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 58,
+       "ParentId": 3,
+       "Name": "Aluminum Electrolytic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/236/495/VX-Series-5x12mm_tmb%2864x64%29.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Polarized aluminum electrolytic capacitors have an anode electrode (+) made of pure aluminum foil, electrolyte that acts as the cathode, and a thin insulating layer of aluminum oxide that acts as the dielectric. Electrolytic capacitors have higher capacitance-voltage (CV) product per unit volume than ceramic capacitors or film capacitors. Applications include audio, automotive, bypass, decoupling, and motor starting capacitors.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "20",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 53666,
+     "Name": "ZLQ"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.22.0020"
+    },
+    "OtherNames": [
+     "1189-3663"
+    ]
+   }
+  ],
+  "ProductsCount": 11,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 1189,
+     "Value": "Rubycon",
+     "ProductCount": 10
+    },
+    {
+     "Id": 281,
+     "Value": "Weidm\u00fcller",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

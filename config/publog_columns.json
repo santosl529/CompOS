@@ -1,0 +1,36 @@
+{
+  "_comment": "Column names inside the PUB LOG CSV distribution (FLIS Data Electronic Reading Room, CSV format since 1 Apr 2023). These are best guesses from the public layouts and the field names used in the DLA codification glossary. Run `python scripts/s01_publog_ingest.py --print-headers` against the real files and fix anything S1 reports as missing. File names are matched case-insensitively and searched recursively under PUBLOG_DIR.",
+  "identification": {
+    "file": "P_FLIS_NSN.CSV",
+    "niin": "NIIN",
+    "fsc": "FSC",
+    "item_name": "ITEM_NAME"
+  },
+  "reference": {
+    "file": "V_FLIS_PART.CSV",
+    "niin": "NIIN",
+    "part_number": "PART_NUMBER",
+    "cage_code": "CAGE_CODE",
+    "rncc": "RNCC",
+    "rnvc": "RNVC"
+  },
+  "characteristics": {
+    "file": "V_CHARACTERISTICS.CSV",
+    "niin": "NIIN",
+    "mrc": "MRC",
+    "requirement_statement": "REQUIREMENTS_STATEMENT",
+    "clear_text_reply": "CLEAR_TEXT_REPLY"
+  },
+  "spec_cage_codes": {
+    "_comment": "CAGE codes that identify a government specification/standard rather than a manufacturer. A reference number whose CAGE is in this list is treated as the governing spec reference.",
+    "81349": "Military specifications (MIL-)",
+    "81348": "Federal specifications",
+    "96906": "Military standards (MS sheets)",
+    "88044": "Aeronautical standards (AN)",
+    "80058": "Naval Sea Systems Command (SCD)",
+    "80063": "US Army CECOM drawings",
+    "58536": "Aerospace standards (AS / SAE)"
+  },
+  "primary_reference_rncc": ["3", "5", "2"],
+  "primary_reference_rnvc": ["2"]
+}

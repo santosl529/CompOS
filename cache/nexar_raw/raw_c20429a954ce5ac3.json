@@ -1,0 +1,124 @@
+{
+ "key": "raw_c20429a954ce5ac3",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "D38999/20GF30HN"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:03",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "157364140",
+       "mpn": "D38999/20GF30HN",
+       "name": "Glenair D38999/20GF30HN",
+       "octopartUrl": "https://octopart.com/part/glenair/D38999%2F20GF30HN",
+       "manufacturer": {
+        "name": "Glenair"
+       },
+       "medianPrice1000": {
+        "price": 1119.6696,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 5,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Powell Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 5,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 2506.8,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2,
+             "price": 2251.42,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4,
+             "price": 1928.83,
+             "currency": "USD"
+            },
+            {
+             "quantity": 7,
+             "price": 1478.55,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 1142.52,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Avnet"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 35,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 2456.664,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2,
+             "price": 1991.04761,
+             "currency": "USD"
+            },
+            {
+             "quantity": 4,
+             "price": 1671.65333,
+             "currency": "USD"
+            },
+            {
+             "quantity": 7,
+             "price": 1248.12987,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 1096.8192,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "39ab18b8-61c5-4d53-bbe7-0da6c2fe40d7"
+  }
+ },
+ "from_cache": false
+}

@@ -1,0 +1,61 @@
+{
+ "mpn": "07-0201-0875",
+ "fetched_at": "2026-09-05T20:31:17",
+ "pro_fields": false,
+ "block": {
+  "hits": 3,
+  "parts": [
+   {
+    "id": "97342263",
+    "mpn": "07-0201-0875",
+    "name": "Chomerics 07-0201-0875",
+    "octopartUrl": "https://octopart.com/part/chomerics/07-0201-0875",
+    "manufacturer": {
+     "name": "Chomerics"
+    },
+    "medianPrice1000": {
+     "price": 56.0853,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 3,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 3,
+        "factoryLeadDays": 56,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 72.1,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 63.302,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 60.2564,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 56.0853,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

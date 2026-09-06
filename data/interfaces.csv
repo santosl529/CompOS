@@ -1,0 +1,7 @@
+interface_id,slot_a,slot_b,constrained_attribute,match_rule
+IF01,J1,J10,contact_count,exact
+IF02,J1,J2,shell_material,exact
+IF03,J1,J3,contact_plating,exact
+IF04,E1,J1,operating_temp_max,numeric_gte
+IF05,C1,FL1,voltage_rating,numeric_gte
+IF06,R1,L1,operating_temp_max,numeric_gte

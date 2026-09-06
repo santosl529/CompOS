@@ -1,0 +1,549 @@
+requirement_id,nsn,requirement_name,operator,value,uom,requirement_class,source,source_spec_id,conflicting_value,conflicting_source,value_num,value_min,value_max,value_text,parse_status,raw_requirement_name
+5905-00-493-1204__power_rating,5905-00-493-1204,power_rating,gte,0.1,W,electrical,publog_characteristics,,,,0.1,,,0.1 W,number,power_rating
+5905-00-493-1204__resistance_tolerance,5905-00-493-1204,resistance_tolerance,lte,0.5,%,electrical,manual_override,MIL-PRF-39007,,,0.5,,,0.5 %,number,resistance_tolerance
+5905-00-493-1204__temperature_coefficient,5905-00-493-1204,temperature_coefficient,lte,100,ppm/degC,electrical,manual_override,MIL-PRF-39007,,,100.0,,,100 ppm/degC,number,temperature_coefficient
+5905-00-493-1204__voltage_rating,5905-00-493-1204,voltage_rating,gte,250,V,electrical,manual_override,MIL-PRF-39007,500,publog_characteristics,250.0,,,250 V,number,voltage_rating
+5905-00-493-1204__operating_temp_max,5905-00-493-1204,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-39007,200,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5905-00-493-1204__operating_temp_min,5905-00-493-1204,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-39007,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5905-00-493-1204__humidity_resistance,5905-00-493-1204,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,humidity_resistance
+5905-00-493-1204__qualification,5905-00-493-1204,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,qualification
+5905-00-493-1204__solderability_per_j_std_002,5905-00-493-1204,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,solderability_per_j_std_002
+5905-00-493-1204__thermal_shock_cycles,5905-00-493-1204,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-39007,,,10.0,,,10,number,thermal_shock_cycles
+5905-00-493-1204__vibration_grms,5905-00-493-1204,vibration_grms,gte,20,,qualification,spec_extraction,MIL-PRF-39007,,,20.0,,,20,number,vibration_grms
+5905-00-493-1204__lot_traceability,5905-00-493-1204,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,lot_traceability
+5905-00-493-1210__resistance_tolerance,5905-00-493-1210,resistance_tolerance,lte,0.5,%,electrical,manual_override,MIL-PRF-39007,0.1,publog_characteristics,0.5,,,0.5 %,number,resistance_tolerance
+5905-00-493-1210__temperature_coefficient,5905-00-493-1210,temperature_coefficient,lte,100,ppm/degC,electrical,manual_override,MIL-PRF-39007,,,100.0,,,100 ppm/degC,number,temperature_coefficient
+5905-00-493-1210__voltage_rating,5905-00-493-1210,voltage_rating,gte,250,V,electrical,manual_override,MIL-PRF-39007,250,publog_characteristics,250.0,,,250 V,number,voltage_rating
+5905-00-493-1210__operating_temp_max,5905-00-493-1210,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-39007,150,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5905-00-493-1210__operating_temp_min,5905-00-493-1210,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-39007,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5905-00-493-1210__humidity_resistance,5905-00-493-1210,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,humidity_resistance
+5905-00-493-1210__qualification,5905-00-493-1210,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,qualification
+5905-00-493-1210__solderability_per_j_std_002,5905-00-493-1210,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,solderability_per_j_std_002
+5905-00-493-1210__thermal_shock_cycles,5905-00-493-1210,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-39007,,,10.0,,,10,number,thermal_shock_cycles
+5905-00-493-1210__vibration_grms,5905-00-493-1210,vibration_grms,gte,20,,qualification,spec_extraction,MIL-PRF-39007,,,20.0,,,20,number,vibration_grms
+5905-00-493-1210__lot_traceability,5905-00-493-1210,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,lot_traceability
+5905-00-493-1211__power_rating,5905-00-493-1211,power_rating,gte,1,W,electrical,publog_characteristics,,,,1.0,,,1 W,number,power_rating
+5905-00-493-1211__resistance,5905-00-493-1211,resistance,eq,100000,ohm,electrical,publog_characteristics,,,,100000.0,,,100000 ohm,number,resistance
+5905-00-493-1211__resistance_tolerance,5905-00-493-1211,resistance_tolerance,lte,0.5,%,electrical,manual_override,MIL-PRF-39007,0.1,publog_characteristics,0.5,,,0.5 %,number,resistance_tolerance
+5905-00-493-1211__temperature_coefficient,5905-00-493-1211,temperature_coefficient,lte,100,ppm/degC,electrical,manual_override,MIL-PRF-39007,15,publog_characteristics,100.0,,,100 ppm/degC,number,temperature_coefficient
+5905-00-493-1211__voltage_rating,5905-00-493-1211,voltage_rating,gte,250,V,electrical,manual_override,MIL-PRF-39007,500,publog_characteristics,250.0,,,250 V,number,voltage_rating
+5905-00-493-1211__operating_temp_max,5905-00-493-1211,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-39007,125,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5905-00-493-1211__operating_temp_min,5905-00-493-1211,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-39007,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5905-00-493-1211__humidity_resistance,5905-00-493-1211,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,humidity_resistance
+5905-00-493-1211__qualification,5905-00-493-1211,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,qualification
+5905-00-493-1211__solderability_per_j_std_002,5905-00-493-1211,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,solderability_per_j_std_002
+5905-00-493-1211__thermal_shock_cycles,5905-00-493-1211,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-39007,,,10.0,,,10,number,thermal_shock_cycles
+5905-00-493-1211__vibration_grms,5905-00-493-1211,vibration_grms,gte,20,,qualification,spec_extraction,MIL-PRF-39007,,,20.0,,,20,number,vibration_grms
+5905-00-493-1211__lot_traceability,5905-00-493-1211,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,lot_traceability
+5905-01-173-4875__power_rating,5905-01-173-4875,power_rating,gte,0.1,W,electrical,publog_characteristics,,,,0.1,,,0.1 W,number,power_rating
+5905-01-173-4875__resistance,5905-01-173-4875,resistance,eq,1,ohm,electrical,publog_characteristics,,,,1.0,,,1 ohm,number,resistance
+5905-01-173-4875__resistance_tolerance,5905-01-173-4875,resistance_tolerance,lte,0.5,%,electrical,manual_override,MIL-PRF-39007,5,publog_characteristics,0.5,,,0.5 %,number,resistance_tolerance
+5905-01-173-4875__temperature_coefficient,5905-01-173-4875,temperature_coefficient,lte,100,ppm/degC,electrical,manual_override,MIL-PRF-39007,25,publog_characteristics,100.0,,,100 ppm/degC,number,temperature_coefficient
+5905-01-173-4875__voltage_rating,5905-01-173-4875,voltage_rating,gte,250,V,electrical,manual_override,MIL-PRF-39007,250,publog_characteristics,250.0,,,250 V,number,voltage_rating
+5905-01-173-4875__operating_temp_max,5905-01-173-4875,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-39007,125,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5905-01-173-4875__operating_temp_min,5905-01-173-4875,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-39007,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5905-01-173-4875__humidity_resistance,5905-01-173-4875,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,humidity_resistance
+5905-01-173-4875__qualification,5905-01-173-4875,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,qualification
+5905-01-173-4875__solderability_per_j_std_002,5905-01-173-4875,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,solderability_per_j_std_002
+5905-01-173-4875__thermal_shock_cycles,5905-01-173-4875,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-39007,,,10.0,,,10,number,thermal_shock_cycles
+5905-01-173-4875__vibration_grms,5905-01-173-4875,vibration_grms,gte,20,,qualification,spec_extraction,MIL-PRF-39007,,,20.0,,,20,number,vibration_grms
+5905-01-173-4875__lot_traceability,5905-01-173-4875,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-39007,,,,,,true,boolean,lot_traceability
+5905-01-290-1192__power_rating,5905-01-290-1192,power_rating,gte,3,W,electrical,publog_characteristics,,,,3.0,,,3 W,number,power_rating
+5905-01-290-1192__resistance,5905-01-290-1192,resistance,eq,150,ohm,electrical,publog_characteristics,,,,150.0,,,150 ohm,number,resistance
+5905-01-290-1192__resistance_tolerance,5905-01-290-1192,resistance_tolerance,lte,5,%,electrical,manual_override,MIL-PRF-55342,5,publog_characteristics,5.0,,,5 %,number,resistance_tolerance
+5905-01-290-1192__temperature_coefficient,5905-01-290-1192,temperature_coefficient,lte,25,ppm/degC,electrical,manual_override,MIL-PRF-55342,50,publog_characteristics,25.0,,,25 ppm/degC,number,temperature_coefficient
+5905-01-290-1192__voltage_rating,5905-01-290-1192,voltage_rating,gte,500,V,electrical,manual_override,MIL-PRF-55342,200,publog_characteristics,500.0,,,500 V,number,voltage_rating
+5905-01-290-1192__operating_temp_max,5905-01-290-1192,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-55342,200,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5905-01-290-1192__operating_temp_min,5905-01-290-1192,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-55342,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5905-01-290-1192__humidity_resistance,5905-01-290-1192,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-55342,,,,,,true,boolean,humidity_resistance
+5905-01-290-1192__qualification,5905-01-290-1192,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-55342,,,,,,true,boolean,qualification
+5905-01-290-1192__solderability_per_j_std_002,5905-01-290-1192,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-55342,,,,,,true,boolean,solderability_per_j_std_002
+5905-01-290-1192__thermal_shock_cycles,5905-01-290-1192,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-55342,,,10.0,,,10,number,thermal_shock_cycles
+5905-01-290-1192__vibration_grms,5905-01-290-1192,vibration_grms,gte,30,,qualification,spec_extraction,MIL-PRF-55342,,,30.0,,,30,number,vibration_grms
+5905-01-290-1192__dpa_sample_required,5905-01-290-1192,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-PRF-55342,,,,,,true,boolean,dpa_sample_required
+5905-01-290-1192__lot_traceability,5905-01-290-1192,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-55342,,,,,,true,boolean,lot_traceability
+5910-00-934-0177__capacitance,5910-00-934-0177,capacitance,eq,4.7e-08,F,electrical,publog_characteristics,,,,4.7e-08,,,4.7e-08,number,capacitance
+5910-00-934-0177__capacitance_tolerance,5910-00-934-0177,capacitance_tolerance,lte,10,%,electrical,publog_characteristics,,,,10.0,,,10 %,number,capacitance_tolerance
+5910-00-934-0177__dielectric_type,5910-00-934-0177,dielectric_type,eq,METALLIZEDPAPER,,electrical,spec_extraction,MIL-PRF-39014,METALLIZEDPAPER,publog_characteristics,,,,METALLIZEDPAPER,text,dielectric_type
+5910-00-934-0177__dissipation_factor,5910-00-934-0177,dissipation_factor,lte,0.59,%,electrical,manual_override,MIL-PRF-39014,2.11,publog_characteristics,0.59,,,0.59 %,number,dissipation_factor
+5910-00-934-0177__voltage_rating,5910-00-934-0177,voltage_rating,gte,500,V,electrical,spec_extraction,MIL-PRF-39014,100,publog_characteristics,500.0,,,500 V,number,voltage_rating
+5910-00-934-0177__operating_temp_max,5910-00-934-0177,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-39014,125,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5910-00-934-0177__operating_temp_min,5910-00-934-0177,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-39014,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5910-00-934-0177__humidity_resistance,5910-00-934-0177,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-39014,,,,,,true,boolean,humidity_resistance
+5910-00-934-0177__qualification,5910-00-934-0177,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-39014,,,,,,true,boolean,qualification
+5910-00-934-0177__solderability_per_j_std_002,5910-00-934-0177,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-39014,,,,,,true,boolean,solderability_per_j_std_002
+5910-00-934-0177__thermal_shock_cycles,5910-00-934-0177,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-PRF-39014,,,25.0,,,25,number,thermal_shock_cycles
+5910-00-934-0177__vibration_grms,5910-00-934-0177,vibration_grms,gte,30,,qualification,spec_extraction,MIL-PRF-39014,,,30.0,,,30,number,vibration_grms
+5910-00-934-0177__lot_traceability,5910-00-934-0177,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-39014,,,,,,true,boolean,lot_traceability
+5910-01-204-1981__capacitance,5910-01-204-1981,capacitance,eq,1e-08,F,electrical,publog_characteristics,,,,1e-08,,,1e-08,number,capacitance
+5910-01-204-1981__capacitance_tolerance,5910-01-204-1981,capacitance_tolerance,lte,2,%,electrical,manual_override,MIL-PRF-123,1,publog_characteristics,2.0,,,2 %,number,capacitance_tolerance
+5910-01-204-1981__dielectric_type,5910-01-204-1981,dielectric_type,eq,METALLIZEDPAPER,,electrical,publog_characteristics,,,,,,,METALLIZEDPAPER,text,dielectric_type
+5910-01-204-1981__dissipation_factor,5910-01-204-1981,dissipation_factor,lte,2.25,%,electrical,manual_override,MIL-PRF-123,1.5,publog_characteristics,2.25,,,2.25 %,number,dissipation_factor
+5910-01-204-1981__voltage_rating,5910-01-204-1981,voltage_rating,gte,200,V,electrical,manual_override,MIL-PRF-123,250,publog_characteristics,200.0,,,200 V,number,voltage_rating
+5910-01-204-1981__operating_temp_max,5910-01-204-1981,operating_temp_max,gte,125,degC,environmental,publog_characteristics,,125,spec_extraction,125.0,,,125 degC,number,operating_temp_max
+5910-01-204-1981__operating_temp_min,5910-01-204-1981,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-123,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5910-01-204-1981__humidity_resistance,5910-01-204-1981,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-123,,,,,,true,boolean,humidity_resistance
+5910-01-204-1981__qualification,5910-01-204-1981,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-123,,,,,,true,boolean,qualification
+5910-01-204-1981__solderability_per_j_std_002,5910-01-204-1981,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-123,,,,,,true,boolean,solderability_per_j_std_002
+5910-01-204-1981__thermal_shock_cycles,5910-01-204-1981,thermal_shock_cycles,gte,5,,qualification,spec_extraction,MIL-PRF-123,,,5.0,,,5,number,thermal_shock_cycles
+5910-01-204-1981__vibration_grms,5910-01-204-1981,vibration_grms,gte,30,,qualification,spec_extraction,MIL-PRF-123,,,30.0,,,30,number,vibration_grms
+5910-01-204-1981__lot_traceability,5910-01-204-1981,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-123,,,,,,true,boolean,lot_traceability
+5910-01-237-2621__capacitance,5910-01-237-2621,capacitance,eq,1e-07,F,electrical,publog_characteristics,,,,1e-07,,,1e-07,number,capacitance
+5910-01-237-2621__capacitance_tolerance,5910-01-237-2621,capacitance_tolerance,lte,2,%,electrical,manual_override,MIL-PRF-123,1,publog_characteristics,2.0,,,2 %,number,capacitance_tolerance
+5910-01-237-2621__dielectric_type,5910-01-237-2621,dielectric_type,eq,C0G,,electrical,publog_characteristics,,,,,,,C0G,text,dielectric_type
+5910-01-237-2621__dissipation_factor,5910-01-237-2621,dissipation_factor,lte,2.25,%,electrical,manual_override,MIL-PRF-123,2.46,publog_characteristics,2.25,,,2.25 %,number,dissipation_factor
+5910-01-237-2621__voltage_rating,5910-01-237-2621,voltage_rating,gte,200,V,electrical,manual_override,MIL-PRF-123,250,publog_characteristics,200.0,,,200 V,number,voltage_rating
+5910-01-237-2621__operating_temp_max,5910-01-237-2621,operating_temp_max,gte,85,degC,environmental,publog_characteristics,,125,spec_extraction,85.0,,,85 degC,number,operating_temp_max
+5910-01-237-2621__operating_temp_min,5910-01-237-2621,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-123,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5910-01-237-2621__humidity_resistance,5910-01-237-2621,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-123,,,,,,true,boolean,humidity_resistance
+5910-01-237-2621__qualification,5910-01-237-2621,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-123,,,,,,true,boolean,qualification
+5910-01-237-2621__solderability_per_j_std_002,5910-01-237-2621,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-123,,,,,,true,boolean,solderability_per_j_std_002
+5910-01-237-2621__thermal_shock_cycles,5910-01-237-2621,thermal_shock_cycles,gte,5,,qualification,spec_extraction,MIL-PRF-123,,,5.0,,,5,number,thermal_shock_cycles
+5910-01-237-2621__vibration_grms,5910-01-237-2621,vibration_grms,gte,30,,qualification,spec_extraction,MIL-PRF-123,,,30.0,,,30,number,vibration_grms
+5910-01-237-2621__lot_traceability,5910-01-237-2621,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-123,,,,,,true,boolean,lot_traceability
+5915-01-134-7687__current_rating,5915-01-134-7687,current_rating,gte,1,A,electrical,publog_characteristics,,1,spec_extraction,1.0,,,1 A,number,current_rating
+5915-01-134-7687__frequency_range_max,5915-01-134-7687,frequency_range_max,gte,1e+10,,electrical,manual_override,MIL-PRF-15733,1000000000,publog_characteristics,10000000000.0,,,1e+10,number,frequency_range_max
+5915-01-134-7687__insertion_loss,5915-01-134-7687,insertion_loss,gte,20,,electrical,publog_characteristics,,80,spec_extraction,20.0,,,20,number,insertion_loss
+5915-01-134-7687__voltage_rating,5915-01-134-7687,voltage_rating,gte,50,V,electrical,publog_characteristics,,,,50.0,,,50 V,number,voltage_rating
+5915-01-134-7687__operating_temp_max,5915-01-134-7687,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-15733,150,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5915-01-134-7687__operating_temp_min,5915-01-134-7687,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-15733,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5915-01-134-7687__humidity_resistance,5915-01-134-7687,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-15733,,,,,,true,boolean,humidity_resistance
+5915-01-134-7687__qualification,5915-01-134-7687,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-15733,,,,,,true,boolean,qualification
+5915-01-134-7687__thermal_shock_cycles,5915-01-134-7687,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-PRF-15733,,,25.0,,,25,number,thermal_shock_cycles
+5915-01-134-7687__vibration_grms,5915-01-134-7687,vibration_grms,gte,20,,qualification,spec_extraction,MIL-PRF-15733,,,20.0,,,20,number,vibration_grms
+5915-01-134-7687__dpa_sample_required,5915-01-134-7687,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-PRF-15733,,,,,,true,boolean,dpa_sample_required
+5915-01-134-7687__lot_traceability,5915-01-134-7687,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-15733,,,,,,true,boolean,lot_traceability
+5930-00-689-2834__actuation_pressure,5930-00-689-2834,actuation_pressure,eq,0.2599,,electrical,publog_characteristics,,,,0.2599,,,0.2599,number,actuation_pressure
+5930-00-689-2834__contact_configuration,5930-00-689-2834,contact_configuration,eq,SPDT,,electrical,publog_characteristics,,,,,,,SPDT,text,contact_configuration
+5930-00-689-2834__current_rating,5930-00-689-2834,current_rating,gte,10,A,electrical,spec_extraction,MIL-DTL-5809,5,publog_characteristics,10.0,,,10 A,number,current_rating
+5930-00-689-2834__sealing,5930-00-689-2834,sealing,eq,PANELSEALED,,electrical,publog_characteristics,,,,,,,PANELSEALED,text,sealing
+5930-00-689-2834__voltage_rating,5930-00-689-2834,voltage_rating,gte,28,V,electrical,spec_extraction,MIL-DTL-5809,250,publog_characteristics,28.0,,,28 V,number,voltage_rating
+5930-00-689-2834__operating_temp_max,5930-00-689-2834,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-5809,200,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5930-00-689-2834__operating_temp_min,5930-00-689-2834,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-5809,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5930-00-689-2834__mechanical_life,5930-00-689-2834,mechanical_life,gte,100000,,mechanical,spec_extraction,MIL-DTL-5809,10000,publog_characteristics,100000.0,,,100000,number,mechanical_life
+5930-00-689-2834__humidity_resistance,5930-00-689-2834,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,humidity_resistance
+5930-00-689-2834__qualification,5930-00-689-2834,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,qualification
+5930-00-689-2834__solderability_per_j_std_002,5930-00-689-2834,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,solderability_per_j_std_002
+5930-00-689-2834__thermal_shock_cycles,5930-00-689-2834,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-5809,,,10.0,,,10,number,thermal_shock_cycles
+5930-00-689-2834__vibration_grms,5930-00-689-2834,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-5809,,,20.0,,,20,number,vibration_grms
+5930-00-689-2834__lot_traceability,5930-00-689-2834,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,lot_traceability
+5930-01-110-7093__actuation_pressure,5930-01-110-7093,actuation_pressure,eq,0.5142,,electrical,publog_characteristics,,,,0.5142,,,0.5142,number,actuation_pressure
+5930-01-110-7093__contact_configuration,5930-01-110-7093,contact_configuration,eq,DPST,,electrical,publog_characteristics,,,,,,,DPST,text,contact_configuration
+5930-01-110-7093__current_rating,5930-01-110-7093,current_rating,gte,10,A,electrical,spec_extraction,MIL-DTL-5809,1,publog_characteristics,10.0,,,10 A,number,current_rating
+5930-01-110-7093__sealing,5930-01-110-7093,sealing,eq,HERMETIC,,electrical,publog_characteristics,,,,,,,HERMETIC,text,sealing
+5930-01-110-7093__voltage_rating,5930-01-110-7093,voltage_rating,gte,28,V,electrical,spec_extraction,MIL-DTL-5809,28,publog_characteristics,28.0,,,28 V,number,voltage_rating
+5930-01-110-7093__operating_temp_max,5930-01-110-7093,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-5809,70,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5930-01-110-7093__operating_temp_min,5930-01-110-7093,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-5809,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5930-01-110-7093__mechanical_life,5930-01-110-7093,mechanical_life,gte,100000,,mechanical,spec_extraction,MIL-DTL-5809,100000,publog_characteristics,100000.0,,,100000,number,mechanical_life
+5930-01-110-7093__humidity_resistance,5930-01-110-7093,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,humidity_resistance
+5930-01-110-7093__qualification,5930-01-110-7093,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,qualification
+5930-01-110-7093__solderability_per_j_std_002,5930-01-110-7093,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,solderability_per_j_std_002
+5930-01-110-7093__thermal_shock_cycles,5930-01-110-7093,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-5809,,,10.0,,,10,number,thermal_shock_cycles
+5930-01-110-7093__vibration_grms,5930-01-110-7093,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-5809,,,20.0,,,20,number,vibration_grms
+5930-01-110-7093__lot_traceability,5930-01-110-7093,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,lot_traceability
+5930-01-110-7094__actuation_pressure,5930-01-110-7094,actuation_pressure,eq,0.1034,,electrical,publog_characteristics,,,,0.1034,,,0.1034,number,actuation_pressure
+5930-01-110-7094__contact_configuration,5930-01-110-7094,contact_configuration,eq,SPDT,,electrical,publog_characteristics,,,,,,,SPDT,text,contact_configuration
+5930-01-110-7094__current_rating,5930-01-110-7094,current_rating,gte,10,A,electrical,spec_extraction,MIL-DTL-5809,20,publog_characteristics,10.0,,,10 A,number,current_rating
+5930-01-110-7094__sealing,5930-01-110-7094,sealing,eq,HERMETIC,,electrical,publog_characteristics,,,,,,,HERMETIC,text,sealing
+5930-01-110-7094__voltage_rating,5930-01-110-7094,voltage_rating,gte,28,V,electrical,spec_extraction,MIL-DTL-5809,250,publog_characteristics,28.0,,,28 V,number,voltage_rating
+5930-01-110-7094__operating_temp_max,5930-01-110-7094,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-5809,70,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5930-01-110-7094__operating_temp_min,5930-01-110-7094,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-5809,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5930-01-110-7094__mechanical_life,5930-01-110-7094,mechanical_life,gte,100000,,mechanical,spec_extraction,MIL-DTL-5809,100000,publog_characteristics,100000.0,,,100000,number,mechanical_life
+5930-01-110-7094__humidity_resistance,5930-01-110-7094,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,humidity_resistance
+5930-01-110-7094__qualification,5930-01-110-7094,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,qualification
+5930-01-110-7094__solderability_per_j_std_002,5930-01-110-7094,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,solderability_per_j_std_002
+5930-01-110-7094__thermal_shock_cycles,5930-01-110-7094,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-5809,,,10.0,,,10,number,thermal_shock_cycles
+5930-01-110-7094__vibration_grms,5930-01-110-7094,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-5809,,,20.0,,,20,number,vibration_grms
+5930-01-110-7094__lot_traceability,5930-01-110-7094,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,lot_traceability
+5930-01-174-6031__actuation_pressure,5930-01-174-6031,actuation_pressure,eq,0.5158,,electrical,publog_characteristics,,,,0.5158,,,0.5158,number,actuation_pressure
+5930-01-174-6031__contact_configuration,5930-01-174-6031,contact_configuration,eq,SPDT,,electrical,publog_characteristics,,,,,,,SPDT,text,contact_configuration
+5930-01-174-6031__current_rating,5930-01-174-6031,current_rating,gte,10,A,electrical,spec_extraction,MIL-DTL-5809,3,publog_characteristics,10.0,,,10 A,number,current_rating
+5930-01-174-6031__sealing,5930-01-174-6031,sealing,eq,PANELSEALED,,electrical,publog_characteristics,,,,,,,PANELSEALED,text,sealing
+5930-01-174-6031__voltage_rating,5930-01-174-6031,voltage_rating,gte,28,V,electrical,spec_extraction,MIL-DTL-5809,115,publog_characteristics,28.0,,,28 V,number,voltage_rating
+5930-01-174-6031__operating_temp_max,5930-01-174-6031,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-5809,71,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5930-01-174-6031__operating_temp_min,5930-01-174-6031,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-5809,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5930-01-174-6031__mechanical_life,5930-01-174-6031,mechanical_life,gte,100000,,mechanical,spec_extraction,MIL-DTL-5809,10000,publog_characteristics,100000.0,,,100000,number,mechanical_life
+5930-01-174-6031__humidity_resistance,5930-01-174-6031,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,humidity_resistance
+5930-01-174-6031__qualification,5930-01-174-6031,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,qualification
+5930-01-174-6031__solderability_per_j_std_002,5930-01-174-6031,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,solderability_per_j_std_002
+5930-01-174-6031__thermal_shock_cycles,5930-01-174-6031,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-5809,,,10.0,,,10,number,thermal_shock_cycles
+5930-01-174-6031__vibration_grms,5930-01-174-6031,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-5809,,,20.0,,,20,number,vibration_grms
+5930-01-174-6031__lot_traceability,5930-01-174-6031,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-5809,,,,,,true,boolean,lot_traceability
+5935-00-079-5458__contact_count,5935-00-079-5458,contact_count,eq,37,,electrical,publog_characteristics,,,,37.0,,,37,number,contact_count
+5935-00-079-5458__contact_plating,5935-00-079-5458,contact_plating,eq,GOLDOVERNICKEL,,electrical,publog_characteristics,,,,,,,GOLDOVERNICKEL,text,contact_plating
+5935-00-079-5458__contact_resistance,5935-00-079-5458,contact_resistance,lte,0.0014,ohm,electrical,manual_override,MIL-DTL-38999,0.0025,publog_characteristics,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-00-079-5458__dielectric_withstanding_voltage,5935-00-079-5458,dielectric_withstanding_voltage,gte,1300,V,electrical,publog_characteristics,,,,1300.0,,,1300 V,number,dielectric_withstanding_voltage
+5935-00-079-5458__insulation_resistance,5935-00-079-5458,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-38999,1000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-00-079-5458__shell_material,5935-00-079-5458,shell_material,eq,COMPOSITE,,electrical,publog_characteristics,,,,,,,COMPOSITE,text,shell_material
+5935-00-079-5458__shell_size,5935-00-079-5458,shell_size,eq,23,,electrical,publog_characteristics,,,,23.0,,,23,number,shell_size
+5935-00-079-5458__operating_temp_max,5935-00-079-5458,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-38999,85,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5935-00-079-5458__operating_temp_min,5935-00-079-5458,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,-55,spec_extraction,-55.0,,,-55 degC,number,operating_temp_min
+5935-00-079-5458__coupling_type,5935-00-079-5458,coupling_type,eq,BAYONET,,mechanical,spec_extraction,MIL-DTL-38999,THREADED,publog_characteristics,,,,BAYONET,text,coupling_type
+5935-00-079-5458__humidity_resistance,5935-00-079-5458,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,humidity_resistance
+5935-00-079-5458__qualification,5935-00-079-5458,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,qualification
+5935-00-079-5458__thermal_shock_cycles,5935-00-079-5458,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-38999,,,25.0,,,25,number,thermal_shock_cycles
+5935-00-079-5458__vibration_grms,5935-00-079-5458,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-38999,,,10.0,,,10,number,vibration_grms
+5935-00-079-5458__dpa_sample_required,5935-00-079-5458,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,dpa_sample_required
+5935-00-079-5458__lot_traceability,5935-00-079-5458,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,lot_traceability
+5935-00-104-9650__contact_count,5935-00-104-9650,contact_count,eq,4,,electrical,publog_characteristics,,,,4.0,,,4,number,contact_count
+5935-00-104-9650__contact_resistance,5935-00-104-9650,contact_resistance,lte,0.005,ohm,electrical,publog_characteristics,,,,0.005,,,0.005 ohm,number,contact_resistance
+5935-00-104-9650__coupling_type,5935-00-104-9650,coupling_type,eq,THREADED,,electrical,publog_characteristics,,,,,,,THREADED,text,coupling_type
+5935-00-104-9650__dielectric_withstanding_voltage,5935-00-104-9650,dielectric_withstanding_voltage,gte,1000,V,electrical,spec_extraction,MIL-DTL-83723,1000,publog_characteristics,1000.0,,,1000 V,number,dielectric_withstanding_voltage
+5935-00-104-9650__insulation_resistance,5935-00-104-9650,insulation_resistance,gte,1000000000,ohm,electrical,publog_characteristics,,,,1000000000.0,,,1000000000 ohm,number,insulation_resistance
+5935-00-104-9650__shell_material,5935-00-104-9650,shell_material,eq,COMPOSITE,,electrical,publog_characteristics,,,,,,,COMPOSITE,text,shell_material
+5935-00-104-9650__shell_size,5935-00-104-9650,shell_size,eq,25,,electrical,publog_characteristics,,11,spec_extraction,25.0,,,25,number,shell_size
+5935-00-104-9650__operating_temp_max,5935-00-104-9650,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-DTL-83723,125,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5935-00-104-9650__operating_temp_min,5935-00-104-9650,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-83723,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5935-00-104-9650__contact_plating,5935-00-104-9650,contact_plating,eq,GOLDOVERNICKEL,,mechanical,spec_extraction,MIL-DTL-83723,GOLDOVERNICKEL,publog_characteristics,,,,GOLDOVERNICKEL,text,contact_plating
+5935-00-104-9650__humidity_resistance,5935-00-104-9650,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,humidity_resistance
+5935-00-104-9650__qualification,5935-00-104-9650,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,qualification
+5935-00-104-9650__solderability_per_j_std_002,5935-00-104-9650,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,solderability_per_j_std_002
+5935-00-104-9650__thermal_shock_cycles,5935-00-104-9650,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-83723,,,10.0,,,10,number,thermal_shock_cycles
+5935-00-104-9650__vibration_grms,5935-00-104-9650,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-83723,,,20.0,,,20,number,vibration_grms
+5935-00-104-9650__lot_traceability,5935-00-104-9650,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,lot_traceability
+5935-00-105-4641__contact_count,5935-00-105-4641,contact_count,eq,19,,electrical,publog_characteristics,,,,19.0,,,19,number,contact_count
+5935-00-105-4641__contact_plating,5935-00-105-4641,contact_plating,eq,GOLDOVERNICKEL,,electrical,publog_characteristics,,,,,,,GOLDOVERNICKEL,text,contact_plating
+5935-00-105-4641__contact_resistance,5935-00-105-4641,contact_resistance,lte,0.0014,ohm,electrical,manual_override,MIL-DTL-38999,0.0011,publog_characteristics,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-00-105-4641__dielectric_withstanding_voltage,5935-00-105-4641,dielectric_withstanding_voltage,gte,2300,V,electrical,publog_characteristics,,,,2300.0,,,2300 V,number,dielectric_withstanding_voltage
+5935-00-105-4641__insulation_resistance,5935-00-105-4641,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-38999,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-00-105-4641__shell_material,5935-00-105-4641,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5935-00-105-4641__shell_size,5935-00-105-4641,shell_size,eq,19,,electrical,publog_characteristics,,,,19.0,,,19,number,shell_size
+5935-00-105-4641__operating_temp_max,5935-00-105-4641,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-38999,85,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5935-00-105-4641__operating_temp_min,5935-00-105-4641,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,-55,spec_extraction,-55.0,,,-55 degC,number,operating_temp_min
+5935-00-105-4641__coupling_type,5935-00-105-4641,coupling_type,eq,BAYONET,,mechanical,spec_extraction,MIL-DTL-38999,BREECH,publog_characteristics,,,,BAYONET,text,coupling_type
+5935-00-105-4641__humidity_resistance,5935-00-105-4641,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,humidity_resistance
+5935-00-105-4641__qualification,5935-00-105-4641,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,qualification
+5935-00-105-4641__thermal_shock_cycles,5935-00-105-4641,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-38999,,,25.0,,,25,number,thermal_shock_cycles
+5935-00-105-4641__vibration_grms,5935-00-105-4641,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-38999,,,10.0,,,10,number,vibration_grms
+5935-00-105-4641__dpa_sample_required,5935-00-105-4641,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,dpa_sample_required
+5935-00-105-4641__lot_traceability,5935-00-105-4641,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,lot_traceability
+5935-00-330-3329__contact_count,5935-00-330-3329,contact_count,eq,2,,electrical,publog_characteristics,,,,2.0,,,2,number,contact_count
+5935-00-330-3329__contact_plating,5935-00-330-3329,contact_plating,eq,GOLDOVERNICKEL,,electrical,publog_characteristics,,,,,,,GOLDOVERNICKEL,text,contact_plating
+5935-00-330-3329__contact_resistance,5935-00-330-3329,contact_resistance,lte,0.0014,ohm,electrical,manual_override,MIL-DTL-38999,0.0056,publog_characteristics,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-00-330-3329__dielectric_withstanding_voltage,5935-00-330-3329,dielectric_withstanding_voltage,gte,1000,V,electrical,publog_characteristics,,,,1000.0,,,1000 V,number,dielectric_withstanding_voltage
+5935-00-330-3329__insulation_resistance,5935-00-330-3329,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-38999,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-00-330-3329__shell_material,5935-00-330-3329,shell_material,eq,COMPOSITE,,electrical,publog_characteristics,,,,,,,COMPOSITE,text,shell_material
+5935-00-330-3329__shell_size,5935-00-330-3329,shell_size,eq,21,,electrical,publog_characteristics,,,,21.0,,,21,number,shell_size
+5935-00-330-3329__operating_temp_max,5935-00-330-3329,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-38999,85,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5935-00-330-3329__operating_temp_min,5935-00-330-3329,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,-55,spec_extraction,-55.0,,,-55 degC,number,operating_temp_min
+5935-00-330-3329__coupling_type,5935-00-330-3329,coupling_type,eq,BAYONET,,mechanical,spec_extraction,MIL-DTL-38999,BAYONET,publog_characteristics,,,,BAYONET,text,coupling_type
+5935-00-330-3329__humidity_resistance,5935-00-330-3329,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,humidity_resistance
+5935-00-330-3329__qualification,5935-00-330-3329,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,qualification
+5935-00-330-3329__thermal_shock_cycles,5935-00-330-3329,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-38999,,,25.0,,,25,number,thermal_shock_cycles
+5935-00-330-3329__vibration_grms,5935-00-330-3329,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-38999,,,10.0,,,10,number,vibration_grms
+5935-00-330-3329__dpa_sample_required,5935-00-330-3329,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,dpa_sample_required
+5935-00-330-3329__lot_traceability,5935-00-330-3329,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,lot_traceability
+5935-00-812-3399__contact_count,5935-00-812-3399,contact_count,eq,10,,electrical,publog_characteristics,,,,10.0,,,10,number,contact_count
+5935-00-812-3399__contact_plating,5935-00-812-3399,contact_plating,eq,GOLDOVERNICKEL,,electrical,publog_characteristics,,,,,,,GOLDOVERNICKEL,text,contact_plating
+5935-00-812-3399__contact_resistance,5935-00-812-3399,contact_resistance,lte,0.0014,ohm,electrical,manual_override,MIL-DTL-38999,0.0027,publog_characteristics,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-00-812-3399__dielectric_withstanding_voltage,5935-00-812-3399,dielectric_withstanding_voltage,gte,2300,V,electrical,publog_characteristics,,,,2300.0,,,2300 V,number,dielectric_withstanding_voltage
+5935-00-812-3399__insulation_resistance,5935-00-812-3399,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-38999,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-00-812-3399__shell_material,5935-00-812-3399,shell_material,eq,STAINLESSSTEEL,,electrical,publog_characteristics,,,,,,,STAINLESSSTEEL,text,shell_material
+5935-00-812-3399__shell_size,5935-00-812-3399,shell_size,eq,13,,electrical,publog_characteristics,,,,13.0,,,13,number,shell_size
+5935-00-812-3399__operating_temp_max,5935-00-812-3399,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-38999,125,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5935-00-812-3399__operating_temp_min,5935-00-812-3399,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,-55,spec_extraction,-55.0,,,-55 degC,number,operating_temp_min
+5935-00-812-3399__coupling_type,5935-00-812-3399,coupling_type,eq,BAYONET,,mechanical,spec_extraction,MIL-DTL-38999,BAYONET,publog_characteristics,,,,BAYONET,text,coupling_type
+5935-00-812-3399__humidity_resistance,5935-00-812-3399,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,humidity_resistance
+5935-00-812-3399__qualification,5935-00-812-3399,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,qualification
+5935-00-812-3399__thermal_shock_cycles,5935-00-812-3399,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-38999,,,25.0,,,25,number,thermal_shock_cycles
+5935-00-812-3399__vibration_grms,5935-00-812-3399,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-38999,,,10.0,,,10,number,vibration_grms
+5935-00-812-3399__dpa_sample_required,5935-00-812-3399,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,dpa_sample_required
+5935-00-812-3399__lot_traceability,5935-00-812-3399,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,lot_traceability
+5935-00-987-0797__contact_count,5935-00-987-0797,contact_count,eq,19,,electrical,publog_characteristics,,,,19.0,,,19,number,contact_count
+5935-00-987-0797__contact_resistance,5935-00-987-0797,contact_resistance,lte,0.0069,ohm,electrical,publog_characteristics,,,,0.0069,,,0.0069 ohm,number,contact_resistance
+5935-00-987-0797__coupling_type,5935-00-987-0797,coupling_type,eq,BAYONET,,electrical,publog_characteristics,,,,,,,BAYONET,text,coupling_type
+5935-00-987-0797__dielectric_withstanding_voltage,5935-00-987-0797,dielectric_withstanding_voltage,gte,1300,V,electrical,publog_characteristics,,,,1300.0,,,1300 V,number,dielectric_withstanding_voltage
+5935-00-987-0797__insulation_resistance,5935-00-987-0797,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-5015,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-00-987-0797__shell_material,5935-00-987-0797,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5935-00-987-0797__operating_temp_max,5935-00-987-0797,operating_temp_max,gte,150,degC,environmental,spec_extraction,MIL-DTL-5015,71,publog_characteristics,150.0,,,150 degC,number,operating_temp_max
+5935-00-987-0797__operating_temp_min,5935-00-987-0797,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-5015,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5935-00-987-0797__contact_plating,5935-00-987-0797,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-DTL-5015,GOLD,publog_characteristics,,,,GOLD,text,contact_plating
+5935-00-987-0797__shell_size,5935-00-987-0797,shell_size,eq,17,,mechanical,spec_extraction,MIL-DTL-5015,11,publog_characteristics,17.0,,,17,number,shell_size
+5935-00-987-0797__humidity_resistance,5935-00-987-0797,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-5015,,,,,,true,boolean,humidity_resistance
+5935-00-987-0797__qualification,5935-00-987-0797,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-5015,,,,,,true,boolean,qualification
+5935-00-987-0797__thermal_shock_cycles,5935-00-987-0797,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-5015,,,10.0,,,10,number,thermal_shock_cycles
+5935-00-987-0797__vibration_grms,5935-00-987-0797,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-5015,,,10.0,,,10,number,vibration_grms
+5935-00-987-0797__lot_traceability,5935-00-987-0797,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-5015,,,,,,true,boolean,lot_traceability
+5935-01-050-8241__contact_count,5935-01-050-8241,contact_count,eq,26,,electrical,publog_characteristics,,,,26.0,,,26,number,contact_count
+5935-01-050-8241__contact_resistance,5935-01-050-8241,contact_resistance,lte,0.0046,ohm,electrical,publog_characteristics,,,,0.0046,,,0.0046 ohm,number,contact_resistance
+5935-01-050-8241__coupling_type,5935-01-050-8241,coupling_type,eq,THREADED,,electrical,publog_characteristics,,,,,,,THREADED,text,coupling_type
+5935-01-050-8241__dielectric_withstanding_voltage,5935-01-050-8241,dielectric_withstanding_voltage,gte,1000,V,electrical,spec_extraction,MIL-DTL-83723,1300,publog_characteristics,1000.0,,,1000 V,number,dielectric_withstanding_voltage
+5935-01-050-8241__insulation_resistance,5935-01-050-8241,insulation_resistance,gte,5000000000,ohm,electrical,publog_characteristics,,,,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-01-050-8241__shell_material,5935-01-050-8241,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5935-01-050-8241__shell_size,5935-01-050-8241,shell_size,eq,15,,electrical,publog_characteristics,,11,spec_extraction,15.0,,,15,number,shell_size
+5935-01-050-8241__operating_temp_max,5935-01-050-8241,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-DTL-83723,150,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5935-01-050-8241__operating_temp_min,5935-01-050-8241,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-83723,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5935-01-050-8241__contact_plating,5935-01-050-8241,contact_plating,eq,GOLDOVERNICKEL,,mechanical,spec_extraction,MIL-DTL-83723,SILVER,publog_characteristics,,,,GOLDOVERNICKEL,text,contact_plating
+5935-01-050-8241__humidity_resistance,5935-01-050-8241,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,humidity_resistance
+5935-01-050-8241__qualification,5935-01-050-8241,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,qualification
+5935-01-050-8241__solderability_per_j_std_002,5935-01-050-8241,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,solderability_per_j_std_002
+5935-01-050-8241__thermal_shock_cycles,5935-01-050-8241,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-83723,,,10.0,,,10,number,thermal_shock_cycles
+5935-01-050-8241__vibration_grms,5935-01-050-8241,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-83723,,,20.0,,,20,number,vibration_grms
+5935-01-050-8241__lot_traceability,5935-01-050-8241,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,lot_traceability
+5935-01-151-1226__contact_count,5935-01-151-1226,contact_count,eq,55,,electrical,publog_characteristics,,,,55.0,,,55,number,contact_count
+5935-01-151-1226__contact_plating,5935-01-151-1226,contact_plating,eq,GOLDOVERNICKEL,,electrical,publog_characteristics,,,,,,,GOLDOVERNICKEL,text,contact_plating
+5935-01-151-1226__contact_resistance,5935-01-151-1226,contact_resistance,lte,0.0014,ohm,electrical,manual_override,MIL-DTL-38999,0.0033,publog_characteristics,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-01-151-1226__dielectric_withstanding_voltage,5935-01-151-1226,dielectric_withstanding_voltage,gte,1500,V,electrical,publog_characteristics,,,,1500.0,,,1500 V,number,dielectric_withstanding_voltage
+5935-01-151-1226__insulation_resistance,5935-01-151-1226,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-38999,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-01-151-1226__shell_material,5935-01-151-1226,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5935-01-151-1226__shell_size,5935-01-151-1226,shell_size,eq,15,,electrical,publog_characteristics,,,,15.0,,,15,number,shell_size
+5935-01-151-1226__operating_temp_max,5935-01-151-1226,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-38999,85,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5935-01-151-1226__operating_temp_min,5935-01-151-1226,operating_temp_min,lte,-40,degC,environmental,publog_characteristics,,-55,spec_extraction,-40.0,,,-40 degC,number,operating_temp_min
+5935-01-151-1226__coupling_type,5935-01-151-1226,coupling_type,eq,BAYONET,,mechanical,spec_extraction,MIL-DTL-38999,THREADED,publog_characteristics,,,,BAYONET,text,coupling_type
+5935-01-151-1226__humidity_resistance,5935-01-151-1226,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,humidity_resistance
+5935-01-151-1226__qualification,5935-01-151-1226,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,qualification
+5935-01-151-1226__thermal_shock_cycles,5935-01-151-1226,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-38999,,,25.0,,,25,number,thermal_shock_cycles
+5935-01-151-1226__vibration_grms,5935-01-151-1226,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-38999,,,10.0,,,10,number,vibration_grms
+5935-01-151-1226__dpa_sample_required,5935-01-151-1226,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,dpa_sample_required
+5935-01-151-1226__lot_traceability,5935-01-151-1226,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,lot_traceability
+5935-01-223-2835__contact_count,5935-01-223-2835,contact_count,eq,4,,electrical,publog_characteristics,,,,4.0,,,4,number,contact_count
+5935-01-223-2835__contact_resistance,5935-01-223-2835,contact_resistance,lte,0.0012,ohm,electrical,publog_characteristics,,,,0.0012,,,0.0012 ohm,number,contact_resistance
+5935-01-223-2835__coupling_type,5935-01-223-2835,coupling_type,eq,BREECH,,electrical,publog_characteristics,,,,,,,BREECH,text,coupling_type
+5935-01-223-2835__dielectric_withstanding_voltage,5935-01-223-2835,dielectric_withstanding_voltage,gte,1000,V,electrical,spec_extraction,MIL-DTL-83723,1500,publog_characteristics,1000.0,,,1000 V,number,dielectric_withstanding_voltage
+5935-01-223-2835__insulation_resistance,5935-01-223-2835,insulation_resistance,gte,1000000000,ohm,electrical,publog_characteristics,,,,1000000000.0,,,1000000000 ohm,number,insulation_resistance
+5935-01-223-2835__shell_material,5935-01-223-2835,shell_material,eq,STAINLESSSTEEL,,electrical,publog_characteristics,,,,,,,STAINLESSSTEEL,text,shell_material
+5935-01-223-2835__shell_size,5935-01-223-2835,shell_size,eq,13,,electrical,publog_characteristics,,11,spec_extraction,13.0,,,13,number,shell_size
+5935-01-223-2835__operating_temp_max,5935-01-223-2835,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-DTL-83723,200,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5935-01-223-2835__operating_temp_min,5935-01-223-2835,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-83723,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5935-01-223-2835__contact_plating,5935-01-223-2835,contact_plating,eq,GOLDOVERNICKEL,,mechanical,spec_extraction,MIL-DTL-83723,GOLD,publog_characteristics,,,,GOLDOVERNICKEL,text,contact_plating
+5935-01-223-2835__humidity_resistance,5935-01-223-2835,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,humidity_resistance
+5935-01-223-2835__qualification,5935-01-223-2835,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,qualification
+5935-01-223-2835__solderability_per_j_std_002,5935-01-223-2835,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,solderability_per_j_std_002
+5935-01-223-2835__thermal_shock_cycles,5935-01-223-2835,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-83723,,,10.0,,,10,number,thermal_shock_cycles
+5935-01-223-2835__vibration_grms,5935-01-223-2835,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-83723,,,20.0,,,20,number,vibration_grms
+5935-01-223-2835__lot_traceability,5935-01-223-2835,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,lot_traceability
+5935-01-249-9088__contact_count,5935-01-249-9088,contact_count,eq,37,,electrical,publog_characteristics,,,,37.0,,,37,number,contact_count
+5935-01-249-9088__contact_plating,5935-01-249-9088,contact_plating,eq,GOLD,,electrical,publog_characteristics,,,,,,,GOLD,text,contact_plating
+5935-01-249-9088__contact_resistance,5935-01-249-9088,contact_resistance,lte,0.0014,ohm,electrical,manual_override,MIL-DTL-38999,0.0023,publog_characteristics,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-01-249-9088__dielectric_withstanding_voltage,5935-01-249-9088,dielectric_withstanding_voltage,gte,1500,V,electrical,publog_characteristics,,,,1500.0,,,1500 V,number,dielectric_withstanding_voltage
+5935-01-249-9088__insulation_resistance,5935-01-249-9088,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-38999,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-01-249-9088__shell_material,5935-01-249-9088,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5935-01-249-9088__shell_size,5935-01-249-9088,shell_size,eq,13,,electrical,publog_characteristics,,,,13.0,,,13,number,shell_size
+5935-01-249-9088__operating_temp_max,5935-01-249-9088,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-38999,125,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5935-01-249-9088__operating_temp_min,5935-01-249-9088,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,-55,spec_extraction,-55.0,,,-55 degC,number,operating_temp_min
+5935-01-249-9088__coupling_type,5935-01-249-9088,coupling_type,eq,BAYONET,,mechanical,spec_extraction,MIL-DTL-38999,THREADED,publog_characteristics,,,,BAYONET,text,coupling_type
+5935-01-249-9088__humidity_resistance,5935-01-249-9088,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,humidity_resistance
+5935-01-249-9088__qualification,5935-01-249-9088,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,qualification
+5935-01-249-9088__thermal_shock_cycles,5935-01-249-9088,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-38999,,,25.0,,,25,number,thermal_shock_cycles
+5935-01-249-9088__vibration_grms,5935-01-249-9088,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-38999,,,10.0,,,10,number,vibration_grms
+5935-01-249-9088__dpa_sample_required,5935-01-249-9088,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,dpa_sample_required
+5935-01-249-9088__lot_traceability,5935-01-249-9088,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-38999,,,,,,true,boolean,lot_traceability
+5935-01-296-3505__contact_count,5935-01-296-3505,contact_count,eq,26,,electrical,publog_characteristics,,,,26.0,,,26,number,contact_count
+5935-01-296-3505__contact_resistance,5935-01-296-3505,contact_resistance,lte,0.008,ohm,electrical,publog_characteristics,,,,0.008,,,0.008 ohm,number,contact_resistance
+5935-01-296-3505__coupling_type,5935-01-296-3505,coupling_type,eq,BREECH,,electrical,publog_characteristics,,,,,,,BREECH,text,coupling_type
+5935-01-296-3505__dielectric_withstanding_voltage,5935-01-296-3505,dielectric_withstanding_voltage,gte,1500,V,electrical,publog_characteristics,,,,1500.0,,,1500 V,number,dielectric_withstanding_voltage
+5935-01-296-3505__insulation_resistance,5935-01-296-3505,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-5015,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-01-296-3505__shell_material,5935-01-296-3505,shell_material,eq,STAINLESSSTEEL,,electrical,publog_characteristics,,,,,,,STAINLESSSTEEL,text,shell_material
+5935-01-296-3505__operating_temp_max,5935-01-296-3505,operating_temp_max,gte,150,degC,environmental,spec_extraction,MIL-DTL-5015,85,publog_characteristics,150.0,,,150 degC,number,operating_temp_max
+5935-01-296-3505__operating_temp_min,5935-01-296-3505,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-5015,-40,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5935-01-296-3505__contact_plating,5935-01-296-3505,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-DTL-5015,GOLD,publog_characteristics,,,,GOLD,text,contact_plating
+5935-01-296-3505__shell_size,5935-01-296-3505,shell_size,eq,17,,mechanical,spec_extraction,MIL-DTL-5015,21,publog_characteristics,17.0,,,17,number,shell_size
+5935-01-296-3505__humidity_resistance,5935-01-296-3505,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-5015,,,,,,true,boolean,humidity_resistance
+5935-01-296-3505__qualification,5935-01-296-3505,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-5015,,,,,,true,boolean,qualification
+5935-01-296-3505__thermal_shock_cycles,5935-01-296-3505,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-5015,,,10.0,,,10,number,thermal_shock_cycles
+5935-01-296-3505__vibration_grms,5935-01-296-3505,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-5015,,,10.0,,,10,number,vibration_grms
+5935-01-296-3505__lot_traceability,5935-01-296-3505,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-5015,,,,,,true,boolean,lot_traceability
+5935-01-446-7776__contact_count,5935-01-446-7776,contact_count,eq,55,,electrical,publog_characteristics,,,,55.0,,,55,number,contact_count
+5935-01-446-7776__contact_resistance,5935-01-446-7776,contact_resistance,lte,0.0014,ohm,electrical,publog_characteristics,,,,0.0014,,,0.0014 ohm,number,contact_resistance
+5935-01-446-7776__coupling_type,5935-01-446-7776,coupling_type,eq,BAYONET,,electrical,publog_characteristics,,,,,,,BAYONET,text,coupling_type
+5935-01-446-7776__dielectric_withstanding_voltage,5935-01-446-7776,dielectric_withstanding_voltage,gte,1000,V,electrical,spec_extraction,MIL-DTL-83723,1300,publog_characteristics,1000.0,,,1000 V,number,dielectric_withstanding_voltage
+5935-01-446-7776__insulation_resistance,5935-01-446-7776,insulation_resistance,gte,5000000000,ohm,electrical,publog_characteristics,,,,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5935-01-446-7776__shell_material,5935-01-446-7776,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5935-01-446-7776__shell_size,5935-01-446-7776,shell_size,eq,21,,electrical,publog_characteristics,,11,spec_extraction,21.0,,,21,number,shell_size
+5935-01-446-7776__operating_temp_max,5935-01-446-7776,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-DTL-83723,150,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5935-01-446-7776__operating_temp_min,5935-01-446-7776,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-83723,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5935-01-446-7776__contact_plating,5935-01-446-7776,contact_plating,eq,GOLDOVERNICKEL,,mechanical,spec_extraction,MIL-DTL-83723,SILVER,publog_characteristics,,,,GOLDOVERNICKEL,text,contact_plating
+5935-01-446-7776__humidity_resistance,5935-01-446-7776,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,humidity_resistance
+5935-01-446-7776__qualification,5935-01-446-7776,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,qualification
+5935-01-446-7776__solderability_per_j_std_002,5935-01-446-7776,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,solderability_per_j_std_002
+5935-01-446-7776__thermal_shock_cycles,5935-01-446-7776,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-83723,,,10.0,,,10,number,thermal_shock_cycles
+5935-01-446-7776__vibration_grms,5935-01-446-7776,vibration_grms,gte,20,,qualification,spec_extraction,MIL-DTL-83723,,,20.0,,,20,number,vibration_grms
+5935-01-446-7776__lot_traceability,5935-01-446-7776,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-83723,,,,,,true,boolean,lot_traceability
+5945-00-491-3597__coil_resistance,5945-00-491-3597,coil_resistance,gte,320,ohm,electrical,spec_extraction,MIL-PRF-39016,50,publog_characteristics,320.0,,,320 ohm,number,coil_resistance
+5945-00-491-3597__coil_voltage,5945-00-491-3597,coil_voltage,gte,5,V,electrical,spec_extraction,MIL-PRF-39016,28,publog_characteristics,5.0,,,5 V,number,coil_voltage
+5945-00-491-3597__contact_configuration,5945-00-491-3597,contact_configuration,eq,SPDT,,electrical,publog_characteristics,,,,,,,SPDT,text,contact_configuration
+5945-00-491-3597__contact_rating,5945-00-491-3597,contact_rating,gte,10,A,electrical,spec_extraction,MIL-PRF-39016,2,publog_characteristics,10.0,,,10 A,number,contact_rating
+5945-00-491-3597__sealing,5945-00-491-3597,sealing,eq,HERMETIC,,electrical,publog_characteristics,,,,,,,HERMETIC,text,sealing
+5945-00-491-3597__operating_temp_max,5945-00-491-3597,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-39016,71,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5945-00-491-3597__operating_temp_min,5945-00-491-3597,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-39016,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5945-00-491-3597__humidity_resistance,5945-00-491-3597,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-39016,,,,,,true,boolean,humidity_resistance
+5945-00-491-3597__qualification,5945-00-491-3597,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-39016,,,,,,true,boolean,qualification
+5945-00-491-3597__solderability_per_j_std_002,5945-00-491-3597,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-39016,,,,,,true,boolean,solderability_per_j_std_002
+5945-00-491-3597__thermal_shock_cycles,5945-00-491-3597,thermal_shock_cycles,gte,5,,qualification,spec_extraction,MIL-PRF-39016,,,5.0,,,5,number,thermal_shock_cycles
+5945-00-491-3597__vibration_grms,5945-00-491-3597,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-39016,,,15.0,,,15,number,vibration_grms
+5945-00-491-3597__lot_traceability,5945-00-491-3597,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-39016,,,,,,true,boolean,lot_traceability
+5950-00-698-0421__current_rating,5950-00-698-0421,current_rating,gte,0.5,A,electrical,spec_extraction,MIL-PRF-83446,0.1,publog_characteristics,0.5,,,0.5 A,number,current_rating
+5950-00-698-0421__dc_resistance,5950-00-698-0421,dc_resistance,lte,3.363,ohm,electrical,publog_characteristics,,3.182,spec_extraction,3.363,,,3.363 ohm,number,dc_resistance
+5950-00-698-0421__inductance,5950-00-698-0421,inductance,eq,0.001,H,electrical,spec_extraction,MIL-PRF-83446,0.0001,publog_characteristics,0.001,,,0.001 H,number,inductance
+5950-00-698-0421__inductance_tolerance,5950-00-698-0421,inductance_tolerance,lte,2,%,electrical,publog_characteristics,,,,2.0,,,2 %,number,inductance_tolerance
+5950-00-698-0421__q_factor,5950-00-698-0421,q_factor,gte,80,,electrical,publog_characteristics,,,,80.0,,,80,number,q_factor
+5950-00-698-0421__operating_temp_max,5950-00-698-0421,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-PRF-83446,85,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5950-00-698-0421__operating_temp_min,5950-00-698-0421,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,-55,spec_extraction,-55.0,,,-55 degC,number,operating_temp_min
+5950-00-698-0421__humidity_resistance,5950-00-698-0421,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-83446,,,,,,true,boolean,humidity_resistance
+5950-00-698-0421__qualification,5950-00-698-0421,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-83446,,,,,,true,boolean,qualification
+5950-00-698-0421__thermal_shock_cycles,5950-00-698-0421,thermal_shock_cycles,gte,5,,qualification,spec_extraction,MIL-PRF-83446,,,5.0,,,5,number,thermal_shock_cycles
+5950-00-698-0421__vibration_grms,5950-00-698-0421,vibration_grms,gte,20,,qualification,spec_extraction,MIL-PRF-83446,,,20.0,,,20,number,vibration_grms
+5950-00-698-0421__dpa_sample_required,5950-00-698-0421,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-PRF-83446,,,,,,true,boolean,dpa_sample_required
+5950-00-698-0421__lot_traceability,5950-00-698-0421,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-83446,,,,,,true,boolean,lot_traceability
+5950-01-199-2306__current_rating,5950-01-199-2306,current_rating,gte,0.1,A,electrical,publog_characteristics,,,,0.1,,,0.1 A,number,current_rating
+5950-01-199-2306__dc_resistance,5950-01-199-2306,dc_resistance,lte,2.793,ohm,electrical,publog_characteristics,,,,2.793,,,2.793 ohm,number,dc_resistance
+5950-01-199-2306__inductance,5950-01-199-2306,inductance,eq,1e-05,H,electrical,publog_characteristics,,,,1e-05,,,1e-05,number,inductance
+5950-01-199-2306__inductance_tolerance,5950-01-199-2306,inductance_tolerance,lte,2,%,electrical,publog_characteristics,,,,2.0,,,2 %,number,inductance_tolerance
+5950-01-199-2306__q_factor,5950-01-199-2306,q_factor,gte,30,,electrical,publog_characteristics,,,,30.0,,,30,number,q_factor
+5950-01-199-2306__operating_temp_max,5950-01-199-2306,operating_temp_max,gte,71,degC,environmental,publog_characteristics,,,,71.0,,,71 degC,number,operating_temp_max
+5950-01-199-2306__operating_temp_min,5950-01-199-2306,operating_temp_min,lte,-46,degC,environmental,publog_characteristics,,,,-46.0,,,-46 degC,number,operating_temp_min
+5950-01-224-5861__current_rating,5950-01-224-5861,current_rating,gte,0.1,A,electrical,publog_characteristics,,,,0.1,,,0.1 A,number,current_rating
+5950-01-224-5861__dc_resistance,5950-01-224-5861,dc_resistance,lte,7.243,ohm,electrical,publog_characteristics,,,,7.243,,,7.243 ohm,number,dc_resistance
+5950-01-224-5861__inductance,5950-01-224-5861,inductance,eq,4.7e-05,H,electrical,publog_characteristics,,,,4.7e-05,,,4.7e-05,number,inductance
+5950-01-224-5861__inductance_tolerance,5950-01-224-5861,inductance_tolerance,lte,10,%,electrical,publog_characteristics,,,,10.0,,,10 %,number,inductance_tolerance
+5950-01-224-5861__q_factor,5950-01-224-5861,q_factor,gte,80,,electrical,publog_characteristics,,,,80.0,,,80,number,q_factor
+5950-01-224-5861__operating_temp_max,5950-01-224-5861,operating_temp_max,gte,125,degC,environmental,publog_characteristics,,,,125.0,,,125 degC,number,operating_temp_max
+5950-01-224-5861__operating_temp_min,5950-01-224-5861,operating_temp_min,lte,-55,degC,environmental,publog_characteristics,,,,-55.0,,,-55 degC,number,operating_temp_min
+5961-01-017-5461__current_rating,5961-01-017-5461,current_rating,gte,1,A,electrical,spec_extraction,MIL-PRF-38535,0.5,publog_characteristics,1.0,,,1 A,number,current_rating
+5961-01-017-5461__voltage_rating,5961-01-017-5461,voltage_rating,gte,100,V,electrical,manual_override,MIL-PRF-38535,200,publog_characteristics,100.0,,,100 V,number,voltage_rating
+5961-01-017-5461__junction_temp_max,5961-01-017-5461,junction_temp_max,gte,175,degC,environmental,spec_extraction,MIL-PRF-38535,,,175.0,,,175 degC,number,junction_temp_max
+5961-01-017-5461__operating_temp_max,5961-01-017-5461,operating_temp_max,gte,71,degC,environmental,publog_characteristics,,200,spec_extraction,71.0,,,71 degC,number,operating_temp_max
+5961-01-017-5461__operating_temp_min,5961-01-017-5461,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-38535,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5961-01-017-5461__humidity_resistance,5961-01-017-5461,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-38535,,,,,,true,boolean,humidity_resistance
+5961-01-017-5461__qualification,5961-01-017-5461,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-38535,,,,,,true,boolean,qualification
+5961-01-017-5461__solderability_per_j_std_002,5961-01-017-5461,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-PRF-38535,,,,,,true,boolean,solderability_per_j_std_002
+5961-01-017-5461__thermal_shock_cycles,5961-01-017-5461,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-38535,,,10.0,,,10,number,thermal_shock_cycles
+5961-01-017-5461__vibration_grms,5961-01-017-5461,vibration_grms,gte,30,,qualification,spec_extraction,MIL-PRF-38535,,,30.0,,,30,number,vibration_grms
+5961-01-017-5461__dpa_sample_required,5961-01-017-5461,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-PRF-38535,,,,,,true,boolean,dpa_sample_required
+5961-01-017-5461__lot_traceability,5961-01-017-5461,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-38535,,,,,,true,boolean,lot_traceability
+5999-00-162-1259__contact_plating,5999-00-162-1259,contact_plating,eq,GOLDOVERNICKEL,,electrical,publog_characteristics,,,,,,,GOLDOVERNICKEL,text,contact_plating
+5999-00-162-1259__current_rating,5999-00-162-1259,current_rating,gte,3,A,electrical,publog_characteristics,,,,3.0,,,3 A,number,current_rating
+5999-00-162-1259__insulation_resistance,5999-00-162-1259,insulation_resistance,gte,1000000000,ohm,electrical,spec_extraction,MIL-DTL-24308,5000000000,publog_characteristics,1000000000.0,,,1000000000 ohm,number,insulation_resistance
+5999-00-162-1259__operating_temp_max,5999-00-162-1259,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-24308,200,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5999-00-162-1259__operating_temp_min,5999-00-162-1259,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-24308,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-00-162-1259__contact_count,5999-00-162-1259,contact_count,eq,25,,mechanical,spec_extraction,MIL-DTL-24308,9,publog_characteristics,25.0,,,25,number,contact_count
+5999-00-162-1259__shell_material,5999-00-162-1259,shell_material,eq,COMPOSITE,,mechanical,spec_extraction,MIL-DTL-24308,COMPOSITE,publog_characteristics,,,,COMPOSITE,text,shell_material
+5999-00-162-1259__humidity_resistance,5999-00-162-1259,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,humidity_resistance
+5999-00-162-1259__qualification,5999-00-162-1259,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,qualification
+5999-00-162-1259__thermal_shock_cycles,5999-00-162-1259,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-24308,,,10.0,,,10,number,thermal_shock_cycles
+5999-00-162-1259__vibration_grms,5999-00-162-1259,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-24308,,,10.0,,,10,number,vibration_grms
+5999-00-162-1259__lot_traceability,5999-00-162-1259,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,lot_traceability
+5999-00-196-0634__contact_count,5999-00-196-0634,contact_count,eq,9,,electrical,publog_characteristics,,,,9.0,,,9,number,contact_count
+5999-00-196-0634__current_rating,5999-00-196-0634,current_rating,gte,7.5,A,electrical,spec_extraction,MIL-PRF-49464,1,publog_characteristics,7.5,,,7.5 A,number,current_rating
+5999-00-196-0634__insulation_resistance,5999-00-196-0634,insulation_resistance,gte,5000000000,ohm,electrical,spec_extraction,MIL-PRF-49464,1000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-00-196-0634__shell_material,5999-00-196-0634,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5999-00-196-0634__operating_temp_max,5999-00-196-0634,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-49464,125,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-00-196-0634__operating_temp_min,5999-00-196-0634,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-49464,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-00-196-0634__contact_plating,5999-00-196-0634,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-PRF-49464,GOLD,publog_characteristics,,,,GOLD,text,contact_plating
+5999-00-196-0634__humidity_resistance,5999-00-196-0634,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,humidity_resistance
+5999-00-196-0634__qualification,5999-00-196-0634,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,qualification
+5999-00-196-0634__thermal_shock_cycles,5999-00-196-0634,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-49464,,,10.0,,,10,number,thermal_shock_cycles
+5999-00-196-0634__vibration_grms,5999-00-196-0634,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-49464,,,15.0,,,15,number,vibration_grms
+5999-00-196-0634__lot_traceability,5999-00-196-0634,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,lot_traceability
+5999-01-070-6620__contact_count,5999-01-070-6620,contact_count,eq,9,,electrical,publog_characteristics,,,,9.0,,,9,number,contact_count
+5999-01-070-6620__current_rating,5999-01-070-6620,current_rating,gte,7.5,A,electrical,spec_extraction,MIL-PRF-49464,3,publog_characteristics,7.5,,,7.5 A,number,current_rating
+5999-01-070-6620__insulation_resistance,5999-01-070-6620,insulation_resistance,gte,5000000000,ohm,electrical,spec_extraction,MIL-PRF-49464,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-070-6620__shell_material,5999-01-070-6620,shell_material,eq,STEEL,,electrical,publog_characteristics,,,,,,,STEEL,text,shell_material
+5999-01-070-6620__operating_temp_max,5999-01-070-6620,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-49464,85,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-070-6620__operating_temp_min,5999-01-070-6620,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-49464,-40,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-070-6620__contact_plating,5999-01-070-6620,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-PRF-49464,GOLDOVERNICKEL,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-070-6620__humidity_resistance,5999-01-070-6620,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,humidity_resistance
+5999-01-070-6620__qualification,5999-01-070-6620,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,qualification
+5999-01-070-6620__thermal_shock_cycles,5999-01-070-6620,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-49464,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-070-6620__vibration_grms,5999-01-070-6620,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-49464,,,15.0,,,15,number,vibration_grms
+5999-01-070-6620__lot_traceability,5999-01-070-6620,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,lot_traceability
+5999-01-129-4193__contact_count,5999-01-129-4193,contact_count,eq,15,,electrical,publog_characteristics,,,,15.0,,,15,number,contact_count
+5999-01-129-4193__current_rating,5999-01-129-4193,current_rating,gte,7.5,A,electrical,spec_extraction,MIL-PRF-49464,7.5,publog_characteristics,7.5,,,7.5 A,number,current_rating
+5999-01-129-4193__insulation_resistance,5999-01-129-4193,insulation_resistance,gte,5000000000,ohm,electrical,spec_extraction,MIL-PRF-49464,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-129-4193__shell_material,5999-01-129-4193,shell_material,eq,STEEL,,electrical,publog_characteristics,,,,,,,STEEL,text,shell_material
+5999-01-129-4193__operating_temp_max,5999-01-129-4193,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-49464,125,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-129-4193__operating_temp_min,5999-01-129-4193,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-49464,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-129-4193__contact_plating,5999-01-129-4193,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-PRF-49464,GOLDOVERNICKEL,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-129-4193__humidity_resistance,5999-01-129-4193,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,humidity_resistance
+5999-01-129-4193__qualification,5999-01-129-4193,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,qualification
+5999-01-129-4193__thermal_shock_cycles,5999-01-129-4193,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-49464,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-129-4193__vibration_grms,5999-01-129-4193,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-49464,,,15.0,,,15,number,vibration_grms
+5999-01-129-4193__lot_traceability,5999-01-129-4193,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,lot_traceability
+5999-01-209-0658__contact_count,5999-01-209-0658,contact_count,eq,9,,electrical,publog_characteristics,,,,9.0,,,9,number,contact_count
+5999-01-209-0658__current_rating,5999-01-209-0658,current_rating,gte,7.5,A,electrical,spec_extraction,MIL-PRF-49464,1,publog_characteristics,7.5,,,7.5 A,number,current_rating
+5999-01-209-0658__insulation_resistance,5999-01-209-0658,insulation_resistance,gte,5000000000,ohm,electrical,spec_extraction,MIL-PRF-49464,1000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-209-0658__shell_material,5999-01-209-0658,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5999-01-209-0658__operating_temp_max,5999-01-209-0658,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-49464,85,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-209-0658__operating_temp_min,5999-01-209-0658,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-49464,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-209-0658__contact_plating,5999-01-209-0658,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-PRF-49464,GOLDOVERNICKEL,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-209-0658__humidity_resistance,5999-01-209-0658,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,humidity_resistance
+5999-01-209-0658__qualification,5999-01-209-0658,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,qualification
+5999-01-209-0658__thermal_shock_cycles,5999-01-209-0658,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-49464,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-209-0658__vibration_grms,5999-01-209-0658,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-49464,,,15.0,,,15,number,vibration_grms
+5999-01-209-0658__lot_traceability,5999-01-209-0658,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,lot_traceability
+5999-01-215-7176__contact_plating,5999-01-215-7176,contact_plating,eq,GOLD,,electrical,publog_characteristics,,,,,,,GOLD,text,contact_plating
+5999-01-215-7176__current_rating,5999-01-215-7176,current_rating,gte,3,A,electrical,publog_characteristics,,,,3.0,,,3 A,number,current_rating
+5999-01-215-7176__insulation_resistance,5999-01-215-7176,insulation_resistance,gte,1000000000,ohm,electrical,spec_extraction,MIL-DTL-24308,5000000000,publog_characteristics,1000000000.0,,,1000000000 ohm,number,insulation_resistance
+5999-01-215-7176__operating_temp_max,5999-01-215-7176,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-24308,71,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5999-01-215-7176__operating_temp_min,5999-01-215-7176,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-24308,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-215-7176__contact_count,5999-01-215-7176,contact_count,eq,25,,mechanical,spec_extraction,MIL-DTL-24308,37,publog_characteristics,25.0,,,25,number,contact_count
+5999-01-215-7176__shell_material,5999-01-215-7176,shell_material,eq,COMPOSITE,,mechanical,spec_extraction,MIL-DTL-24308,ALUMINUMALLOY,publog_characteristics,,,,COMPOSITE,text,shell_material
+5999-01-215-7176__humidity_resistance,5999-01-215-7176,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,humidity_resistance
+5999-01-215-7176__qualification,5999-01-215-7176,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,qualification
+5999-01-215-7176__thermal_shock_cycles,5999-01-215-7176,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-24308,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-215-7176__vibration_grms,5999-01-215-7176,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-24308,,,10.0,,,10,number,vibration_grms
+5999-01-215-7176__lot_traceability,5999-01-215-7176,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,lot_traceability
+5999-01-222-0064__contact_plating,5999-01-222-0064,contact_plating,eq,GOLD,,electrical,publog_characteristics,,,,,,,GOLD,text,contact_plating
+5999-01-222-0064__current_rating,5999-01-222-0064,current_rating,gte,1,A,electrical,publog_characteristics,,,,1.0,,,1 A,number,current_rating
+5999-01-222-0064__insulation_resistance,5999-01-222-0064,insulation_resistance,gte,1000000000,ohm,electrical,spec_extraction,MIL-DTL-24308,1000000000,publog_characteristics,1000000000.0,,,1000000000 ohm,number,insulation_resistance
+5999-01-222-0064__operating_temp_max,5999-01-222-0064,operating_temp_max,gte,125,degC,environmental,spec_extraction,MIL-DTL-24308,71,publog_characteristics,125.0,,,125 degC,number,operating_temp_max
+5999-01-222-0064__operating_temp_min,5999-01-222-0064,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-24308,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-222-0064__contact_count,5999-01-222-0064,contact_count,eq,25,,mechanical,spec_extraction,MIL-DTL-24308,25,publog_characteristics,25.0,,,25,number,contact_count
+5999-01-222-0064__shell_material,5999-01-222-0064,shell_material,eq,COMPOSITE,,mechanical,spec_extraction,MIL-DTL-24308,COMPOSITE,publog_characteristics,,,,COMPOSITE,text,shell_material
+5999-01-222-0064__humidity_resistance,5999-01-222-0064,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,humidity_resistance
+5999-01-222-0064__qualification,5999-01-222-0064,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,qualification
+5999-01-222-0064__thermal_shock_cycles,5999-01-222-0064,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-DTL-24308,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-222-0064__vibration_grms,5999-01-222-0064,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-24308,,,10.0,,,10,number,vibration_grms
+5999-01-222-0064__lot_traceability,5999-01-222-0064,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-24308,,,,,,true,boolean,lot_traceability
+5999-01-240-8049__contact_count,5999-01-240-8049,contact_count,eq,25,,electrical,publog_characteristics,,,,25.0,,,25,number,contact_count
+5999-01-240-8049__current_rating,5999-01-240-8049,current_rating,gte,1,A,electrical,publog_characteristics,,,,1.0,,,1 A,number,current_rating
+5999-01-240-8049__insulation_resistance,5999-01-240-8049,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-83513,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-240-8049__operating_temp_max,5999-01-240-8049,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-DTL-83513,71,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-240-8049__operating_temp_min,5999-01-240-8049,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-83513,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-240-8049__contact_plating,5999-01-240-8049,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-DTL-83513,GOLD,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-240-8049__shell_material,5999-01-240-8049,shell_material,eq,COMPOSITE,,mechanical,spec_extraction,MIL-DTL-83513,ALUMINUMALLOY,publog_characteristics,,,,COMPOSITE,text,shell_material
+5999-01-240-8049__humidity_resistance,5999-01-240-8049,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,humidity_resistance
+5999-01-240-8049__qualification,5999-01-240-8049,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,qualification
+5999-01-240-8049__solderability_per_j_std_002,5999-01-240-8049,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,solderability_per_j_std_002
+5999-01-240-8049__thermal_shock_cycles,5999-01-240-8049,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-83513,,,25.0,,,25,number,thermal_shock_cycles
+5999-01-240-8049__vibration_grms,5999-01-240-8049,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-83513,,,10.0,,,10,number,vibration_grms
+5999-01-240-8049__dpa_sample_required,5999-01-240-8049,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,dpa_sample_required
+5999-01-240-8049__lot_traceability,5999-01-240-8049,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,lot_traceability
+5999-01-270-9406__contact_count,5999-01-270-9406,contact_count,eq,37,,electrical,publog_characteristics,,,,37.0,,,37,number,contact_count
+5999-01-270-9406__current_rating,5999-01-270-9406,current_rating,gte,5,A,electrical,publog_characteristics,,,,5.0,,,5 A,number,current_rating
+5999-01-270-9406__insulation_resistance,5999-01-270-9406,insulation_resistance,gte,5000000000,ohm,electrical,manual_override,MIL-DTL-83513,1000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-270-9406__operating_temp_max,5999-01-270-9406,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-DTL-83513,125,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-270-9406__operating_temp_min,5999-01-270-9406,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-DTL-83513,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-270-9406__contact_plating,5999-01-270-9406,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-DTL-83513,GOLD,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-270-9406__shell_material,5999-01-270-9406,shell_material,eq,COMPOSITE,,mechanical,spec_extraction,MIL-DTL-83513,COMPOSITE,publog_characteristics,,,,COMPOSITE,text,shell_material
+5999-01-270-9406__humidity_resistance,5999-01-270-9406,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,humidity_resistance
+5999-01-270-9406__qualification,5999-01-270-9406,qualification,boolean,true,,qualification,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,qualification
+5999-01-270-9406__solderability_per_j_std_002,5999-01-270-9406,solderability_per_j_std_002,boolean,true,,qualification,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,solderability_per_j_std_002
+5999-01-270-9406__thermal_shock_cycles,5999-01-270-9406,thermal_shock_cycles,gte,25,,qualification,spec_extraction,MIL-DTL-83513,,,25.0,,,25,number,thermal_shock_cycles
+5999-01-270-9406__vibration_grms,5999-01-270-9406,vibration_grms,gte,10,,qualification,spec_extraction,MIL-DTL-83513,,,10.0,,,10,number,vibration_grms
+5999-01-270-9406__dpa_sample_required,5999-01-270-9406,dpa_sample_required,boolean,true,,traceability,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,dpa_sample_required
+5999-01-270-9406__lot_traceability,5999-01-270-9406,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-DTL-83513,,,,,,true,boolean,lot_traceability
+5999-01-294-4489__contact_count,5999-01-294-4489,contact_count,eq,9,,electrical,publog_characteristics,,,,9.0,,,9,number,contact_count
+5999-01-294-4489__current_rating,5999-01-294-4489,current_rating,gte,7.5,A,electrical,spec_extraction,MIL-PRF-49464,5,publog_characteristics,7.5,,,7.5 A,number,current_rating
+5999-01-294-4489__insulation_resistance,5999-01-294-4489,insulation_resistance,gte,5000000000,ohm,electrical,spec_extraction,MIL-PRF-49464,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-294-4489__shell_material,5999-01-294-4489,shell_material,eq,ALUMINUMALLOY,,electrical,publog_characteristics,,,,,,,ALUMINUMALLOY,text,shell_material
+5999-01-294-4489__operating_temp_max,5999-01-294-4489,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-49464,71,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-294-4489__operating_temp_min,5999-01-294-4489,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-49464,-46,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-294-4489__contact_plating,5999-01-294-4489,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-PRF-49464,GOLDOVERNICKEL,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-294-4489__humidity_resistance,5999-01-294-4489,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,humidity_resistance
+5999-01-294-4489__qualification,5999-01-294-4489,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,qualification
+5999-01-294-4489__thermal_shock_cycles,5999-01-294-4489,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-49464,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-294-4489__vibration_grms,5999-01-294-4489,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-49464,,,15.0,,,15,number,vibration_grms
+5999-01-294-4489__lot_traceability,5999-01-294-4489,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,lot_traceability
+5999-01-473-6202__contact_count,5999-01-473-6202,contact_count,eq,37,,electrical,publog_characteristics,,,,37.0,,,37,number,contact_count
+5999-01-473-6202__current_rating,5999-01-473-6202,current_rating,gte,7.5,A,electrical,spec_extraction,MIL-PRF-49464,1,publog_characteristics,7.5,,,7.5 A,number,current_rating
+5999-01-473-6202__insulation_resistance,5999-01-473-6202,insulation_resistance,gte,5000000000,ohm,electrical,spec_extraction,MIL-PRF-49464,5000000000,publog_characteristics,5000000000.0,,,5000000000 ohm,number,insulation_resistance
+5999-01-473-6202__shell_material,5999-01-473-6202,shell_material,eq,COMPOSITE,,electrical,publog_characteristics,,,,,,,COMPOSITE,text,shell_material
+5999-01-473-6202__operating_temp_max,5999-01-473-6202,operating_temp_max,gte,200,degC,environmental,spec_extraction,MIL-PRF-49464,125,publog_characteristics,200.0,,,200 degC,number,operating_temp_max
+5999-01-473-6202__operating_temp_min,5999-01-473-6202,operating_temp_min,lte,-55,degC,environmental,spec_extraction,MIL-PRF-49464,-55,publog_characteristics,-55.0,,,-55 degC,number,operating_temp_min
+5999-01-473-6202__contact_plating,5999-01-473-6202,contact_plating,eq,GOLD,,mechanical,spec_extraction,MIL-PRF-49464,GOLDOVERNICKEL,publog_characteristics,,,,GOLD,text,contact_plating
+5999-01-473-6202__humidity_resistance,5999-01-473-6202,humidity_resistance,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,humidity_resistance
+5999-01-473-6202__qualification,5999-01-473-6202,qualification,boolean,true,,qualification,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,qualification
+5999-01-473-6202__thermal_shock_cycles,5999-01-473-6202,thermal_shock_cycles,gte,10,,qualification,spec_extraction,MIL-PRF-49464,,,10.0,,,10,number,thermal_shock_cycles
+5999-01-473-6202__vibration_grms,5999-01-473-6202,vibration_grms,gte,15,,qualification,spec_extraction,MIL-PRF-49464,,,15.0,,,15,number,vibration_grms
+5999-01-473-6202__lot_traceability,5999-01-473-6202,lot_traceability,boolean,true,,traceability,spec_extraction,MIL-PRF-49464,,,,,,true,boolean,lot_traceability

@@ -1,0 +1,65 @@
+{
+ "key": "raw_6cf934e283eac30f",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "4590-105J"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:14",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "16223121",
+       "mpn": "4590-105J",
+       "name": "API Delevan 4590-105J",
+       "octopartUrl": "https://octopart.com/part/api-delevan/4590-105J",
+       "manufacturer": {
+        "name": "API Delevan"
+       },
+       "medianPrice1000": {
+        "price": 5.2668,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 1,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 133,
+           "prices": [
+            {
+             "quantity": 500,
+             "price": 5.2668,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "72256fd8-a5da-4b3d-a4ce-b340a9381192"
+  }
+ },
+ "from_cache": false
+}

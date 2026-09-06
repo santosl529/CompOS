@@ -1,0 +1,318 @@
+nsn,attribute_name,attribute_value,uom
+5905-00-493-1204,operating_temp_min,-55,C
+5905-00-493-1204,operating_temp_max,200,C
+5905-00-493-1204,voltage_rating,500,V
+5905-00-493-1204,power_rating,0.1,W
+5905-00-493-1210,operating_temp_min,-55,C
+5905-00-493-1210,operating_temp_max,150,C
+5905-00-493-1210,resistance_tolerance,0.1,pct
+5905-00-493-1210,voltage_rating,250,V
+5905-00-493-1211,operating_temp_min,-55,C
+5905-00-493-1211,operating_temp_max,125,C
+5905-00-493-1211,resistance_tolerance,0.1,pct
+5905-00-493-1211,voltage_rating,500,V
+5905-00-493-1211,resistance,100000.0,ohm
+5905-00-493-1211,temperature_coefficient,15,ppm_per_C
+5905-00-493-1211,power_rating,1.0,W
+5905-01-173-4875,operating_temp_min,-55,C
+5905-01-173-4875,operating_temp_max,125,C
+5905-01-173-4875,resistance,1.0,ohm
+5905-01-173-4875,voltage_rating,250,V
+5905-01-173-4875,temperature_coefficient,25,ppm_per_C
+5905-01-173-4875,resistance_tolerance,5.0,pct
+5905-01-173-4875,power_rating,0.1,W
+5905-01-290-1192,operating_temp_min,-55,C
+5905-01-290-1192,operating_temp_max,200,C
+5905-01-290-1192,resistance_tolerance,5.0,pct
+5905-01-290-1192,resistance,150.0,ohm
+5905-01-290-1192,temperature_coefficient,50,ppm_per_C
+5905-01-290-1192,power_rating,3.0,W
+5905-01-290-1192,voltage_rating,200,V
+5910-00-934-0177,operating_temp_min,-55,C
+5910-00-934-0177,operating_temp_max,125,C
+5910-00-934-0177,voltage_rating,100,V
+5910-00-934-0177,capacitance_tolerance,10.0,pct
+5910-00-934-0177,dissipation_factor,2.11,pct
+5910-00-934-0177,dielectric_type,metallized paper,text
+5910-00-934-0177,capacitance,47000.0,pF
+5910-01-204-1981,operating_temp_min,-55,C
+5910-01-204-1981,operating_temp_max,125,C
+5910-01-204-1981,dielectric_type,metallized paper,text
+5910-01-204-1981,dissipation_factor,1.5,pct
+5910-01-204-1981,capacitance,10000.0,pF
+5910-01-204-1981,voltage_rating,250,V
+5910-01-204-1981,capacitance_tolerance,1.0,pct
+5910-01-237-2621,operating_temp_min,-55,C
+5910-01-237-2621,operating_temp_max,85,C
+5910-01-237-2621,dielectric_type,ceramic COG,text
+5910-01-237-2621,dissipation_factor,2.46,pct
+5910-01-237-2621,voltage_rating,250,V
+5910-01-237-2621,capacitance_tolerance,1.0,pct
+5910-01-237-2621,capacitance,100000.0,pF
+5915-01-134-7687,operating_temp_min,-55,C
+5915-01-134-7687,operating_temp_max,150,C
+5915-01-134-7687,insertion_loss,20,dB
+5915-01-134-7687,frequency_range_max,1000,MHz
+5915-01-134-7687,voltage_rating,50,V
+5915-01-134-7687,current_rating,1.0,A
+5930-00-689-2834,operating_temp_min,-55,C
+5930-00-689-2834,operating_temp_max,200,C
+5930-00-689-2834,contact_configuration,SPDT,text
+5930-00-689-2834,voltage_rating,250,V
+5930-00-689-2834,sealing,panel sealed,text
+5930-00-689-2834,current_rating,5.0,A
+5930-00-689-2834,mechanical_life,10000,cycles
+5930-00-689-2834,actuation_pressure,0.2599,MPa
+5930-01-110-7093,operating_temp_min,-46,C
+5930-01-110-7093,operating_temp_max,70,C
+5930-01-110-7093,current_rating,1.0,A
+5930-01-110-7093,sealing,hermetic,text
+5930-01-110-7093,contact_configuration,DPST,text
+5930-01-110-7093,mechanical_life,100000,cycles
+5930-01-110-7093,voltage_rating,28,V
+5930-01-110-7093,actuation_pressure,0.5142,MPa
+5930-01-110-7094,operating_temp_min,-46,C
+5930-01-110-7094,operating_temp_max,70,C
+5930-01-110-7094,mechanical_life,100000,cycles
+5930-01-110-7094,actuation_pressure,0.1034,MPa
+5930-01-110-7094,sealing,hermetic,text
+5930-01-110-7094,voltage_rating,250,V
+5930-01-110-7094,contact_configuration,SPDT,text
+5930-01-110-7094,current_rating,20.0,A
+5930-01-174-6031,operating_temp_min,-46,C
+5930-01-174-6031,operating_temp_max,71,C
+5930-01-174-6031,contact_configuration,SPDT,text
+5930-01-174-6031,voltage_rating,115,V
+5930-01-174-6031,mechanical_life,10000,cycles
+5930-01-174-6031,actuation_pressure,0.5158,MPa
+5930-01-174-6031,current_rating,3.0,A
+5930-01-174-6031,sealing,panel sealed,text
+5935-00-079-5458,operating_temp_min,-55,C
+5935-00-079-5458,operating_temp_max,85,C
+5935-00-079-5458,insulation_resistance,1000,Mohm
+5935-00-079-5458,contact_resistance,2.5,mohm
+5935-00-079-5458,coupling_type,threaded,text
+5935-00-079-5458,contact_count,37,count
+5935-00-079-5458,dielectric_withstanding_voltage,1300,V
+5935-00-079-5458,contact_plating,gold over nickel,text
+5935-00-079-5458,shell_material,composite,text
+5935-00-079-5458,shell_size,23,code
+5935-00-104-9650,operating_temp_min,-55,C
+5935-00-104-9650,operating_temp_max,125,C
+5935-00-104-9650,insulation_resistance,1000,Mohm
+5935-00-104-9650,contact_count,4,count
+5935-00-104-9650,dielectric_withstanding_voltage,1000,V
+5935-00-104-9650,contact_plating,gold over nickel,text
+5935-00-104-9650,coupling_type,threaded,text
+5935-00-104-9650,shell_size,25,code
+5935-00-104-9650,shell_material,composite,text
+5935-00-104-9650,contact_resistance,5.0,mohm
+5935-00-105-4641,operating_temp_min,-55,C
+5935-00-105-4641,operating_temp_max,85,C
+5935-00-105-4641,contact_plating,gold over nickel,text
+5935-00-105-4641,dielectric_withstanding_voltage,2300,V
+5935-00-105-4641,contact_resistance,1.1,mohm
+5935-00-105-4641,shell_material,aluminum alloy,text
+5935-00-105-4641,shell_size,19,code
+5935-00-105-4641,insulation_resistance,5000,Mohm
+5935-00-105-4641,coupling_type,breech,text
+5935-00-105-4641,contact_count,19,count
+5935-00-330-3329,operating_temp_min,-55,C
+5935-00-330-3329,operating_temp_max,85,C
+5935-00-330-3329,contact_count,2,count
+5935-00-330-3329,coupling_type,bayonet,text
+5935-00-330-3329,shell_material,composite,text
+5935-00-330-3329,dielectric_withstanding_voltage,1000,V
+5935-00-330-3329,shell_size,21,code
+5935-00-330-3329,insulation_resistance,5000,Mohm
+5935-00-330-3329,contact_plating,gold over nickel,text
+5935-00-330-3329,contact_resistance,5.6,mohm
+5935-00-812-3399,operating_temp_min,-55,C
+5935-00-812-3399,operating_temp_max,125,C
+5935-00-812-3399,insulation_resistance,5000,Mohm
+5935-00-812-3399,contact_count,10,count
+5935-00-812-3399,dielectric_withstanding_voltage,2300,V
+5935-00-812-3399,contact_resistance,2.7,mohm
+5935-00-812-3399,contact_plating,gold over nickel,text
+5935-00-812-3399,coupling_type,bayonet,text
+5935-00-812-3399,shell_material,stainless steel,text
+5935-00-812-3399,shell_size,13,code
+5935-00-987-0797,operating_temp_min,-46,C
+5935-00-987-0797,operating_temp_max,71,C
+5935-00-987-0797,insulation_resistance,5000,Mohm
+5935-00-987-0797,shell_size,11,code
+5935-00-987-0797,coupling_type,bayonet,text
+5935-00-987-0797,dielectric_withstanding_voltage,1300,V
+5935-00-987-0797,shell_material,aluminum alloy,text
+5935-00-987-0797,contact_resistance,6.9,mohm
+5935-00-987-0797,contact_count,19,count
+5935-00-987-0797,contact_plating,gold,text
+5935-01-050-8241,operating_temp_min,-55,C
+5935-01-050-8241,operating_temp_max,150,C
+5935-01-050-8241,coupling_type,threaded,text
+5935-01-050-8241,insulation_resistance,5000,Mohm
+5935-01-050-8241,contact_count,26,count
+5935-01-050-8241,dielectric_withstanding_voltage,1300,V
+5935-01-050-8241,shell_material,aluminum alloy,text
+5935-01-050-8241,contact_plating,silver,text
+5935-01-050-8241,shell_size,15,code
+5935-01-050-8241,contact_resistance,4.6,mohm
+5935-01-151-1226,operating_temp_min,-40,C
+5935-01-151-1226,operating_temp_max,85,C
+5935-01-151-1226,contact_resistance,3.3,mohm
+5935-01-151-1226,dielectric_withstanding_voltage,1500,V
+5935-01-151-1226,contact_plating,gold over nickel,text
+5935-01-151-1226,shell_material,aluminum alloy,text
+5935-01-151-1226,insulation_resistance,5000,Mohm
+5935-01-151-1226,shell_size,15,code
+5935-01-151-1226,contact_count,55,count
+5935-01-151-1226,coupling_type,threaded,text
+5935-01-223-2835,operating_temp_min,-55,C
+5935-01-223-2835,operating_temp_max,200,C
+5935-01-223-2835,contact_plating,gold,text
+5935-01-223-2835,shell_material,stainless steel,text
+5935-01-223-2835,coupling_type,breech,text
+5935-01-223-2835,shell_size,13,code
+5935-01-223-2835,contact_count,4,count
+5935-01-223-2835,contact_resistance,1.2,mohm
+5935-01-223-2835,insulation_resistance,1000,Mohm
+5935-01-223-2835,dielectric_withstanding_voltage,1500,V
+5935-01-249-9088,operating_temp_min,-55,C
+5935-01-249-9088,operating_temp_max,125,C
+5935-01-249-9088,contact_plating,gold,text
+5935-01-249-9088,coupling_type,threaded,text
+5935-01-249-9088,shell_material,aluminum alloy,text
+5935-01-249-9088,insulation_resistance,5000,Mohm
+5935-01-249-9088,shell_size,13,code
+5935-01-249-9088,contact_count,37,count
+5935-01-249-9088,contact_resistance,2.3,mohm
+5935-01-249-9088,dielectric_withstanding_voltage,1500,V
+5935-01-296-3505,operating_temp_min,-40,C
+5935-01-296-3505,operating_temp_max,85,C
+5935-01-296-3505,shell_size,21,code
+5935-01-296-3505,insulation_resistance,5000,Mohm
+5935-01-296-3505,contact_count,26,count
+5935-01-296-3505,coupling_type,breech,text
+5935-01-296-3505,contact_plating,gold,text
+5935-01-296-3505,shell_material,stainless steel,text
+5935-01-296-3505,dielectric_withstanding_voltage,1500,V
+5935-01-296-3505,contact_resistance,8.0,mohm
+5935-01-446-7776,operating_temp_min,-55,C
+5935-01-446-7776,operating_temp_max,150,C
+5935-01-446-7776,contact_plating,silver,text
+5935-01-446-7776,contact_count,55,count
+5935-01-446-7776,insulation_resistance,5000,Mohm
+5935-01-446-7776,shell_size,21,code
+5935-01-446-7776,coupling_type,bayonet,text
+5935-01-446-7776,contact_resistance,1.4,mohm
+5935-01-446-7776,shell_material,aluminum alloy,text
+5935-01-446-7776,dielectric_withstanding_voltage,1300,V
+5945-00-491-3597,operating_temp_min,-46,C
+5945-00-491-3597,operating_temp_max,71,C
+5945-00-491-3597,contact_configuration,SPDT,text
+5945-00-491-3597,contact_rating,2.0,A
+5945-00-491-3597,coil_voltage,28,V
+5945-00-491-3597,coil_resistance,50,ohm
+5945-00-491-3597,sealing,hermetic,text
+5950-00-698-0421,operating_temp_min,-55,C
+5950-00-698-0421,operating_temp_max,85,C
+5950-00-698-0421,current_rating,0.1,A
+5950-00-698-0421,q_factor,80,count
+5950-00-698-0421,dc_resistance,3.363,ohm
+5950-00-698-0421,inductance_tolerance,2.0,pct
+5950-00-698-0421,inductance,100.0,uH
+5950-01-199-2306,operating_temp_min,-46,C
+5950-01-199-2306,operating_temp_max,71,C
+5950-01-199-2306,inductance,10.0,uH
+5950-01-199-2306,current_rating,0.1,A
+5950-01-199-2306,dc_resistance,2.793,ohm
+5950-01-199-2306,inductance_tolerance,2.0,pct
+5950-01-199-2306,q_factor,30,count
+5950-01-224-5861,operating_temp_min,-55,C
+5950-01-224-5861,operating_temp_max,125,C
+5950-01-224-5861,inductance,47.0,uH
+5950-01-224-5861,q_factor,80,count
+5950-01-224-5861,current_rating,0.1,A
+5950-01-224-5861,dc_resistance,7.243,ohm
+5950-01-224-5861,inductance_tolerance,10.0,pct
+5961-01-017-5461,operating_temp_min,-46,C
+5961-01-017-5461,operating_temp_max,71,C
+5961-01-017-5461,voltage_rating,200,V
+5961-01-017-5461,current_rating,0.5,A
+5999-00-162-1259,operating_temp_min,-55,C
+5999-00-162-1259,operating_temp_max,200,C
+5999-00-162-1259,contact_plating,gold over nickel,text
+5999-00-162-1259,contact_count,9,count
+5999-00-162-1259,shell_material,composite,text
+5999-00-162-1259,current_rating,3.0,A
+5999-00-162-1259,insulation_resistance,5000,Mohm
+5999-00-196-0634,operating_temp_min,-55,C
+5999-00-196-0634,operating_temp_max,125,C
+5999-00-196-0634,insulation_resistance,1000,Mohm
+5999-00-196-0634,current_rating,1.0,A
+5999-00-196-0634,contact_count,9,count
+5999-00-196-0634,contact_plating,gold,text
+5999-00-196-0634,shell_material,aluminum alloy,text
+5999-01-070-6620,operating_temp_min,-40,C
+5999-01-070-6620,operating_temp_max,85,C
+5999-01-070-6620,current_rating,3.0,A
+5999-01-070-6620,insulation_resistance,5000,Mohm
+5999-01-070-6620,contact_plating,gold over nickel,text
+5999-01-070-6620,contact_count,9,count
+5999-01-070-6620,shell_material,steel,text
+5999-01-129-4193,operating_temp_min,-55,C
+5999-01-129-4193,operating_temp_max,125,C
+5999-01-129-4193,shell_material,steel,text
+5999-01-129-4193,contact_plating,gold over nickel,text
+5999-01-129-4193,insulation_resistance,5000,Mohm
+5999-01-129-4193,current_rating,7.5,A
+5999-01-129-4193,contact_count,15,count
+5999-01-209-0658,operating_temp_min,-55,C
+5999-01-209-0658,operating_temp_max,85,C
+5999-01-209-0658,contact_plating,gold over nickel,text
+5999-01-209-0658,shell_material,aluminum alloy,text
+5999-01-209-0658,insulation_resistance,1000,Mohm
+5999-01-209-0658,current_rating,1.0,A
+5999-01-209-0658,contact_count,9,count
+5999-01-215-7176,operating_temp_min,-46,C
+5999-01-215-7176,operating_temp_max,71,C
+5999-01-215-7176,contact_count,37,count
+5999-01-215-7176,current_rating,3.0,A
+5999-01-215-7176,shell_material,aluminum alloy,text
+5999-01-215-7176,insulation_resistance,5000,Mohm
+5999-01-215-7176,contact_plating,gold,text
+5999-01-222-0064,operating_temp_min,-46,C
+5999-01-222-0064,operating_temp_max,71,C
+5999-01-222-0064,current_rating,1.0,A
+5999-01-222-0064,shell_material,composite,text
+5999-01-222-0064,insulation_resistance,1000,Mohm
+5999-01-222-0064,contact_count,25,count
+5999-01-222-0064,contact_plating,gold,text
+5999-01-240-8049,operating_temp_min,-46,C
+5999-01-240-8049,operating_temp_max,71,C
+5999-01-240-8049,shell_material,aluminum alloy,text
+5999-01-240-8049,current_rating,1.0,A
+5999-01-240-8049,contact_count,25,count
+5999-01-240-8049,insulation_resistance,5000,Mohm
+5999-01-240-8049,contact_plating,gold,text
+5999-01-270-9406,operating_temp_min,-55,C
+5999-01-270-9406,operating_temp_max,125,C
+5999-01-270-9406,current_rating,5.0,A
+5999-01-270-9406,contact_count,37,count
+5999-01-270-9406,shell_material,composite,text
+5999-01-270-9406,contact_plating,gold,text
+5999-01-270-9406,insulation_resistance,1000,Mohm
+5999-01-294-4489,operating_temp_min,-46,C
+5999-01-294-4489,operating_temp_max,71,C
+5999-01-294-4489,current_rating,5.0,A
+5999-01-294-4489,contact_count,9,count
+5999-01-294-4489,shell_material,aluminum alloy,text
+5999-01-294-4489,contact_plating,gold over nickel,text
+5999-01-294-4489,insulation_resistance,5000,Mohm
+5999-01-473-6202,operating_temp_min,-55,C
+5999-01-473-6202,operating_temp_max,125,C
+5999-01-473-6202,current_rating,1.0,A
+5999-01-473-6202,contact_count,37,count
+5999-01-473-6202,contact_plating,gold over nickel,text
+5999-01-473-6202,shell_material,composite,text
+5999-01-473-6202,insulation_resistance,5000,Mohm

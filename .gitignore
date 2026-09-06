@@ -1,0 +1,19 @@
+# secrets — never commit real credentials
+.env
+.env.*
+!.env.example
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# manually downloaded raw sources (large; PUB LOG CSVs are GBs, QPL .mdb files, spec PDFs)
+raw/
+
+# raw API responses. Deliberately NOT ignored by default so a teammate's clone
+# re-runs at zero quota. Uncomment if the repo gets too large.
+# cache/
+
+# generated outputs are the Foundry upload contract; keep them committed.
+# data/

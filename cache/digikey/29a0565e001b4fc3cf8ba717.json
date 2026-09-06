@@ -1,0 +1,830 @@
+{
+ "key": "29a0565e001b4fc3cf8ba717",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "226"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "226"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 2155,
+      "FilterValues": [
+       {
+        "Id": "3.3 A"
+       },
+       {
+        "Id": "4 A"
+       },
+       {
+        "Id": "4.4 A"
+       },
+       {
+        "Id": "4.7 A"
+       },
+       {
+        "Id": "5 A"
+       },
+       {
+        "Id": "5.1 A"
+       },
+       {
+        "Id": "6 A"
+       },
+       {
+        "Id": "7.4 A"
+       },
+       {
+        "Id": "8.3 A"
+       },
+       {
+        "Id": "8.5 A"
+       },
+       {
+        "Id": "8.6 A"
+       },
+       {
+        "Id": "9.4 A"
+       },
+       {
+        "Id": "10 A"
+       },
+       {
+        "Id": "11 A"
+       },
+       {
+        "Id": "11.2 A"
+       },
+       {
+        "Id": "12 A"
+       },
+       {
+        "Id": "12.2 A"
+       },
+       {
+        "Id": "13.2 A"
+       },
+       {
+        "Id": "14 A"
+       },
+       {
+        "Id": "15 A"
+       },
+       {
+        "Id": "16 A"
+       },
+       {
+        "Id": "19.6 A"
+       },
+       {
+        "Id": "20 A"
+       },
+       {
+        "Id": "20.8 A"
+       },
+       {
+        "Id": "22.2 A"
+       },
+       {
+        "Id": "24 A"
+       }
+      ]
+     },
+     {
+      "ParameterId": 252,
+      "FilterValues": [
+       {
+        "Id": "469486"
+       },
+       {
+        "Id": "469343"
+       },
+       {
+        "Id": "469342"
+       },
+       {
+        "Id": "242965"
+       },
+       {
+        "Id": "139808"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:27:41",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "PRESTO A80T, REFRIGERATED/HEATIN",
+     "DetailedDescription": "Active, Recirculating Chiller/Heater 208 ~ 220VAC 1200 W 15 A 4.23GPM-10.57GPM (16.0LPM-40.0LPM)"
+    },
+    "Manufacturer": {
+     "Id": 2880,
+     "Name": "JULABO"
+    },
+    "ManufacturerProductNumber": "9420801.16.T",
+    "UnitPrice": 65200.0,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/julabo/9420801-16-T/13145630",
+    "DatasheetUrl": "https://julabo.us/wp-content/uploads/2024/02/JULABO-PRESTO-A80T-9420801.T.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4272/MFG_9420801.T.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "2880-9420801.16.T-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 65200.0,
+        "TotalPrice": 65200.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2880,
+       "Name": "JULABO"
+      },
+      "QuantityAvailableforPackageType": 2,
+      "MaxQuantityForDistribution": 100000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 2,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 1698,
+      "ParameterText": "Product Type",
+      "ParameterType": "String",
+      "ValueId": "307970",
+      "ValueText": "Active, Recirculating Chiller/Heater"
+     },
+     {
+      "ParameterId": 1276,
+      "ParameterText": "Power - Cooling",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1200 W",
+      "ValueText": "1200 W"
+     },
+     {
+      "ParameterId": 2155,
+      "ParameterText": "Current",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "15 A",
+      "ValueText": "15 A"
+     },
+     {
+      "ParameterId": 62,
+      "ParameterText": "Voltage",
+      "ParameterType": "String",
+      "ValueId": "469346",
+      "ValueText": "208 ~ 220VAC"
+     },
+     {
+      "ParameterId": 1702,
+      "ParameterText": "Flow Rate",
+      "ParameterType": "String",
+      "ValueId": "469331",
+      "ValueText": "4.23GPM-10.57GPM (16.0LPM-40.0LPM)"
+     },
+     {
+      "ParameterId": 1703,
+      "ParameterText": "Power Input",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1699,
+      "ParameterText": "Thermal Resistance @ GPM",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1700,
+      "ParameterText": "Fluid Capacity",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "469486",
+      "ValueText": "-92\u00b0C ~ 250\u00b0C"
+     },
+     {
+      "ParameterId": 1701,
+      "ParameterText": "Connection Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 211,
+      "ParameterText": "Weight",
+      "ParameterType": "String",
+      "ValueId": "195998",
+      "ValueText": "362 lbs (164.2 kg)"
+     },
+     {
+      "ParameterId": 213,
+      "ParameterText": "Dimensions - Overall",
+      "ParameterType": "String",
+      "ValueId": "469314",
+      "ValueText": "25.60\" L x 16.90\" W x 51.18\" H (650.2mm x 429.3mm x 1300.0mm)"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "410879",
+      "ValueText": "Temperature Control"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 500419,
+     "Name": "9420801"
+    },
+    "Category": {
+     "CategoryId": 16,
+     "ParentId": 0,
+     "Name": "Fans, Blowers, Thermal Management",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/584/MFG_1335_tmb.jpg",
+     "SeoDescription": "The fan and thermal management category includes products and materials used to facilitate heat transfer and/or air movement, and accessories related to such products. Along with AC and DC fans and heat sinks, thermally-conductive adhesives, thermal interface products, heat pipes, and thermoelectric (peltier) modules are included. In context of electronic devices and systems, such products are comonnly used to maintain the temperatures of power-dissipationg components within acceptable operating limits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2047,
+       "ParentId": 16,
+       "Name": "Thermal",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/951/671/684_ATS-54400K-C2-R0_tmb.jpg",
+       "SeoDescription": "Thermal products are used for various methods of heat transfer. Items in this category include thermal adhesives, thermal epoxies, thermal greases, thermal pastes, heat pipes, vapor chambers, heat sinks, liquid cooling and heating, thermal pads, thermal sheets, thermoelectric products, peltier assemblies, peltier modules, and more.",
+       "ChildCategories": [
+        {
+         "CategoryId": 226,
+         "ParentId": 2047,
+         "Name": "Liquid Cooling, Heating",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/MFG_COLD-PLATE-6-PASS_tmb%2864x64%29.jpg",
+         "SeoDescription": "Thermal Liquid Cooling comes in many forms heat exchanger, immersion chiller, recirculating chiller, recirculating chiller/heater, and cold plate with power ratings from 22W to 5000W. The flow rate ranges from 0.61GPM (2.3LPM) to 3.96GPM (15.0LPM) with a thermal resistance range of 0.0055\u00b0C/W @ 2.0 GPM to 0.084\u00b0C/W @ 1.5 GPM.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "6",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8418.69.0180"
+    },
+    "OtherNames": [
+     "2880-9420801.T",
+     "9420801.16.T",
+     "9420801.T",
+     "2880-9420801.16.T",
+     "2880-9420801.T-ND"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PRESTO A80, REFRIG/ERATED/HEATIN",
+     "DetailedDescription": "Active, Recirculating Chiller/Heater 208VAC 1200 W 15 A 4.23GPM-10.57GPM (16.0LPM-40.0LPM)"
+    },
+    "Manufacturer": {
+     "Id": 2880,
+     "Name": "JULABO"
+    },
+    "ManufacturerProductNumber": "9420801.14",
+    "UnitPrice": 62117.0,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/julabo/9420801-14/12823266",
+    "DatasheetUrl": "https://julabo.us/wp-content/uploads/2024/02/JULABO-PRESTO-A80-9420801.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/847/MFG_9420801.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "2880-9420801.14-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 62117.0,
+        "TotalPrice": 62117.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2880,
+       "Name": "JULABO"
+      },
+      "QuantityAvailableforPackageType": 1,
+      "MaxQuantityForDistribution": 100000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 1,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 1698,
+      "ParameterText": "Product Type",
+      "ParameterType": "String",
+      "ValueId": "307970",
+      "ValueText": "Active, Recirculating Chiller/Heater"
+     },
+     {
+      "ParameterId": 1276,
+      "ParameterText": "Power - Cooling",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1200 W",
+      "ValueText": "1200 W"
+     },
+     {
+      "ParameterId": 2155,
+      "ParameterText": "Current",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "15 A",
+      "ValueText": "15 A"
+     },
+     {
+      "ParameterId": 62,
+      "ParameterText": "Voltage",
+      "ParameterType": "String",
+      "ValueId": "141960",
+      "ValueText": "208VAC"
+     },
+     {
+      "ParameterId": 1702,
+      "ParameterText": "Flow Rate",
+      "ParameterType": "String",
+      "ValueId": "469331",
+      "ValueText": "4.23GPM-10.57GPM (16.0LPM-40.0LPM)"
+     },
+     {
+      "ParameterId": 1703,
+      "ParameterText": "Power Input",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1699,
+      "ParameterText": "Thermal Resistance @ GPM",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1700,
+      "ParameterText": "Fluid Capacity",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "469342",
+      "ValueText": "-80\u00b0C ~ 250\u00b0C"
+     },
+     {
+      "ParameterId": 1701,
+      "ParameterText": "Connection Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 211,
+      "ParameterText": "Weight",
+      "ParameterType": "String",
+      "ValueId": "195998",
+      "ValueText": "362 lbs (164.2 kg)"
+     },
+     {
+      "ParameterId": 213,
+      "ParameterText": "Dimensions - Overall",
+      "ParameterType": "String",
+      "ValueId": "469314",
+      "ValueText": "25.60\" L x 16.90\" W x 51.18\" H (650.2mm x 429.3mm x 1300.0mm)"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "410879",
+      "ValueText": "Temperature Control"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 16,
+     "ParentId": 0,
+     "Name": "Fans, Blowers, Thermal Management",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/304/584/MFG_1335_tmb.jpg",
+     "SeoDescription": "The fan and thermal management category includes products and materials used to facilitate heat transfer and/or air movement, and accessories related to such products. Along with AC and DC fans and heat sinks, thermally-conductive adhesives, thermal interface products, heat pipes, and thermoelectric (peltier) modules are included. In context of electronic devices and systems, such products are comonnly used to maintain the temperatures of power-dissipationg components within acceptable operating limits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2047,
+       "ParentId": 16,
+       "Name": "Thermal",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/951/671/684_ATS-54400K-C2-R0_tmb.jpg",
+       "SeoDescription": "Thermal products are used for various methods of heat transfer. Items in this category include thermal adhesives, thermal epoxies, thermal greases, thermal pastes, heat pipes, vapor chambers, heat sinks, liquid cooling and heating, thermal pads, thermal sheets, thermoelectric products, peltier assemblies, peltier modules, and more.",
+       "ChildCategories": [
+        {
+         "CategoryId": 226,
+         "ParentId": 2047,
+         "Name": "Liquid Cooling, Heating",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/MFG_COLD-PLATE-6-PASS_tmb%2864x64%29.jpg",
+         "SeoDescription": "Thermal Liquid Cooling comes in many forms heat exchanger, immersion chiller, recirculating chiller, recirculating chiller/heater, and cold plate with power ratings from 22W to 5000W. The flow rate ranges from 0.61GPM (2.3LPM) to 3.96GPM (15.0LPM) with a thermal resistance range of 0.0055\u00b0C/W @ 2.0 GPM to 0.084\u00b0C/W @ 1.5 GPM.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "6",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 84758,
+     "Name": "PRESTO A80"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8418.69.0180"
+    },
+    "OtherNames": [
+     "9420801.14",
+     "9420801",
+     "2880-9420801",
+     "2880-9420801.14",
+     "2880-9420801-ND"
+    ]
+   }
+  ],
+  "ProductsCount": 2,
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 2880,
+     "Value": "JULABO",
+     "ProductCount": 2
+    }
+   ],
+   "Packaging": [
+    {
+     "Id": 3,
+     "Value": "Bulk",
+     "ProductCount": 2
+    }
+   ],
+   "Status": [
+    {
+     "Id": 0,
+     "Value": "Active",
+     "ProductCount": 2
+    }
+   ],
+   "Series": [
+    {
+     "Id": 818,
+     "Value": "-",
+     "ProductCount": 1
+    },
+    {
+     "Id": 84758,
+     "Value": "PRESTO A80",
+     "ProductCount": 1
+    }
+   ],
+   "ParametricFilters": [
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1698,
+     "ParameterName": "Product Type",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "307970",
+       "ValueName": "Active, Recirculating Chiller/Heater"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "UnitOfMeasure",
+     "ParameterId": 1276,
+     "ParameterName": "Power - Cooling",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1200 W",
+       "ValueName": "1200 W"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "UnitOfMeasure",
+     "ParameterId": 2155,
+     "ParameterName": "Current",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "15 A",
+       "ValueName": "15 A"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 62,
+     "ParameterName": "Voltage",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "469346",
+       "ValueName": "208 ~ 220VAC"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "141960",
+       "ValueName": "208VAC"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1702,
+     "ParameterName": "Flow Rate",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "469331",
+       "ValueName": "4.23GPM-10.57GPM (16.0LPM-40.0LPM)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1703,
+     "ParameterName": "Power Input",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1699,
+     "ParameterName": "Thermal Resistance @ GPM",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1700,
+     "ParameterName": "Fluid Capacity",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 252,
+     "ParameterName": "Operating Temperature",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "469486",
+       "ValueName": "-92\u00b0C ~ 250\u00b0C"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "469342",
+       "ValueName": "-80\u00b0C ~ 250\u00b0C"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1701,
+     "ParameterName": "Connection Type",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 211,
+     "ParameterName": "Weight",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "195998",
+       "ValueName": "362 lbs (164.2 kg)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 213,
+     "ParameterName": "Dimensions - Overall",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "469314",
+       "ValueName": "25.60\" L x 16.90\" W x 51.18\" H (650.2mm x 429.3mm x 1300.0mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 707,
+     "ParameterName": "Ratings",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 226,
+      "Value": "Liquid Cooling, Heating"
+     },
+     "ParameterType": "String",
+     "ParameterId": 5,
+     "ParameterName": "Features",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "410879",
+       "ValueName": "Temperature Control"
+      }
+     ]
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

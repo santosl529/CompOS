@@ -1,0 +1,688 @@
+{
+ "key": "raw_cfcc724ee4386d51",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "1N4002"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:44",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 46,
+     "parts": [
+      {
+       "id": "22658669",
+       "mpn": "1N4002",
+       "name": "Diotec 1N4002",
+       "octopartUrl": "https://octopart.com/part/diotec/1N4002",
+       "manufacturer": {
+        "name": "Diotec"
+       },
+       "medianPrice1000": {
+        "price": 0.0371,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 368461,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Rutronik"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 30000,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.0119,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0117,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.0116,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0115,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "TME"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 15842,
+           "factoryLeadDays": 70,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.1049,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.081,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0479,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.0334,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0292,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5000,
+             "price": 0.0224,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0206,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.0196,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0187,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50000,
+             "price": 0.0177,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 15842,
+           "factoryLeadDays": 70,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.1,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.081,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0479,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.0334,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0292,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5000,
+             "price": 0.0224,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0206,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.0196,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0187,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50000,
+             "price": 0.0177,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Master Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 42,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.0156,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0131,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0123,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50000,
+             "price": 0.0112,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100000,
+             "price": 0.0109,
+             "currency": "USD"
+            },
+            {
+             "quantity": 150000,
+             "price": 0.0106,
+             "currency": "USD"
+            },
+            {
+             "quantity": 250000,
+             "price": 0.0105,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500000,
+             "price": 0.0101,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Arrow Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.0158,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0136,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0123,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50000,
+             "price": 0.0118,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Mouser"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 70261,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.11,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.077,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.077,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.064,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.045,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.022,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "UnikeyIC"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 19000,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.0185,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.0185,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Worldway Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 25382,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 7,
+             "price": 0.0092,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.009,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0088,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0085,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.00833,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Bettlink"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 34000,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.04078,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.03021,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.02627,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.02454,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.02205,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Verical"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 5300,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 4700,
+             "price": 0.0185,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5200,
+             "price": 0.0148,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 15842,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 2017,
+             "price": 0.0347,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5000,
+             "price": 0.0267,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0245,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.0234,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0223,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50000,
+             "price": 0.021,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Classic Components"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 40000,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Conrad"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 10639,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.03,
+             "currency": "EUR"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Onlinecomponents.com"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 42,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.0156,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.0131,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25000,
+             "price": 0.0123,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50000,
+             "price": 0.0112,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100000,
+             "price": 0.0109,
+             "currency": "USD"
+            },
+            {
+             "quantity": 150000,
+             "price": 0.0106,
+             "currency": "USD"
+            },
+            {
+             "quantity": 250000,
+             "price": 0.0105,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500000,
+             "price": 0.0101,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 8195,
+           "factoryLeadDays": 112,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.14,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.087,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.062,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.0537,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.03876,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 25000,
+           "factoryLeadDays": 112,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.02535,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.02117,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Rapid Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 150,
+           "factoryLeadDays": 4,
+           "prices": [
+            {
+             "quantity": 50,
+             "price": 0.038,
+             "currency": "GBP"
+            },
+            {
+             "quantity": 100,
+             "price": 0.036,
+             "currency": "GBP"
+            },
+            {
+             "quantity": 250,
+             "price": 0.0147,
+             "currency": "GBP"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Unikeyic (ICkey)"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 19000,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 5000,
+             "price": 0.0185,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15000,
+             "price": 0.0185,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "9b768a32-f933-45e9-bf64-5681153cfc76"
+  }
+ },
+ "from_cache": false
+}

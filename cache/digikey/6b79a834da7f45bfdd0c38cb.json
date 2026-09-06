@@ -1,0 +1,2861 @@
+{
+ "key": "6b79a834da7f45bfdd0c38cb",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "10 nF 200V",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "60"
+    }
+   ]
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:24:44",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CAP 0603 200V 10 NF X7R",
+     "DetailedDescription": "10000 pF \u00b110% 200V Ceramic Capacitor X7R 0603 (1608 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "CC0603KRX7RABB103",
+    "UnitPrice": 0.15,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/CC0603KRX7RABB103/20376230",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2488/0603%289mmthickness%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "13-CC0603KRX7RABB103TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 4000,
+        "UnitPrice": 0.0257,
+        "TotalPrice": 102.8
+       },
+       {
+        "BreakQuantity": 12000,
+        "UnitPrice": 0.02244,
+        "TotalPrice": 269.28
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 28000,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 4000,
+      "StandardPackage": 4000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "13-CC0603KRX7RABB103CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.15,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.081,
+        "TotalPrice": 0.81
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.056,
+        "TotalPrice": 2.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0483,
+        "TotalPrice": 4.83
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 30137,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "13-CC0603KRX7RABB103DKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.15,
+        "TotalPrice": 0.15
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.081,
+        "TotalPrice": 0.81
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.056,
+        "TotalPrice": 2.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0483,
+        "TotalPrice": 4.83
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.0355,
+        "TotalPrice": 17.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 30137,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 30137,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6365329721112",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10000 pF",
+      "ValueText": "10000 pF"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "140848",
+      "ValueText": "200V"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422415",
+      "ValueText": "X7R"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39246",
+      "ValueText": "0603 (1608 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "7802",
+      "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "6031",
+      "ValueText": "0.035\" (0.90mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "21",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 1727,
+     "Name": "CC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "13-CC0603KRX7RABB103DKR",
+     "13-CC0603KRX7RABB103CT",
+     "13-CC0603KRX7RABB103TR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "MLCC, 200V, X7R, 330000 PF, 10%",
+     "DetailedDescription": "330 nF \u00b110% 200V Ceramic Capacitor X7R"
+    },
+    "Manufacturer": {
+     "Id": 4705,
+     "Name": "Quantic UTC"
+    },
+    "ManufacturerProductNumber": "CR2225X7R334KS",
+    "UnitPrice": 5.0,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/quantic-utc/CR2225X7R334KS/21283740",
+    "DatasheetUrl": "",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5485/MFG_CG0805X7R104KWT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "4705-CR2225X7R334KS-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 5.0,
+        "TotalPrice": 5.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 4705,
+       "Name": "Quantic UTC"
+      },
+      "QuantityAvailableforPackageType": 470,
+      "MaxQuantityForDistribution": 50,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 470,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "330 nF",
+      "ValueText": "330 nF"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "140848",
+      "ValueText": "200V"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422415",
+      "ValueText": "X7R"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 1054,
+     "Name": "C"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "",
+     "HtsusCode": ""
+    },
+    "OtherNames": [
+     "4705-CR2225X7R334KS"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP MLCC X7R 47 NF 200V",
+     "DetailedDescription": "0.047 \u00b5F \u00b110% 200V Ceramic Capacitor X7R 0805 (2012 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 13,
+     "Name": "YAGEO"
+    },
+    "ManufacturerProductNumber": "CC0805KKX7RABB473",
+    "UnitPrice": 0.23,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/yageo/CC0805KKX7RABB473/29291090",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/UPY-GPHC_X7R_6_3V-TO-250V",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8908/MFG_CC0805KKX7RABB473.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "13-CC0805KKX7RABB473TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.04874,
+        "TotalPrice": 146.22
+       },
+       {
+        "BreakQuantity": 9000,
+        "UnitPrice": 0.0432,
+        "TotalPrice": 388.8
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 3000,
+      "StandardPackage": 3000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "13-CC0805KKX7RABB473CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.23,
+        "TotalPrice": 0.23
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.133,
+        "TotalPrice": 1.33
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0942,
+        "TotalPrice": 4.71
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0823,
+        "TotalPrice": 8.23
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.06242,
+        "TotalPrice": 31.21
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "13-CC0805KKX7RABB473DKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.23,
+        "TotalPrice": 0.23
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.133,
+        "TotalPrice": 1.33
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.0942,
+        "TotalPrice": 4.71
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0823,
+        "TotalPrice": 8.23
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.06242,
+        "TotalPrice": 31.21
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 13,
+       "Name": "YAGEO"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.047 \u00b5F",
+      "ValueText": "0.047 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "140848",
+      "ValueText": "200V"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422415",
+      "ValueText": "X7R"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39329",
+      "ValueText": "0805 (2012 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "8569",
+      "ValueText": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "7335",
+      "ValueText": "0.057\" (1.45mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "21",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 1727,
+     "Name": "CC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "13-CC0805KKX7RABB473CT",
+     "13-CC0805KKX7RABB473DKR",
+     "13-CC0805KKX7RABB473TR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 12.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.012 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210J1K20123KXR",
+    "UnitPrice": 0.35008,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210J1K20123KXR/28738309",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8113/MFG_1608_1210-%283225Metric%29_StackiCap%E2%84%A2.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210J1K20123KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.35008,
+        "TotalPrice": 2800.64
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.012 \u00b5F",
+      "ValueText": "0.012 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "354807",
+      "ValueText": "High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 58510,
+     "Name": "StackiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210J1K20123KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 15.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.015 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210J1K20153KXR",
+    "UnitPrice": 0.39699,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210J1K20153KXR/28737955",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8113/MFG_1608_1210-%283225Metric%29_StackiCap%E2%84%A2.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210J1K20153KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.39699,
+        "TotalPrice": 3175.92
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.015 \u00b5F",
+      "ValueText": "0.015 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "354807",
+      "ValueText": "High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 58510,
+     "Name": "StackiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210J1K20153KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 18.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.018 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210J1K20183KXR",
+    "UnitPrice": 0.41946,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210J1K20183KXR/28738665",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8113/MFG_1608_1210-%283225Metric%29_StackiCap%E2%84%A2.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210J1K20183KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.41946,
+        "TotalPrice": 3355.68
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.018 \u00b5F",
+      "ValueText": "0.018 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "354807",
+      "ValueText": "High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 58510,
+     "Name": "StackiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210J1K20183KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 12.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.012 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210Y1K20123KXR",
+    "UnitPrice": 0.42109,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210Y1K20123KXR/28737987",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8512/MFG_High-Std-Voltage.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210Y1K20123KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.42109,
+        "TotalPrice": 3368.72
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.012 \u00b5F",
+      "ValueText": "0.012 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "404909",
+      "ValueText": "Soft Termination, High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "322041",
+      "ValueText": "Boardflex Sensitive"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 50730,
+     "Name": "FlexiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210Y1K20123KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 15.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.015 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210Y1K20153KXR",
+    "UnitPrice": 0.47099,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210Y1K20153KXR/28738416",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8512/MFG_High-Std-Voltage.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210Y1K20153KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.47099,
+        "TotalPrice": 3767.92
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.015 \u00b5F",
+      "ValueText": "0.015 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "404909",
+      "ValueText": "Soft Termination, High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "322041",
+      "ValueText": "Boardflex Sensitive"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 50730,
+     "Name": "FlexiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210Y1K20153KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 18.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.018 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210Y1K20183KXR",
+    "UnitPrice": 0.49571,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210Y1K20183KXR/28738597",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8512/MFG_High-Std-Voltage.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210Y1K20183KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.49571,
+        "TotalPrice": 3965.68
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.018 \u00b5F",
+      "ValueText": "0.018 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "404909",
+      "ValueText": "Soft Termination, High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "322041",
+      "ValueText": "Boardflex Sensitive"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 50730,
+     "Name": "FlexiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210Y1K20183KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1210 1200V 22.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.022 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1210 (3225 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1210Y1K20223KXR",
+    "UnitPrice": 0.65198,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1210Y1K20223KXR/28738329",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8512/MFG_High-Std-Voltage.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1210Y1K20223KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 8000,
+        "UnitPrice": 0.65198,
+        "TotalPrice": 5215.84
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 8000,
+      "StandardPackage": 8000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.022 \u00b5F",
+      "ValueText": "0.022 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "404909",
+      "ValueText": "Soft Termination, High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "322041",
+      "ValueText": "Boardflex Sensitive"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "84460",
+      "ValueText": "1210 (3225 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "10964",
+      "ValueText": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "8489",
+      "ValueText": "0.079\" (2.00mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 50730,
+     "Name": "FlexiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1210Y1K20223KXRTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "1812 1200V 39.00 NF 10% X7R (2R1",
+     "DetailedDescription": "0.039 \u00b5F \u00b110% 1200V (1.2kV) Ceramic Capacitor X7R (2R1) 1812 (4532 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 1608,
+     "Name": "Knowles Syfer"
+    },
+    "ManufacturerProductNumber": "1812Y1K20393KXR",
+    "UnitPrice": 1.42283,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/knowles-syfer/1812Y1K20393KXR/28738662",
+    "DatasheetUrl": "https://www.knowlescapacitors.com/getmedia/565a0258-02ca-401e-8d59-71edb1c12573/an0034.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8512/MFG_High-Std-Voltage.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1608-1812Y1K20393KXRTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2000,
+        "UnitPrice": 1.42283,
+        "TotalPrice": 2845.66
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1608,
+       "Name": "Knowles Syfer"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2000,
+      "StandardPackage": 2000,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "0.039 \u00b5F",
+      "ValueText": "0.039 \u00b5F"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "83653",
+      "ValueText": "1200V (1.2kV)"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422416",
+      "ValueText": "X7R (2R1)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "404909",
+      "ValueText": "Soft Termination, High Voltage"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "322041",
+      "ValueText": "Boardflex Sensitive"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "114786",
+      "ValueText": "1812 (4532 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "12983",
+      "ValueText": "0.177\" L x 0.126\" W (4.50mm x 3.20mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "9420",
+      "ValueText": "0.098\" (2.50mm)"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "9420",
+      "ValueText": "0.098\" (2.50mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 50730,
+     "Name": "FlexiCap\u2122"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "1608-1812Y1K20393KXRTR"
+    ]
+   }
+  ],
+  "ProductsCount": 11,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 1608,
+     "Value": "Knowles Syfer",
+     "ProductCount": 8
+    },
+    {
+     "Id": 4705,
+     "Value": "Quantic UTC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 2
+    }
+   ],
+   "Packaging": [
+    {
+     "Id": 3,
+     "Value": "Bulk",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2,
+     "Value": "Cut Tape (CT)",
+     "ProductCount": 2
+    },
+    {
+     "Id": 243,
+     "Value": "Digi-Reel\u00ae",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1,
+     "Value": "Tape & Reel (TR)",
+     "ProductCount": 10
+    }
+   ],
+   "Status": [
+    {
+     "Id": 0,
+     "Value": "Active",
+     "ProductCount": 11
+    }
+   ],
+   "Series": [
+    {
+     "Id": 1054,
+     "Value": "C",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1727,
+     "Value": "CC",
+     "ProductCount": 2
+    },
+    {
+     "Id": 50730,
+     "Value": "FlexiCap\u2122",
+     "ProductCount": 5
+    },
+    {
+     "Id": 58510,
+     "Value": "StackiCap\u2122",
+     "ProductCount": 3
+    }
+   ],
+   "ParametricFilters": [
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "UnitOfMeasure",
+     "ParameterId": 2049,
+     "ParameterName": "Capacitance",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "10000 pF",
+       "ValueName": "10000 pF"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "0.012 \u00b5F",
+       "ValueName": "0.012 \u00b5F"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "0.015 \u00b5F",
+       "ValueName": "0.015 \u00b5F"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "0.018 \u00b5F",
+       "ValueName": "0.018 \u00b5F"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "0.022 \u00b5F",
+       "ValueName": "0.022 \u00b5F"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "0.039 \u00b5F",
+       "ValueName": "0.039 \u00b5F"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "0.047 \u00b5F",
+       "ValueName": "0.047 \u00b5F"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "330 nF",
+       "ValueName": "330 nF"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 3,
+     "ParameterName": "Tolerance",
+     "FilterValues": [
+      {
+       "ProductCount": 11,
+       "ValueId": "1340",
+       "ValueName": "\u00b110%"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 14,
+     "ParameterName": "Voltage - Rated",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "140848",
+       "ValueName": "200V"
+      },
+      {
+       "ProductCount": 8,
+       "ValueId": "83653",
+       "ValueName": "1200V (1.2kV)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 17,
+     "ParameterName": "Temperature Coefficient",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "422415",
+       "ValueName": "X7R"
+      },
+      {
+       "ProductCount": 8,
+       "ValueId": "422416",
+       "ValueName": "X7R (2R1)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 252,
+     "ParameterName": "Operating Temperature",
+     "FilterValues": [
+      {
+       "ProductCount": 11,
+       "ValueId": "242918",
+       "ValueName": "-55\u00b0C ~ 125\u00b0C"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 5,
+     "ParameterName": "Features",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "354807",
+       "ValueName": "High Voltage"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "404909",
+       "ValueName": "Soft Termination, High Voltage"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 707,
+     "ParameterName": "Ratings",
+     "FilterValues": [
+      {
+       "ProductCount": 10,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 405,
+     "ParameterName": "Applications",
+     "FilterValues": [
+      {
+       "ProductCount": 5,
+       "ValueId": "322041",
+       "ValueName": "Boardflex Sensitive"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "350483",
+       "ValueName": "General Purpose"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1531,
+     "ParameterName": "Failure Rate",
+     "FilterValues": [
+      {
+       "ProductCount": 10,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 69,
+     "ParameterName": "Mounting Type",
+     "FilterValues": [
+      {
+       "ProductCount": 11,
+       "ValueId": "409416",
+       "ValueName": "Surface Mount, MLCC"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 16,
+     "ParameterName": "Package / Case",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "39246",
+       "ValueName": "0603 (1608 Metric)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "39329",
+       "ValueName": "0805 (2012 Metric)"
+      },
+      {
+       "ProductCount": 7,
+       "ValueId": "84460",
+       "ValueName": "1210 (3225 Metric)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "114786",
+       "ValueName": "1812 (4532 Metric)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 46,
+     "ParameterName": "Size / Dimension",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "7802",
+       "ValueName": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "8569",
+       "ValueName": "0.079\" L x 0.049\" W (2.00mm x 1.25mm)"
+      },
+      {
+       "ProductCount": 7,
+       "ValueId": "10964",
+       "ValueName": "0.126\" L x 0.098\" W (3.20mm x 2.50mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "12983",
+       "ValueName": "0.177\" L x 0.126\" W (4.50mm x 3.20mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1500,
+     "ParameterName": "Height - Seated (Max)",
+     "FilterValues": [
+      {
+       "ProductCount": 7,
+       "ValueId": "8489",
+       "ValueName": "0.079\" (2.00mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "9420",
+       "ValueName": "0.098\" (2.50mm)"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1501,
+     "ParameterName": "Thickness (Max)",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "6031",
+       "ValueName": "0.035\" (0.90mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "7335",
+       "ValueName": "0.057\" (1.45mm)"
+      },
+      {
+       "ProductCount": 7,
+       "ValueId": "8489",
+       "ValueName": "0.079\" (2.00mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "9420",
+       "ValueName": "0.098\" (2.50mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 508,
+     "ParameterName": "Lead Spacing",
+     "FilterValues": [
+      {
+       "ProductCount": 10,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 60,
+      "Value": "Ceramic Capacitors"
+     },
+     "ParameterType": "String",
+     "ParameterId": 4,
+     "ParameterName": "Lead Style",
+     "FilterValues": [
+      {
+       "ProductCount": 10,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

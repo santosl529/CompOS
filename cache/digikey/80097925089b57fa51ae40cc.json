@@ -1,0 +1,154 @@
+{
+ "key": "80097925089b57fa51ae40cc",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1995-8-9",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:23:04",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "24 LENS WITH CASE",
+     "DetailedDescription": "for use with"
+    },
+    "Manufacturer": {
+     "Id": 2067,
+     "Name": "Teledyne FLIR Commercial Systems"
+    },
+    "ManufacturerProductNumber": "T199589",
+    "UnitPrice": 2401.168,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/teledyne-flir-commercial-systems/T199589/7563503",
+    "DatasheetUrl": "",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "T199589-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 5,
+        "UnitPrice": 2401.168,
+        "TotalPrice": 12005.84
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2067,
+       "Name": "Teledyne FLIR Commercial Systems"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 5,
+      "StandardPackage": 5,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 392,
+      "ParameterText": "Specifications",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 29,
+     "ParentId": 0,
+     "Name": "Test and Measurement",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/300/562/9110_tmb%2864x64%29.jpg",
+     "SeoDescription": "Test and measurement products include instruments, probes, and related devices used for making measurements of electrical and environmental quantities for development, diagnostic, quality control, or monitoring purposes. Examples include oscilloscopes, multimeters, test bench power supplies, thermocouple probes, alligator and banana test leads, and function generators, along with barometers, data loggers, sound level meters, thermal imagers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 613,
+       "ParentId": 29,
+       "Name": "Test and Measurement Accessories",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/369/541/MFG_BOB-00549_B_tmb.jpg",
+       "SeoDescription": "Supplementary items used with other devices in this category.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "6",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 73699,
+     "Name": "EXX"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "PENDING ECCN",
+     "HtsusCode": "0000.00.0000"
+    },
+    "OtherNames": []
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 2067,
+     "Value": "Teledyne FLIR Commercial Systems",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

@@ -1,0 +1,56 @@
+{
+ "key": "tx_cd6f081d9826a15f370be5ba",
+ "method": "POST",
+ "url": "https://api.usaspending.gov/api/v2/search/spending_by_transaction/",
+ "params": null,
+ "json_body": {
+  "filters": {
+   "description": "5935-01-151-1226",
+   "award_type_codes": [
+    "A",
+    "B",
+    "C",
+    "D"
+   ],
+   "time_period": [
+    {
+     "start_date": "2007-10-01",
+     "end_date": "2026-12-31"
+    }
+   ]
+  },
+  "fields": [
+   "Award ID",
+   "Mod",
+   "Recipient Name",
+   "Recipient UEI",
+   "Action Date",
+   "Transaction Amount",
+   "Transaction Description",
+   "Awarding Agency",
+   "Awarding Sub Agency",
+   "PSC"
+  ],
+  "page": 1,
+  "limit": 100,
+  "sort": "Action Date",
+  "order": "desc"
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:34:44",
+ "body": {
+  "limit": 100,
+  "results": [],
+  "page_metadata": {
+   "page": 1,
+   "next": null,
+   "previous": null,
+   "hasNext": false,
+   "hasPrevious": false
+  },
+  "messages": [
+   "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+ },
+ "from_cache": false
+}

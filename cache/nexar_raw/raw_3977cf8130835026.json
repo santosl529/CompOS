@@ -1,0 +1,65 @@
+{
+ "key": "raw_3977cf8130835026",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "07-0201-0237"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:19",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 2,
+     "parts": [
+      {
+       "id": "97342261",
+       "mpn": "07-0201-0237",
+       "name": "Chomerics 07-0201-0237",
+       "octopartUrl": "https://octopart.com/part/chomerics/07-0201-0237",
+       "manufacturer": {
+        "name": "Chomerics"
+       },
+       "medianPrice1000": {
+        "price": 85.96,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 5,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 5,
+           "factoryLeadDays": 56,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 85.96,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "af1a5601-5488-4631-9b9c-ca3a74cde1fe"
+  }
+ },
+ "from_cache": false
+}

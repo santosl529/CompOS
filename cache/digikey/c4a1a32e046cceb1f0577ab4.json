@@ -1,0 +1,5367 @@
+{
+ "key": "c4a1a32e046cceb1f0577ab4",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "166"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "166"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 19,
+      "FilterValues": [
+       {
+        "Id": "300107"
+       },
+       {
+        "Id": "302197"
+       },
+       {
+        "Id": "303493"
+       },
+       {
+        "Id": "304084"
+       },
+       {
+        "Id": "304583"
+       },
+       {
+        "Id": "43169"
+       },
+       {
+        "Id": "120555"
+       },
+       {
+        "Id": "120561"
+       },
+       {
+        "Id": "41584"
+       },
+       {
+        "Id": "42954"
+       },
+       {
+        "Id": "45658"
+       }
+      ]
+     },
+     {
+      "ParameterId": 252,
+      "FilterValues": [
+       {
+        "Id": "242918"
+       },
+       {
+        "Id": "242925"
+       },
+       {
+        "Id": "221007"
+       },
+       {
+        "Id": "212478"
+       },
+       {
+        "Id": "212489"
+       },
+       {
+        "Id": "212497"
+       },
+       {
+        "Id": "212507"
+       },
+       {
+        "Id": "212512"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:26:54",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "ISOLATION INDUCTOR 1 MH",
+     "DetailedDescription": "1mH Pulse Transformer 1:1 Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 445,
+     "Name": "TDK"
+    },
+    "ManufacturerProductNumber": "ICI70CGI-102",
+    "UnitPrice": 2.13,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/tdk/ICI70CGI-102/17798426",
+    "DatasheetUrl": "https://product.tdk.com/system/files/dam/doc/product/transformer/transformer/lan/data_sheet/30/ds/lan_mod/ici70cgi.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4831/MFG_ICI70CGI-102.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "495-ICI70CGI-102TR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1500,
+        "UnitPrice": 1.53775,
+        "TotalPrice": 2306.625
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 1.48973,
+        "TotalPrice": 4469.19
+       },
+       {
+        "BreakQuantity": 4500,
+        "UnitPrice": 1.46223,
+        "TotalPrice": 6580.035
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 495,
+       "Name": "TDK"
+      },
+      "QuantityAvailableforPackageType": 1500,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1500,
+      "StandardPackage": 1500,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "495-ICI70CGI-102CT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.13,
+        "TotalPrice": 2.13
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.924,
+        "TotalPrice": 19.24
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.8484,
+        "TotalPrice": 46.21
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.7926,
+        "TotalPrice": 89.63
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.738,
+        "TotalPrice": 173.8
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.668,
+        "TotalPrice": 417.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 1.61658,
+        "TotalPrice": 808.29
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 495,
+       "Name": "TDK"
+      },
+      "QuantityAvailableforPackageType": 2861,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "495-ICI70CGI-102DKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.13,
+        "TotalPrice": 2.13
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.924,
+        "TotalPrice": 19.24
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.8484,
+        "TotalPrice": 46.21
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.7926,
+        "TotalPrice": 89.63
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.738,
+        "TotalPrice": 173.8
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.668,
+        "TotalPrice": 417.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 1.61658,
+        "TotalPrice": 808.29
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 495,
+       "Name": "TDK"
+      },
+      "QuantityAvailableforPackageType": 2861,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 2861,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6323158045112",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "120555",
+      "ValueText": "1mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63478",
+      "ValueText": "1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "17309",
+      "ValueText": "0.280\" L x 0.236\" W (7.10mm x 6.00mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "13446",
+      "ValueText": "0.189\" (4.80mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "24",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 109684,
+     "Name": "ICI70CGI-102"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.50.4000"
+    },
+    "OtherNames": [
+     "B82793I0105I265",
+     "495-ICI70CGI-102TR",
+     "495-ICI70CGI-102CT",
+     "495-ICI70CGI-102DKR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 1CT:1CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 1CT:1CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.011NLT",
+    "UnitPrice": 2.33,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-011NLT/13998584",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pm2180.011nl",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4207/MFG_PM2180.083NLT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.011NLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 700,
+        "UnitPrice": 1.74363,
+        "TotalPrice": 1220.541
+       },
+       {
+        "BreakQuantity": 1400,
+        "UnitPrice": 1.68936,
+        "TotalPrice": 2365.104
+       },
+       {
+        "BreakQuantity": 2100,
+        "UnitPrice": 1.65829,
+        "TotalPrice": 3482.409
+       },
+       {
+        "BreakQuantity": 3500,
+        "UnitPrice": 1.61985,
+        "TotalPrice": 5669.475
+       },
+       {
+        "BreakQuantity": 4900,
+        "UnitPrice": 1.59493,
+        "TotalPrice": 7815.157
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1400,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 700,
+      "StandardPackage": 700,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PM2180.011NLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.33,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.108,
+        "TotalPrice": 21.08
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.0248,
+        "TotalPrice": 50.62
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.9636,
+        "TotalPrice": 98.18
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.9038,
+        "TotalPrice": 190.38
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.82692,
+        "TotalPrice": 456.73
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1644,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PM2180.011NLTDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.33,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.108,
+        "TotalPrice": 21.08
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.0248,
+        "TotalPrice": 50.62
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.9636,
+        "TotalPrice": 98.18
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.9038,
+        "TotalPrice": 190.38
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.82692,
+        "TotalPrice": 456.73
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1644,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 1644,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6253880640001",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "119945",
+      "ValueText": "1CT:1CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "15",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.011NLTCT",
+     "553-PM2180.011NLTTR",
+     "553-PM2180.011NLTDKR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 3CT:4CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 3CT:4CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.034NLT",
+    "UnitPrice": 2.39,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-034NLT/13998581",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pm2180.011nl",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4207/MFG_PM2180.083NLT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.034NLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 700,
+        "UnitPrice": 1.79097,
+        "TotalPrice": 1253.679
+       },
+       {
+        "BreakQuantity": 1400,
+        "UnitPrice": 1.73521,
+        "TotalPrice": 2429.294
+       },
+       {
+        "BreakQuantity": 2100,
+        "UnitPrice": 1.70329,
+        "TotalPrice": 3576.909
+       },
+       {
+        "BreakQuantity": 3500,
+        "UnitPrice": 1.66378,
+        "TotalPrice": 5823.23
+       },
+       {
+        "BreakQuantity": 4900,
+        "UnitPrice": 1.63819,
+        "TotalPrice": 8027.131
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 700,
+      "StandardPackage": 700,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PM2180.034NLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.39,
+        "TotalPrice": 2.39
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.166,
+        "TotalPrice": 21.66
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.08,
+        "TotalPrice": 52.0
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 2.017,
+        "TotalPrice": 100.85
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.9556,
+        "TotalPrice": 195.56
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.87656,
+        "TotalPrice": 469.14
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 575,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PM2180.034NLTDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.39,
+        "TotalPrice": 2.39
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.166,
+        "TotalPrice": 21.66
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.08,
+        "TotalPrice": 52.0
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 2.017,
+        "TotalPrice": 100.85
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.9556,
+        "TotalPrice": 195.56
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.87656,
+        "TotalPrice": 469.14
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 575,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 575,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6253880640001",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "497252",
+      "ValueText": "3CT:4CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "15",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.034NLTDKR",
+     "553-PM2180.034NLTCT",
+     "553-PM2180.034NLTTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 1CT:1CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 1:1CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.011NL",
+    "UnitPrice": 2.47,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-011NL/16511066",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PM2180.011NL",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4183/MFG_PM2185.011NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.011NL-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.47,
+        "TotalPrice": 2.47
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.235,
+        "TotalPrice": 22.35
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.1464,
+        "TotalPrice": 53.66
+       },
+       {
+        "BreakQuantity": 55,
+        "UnitPrice": 2.07255,
+        "TotalPrice": 113.99025
+       },
+       {
+        "BreakQuantity": 110,
+        "UnitPrice": 2.00936,
+        "TotalPrice": 221.0296
+       },
+       {
+        "BreakQuantity": 275,
+        "UnitPrice": 1.92822,
+        "TotalPrice": 530.2605
+       },
+       {
+        "BreakQuantity": 550,
+        "UnitPrice": 1.86862,
+        "TotalPrice": 1027.741
+       },
+       {
+        "BreakQuantity": 1045,
+        "UnitPrice": 1.8148,
+        "TotalPrice": 1896.466
+       },
+       {
+        "BreakQuantity": 5005,
+        "UnitPrice": 1.68898,
+        "TotalPrice": 8453.3449
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 864,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 864,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63594",
+      "ValueText": "1:1CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.011NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE DRIVE 1CT:1CT SM NPB",
+     "DetailedDescription": "1mH Gate Drive Pulse Transformer 1CT:1CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PMT9085.011NLT",
+    "UnitPrice": 4.14,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PMT9085-011NLT/21346649",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pmt9085.034nlt",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5723/MFG_PMT9085.011NLT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PMT9085.011NLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 3.13904,
+        "TotalPrice": 1569.52
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 3.04068,
+        "TotalPrice": 3040.68
+       },
+       {
+        "BreakQuantity": 1500,
+        "UnitPrice": 2.98439,
+        "TotalPrice": 4476.585
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 2.91478,
+        "TotalPrice": 7286.95
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 500,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 500,
+      "StandardPackage": 500,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PMT9085.011NLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 4.14,
+        "TotalPrice": 4.14
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 3.746,
+        "TotalPrice": 37.46
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 3.5956,
+        "TotalPrice": 89.89
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 3.4854,
+        "TotalPrice": 174.27
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 3.3779,
+        "TotalPrice": 337.79
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 3.24012,
+        "TotalPrice": 810.03
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 575,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PMT9085.011NLTDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 4.14,
+        "TotalPrice": 4.14
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 3.746,
+        "TotalPrice": 37.46
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 3.5956,
+        "TotalPrice": 89.89
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 3.4854,
+        "TotalPrice": 174.27
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 3.3779,
+        "TotalPrice": 337.79
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 3.24012,
+        "TotalPrice": 810.03
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 575,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 575,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350313",
+      "ValueText": "Gate Drive"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "120555",
+      "ValueText": "1mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "257671",
+      "ValueText": "60V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "119945",
+      "ValueText": "1CT:1CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "16569",
+      "ValueText": "0.260\" (6.60mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "12",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 117566,
+     "Name": "PMT9085.xxxNLT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PMT9085.011NLTCT",
+     "553-PMT9085.011NLTTR",
+     "553-PMT9085.011NLTDKR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PULSE XFMR 1.02MH",
+     "DetailedDescription": "1.02mH Pulse Transformer Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PFX0890NLT",
+    "UnitPrice": 2.07,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PFX0890NLT/5174597",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PFX0890NLT",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1125/MFG_PFX0890NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PFX0890NLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 700,
+        "UnitPrice": 1.64206,
+        "TotalPrice": 1149.442
+       },
+       {
+        "BreakQuantity": 1400,
+        "UnitPrice": 1.59106,
+        "TotalPrice": 2227.484
+       },
+       {
+        "BreakQuantity": 2100,
+        "UnitPrice": 1.56185,
+        "TotalPrice": 3279.885
+       },
+       {
+        "BreakQuantity": 3500,
+        "UnitPrice": 1.5257,
+        "TotalPrice": 5339.95
+       },
+       {
+        "BreakQuantity": 4900,
+        "UnitPrice": 1.50229,
+        "TotalPrice": 7361.221
+       },
+       {
+        "BreakQuantity": 7000,
+        "UnitPrice": 1.47781,
+        "TotalPrice": 10344.67
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 700,
+      "MinimumOrderQuantity": 700,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PFX0890NLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.07,
+        "TotalPrice": 2.07
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.872,
+        "TotalPrice": 18.72
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.7984,
+        "TotalPrice": 44.96
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.744,
+        "TotalPrice": 87.2
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.691,
+        "TotalPrice": 169.1
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.62296,
+        "TotalPrice": 405.74
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1226,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PFX0890NLTDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.07,
+        "TotalPrice": 2.07
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.872,
+        "TotalPrice": 18.72
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.7984,
+        "TotalPrice": 44.96
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.744,
+        "TotalPrice": 87.2
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.691,
+        "TotalPrice": 169.1
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.62296,
+        "TotalPrice": 405.74
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1226,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 1226,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "PFX0890NLT-ND",
+     "553-PFX0890NLTDKR",
+     "553-PFX0890NLTCT",
+     "553-PFX0890NLTTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 1CT:2CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 1CT:2CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.012NLT",
+    "UnitPrice": 2.33,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-012NLT/13998588",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/pm2180.011nl",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4207/MFG_PM2180.083NLT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.012NLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 700,
+        "UnitPrice": 1.74363,
+        "TotalPrice": 1220.541
+       },
+       {
+        "BreakQuantity": 1400,
+        "UnitPrice": 1.68936,
+        "TotalPrice": 2365.104
+       },
+       {
+        "BreakQuantity": 2100,
+        "UnitPrice": 1.65829,
+        "TotalPrice": 3482.409
+       },
+       {
+        "BreakQuantity": 3500,
+        "UnitPrice": 1.61985,
+        "TotalPrice": 5669.475
+       },
+       {
+        "BreakQuantity": 4900,
+        "UnitPrice": 1.59493,
+        "TotalPrice": 7815.157
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1400,
+      "MinimumOrderQuantity": 700,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PM2180.012NLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.33,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.108,
+        "TotalPrice": 21.08
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.0248,
+        "TotalPrice": 50.62
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.9636,
+        "TotalPrice": 98.18
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.9038,
+        "TotalPrice": 190.38
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.82692,
+        "TotalPrice": 456.73
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1868,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PM2180.012NLTDKR-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.33,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.108,
+        "TotalPrice": 21.08
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.0248,
+        "TotalPrice": 50.62
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.9636,
+        "TotalPrice": 98.18
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.9038,
+        "TotalPrice": 190.38
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 1.82692,
+        "TotalPrice": 456.73
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1868,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 1868,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6253880640001",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "119980",
+      "ValueText": "1CT:2CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "15",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.012NLTCT",
+     "553-PM2180.012NLTTR",
+     "553-PM2180.012NLTDKR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 3CT:4CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 3:4CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.034NL",
+    "UnitPrice": 2.33,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-034NL/16511055",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PM2180.034NL",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4183/MFG_PM2185.011NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.034NL-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.33,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.108,
+        "TotalPrice": 21.08
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.0248,
+        "TotalPrice": 50.62
+       },
+       {
+        "BreakQuantity": 55,
+        "UnitPrice": 1.95527,
+        "TotalPrice": 107.53985
+       },
+       {
+        "BreakQuantity": 110,
+        "UnitPrice": 1.89564,
+        "TotalPrice": 208.5204
+       },
+       {
+        "BreakQuantity": 275,
+        "UnitPrice": 1.81905,
+        "TotalPrice": 500.23875
+       },
+       {
+        "BreakQuantity": 550,
+        "UnitPrice": 1.76285,
+        "TotalPrice": 969.5675
+       },
+       {
+        "BreakQuantity": 1045,
+        "UnitPrice": 1.71209,
+        "TotalPrice": 1789.13405
+       },
+       {
+        "BreakQuantity": 5005,
+        "UnitPrice": 1.59339,
+        "TotalPrice": 7974.91695
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1003,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 55,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 1003,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "695529",
+      "ValueText": "3:4CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.034NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 1CT:2CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 1:2CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.012NL",
+    "UnitPrice": 2.33,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-012NL/16511077",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PM2180.012NL",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4183/MFG_PM2185.011NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.012NL-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.33,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.108,
+        "TotalPrice": 21.08
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.0248,
+        "TotalPrice": 50.62
+       },
+       {
+        "BreakQuantity": 55,
+        "UnitPrice": 1.95527,
+        "TotalPrice": 107.53985
+       },
+       {
+        "BreakQuantity": 110,
+        "UnitPrice": 1.89564,
+        "TotalPrice": 208.5204
+       },
+       {
+        "BreakQuantity": 275,
+        "UnitPrice": 1.81905,
+        "TotalPrice": 500.23875
+       },
+       {
+        "BreakQuantity": 550,
+        "UnitPrice": 1.76285,
+        "TotalPrice": 969.5675
+       },
+       {
+        "BreakQuantity": 1045,
+        "UnitPrice": 1.71209,
+        "TotalPrice": 1789.13405
+       },
+       {
+        "BreakQuantity": 5005,
+        "UnitPrice": 1.59339,
+        "TotalPrice": 7974.91695
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 537,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 55,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 537,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63643",
+      "ValueText": "1:2CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.012NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PULSE XFMR 1:1:1 980UH",
+     "DetailedDescription": "980\u00b5H Pulse Transformer 1:1:1 Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PA0173NL",
+    "UnitPrice": 2.46,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PA0173NL/5436683",
+    "DatasheetUrl": "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/SPM2007_61/doc_part/SPM2007_61.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/412/PA0173NLT.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-2885-5-ND",
+      "PackageType": {
+       "Id": 6,
+       "Name": "Tube"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.46,
+        "TotalPrice": 2.46
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.228,
+        "TotalPrice": 22.28
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.1396,
+        "TotalPrice": 53.49
+       },
+       {
+        "BreakQuantity": 60,
+        "UnitPrice": 2.05783,
+        "TotalPrice": 123.4698
+       },
+       {
+        "BreakQuantity": 120,
+        "UnitPrice": 1.99492,
+        "TotalPrice": 239.3904
+       },
+       {
+        "BreakQuantity": 300,
+        "UnitPrice": 1.91417,
+        "TotalPrice": 574.251
+       },
+       {
+        "BreakQuantity": 540,
+        "UnitPrice": 1.8638,
+        "TotalPrice": 1006.452
+       },
+       {
+        "BreakQuantity": 1020,
+        "UnitPrice": 1.81057,
+        "TotalPrice": 1846.7814
+       },
+       {
+        "BreakQuantity": 5040,
+        "UnitPrice": 1.68254,
+        "TotalPrice": 8480.0016
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 322,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 60,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 322,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "304084",
+      "ValueText": "980\u00b5H"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "109462",
+      "ValueText": "17.2V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63557",
+      "ValueText": "1:1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "19648",
+      "ValueText": "0.340\" L x 0.460\" W (8.64mm x 11.68mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "12441",
+      "ValueText": "0.160\" (4.06mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212489",
+      "ValueText": "-40\u00b0C ~ 130\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-2885-5",
+     "-PA0173NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PULSE XFMR 1:1 980UH",
+     "DetailedDescription": "980\u00b5H Pulse Transformer 1:1 Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PA0185NLT",
+    "UnitPrice": 2.89,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PA0185NLT/2265742",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PA0185NLT",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/661/PA0185NLT.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-1977-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 900,
+        "UnitPrice": 2.13386,
+        "TotalPrice": 1920.474
+       },
+       {
+        "BreakQuantity": 1800,
+        "UnitPrice": 2.06711,
+        "TotalPrice": 3720.798
+       },
+       {
+        "BreakQuantity": 2700,
+        "UnitPrice": 2.02891,
+        "TotalPrice": 5478.057
+       },
+       {
+        "BreakQuantity": 4500,
+        "UnitPrice": 1.98165,
+        "TotalPrice": 8917.425
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 900,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 900,
+      "StandardPackage": 900,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-1977-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.89,
+        "TotalPrice": 2.89
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.612,
+        "TotalPrice": 26.12
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.5084,
+        "TotalPrice": 62.71
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 2.432,
+        "TotalPrice": 121.6
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 2.3576,
+        "TotalPrice": 235.76
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 2.26204,
+        "TotalPrice": 565.51
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1474,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-1977-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.89,
+        "TotalPrice": 2.89
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.612,
+        "TotalPrice": 26.12
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.5084,
+        "TotalPrice": 62.71
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 2.432,
+        "TotalPrice": 121.6
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 2.3576,
+        "TotalPrice": 235.76
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 2.26204,
+        "TotalPrice": 565.51
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1474,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 1474,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "304084",
+      "ValueText": "980\u00b5H"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "109462",
+      "ValueText": "17.2V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63478",
+      "ValueText": "1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "19648",
+      "ValueText": "0.340\" L x 0.460\" W (8.64mm x 11.68mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "12441",
+      "ValueText": "0.160\" (4.06mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212489",
+      "ValueText": "-40\u00b0C ~ 130\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "PA0185NLT-ND",
+     "553-1977-6",
+     "6196-PA0185NLT",
+     "553-1977-1",
+     "553-1977-2",
+     "2266-PA0185NLTTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "GDT, FUNCTIONAL, EP7, SMT",
+     "DetailedDescription": "1mH Gate Drive Pulse Transformer Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PH9572.122NLT",
+    "UnitPrice": 2.64,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PH9572-122NLT/11674073",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9572.322nl",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4254/MFG_PH9572.111ANLT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PH9572.122NLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 300,
+        "UnitPrice": 2.05467,
+        "TotalPrice": 616.401
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 1.99098,
+        "TotalPrice": 1194.588
+       },
+       {
+        "BreakQuantity": 900,
+        "UnitPrice": 1.95449,
+        "TotalPrice": 1759.041
+       },
+       {
+        "BreakQuantity": 1500,
+        "UnitPrice": 1.90933,
+        "TotalPrice": 2863.995
+       },
+       {
+        "BreakQuantity": 2100,
+        "UnitPrice": 1.88008,
+        "TotalPrice": 3948.168
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 1.8495,
+        "TotalPrice": 5548.5
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 900,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 300,
+      "StandardPackage": 300,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PH9572.122NLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.64,
+        "TotalPrice": 2.64
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.392,
+        "TotalPrice": 23.92
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.2968,
+        "TotalPrice": 57.42
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 2.2272,
+        "TotalPrice": 111.36
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 2.1591,
+        "TotalPrice": 215.91
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 1232,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 1232,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350313",
+      "ValueText": "Gate Drive"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "120555",
+      "ValueText": "1mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "447912",
+      "ValueText": "42.4V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "22165",
+      "ValueText": "0.402\" L x 0.295\" W (10.20mm x 7.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23044",
+      "ValueText": "0.433\" (11.00mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "-1536-PH9572.122NLTCT",
+     "553-PH9572.122NLTCT",
+     "553-PH9572.122NLTTR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "GDT, FUNCTIONAL, EP7, SMT",
+     "DetailedDescription": "1mH Gate Drive Pulse Transformer Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PH9572.122ANLT",
+    "UnitPrice": 3.35,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PH9572-122ANLT/11674075",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/product-attachments/datasheet/ph9572.322nl",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4254/MFG_PH9572.111ANLT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PH9572.122ANLTTR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 300,
+        "UnitPrice": 2.75977,
+        "TotalPrice": 827.931
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 2.67388,
+        "TotalPrice": 1604.328
+       },
+       {
+        "BreakQuantity": 900,
+        "UnitPrice": 2.62469,
+        "TotalPrice": 2362.221
+       },
+       {
+        "BreakQuantity": 1500,
+        "UnitPrice": 2.56384,
+        "TotalPrice": 3845.76
+       },
+       {
+        "BreakQuantity": 2100,
+        "UnitPrice": 2.52441,
+        "TotalPrice": 5301.261
+       },
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 2.48321,
+        "TotalPrice": 7449.63
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 11700,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 300,
+      "StandardPackage": 300,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "553-PH9572.122ANLTCT-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 3.35,
+        "TotalPrice": 3.35
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 3.033,
+        "TotalPrice": 30.33
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.912,
+        "TotalPrice": 72.8
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 2.8232,
+        "TotalPrice": 141.16
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 2.7365,
+        "TotalPrice": 273.65
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 11779,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 11779,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350313",
+      "ValueText": "Gate Drive"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "120555",
+      "ValueText": "1mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "447912",
+      "ValueText": "42.4V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "22165",
+      "ValueText": "0.402\" L x 0.295\" W (10.20mm x 7.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23044",
+      "ValueText": "0.433\" (11.00mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "13",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PH9572.122ANLTTR",
+     "-1536-PH9572.122ANLTCT",
+     "553-PH9572.122ANLTCT"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFRMR GATE DRIVE SMD",
+     "DetailedDescription": "1.08mH Gate Drive Pulse Transformer 2.5:1:1 Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 732,
+     "Name": "W\u00fcrth Elektronik"
+    },
+    "ManufacturerProductNumber": "760301304",
+    "UnitPrice": 6.93,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/w\u00fcrth-elektronik/760301304/4865735",
+    "DatasheetUrl": "https://www.we-online.com/components/products/datasheet/760301304.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/846/WE-GDT-Pulse-XFRMR.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "732-5633-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 350,
+        "UnitPrice": 5.61451,
+        "TotalPrice": 1965.0785
+       },
+       {
+        "BreakQuantity": 1050,
+        "UnitPrice": 5.14699,
+        "TotalPrice": 5404.3395
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 732,
+       "Name": "W\u00fcrth Elektronik"
+      },
+      "QuantityAvailableforPackageType": 350,
+      "MinimumOrderQuantity": 350,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "732-5633-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 6.93,
+        "TotalPrice": 6.93
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 6.53,
+        "TotalPrice": 326.5
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 6.25,
+        "TotalPrice": 625.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 732,
+       "Name": "W\u00fcrth Elektronik"
+      },
+      "QuantityAvailableforPackageType": 414,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "732-5633-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 6.93,
+        "TotalPrice": 6.93
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 6.53,
+        "TotalPrice": 326.5
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 6.25,
+        "TotalPrice": 625.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 732,
+       "Name": "W\u00fcrth Elektronik"
+      },
+      "QuantityAvailableforPackageType": 414,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 414,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350313",
+      "ValueText": "Gate Drive"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "42954",
+      "ValueText": "1.08mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "84327",
+      "ValueText": "120V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "130508",
+      "ValueText": "2.5:1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "22552",
+      "ValueText": "0.413\" L x 0.413\" W (10.50mm x 10.50mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "23044",
+      "ValueText": "0.433\" (11.00mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "21",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 33691,
+     "Name": "WE-GDT"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "732-5633-1",
+     "732-5633-2",
+     "732-5633-6"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "TRANSFORMER PLC 0.45W 1.0MH EP13",
+     "DetailedDescription": "1.0mH General Purpose Pulse Transformer 2:1 Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 118,
+     "Name": "Bourns Inc."
+    },
+    "ManufacturerProductNumber": "PFBR45-ST13150S",
+    "UnitPrice": 3.17,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/bourns-inc/PFBR45-ST13150S/16582406",
+    "DatasheetUrl": "https://www.bourns.com/docs/product-datasheets/pfb.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4001/MFG_PFBR45-SP13150S_image.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "118-PFBR45-ST13150STR-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 5400,
+        "UnitPrice": 3.08754,
+        "TotalPrice": 16672.716
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 118,
+       "Name": "Bourns Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 5400,
+      "StandardPackage": 180,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "2266-PFBR45-ST13150S-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 3.17,
+        "TotalPrice": 79.25
+       },
+       {
+        "BreakQuantity": 150,
+        "UnitPrice": 3.11,
+        "TotalPrice": 466.5
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 3.05,
+        "TotalPrice": 762.5
+       },
+       {
+        "BreakQuantity": 450,
+        "UnitPrice": 3.0,
+        "TotalPrice": 1350.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2266,
+       "Name": "WEC"
+      },
+      "QuantityAvailableforPackageType": 497,
+      "MinimumOrderQuantity": 25,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 497,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350483",
+      "ValueText": "General Purpose"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "43169",
+      "ValueText": "1.0mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "137551",
+      "ValueText": "2:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "701037",
+      "ValueText": "0.551\" L x 0.547\" W (14.00mm x 13.90mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "26518",
+      "ValueText": "0.531\" (13.50mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "25",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 103040,
+     "Name": "PFBR45"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "2266-PFBR45-ST13150S",
+     "118-PFBR45-ST13150STR",
+     "118-PFBR45-ST13150SCT",
+     "118-PFBR45-ST13150SDKR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "THT GATE DRIVE TRANSFORMER",
+     "DetailedDescription": "990\u00b5H Gate Drive Pulse Transformer 1:1:1 Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 5871,
+     "Name": "ICE Components, Inc."
+    },
+    "ManufacturerProductNumber": "GT04-111-126-A",
+    "UnitPrice": 4.08,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/ice-components-inc/GT04-111-126-A/25269504",
+    "DatasheetUrl": "https://www.icecomponents.com/wp-content/uploads/2023/10/GT04SeriesDatasheet.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6732/MFG_GT04-111-063-A.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "5871-GT04-111-126-A-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 4.08,
+        "TotalPrice": 4.08
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 3.687,
+        "TotalPrice": 36.87
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 3.5396,
+        "TotalPrice": 88.49
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 3.431,
+        "TotalPrice": 171.55
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 3.3253,
+        "TotalPrice": 332.53
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 3.18968,
+        "TotalPrice": 797.42
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 3.0902,
+        "TotalPrice": 1545.1
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 2.99341,
+        "TotalPrice": 2993.41
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 5871,
+       "Name": "ICE Components, Inc."
+      },
+      "QuantityAvailableforPackageType": 500,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 500,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 500,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350313",
+      "ValueText": "Gate Drive"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "304583",
+      "ValueText": "990\u00b5H"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "829337",
+      "ValueText": "126V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63557",
+      "ValueText": "1:1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "34657",
+      "ValueText": "0.810\" L x 0.480\" W (20.57mm x 12.19mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "32833",
+      "ValueText": "0.750\" (19.05mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212512",
+      "ValueText": "-40\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 131468,
+     "Name": "GT04"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "5871-GT04-111-126-A"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PULSE XFMR 910UH",
+     "DetailedDescription": "910\u00b5H Pulse Transformer Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PA2653NL",
+    "UnitPrice": 4.77775,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PA2653NL/5436477",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PA2653NL",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1055/PA2653NL.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-2943-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 40,
+        "UnitPrice": 4.77775,
+        "TotalPrice": 191.11
+       },
+       {
+        "BreakQuantity": 80,
+        "UnitPrice": 4.62988,
+        "TotalPrice": 370.3904
+       },
+       {
+        "BreakQuantity": 120,
+        "UnitPrice": 4.54517,
+        "TotalPrice": 545.4204
+       },
+       {
+        "BreakQuantity": 200,
+        "UnitPrice": 4.4403,
+        "TotalPrice": 888.06
+       },
+       {
+        "BreakQuantity": 280,
+        "UnitPrice": 4.37236,
+        "TotalPrice": 1224.2608
+       },
+       {
+        "BreakQuantity": 400,
+        "UnitPrice": 4.30133,
+        "TotalPrice": 1720.532
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 30,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 40,
+      "StandardPackage": 40,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 30,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "300107",
+      "ValueText": "910\u00b5H"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "37282",
+      "ValueText": "0.920\" L x 0.960\" W (23.37mm x 24.38mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "34625",
+      "ValueText": "0.810\" (20.57mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212489",
+      "ValueText": "-40\u00b0C ~ 130\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "12",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "-PA2653NL",
+     "553-2943"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "GATE DRIVE XFMR 1:1:1 1000UH",
+     "DetailedDescription": "1.0mH Gate Drive Pulse Transformer 1:1:1 Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 5871,
+     "Name": "ICE Components, Inc."
+    },
+    "ManufacturerProductNumber": "GT04-111-125-U",
+    "UnitPrice": 6.48,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/ice-components-inc/GT04-111-125-U/29517115",
+    "DatasheetUrl": "https://www.icecomponents.com/wp-content/uploads/2023/11/GT04-Series-Datasheet_20260325.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8926/MFG_GT04-111-069-U.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "5871-GT04-111-125-U-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 6.48,
+        "TotalPrice": 6.48
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 5.851,
+        "TotalPrice": 58.51
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 5.6152,
+        "TotalPrice": 140.38
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 5.4414,
+        "TotalPrice": 272.07
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 5.2723,
+        "TotalPrice": 527.23
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 5.05568,
+        "TotalPrice": 1263.92
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 4.8969,
+        "TotalPrice": 2448.45
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 4.74251,
+        "TotalPrice": 4742.51
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 5871,
+       "Name": "ICE Components, Inc."
+      },
+      "QuantityAvailableforPackageType": 40,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 40,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "350313",
+      "ValueText": "Gate Drive"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "43169",
+      "ValueText": "1.0mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "902359",
+      "ValueText": "125V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63557",
+      "ValueText": "1:1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "34657",
+      "ValueText": "0.810\" L x 0.480\" W (20.57mm x 12.19mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "32833",
+      "ValueText": "0.750\" (19.05mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212512",
+      "ValueText": "-40\u00b0C ~ 155\u00b0C"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "24",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 131468,
+     "Name": "GT04"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "5871-GT04-111-125-U"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PULSE XFMR 1:1 980UH",
+     "DetailedDescription": "980\u00b5H Pulse Transformer 1:1 Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PA0185NL",
+    "UnitPrice": 2.6,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PA0185NL/5436685",
+    "DatasheetUrl": "https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/SPM2007_61/doc_part/SPM2007_61.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/661/PA0185NLT.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-2887-5-ND",
+      "PackageType": {
+       "Id": 6,
+       "Name": "Tube"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.6,
+        "TotalPrice": 2.6
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 2.351,
+        "TotalPrice": 23.51
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 2.2576,
+        "TotalPrice": 56.44
+       },
+       {
+        "BreakQuantity": 60,
+        "UnitPrice": 2.17133,
+        "TotalPrice": 130.2798
+       },
+       {
+        "BreakQuantity": 120,
+        "UnitPrice": 2.10492,
+        "TotalPrice": 252.5904
+       },
+       {
+        "BreakQuantity": 300,
+        "UnitPrice": 2.01963,
+        "TotalPrice": 605.889
+       },
+       {
+        "BreakQuantity": 540,
+        "UnitPrice": 1.96646,
+        "TotalPrice": 1061.8884
+       },
+       {
+        "BreakQuantity": 1020,
+        "UnitPrice": 1.91025,
+        "TotalPrice": 1948.455
+       },
+       {
+        "BreakQuantity": 5040,
+        "UnitPrice": 1.77506,
+        "TotalPrice": 8946.3024
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 60,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "304084",
+      "ValueText": "980\u00b5H"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "109462",
+      "ValueText": "17.2V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "63478",
+      "ValueText": "1:1"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "19648",
+      "ValueText": "0.340\" L x 0.460\" W (8.64mm x 11.68mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "12441",
+      "ValueText": "0.160\" (4.06mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212489",
+      "ValueText": "-40\u00b0C ~ 130\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-2887-5",
+     "-PA0185NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "PULSE XFMR 1.02MH",
+     "DetailedDescription": "1.02mH Pulse Transformer Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PFX0890NL",
+    "UnitPrice": 1.56309,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PFX0890NL/5436700",
+    "DatasheetUrl": "https://productfinder.pulseeng.com/products/datasheets/P723.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1125/MFG_PFX0890NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-3072-5-ND",
+      "PackageType": {
+       "Id": 6,
+       "Name": "Tube"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 55,
+        "UnitPrice": 1.56309,
+        "TotalPrice": 85.96995
+       },
+       {
+        "BreakQuantity": 110,
+        "UnitPrice": 1.51564,
+        "TotalPrice": 166.7204
+       },
+       {
+        "BreakQuantity": 165,
+        "UnitPrice": 1.48842,
+        "TotalPrice": 245.5893
+       },
+       {
+        "BreakQuantity": 275,
+        "UnitPrice": 1.45469,
+        "TotalPrice": 400.03975
+       },
+       {
+        "BreakQuantity": 385,
+        "UnitPrice": 1.43281,
+        "TotalPrice": 551.63185
+       },
+       {
+        "BreakQuantity": 550,
+        "UnitPrice": 1.40991,
+        "TotalPrice": 775.4505
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 6,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 55,
+      "StandardPackage": 55,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 6,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "12",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-3072-5",
+     "-PFX0890NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 3CT:8CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 3:8CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.038NL",
+    "UnitPrice": 1.65476,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-038NL/16511076",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PM2180.038NL",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4183/MFG_PM2185.011NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.038NL-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2200,
+        "UnitPrice": 1.65476,
+        "TotalPrice": 3640.472
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2200,
+      "StandardPackage": 55,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "695531",
+      "ValueText": "3:8CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.038NL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "XFMR GATE-DR 3CT:5CT SM NPB",
+     "DetailedDescription": "1.02mH Isolation and Data Interface (Encapsulated) Pulse Transformer 3:5CT Surface Mount"
+    },
+    "Manufacturer": {
+     "Id": 553,
+     "Name": "Pulse Electronics"
+    },
+    "ManufacturerProductNumber": "PM2180.035NL",
+    "UnitPrice": 1.65476,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/pulse-electronics/PM2180-035NL/16511086",
+    "DatasheetUrl": "https://productfinder.pulseelectronics.com/api/open/part-attachments/datasheet/PM2180.035NL",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4183/MFG_PM2185.011NL.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "553-PM2180.035NL-ND",
+      "PackageType": {
+       "Id": 17,
+       "Name": "Tray"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2200,
+        "UnitPrice": 1.65476,
+        "TotalPrice": 3640.472
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 553,
+       "Name": "Pulse Electronics"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2200,
+      "StandardPackage": 55,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 310,
+      "ParameterText": "Transformer Type",
+      "ParameterType": "String",
+      "ValueId": "361620",
+      "ValueText": "Isolation and Data Interface (Encapsulated)"
+     },
+     {
+      "ParameterId": 19,
+      "ParameterText": "Inductance",
+      "ParameterType": "String",
+      "ValueId": "41584",
+      "ValueText": "1.02mH"
+     },
+     {
+      "ParameterId": 334,
+      "ParameterText": "ET (Volt-Time)",
+      "ParameterType": "String",
+      "ValueId": "497240",
+      "ValueText": "22V\u00b5S"
+     },
+     {
+      "ParameterId": 315,
+      "ParameterText": "Turns Ratio - Primary:Secondary",
+      "ParameterType": "String",
+      "ValueId": "695530",
+      "ValueText": "3:5CT"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "18948",
+      "ValueText": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "14243",
+      "ValueText": "0.200\" (5.08mm)"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 11,
+     "ParentId": 0,
+     "Name": "Transformers",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/448/100/MFG_162E10_tmb.jpg",
+     "SeoDescription": "Transformer products are arrays of magnetically-coupled inductors in which the characteristic of the individual inductors within the array are typically non-uniform. They are most commonly used for either or both of two purposes; the conversion of AC power or signals between substantially different voltage levels, or the transmission of the same across the insulation barrier between two galvanically isolated circuits.",
+     "ChildCategories": [
+      {
+       "CategoryId": 166,
+       "ParentId": 11,
+       "Name": "Pulse Transformers",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/255/962/MFG_749010310_View-2_tmb.jpg",
+       "SeoDescription": "Pulse Transformers are designed to transfer pulses (signals/voltage with a rapid rise time, a duration of constant signal/voltage, and then a rapid fall time) from one side of a circuit to another. The transformer types are ADSL, data/voice coupling, economical open type, gate drive, general purpose, HDBase-T, HDSL, interface, isolation and data interface, LAN, MIL-STD-1553, PoE, SCR and Triac Trigger, SHDSL, T1/E1, T3/E3, and VDSL.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "10",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90671,
+     "Name": "PM2180.XXXNL"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.31.2000"
+    },
+    "OtherNames": [
+     "553-PM2180.035NL"
+    ]
+   }
+  ],
+  "ProductsCount": 22,
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 118,
+     "Value": "Bourns Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5871,
+     "Value": "ICE Components, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 553,
+     "Value": "Pulse Electronics",
+     "ProductCount": 17
+    },
+    {
+     "Id": 445,
+     "Value": "TDK",
+     "ProductCount": 1
+    },
+    {
+     "Id": 732,
+     "Value": "W\u00fcrth Elektronik",
+     "ProductCount": 1
+    }
+   ],
+   "Packaging": [
+    {
+     "Id": 2,
+     "Value": "Cut Tape (CT)",
+     "ProductCount": 10
+    },
+    {
+     "Id": 243,
+     "Value": "Digi-Reel\u00ae",
+     "ProductCount": 8
+    },
+    {
+     "Id": 804,
+     "Value": "Retail Package",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1,
+     "Value": "Tape & Reel (TR)",
+     "ProductCount": 11
+    },
+    {
+     "Id": 17,
+     "Value": "Tray",
+     "ProductCount": 8
+    },
+    {
+     "Id": 6,
+     "Value": "Tube",
+     "ProductCount": 3
+    }
+   ],
+   "Status": [
+    {
+     "Id": 0,
+     "Value": "Active",
+     "ProductCount": 22
+    }
+   ],
+   "Series": [
+    {
+     "Id": 818,
+     "Value": "-",
+     "ProductCount": 8
+    },
+    {
+     "Id": 131468,
+     "Value": "GT04",
+     "ProductCount": 2
+    },
+    {
+     "Id": 109684,
+     "Value": "ICI70CGI-102",
+     "ProductCount": 1
+    },
+    {
+     "Id": 103040,
+     "Value": "PFBR45",
+     "ProductCount": 1
+    },
+    {
+     "Id": 90671,
+     "Value": "PM2180.XXXNL",
+     "ProductCount": 8
+    },
+    {
+     "Id": 117566,
+     "Value": "PMT9085.xxxNLT",
+     "ProductCount": 1
+    },
+    {
+     "Id": 33691,
+     "Value": "WE-GDT",
+     "ProductCount": 1
+    }
+   ],
+   "ParametricFilters": [
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 310,
+     "ParameterName": "Transformer Type",
+     "FilterValues": [
+      {
+       "ProductCount": 7,
+       "ValueId": "1",
+       "ValueName": "-"
+      },
+      {
+       "ProductCount": 6,
+       "ValueId": "350313",
+       "ValueName": "Gate Drive"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "350483",
+       "ValueName": "General Purpose"
+      },
+      {
+       "ProductCount": 8,
+       "ValueId": "361620",
+       "ValueName": "Isolation and Data Interface (Encapsulated)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 19,
+     "ParameterName": "Inductance",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "300107",
+       "ValueName": "910\u00b5H"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "304084",
+       "ValueName": "980\u00b5H"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "304583",
+       "ValueName": "990\u00b5H"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "43169",
+       "ValueName": "1.0mH"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "120555",
+       "ValueName": "1mH"
+      },
+      {
+       "ProductCount": 10,
+       "ValueId": "41584",
+       "ValueName": "1.02mH"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "42954",
+       "ValueName": "1.08mH"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 334,
+     "ParameterName": "ET (Volt-Time)",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "109462",
+       "ValueName": "17.2V\u00b5S"
+      },
+      {
+       "ProductCount": 8,
+       "ValueId": "497240",
+       "ValueName": "22V\u00b5S"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "447912",
+       "ValueName": "42.4V\u00b5S"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "257671",
+       "ValueName": "60V\u00b5S"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "84327",
+       "ValueName": "120V\u00b5S"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "902359",
+       "ValueName": "125V\u00b5S"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "829337",
+       "ValueName": "126V\u00b5S"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 315,
+     "ParameterName": "Turns Ratio - Primary:Secondary",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "63478",
+       "ValueName": "1:1"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "63557",
+       "ValueName": "1:1:1"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "63594",
+       "ValueName": "1:1CT"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "63643",
+       "ValueName": "1:2CT"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "119945",
+       "ValueName": "1CT:1CT"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "119980",
+       "ValueName": "1CT:2CT"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "137551",
+       "ValueName": "2:1"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "130508",
+       "ValueName": "2.5:1:1"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "695529",
+       "ValueName": "3:4CT"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "695530",
+       "ValueName": "3:5CT"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "695531",
+       "ValueName": "3:8CT"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "497252",
+       "ValueName": "3CT:4CT"
+      },
+      {
+       "ProductCount": 5,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 69,
+     "ParameterName": "Mounting Type",
+     "FilterValues": [
+      {
+       "ProductCount": 19,
+       "ValueId": "409393",
+       "ValueName": "Surface Mount"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "411897",
+       "ValueName": "Through Hole"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 46,
+     "ParameterName": "Size / Dimension",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "17309",
+       "ValueName": "0.280\" L x 0.236\" W (7.10mm x 6.00mm)"
+      },
+      {
+       "ProductCount": 10,
+       "ValueId": "18948",
+       "ValueName": "0.319\" L x 0.280\" W (8.10mm x 7.10mm)"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "19648",
+       "ValueName": "0.340\" L x 0.460\" W (8.64mm x 11.68mm)"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "22165",
+       "ValueName": "0.402\" L x 0.295\" W (10.20mm x 7.50mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "22552",
+       "ValueName": "0.413\" L x 0.413\" W (10.50mm x 10.50mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "701037",
+       "ValueName": "0.551\" L x 0.547\" W (14.00mm x 13.90mm)"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "34657",
+       "ValueName": "0.810\" L x 0.480\" W (20.57mm x 12.19mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "37282",
+       "ValueName": "0.920\" L x 0.960\" W (23.37mm x 24.38mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1500,
+     "ParameterName": "Height - Seated (Max)",
+     "FilterValues": [
+      {
+       "ProductCount": 3,
+       "ValueId": "12441",
+       "ValueName": "0.160\" (4.06mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "13446",
+       "ValueName": "0.189\" (4.80mm)"
+      },
+      {
+       "ProductCount": 10,
+       "ValueId": "14243",
+       "ValueName": "0.200\" (5.08mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "16569",
+       "ValueName": "0.260\" (6.60mm)"
+      },
+      {
+       "ProductCount": 3,
+       "ValueId": "23044",
+       "ValueName": "0.433\" (11.00mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "26518",
+       "ValueName": "0.531\" (13.50mm)"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "32833",
+       "ValueName": "0.750\" (19.05mm)"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "34625",
+       "ValueName": "0.810\" (20.57mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 252,
+     "ParameterName": "Operating Temperature",
+     "FilterValues": [
+      {
+       "ProductCount": 16,
+       "ValueId": "212478",
+       "ValueName": "-40\u00b0C ~ 125\u00b0C"
+      },
+      {
+       "ProductCount": 4,
+       "ValueId": "212489",
+       "ValueName": "-40\u00b0C ~ 130\u00b0C"
+      },
+      {
+       "ProductCount": 2,
+       "ValueId": "212512",
+       "ValueName": "-40\u00b0C ~ 155\u00b0C"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 1977,
+     "ParameterName": "Grade",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 166,
+      "Value": "Pulse Transformers"
+     },
+     "ParameterType": "String",
+     "ParameterId": 2700,
+     "ParameterName": "Qualification",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

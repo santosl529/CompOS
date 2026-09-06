@@ -1,0 +1,715 @@
+{
+ "key": "d41a11049d0e7796dc3a42c2",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "07-0701-6006",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:22:37",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "RFI SHLD MAT ELASTOMER ADH",
+     "DetailedDescription": "RFI Shielding Material Conductive Elastomer Adhesive"
+    },
+    "Manufacturer": {
+     "Id": 1944,
+     "Name": "Parker Chomerics"
+    },
+    "ManufacturerProductNumber": "07-0701-6006-77",
+    "UnitPrice": 170.67,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/parker-chomerics/07-0701-6006-77/16586727",
+    "DatasheetUrl": "https://www.parker.com/Literature/Chomerics/Parker%20Chomerics%20POLA%20SOLID%20Oriented%20Wire%20in%20Elastomer%20TB%201127-EN.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3944/MFG_07-070x-xxxx-xx.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1944-07-0701-6006-77-ND",
+      "PackageType": {
+       "Id": 250,
+       "Name": "Strip"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 170.67,
+        "TotalPrice": 170.67
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1944,
+       "Name": "Parker Chomerics"
+      },
+      "QuantityAvailableforPackageType": 5,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 5,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402065",
+      "ValueText": "Shielding Material"
+     },
+     {
+      "ParameterId": 98,
+      "ParameterText": "Shape",
+      "ParameterType": "String",
+      "ValueId": "401959",
+      "ValueText": "Sheet"
+     },
+     {
+      "ParameterId": 193,
+      "ParameterText": "Width",
+      "ParameterType": "String",
+      "ValueId": "250493",
+      "ValueText": "6.000\" (152.40mm)"
+     },
+     {
+      "ParameterId": 77,
+      "ParameterText": "Length",
+      "ParameterType": "String",
+      "ValueId": "195106",
+      "ValueText": "36.000\" (914.40mm)"
+     },
+     {
+      "ParameterId": 329,
+      "ParameterText": "Height",
+      "ParameterType": "String",
+      "ValueId": "7665",
+      "ValueText": "0.062\" (1.57mm)"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "332799",
+      "ValueText": "Conductive Elastomer"
+     },
+     {
+      "ParameterId": 698,
+      "ParameterText": "Plating",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 831,
+      "ParameterText": "Plating - Thickness",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 623,
+      "ParameterText": "Attachment Method",
+      "ParameterType": "String",
+      "ValueId": "310128",
+      "ValueText": "Adhesive"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "698670",
+      "ValueText": "-54\u00b0C ~ 200\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 37,
+     "ParentId": 0,
+     "Name": "RF and Wireless",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/442/232/MFG_XR112_Front_tmb.jpg",
+     "SeoDescription": "Radio Frequency and Intermediate Frequency (RF/IF) products are used for wireless transmission of information by means of electromagnetic radiation. Radio Frequency Identification (RFID) is a specific subset of general RF applications, characterized by use of small, inexpensive devices known as \"tags\" capable of containing a limited amount of information, that can be wirelessly retrieved (and in some cases modified) through the use of a specialized device known as a \"reader\" and which are commonly used for object or material tracking, inventory, and similar purposes. Products found within this category may range from finished products for end use, to component-level products and materials from which such finished goods are assembled.",
+     "ChildCategories": [
+      {
+       "CategoryId": 945,
+       "ParentId": 37,
+       "Name": "RFI and EMI - Contacts, Fingerstock and Gaskets",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/297/003/0097097602_tmb%2864x64%29.jpg",
+       "SeoDescription": "Fingerstock and gasket contacts limit electromagnetic interference (EMI), also called radio-frequency interference (RFI) when in the radio frequency spectrum, that affect electrical circuits by electromagnetic induction, electrostatic coupling, or conduction. They are used where removable parts or doors attach to a chassis or enclosure, making them susceptible to EMI. Contacts are attached using adhesive, clips, hardware, solder, slotting or snap-in channels.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "8",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 102473,
+     "Name": "POLA\u00ae SOLID"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8529.90.9800"
+    },
+    "OtherNames": [
+     "07-0701-6006-77-DK",
+     "1944-07-0701-6006-77"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RFI SHLD MAT ELASTOMER",
+     "DetailedDescription": "RFI Shielding Material Conductive Elastomer No Adhesive"
+    },
+    "Manufacturer": {
+     "Id": 1944,
+     "Name": "Parker Chomerics"
+    },
+    "ManufacturerProductNumber": "07-0701-6006",
+    "UnitPrice": 125.66409,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/parker-chomerics/07-0701-6006/16586660",
+    "DatasheetUrl": "https://www.parker.com/Literature/Chomerics/Parker%20Chomerics%20POLA%20SOLID%20Oriented%20Wire%20in%20Elastomer%20TB%201127-EN.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3944/MFG_07-070x-xxxx-xx.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1944-07-0701-6006-ND",
+      "PackageType": {
+       "Id": 250,
+       "Name": "Strip"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 22,
+        "UnitPrice": 125.66409,
+        "TotalPrice": 2764.60998
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1944,
+       "Name": "Parker Chomerics"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 22,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402065",
+      "ValueText": "Shielding Material"
+     },
+     {
+      "ParameterId": 98,
+      "ParameterText": "Shape",
+      "ParameterType": "String",
+      "ValueId": "401959",
+      "ValueText": "Sheet"
+     },
+     {
+      "ParameterId": 193,
+      "ParameterText": "Width",
+      "ParameterType": "String",
+      "ValueId": "250493",
+      "ValueText": "6.000\" (152.40mm)"
+     },
+     {
+      "ParameterId": 77,
+      "ParameterText": "Length",
+      "ParameterType": "String",
+      "ValueId": "195106",
+      "ValueText": "36.000\" (914.40mm)"
+     },
+     {
+      "ParameterId": 329,
+      "ParameterText": "Height",
+      "ParameterType": "String",
+      "ValueId": "7665",
+      "ValueText": "0.062\" (1.57mm)"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "332799",
+      "ValueText": "Conductive Elastomer"
+     },
+     {
+      "ParameterId": 698,
+      "ParameterText": "Plating",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 831,
+      "ParameterText": "Plating - Thickness",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 623,
+      "ParameterText": "Attachment Method",
+      "ParameterType": "String",
+      "ValueId": "727841",
+      "ValueText": "No Adhesive"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "698670",
+      "ValueText": "-54\u00b0C ~ 200\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 37,
+     "ParentId": 0,
+     "Name": "RF and Wireless",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/442/232/MFG_XR112_Front_tmb.jpg",
+     "SeoDescription": "Radio Frequency and Intermediate Frequency (RF/IF) products are used for wireless transmission of information by means of electromagnetic radiation. Radio Frequency Identification (RFID) is a specific subset of general RF applications, characterized by use of small, inexpensive devices known as \"tags\" capable of containing a limited amount of information, that can be wirelessly retrieved (and in some cases modified) through the use of a specialized device known as a \"reader\" and which are commonly used for object or material tracking, inventory, and similar purposes. Products found within this category may range from finished products for end use, to component-level products and materials from which such finished goods are assembled.",
+     "ChildCategories": [
+      {
+       "CategoryId": 945,
+       "ParentId": 37,
+       "Name": "RFI and EMI - Contacts, Fingerstock and Gaskets",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/297/003/0097097602_tmb%2864x64%29.jpg",
+       "SeoDescription": "Fingerstock and gasket contacts limit electromagnetic interference (EMI), also called radio-frequency interference (RFI) when in the radio frequency spectrum, that affect electrical circuits by electromagnetic induction, electrostatic coupling, or conduction. They are used where removable parts or doors attach to a chassis or enclosure, making them susceptible to EMI. Contacts are attached using adhesive, clips, hardware, solder, slotting or snap-in channels.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "8",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 102473,
+     "Name": "POLA\u00ae SOLID"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8529.90.9800"
+    },
+    "OtherNames": [
+     "1944-07-0701-6006",
+     "07-0701-6006-DK"
+    ]
+   }
+  ],
+  "ProductsCount": 2,
+  "ExactMatches": [
+   {
+    "Description": {
+     "ProductDescription": "RFI SHLD MAT ELASTOMER",
+     "DetailedDescription": "RFI Shielding Material Conductive Elastomer No Adhesive"
+    },
+    "Manufacturer": {
+     "Id": 1944,
+     "Name": "Parker Chomerics"
+    },
+    "ManufacturerProductNumber": "07-0701-6006",
+    "UnitPrice": 125.66409,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/parker-chomerics/07-0701-6006/16586660",
+    "DatasheetUrl": "https://www.parker.com/Literature/Chomerics/Parker%20Chomerics%20POLA%20SOLID%20Oriented%20Wire%20in%20Elastomer%20TB%201127-EN.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3944/MFG_07-070x-xxxx-xx.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1944-07-0701-6006-ND",
+      "PackageType": {
+       "Id": 250,
+       "Name": "Strip"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 22,
+        "UnitPrice": 125.66409,
+        "TotalPrice": 2764.60998
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1944,
+       "Name": "Parker Chomerics"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 22,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402065",
+      "ValueText": "Shielding Material"
+     },
+     {
+      "ParameterId": 98,
+      "ParameterText": "Shape",
+      "ParameterType": "String",
+      "ValueId": "401959",
+      "ValueText": "Sheet"
+     },
+     {
+      "ParameterId": 193,
+      "ParameterText": "Width",
+      "ParameterType": "String",
+      "ValueId": "250493",
+      "ValueText": "6.000\" (152.40mm)"
+     },
+     {
+      "ParameterId": 77,
+      "ParameterText": "Length",
+      "ParameterType": "String",
+      "ValueId": "195106",
+      "ValueText": "36.000\" (914.40mm)"
+     },
+     {
+      "ParameterId": 329,
+      "ParameterText": "Height",
+      "ParameterType": "String",
+      "ValueId": "7665",
+      "ValueText": "0.062\" (1.57mm)"
+     },
+     {
+      "ParameterId": 70,
+      "ParameterText": "Material",
+      "ParameterType": "String",
+      "ValueId": "332799",
+      "ValueText": "Conductive Elastomer"
+     },
+     {
+      "ParameterId": 698,
+      "ParameterText": "Plating",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 831,
+      "ParameterText": "Plating - Thickness",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 623,
+      "ParameterText": "Attachment Method",
+      "ParameterType": "String",
+      "ValueId": "727841",
+      "ValueText": "No Adhesive"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "698670",
+      "ValueText": "-54\u00b0C ~ 200\u00b0C"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 37,
+     "ParentId": 0,
+     "Name": "RF and Wireless",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/442/232/MFG_XR112_Front_tmb.jpg",
+     "SeoDescription": "Radio Frequency and Intermediate Frequency (RF/IF) products are used for wireless transmission of information by means of electromagnetic radiation. Radio Frequency Identification (RFID) is a specific subset of general RF applications, characterized by use of small, inexpensive devices known as \"tags\" capable of containing a limited amount of information, that can be wirelessly retrieved (and in some cases modified) through the use of a specialized device known as a \"reader\" and which are commonly used for object or material tracking, inventory, and similar purposes. Products found within this category may range from finished products for end use, to component-level products and materials from which such finished goods are assembled.",
+     "ChildCategories": [
+      {
+       "CategoryId": 945,
+       "ParentId": 37,
+       "Name": "RFI and EMI - Contacts, Fingerstock and Gaskets",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/297/003/0097097602_tmb%2864x64%29.jpg",
+       "SeoDescription": "Fingerstock and gasket contacts limit electromagnetic interference (EMI), also called radio-frequency interference (RFI) when in the radio frequency spectrum, that affect electrical circuits by electromagnetic induction, electrostatic coupling, or conduction. They are used where removable parts or doors attach to a chassis or enclosure, making them susceptible to EMI. Contacts are attached using adhesive, clips, hardware, solder, slotting or snap-in channels.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "8",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 102473,
+     "Name": "POLA\u00ae SOLID"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8529.90.9800"
+    },
+    "OtherNames": [
+     "1944-07-0701-6006",
+     "07-0701-6006-DK"
+    ]
+   }
+  ],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 1944,
+     "Value": "Parker Chomerics",
+     "ProductCount": 2
+    }
+   ],
+   "Packaging": [
+    {
+     "Id": 250,
+     "Value": "Strip",
+     "ProductCount": 2
+    }
+   ],
+   "Status": [
+    {
+     "Id": 0,
+     "Value": "Active",
+     "ProductCount": 2
+    }
+   ],
+   "Series": [
+    {
+     "Id": 102473,
+     "Value": "POLA\u00ae SOLID",
+     "ProductCount": 2
+    }
+   ],
+   "ParametricFilters": [
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 183,
+     "ParameterName": "Type",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "402065",
+       "ValueName": "Shielding Material"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 98,
+     "ParameterName": "Shape",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "401959",
+       "ValueName": "Sheet"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 193,
+     "ParameterName": "Width",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "250493",
+       "ValueName": "6.000\" (152.40mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 77,
+     "ParameterName": "Length",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "195106",
+       "ValueName": "36.000\" (914.40mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 329,
+     "ParameterName": "Height",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "7665",
+       "ValueName": "0.062\" (1.57mm)"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 70,
+     "ParameterName": "Material",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "332799",
+       "ValueName": "Conductive Elastomer"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 698,
+     "ParameterName": "Plating",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 831,
+     "ParameterName": "Plating - Thickness",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "1",
+       "ValueName": "-"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 623,
+     "ParameterName": "Attachment Method",
+     "FilterValues": [
+      {
+       "ProductCount": 1,
+       "ValueId": "310128",
+       "ValueName": "Adhesive"
+      },
+      {
+       "ProductCount": 1,
+       "ValueId": "727841",
+       "ValueName": "No Adhesive"
+      }
+     ]
+    },
+    {
+     "Category": {
+      "Id": 945,
+      "Value": "RFI and EMI - Contacts, Fingerstock and Gaskets"
+     },
+     "ParameterType": "String",
+     "ParameterId": 252,
+     "ParameterName": "Operating Temperature",
+     "FilterValues": [
+      {
+       "ProductCount": 2,
+       "ValueId": "698670",
+       "ValueName": "-54\u00b0C ~ 200\u00b0C"
+      }
+     ]
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

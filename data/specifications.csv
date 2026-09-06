@@ -1,0 +1,17 @@
+spec_id,title,requirement_count
+MIL-DTL-24308,"Connectors, Electrical, Rectangular, Nonenvironmental",10
+MIL-DTL-38999,"Connectors, Electrical, Circular, Miniature, High Density",11
+MIL-DTL-5015,"Connectors, Electrical, Circular Threaded, AN Type",10
+MIL-DTL-5809,"Switches, Pressure, Absolute and Differential",11
+MIL-DTL-83513,"Connectors, Electrical, Rectangular, Microminiature",12
+MIL-DTL-83723,"Connectors, Electrical, Circular, Environment Resisting",11
+MIL-PRF-123,"Capacitors, Fixed, Ceramic Dielectric, Temperature Stable",11
+MIL-PRF-15733,"Filters, Radio Frequency Interference",11
+MIL-PRF-27,"Transformers and Inductors, Audio, Power, and High Power Pulse",12
+MIL-PRF-38535,"Integrated Circuits, Manufacturing, General Specification",12
+MIL-PRF-39007,"Resistors, Fixed, Wirewound, Power Type",11
+MIL-PRF-39014,"Capacitors, Fixed, Ceramic Dielectric, General Purpose",11
+MIL-PRF-39016,"Relays, Electromagnetic, Established Reliability",11
+MIL-PRF-49464,"Contacts, Electrical Connector, General Specification",10
+MIL-PRF-55342,"Resistors, Chip, Fixed, Film, Nonestablished Reliability",12
+MIL-PRF-83446,"Coils, Radio Frequency, Chip, Fixed",11

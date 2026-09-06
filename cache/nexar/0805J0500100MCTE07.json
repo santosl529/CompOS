@@ -1,0 +1,114 @@
+{
+ "mpn": "0805J0500100MCTE07",
+ "fetched_at": "2026-09-05T20:30:57",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "148661468",
+    "mpn": "0805J0500100MCTE07",
+    "name": "Knowles 0805J0500100MCTE07",
+    "octopartUrl": "https://octopart.com/part/knowles-syfer/0805J0500100MCTE07",
+    "manufacturer": {
+     "name": "Knowles"
+    },
+    "medianPrice1000": {
+     "price": 0.3624,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 0,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Onlinecomponents.com"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 70,
+        "prices": [
+         {
+          "quantity": 750,
+          "price": 0.3624,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1500,
+          "price": 0.2718,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2250,
+          "price": 0.2537,
+          "currency": "USD"
+         },
+         {
+          "quantity": 3000,
+          "price": 0.2486,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Master Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 70,
+        "prices": [
+         {
+          "quantity": 750,
+          "price": 0.3624,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1500,
+          "price": 0.2718,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2250,
+          "price": 0.2537,
+          "currency": "USD"
+         },
+         {
+          "quantity": 3000,
+          "price": 0.2486,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 77,
+        "prices": [
+         {
+          "quantity": 3000,
+          "price": 0.28637,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

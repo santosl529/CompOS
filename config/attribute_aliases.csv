@@ -1,0 +1,209 @@
+source,raw_name,canonical_name
+publog,RESISTANCE,resistance
+publog,RESISTANCE TOLERANCE,tolerance
+publog,POWER DISSIPATION RATING,power_rating
+publog,TEMPERATURE COEFFICIENT,temperature_coefficient
+publog,OPERATING TEMPERATURE,operating_temp
+publog,OPERATING TEMPERATURE RANGE,operating_temp
+publog,CAPACITANCE,capacitance
+publog,CAPACITANCE TOLERANCE,tolerance
+publog,VOLTAGE RATING,voltage_rating
+publog,RATED VOLTAGE,voltage_rating
+publog,DIELECTRIC MATERIAL,dielectric
+publog,CURRENT RATING,current_rating
+publog,MOUNTING METHOD,mounting_type
+publog,BODY STYLE,package_case
+publog,TERMINAL TYPE,terminal_type
+digikey,Resistance,resistance
+digikey,Tolerance,tolerance
+digikey,Power (Watts),power_rating
+digikey,Temperature Coefficient,temperature_coefficient
+digikey,Operating Temperature,operating_temp
+digikey,Capacitance,capacitance
+digikey,Voltage - Rated,voltage_rating
+digikey,Voltage - Rated DC,voltage_rating
+digikey,Voltage - DC Reverse (Vr) (Max),voltage_rating
+digikey,Current - Average Rectified (Io),current_rating
+digikey,Current - Max,current_rating
+digikey,Package / Case,package_case
+digikey,Supplier Device Package,package_case
+digikey,Mounting Type,mounting_type
+digikey,Composition,composition
+digikey,Temperature Coefficient,temperature_coefficient
+spec,resistance,resistance
+spec,resistance tolerance,tolerance
+spec,tolerance,tolerance
+spec,power rating,power_rating
+spec,rated power,power_rating
+spec,operating temperature,operating_temp
+spec,operating temperature range,operating_temp
+spec,capacitance,capacitance
+spec,rated voltage,voltage_rating
+spec,voltage rating,voltage_rating
+spec,dielectric withstanding voltage,dielectric_withstanding_voltage
+spec,insulation resistance,insulation_resistance
+spec,temperature coefficient,temperature_coefficient
+spec,qualification,qualification
+spec,qpl listing,qualification
+publog,actuation_pressure,actuation_pressure
+publog,ACTUATION PRESSURE,actuation_pressure
+publog,capacitance,capacitance
+publog,CAPACITANCE,capacitance
+publog,capacitance_tolerance,capacitance_tolerance
+publog,CAPACITANCE TOLERANCE,capacitance_tolerance
+publog,coil_resistance,coil_resistance
+publog,COIL RESISTANCE,coil_resistance
+publog,coil_voltage,coil_voltage
+publog,COIL VOLTAGE,coil_voltage
+publog,contact_configuration,contact_configuration
+publog,CONTACT CONFIGURATION,contact_configuration
+publog,contact_count,contact_count
+publog,CONTACT COUNT,contact_count
+publog,contact_plating,contact_plating
+publog,CONTACT PLATING,contact_plating
+publog,contact_rating,contact_rating
+publog,CONTACT RATING,contact_rating
+publog,contact_resistance,contact_resistance
+publog,CONTACT RESISTANCE,contact_resistance
+publog,coupling_type,coupling_type
+publog,COUPLING TYPE,coupling_type
+publog,current_rating,current_rating
+publog,CURRENT RATING,current_rating
+publog,dc_resistance,dc_resistance
+publog,DC RESISTANCE,dc_resistance
+publog,dielectric_type,dielectric_type
+publog,DIELECTRIC TYPE,dielectric_type
+publog,dielectric_withstanding_voltage,dielectric_withstanding_voltage
+publog,DIELECTRIC WITHSTANDING VOLTAGE,dielectric_withstanding_voltage
+publog,dissipation_factor,dissipation_factor
+publog,DISSIPATION FACTOR,dissipation_factor
+publog,frequency_range_max,frequency_range_max
+publog,FREQUENCY RANGE MAX,frequency_range_max
+publog,inductance,inductance
+publog,INDUCTANCE,inductance
+publog,inductance_tolerance,inductance_tolerance
+publog,INDUCTANCE TOLERANCE,inductance_tolerance
+publog,insertion_loss,insertion_loss
+publog,INSERTION LOSS,insertion_loss
+publog,insulation_resistance,insulation_resistance
+publog,INSULATION RESISTANCE,insulation_resistance
+publog,mechanical_life,mechanical_life
+publog,MECHANICAL LIFE,mechanical_life
+publog,operating_temp_max,operating_temp_max
+publog,OPERATING TEMP MAX,operating_temp_max
+publog,operating_temp_min,operating_temp_min
+publog,OPERATING TEMP MIN,operating_temp_min
+publog,power_rating,power_rating
+publog,POWER RATING,power_rating
+publog,q_factor,q_factor
+publog,Q FACTOR,q_factor
+publog,resistance,resistance
+publog,RESISTANCE,resistance
+publog,resistance_tolerance,resistance_tolerance
+publog,RESISTANCE TOLERANCE,resistance_tolerance
+publog,sealing,sealing
+publog,SEALING,sealing
+publog,shell_material,shell_material
+publog,SHELL MATERIAL,shell_material
+publog,shell_size,shell_size
+publog,SHELL SIZE,shell_size
+publog,temperature_coefficient,temperature_coefficient
+publog,TEMPERATURE COEFFICIENT,temperature_coefficient
+publog,voltage_rating,voltage_rating
+publog,VOLTAGE RATING,voltage_rating
+spec,capacitance_tolerance,capacitance_tolerance
+spec,CAPACITANCE TOLERANCE,capacitance_tolerance
+spec,coil_resistance,coil_resistance
+spec,COIL RESISTANCE,coil_resistance
+spec,coil_voltage,coil_voltage
+spec,COIL VOLTAGE,coil_voltage
+spec,contact_count,contact_count
+spec,CONTACT COUNT,contact_count
+spec,contact_plating,contact_plating
+spec,CONTACT PLATING,contact_plating
+spec,contact_rating,contact_rating
+spec,CONTACT RATING,contact_rating
+spec,contact_resistance,contact_resistance
+spec,CONTACT RESISTANCE,contact_resistance
+spec,coupling_type,coupling_type
+spec,COUPLING TYPE,coupling_type
+spec,current_rating,current_rating
+spec,CURRENT RATING,current_rating
+spec,dc_resistance,dc_resistance
+spec,DC RESISTANCE,dc_resistance
+spec,dielectric_type,dielectric_type
+spec,DIELECTRIC TYPE,dielectric_type
+spec,dielectric_withstanding_voltage,dielectric_withstanding_voltage
+spec,DIELECTRIC WITHSTANDING VOLTAGE,dielectric_withstanding_voltage
+spec,dissipation_factor,dissipation_factor
+spec,DISSIPATION FACTOR,dissipation_factor
+spec,dpa_sample_required,dpa_sample_required
+spec,DPA SAMPLE REQUIRED,dpa_sample_required
+spec,frequency_range_max,frequency_range_max
+spec,FREQUENCY RANGE MAX,frequency_range_max
+spec,humidity_resistance,humidity_resistance
+spec,HUMIDITY RESISTANCE,humidity_resistance
+spec,inductance,inductance
+spec,INDUCTANCE,inductance
+spec,inductance_tolerance,inductance_tolerance
+spec,INDUCTANCE TOLERANCE,inductance_tolerance
+spec,insertion_loss,insertion_loss
+spec,INSERTION LOSS,insertion_loss
+spec,insulation_resistance,insulation_resistance
+spec,INSULATION RESISTANCE,insulation_resistance
+spec,junction_temp_max,junction_temp_max
+spec,JUNCTION TEMP MAX,junction_temp_max
+spec,lot_traceability,lot_traceability
+spec,LOT TRACEABILITY,lot_traceability
+spec,mechanical_life,mechanical_life
+spec,MECHANICAL LIFE,mechanical_life
+spec,operating_temp_max,operating_temp_max
+spec,OPERATING TEMP MAX,operating_temp_max
+spec,operating_temp_min,operating_temp_min
+spec,OPERATING TEMP MIN,operating_temp_min
+spec,qualification,qualification
+spec,QUALIFICATION,qualification
+spec,resistance_tolerance,resistance_tolerance
+spec,RESISTANCE TOLERANCE,resistance_tolerance
+spec,shell_material,shell_material
+spec,SHELL MATERIAL,shell_material
+spec,shell_size,shell_size
+spec,SHELL SIZE,shell_size
+spec,solderability_per_j_std_002,solderability_per_j_std_002
+spec,SOLDERABILITY PER J STD 002,solderability_per_j_std_002
+spec,temperature_coefficient,temperature_coefficient
+spec,TEMPERATURE COEFFICIENT,temperature_coefficient
+spec,thermal_shock_cycles,thermal_shock_cycles
+spec,THERMAL SHOCK CYCLES,thermal_shock_cycles
+spec,vibration_grms,vibration_grms
+spec,VIBRATION GRMS,vibration_grms
+spec,voltage_rating,voltage_rating
+spec,VOLTAGE RATING,voltage_rating
+digikey,Number of Positions,contact_count
+digikey,"Shell Size, MIL",shell_size
+digikey,Current Rating (Amps),current_rating
+digikey,Current,current_rating
+digikey,Current - Saturation (Isat),current_saturation
+digikey,Coil Voltage,coil_voltage
+digikey,Contact Form,contact_configuration
+digikey,Circuit,contact_configuration
+digikey,Voltage Rating - DC,voltage_rating
+digikey,Voltage Rating,voltage_rating
+digikey,Contact Rating (Current),contact_rating
+digikey,Shell Material,shell_material
+digikey,Contact Finish - Mating,contact_plating
+digikey,Contact Finish,contact_plating
+digikey,Seal Rating,sealing
+digikey,Inductance,inductance
+digikey,DC Resistance (DCR),dc_resistance
+digikey,Q @ Freq,q_factor
+digikey,Insertion Loss,insertion_loss
+digikey,Operating Temperature - Junction,junction_temp
+digikey,Qualification,qualification
+digikey,Coil Current,coil_current
+digikey,Coil Type,coil_type
+digikey,Relay Type,relay_type
+digikey,Switching Voltage,switching_voltage
+digikey,Ingress Protection,ingress_protection
+digikey,Termination Style,terminal_type
+digikey,Termination,terminal_type

@@ -1,0 +1,292 @@
+{
+ "key": "2ed49fa1f3ad9c91d260b478",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1A",
+  "Limit": 50,
+  "Offset": 0,
+  "FilterOptionsRequest": {
+   "CategoryFilter": [
+    {
+     "Id": "835"
+    }
+   ],
+   "ParameterFilterRequest": {
+    "CategoryFilter": {
+     "Id": "835"
+    },
+    "ParameterFilters": [
+     {
+      "ParameterId": 2155,
+      "FilterValues": [
+       {
+        "Id": "1 A"
+       }
+      ]
+     },
+     {
+      "ParameterId": 252,
+      "FilterValues": [
+       {
+        "Id": "242918"
+       }
+      ]
+     },
+     {
+      "ParameterId": 14,
+      "FilterValues": [
+       {
+        "Id": "238738"
+       },
+       {
+        "Id": "69629"
+       },
+       {
+        "Id": "100671"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T14:30:38",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "DISCOIDAL FILTER",
+     "DetailedDescription": "EMI Filter 1st Order 1 Channel C = 10pF 1 A Axial, Press Fit"
+    },
+    "Manufacturer": {
+     "Id": 410,
+     "Name": "Tusonix a Subsidiary of CTS Electronic Components"
+    },
+    "ManufacturerProductNumber": "4310-011LF",
+    "UnitPrice": 30.492,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/tusonix-a-subsidiary-of-cts-electronic-components/4310-011LF/17028560",
+    "DatasheetUrl": "https://www.ctscorp.com/Files/Brochures/EMC/CTS-Tusonix-Feedthrough-Filters-Catalog.pdf",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "410-4310-011LF-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 30.492,
+        "TotalPrice": 3049.2
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 410,
+       "Name": "Tusonix a Subsidiary of CTS Electronic Components"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 100,
+      "StandardPackage": 100,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 375,
+      "ParameterText": "Filter Order",
+      "ParameterType": "String",
+      "ValueId": "120858",
+      "ValueText": "1st"
+     },
+     {
+      "ParameterId": 570,
+      "ParameterText": "Technology",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2093,
+      "ParameterText": "Number of Channels",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 600,
+      "ParameterText": "Center / Cutoff Frequency",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 331,
+      "ParameterText": "Attenuation Value",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1540,
+      "ParameterText": "Resistance - Channel (Ohms)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2155,
+      "ParameterText": "Current",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "1 A",
+      "ValueText": "1 A"
+     },
+     {
+      "ParameterId": 300,
+      "ParameterText": "Values",
+      "ParameterType": "String",
+      "ValueId": "324043",
+      "ValueText": "C = 10pF"
+     },
+     {
+      "ParameterId": 1541,
+      "ParameterText": "ESD Protection",
+      "ParameterType": "String",
+      "ValueId": "380240",
+      "ValueText": "No"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "100671",
+      "ValueText": "150V"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "329230",
+      "ValueText": "Chassis Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "317234",
+      "ValueText": "Axial, Press Fit"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "9293",
+      "ValueText": "0.094\" Dia x 0.098\" L (2.39mm x 2.49mm)"
+     },
+     {
+      "ParameterId": 329,
+      "ParameterText": "Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 36,
+     "ParentId": 0,
+     "Name": "Filters",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+     "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+     "ChildCategories": [
+      {
+       "CategoryId": 835,
+       "ParentId": 36,
+       "Name": "EMI/RFI Filters (LC, RC Networks)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/003/318/467/BNX002-01_tmb%2864x64%29.jpg",
+       "SeoDescription": "Products in this family integrate several passive components into a single device in a manner designed to yield a frequency dependent opposition to current flow. Though other types are available, a majority of them are of a low-pass type used to suppress the unwanted transmission of high frequency signals, which might otherwise cause interference or undesired operation.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "36",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 8004,
+     "Name": "4310"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8548.00.0000"
+    },
+    "OtherNames": [
+     "4310011LF",
+     "410-4310-011LF"
+    ]
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 410,
+     "Value": "Tusonix a Subsidiary of CTS Electronic Components",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

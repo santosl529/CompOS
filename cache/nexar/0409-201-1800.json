@@ -1,0 +1,774 @@
+{
+ "mpn": "0409-201-1800",
+ "fetched_at": "2026-09-05T20:31:08",
+ "pro_fields": false,
+ "block": {
+  "hits": 2,
+  "parts": [
+   {
+    "id": "77014310",
+    "mpn": "0409-201-1800",
+    "name": "TE Connectivity / DEUTSCH 0409-201-1800",
+    "octopartUrl": "https://octopart.com/part/te-connectivity-deutsch/0409-201-1800",
+    "manufacturer": {
+     "name": "TE Connectivity / DEUTSCH"
+    },
+    "medianPrice1000": {
+     "price": 9.44,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 75463,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TE Store"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1935,
+        "factoryLeadDays": 0,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 17.53,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Master Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 100,
+        "factoryLeadDays": 91,
+        "prices": [
+         {
+          "quantity": 5,
+          "price": 16.57,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 12.62,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 11.62,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 10.83,
+          "currency": "USD"
+         },
+         {
+          "quantity": 250,
+          "price": 9.83,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 9.46,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 9.44,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Onlinecomponents.com"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 100,
+        "factoryLeadDays": 91,
+        "prices": [
+         {
+          "quantity": 5,
+          "price": 16.57,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 12.62,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 11.62,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 10.83,
+          "currency": "USD"
+         },
+         {
+          "quantity": 250,
+          "price": 9.83,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 9.46,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 9.44,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Verical"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 100,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 5,
+          "price": 20.0848,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 14.5559,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 13.4025,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TTI"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 2033,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 10.16,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5,
+          "price": 10.06,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 9.96,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 9.87,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 9.77,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 9.67,
+          "currency": "USD"
+         },
+         {
+          "quantity": 300,
+          "price": 9.33,
+          "currency": "USD"
+         },
+         {
+          "quantity": 600,
+          "price": 9.24,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Interstate Connecting Components"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 0,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Heilind Americas"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 0,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "RS (Formerly Allied Electronics)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 5,
+          "price": 21.23,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Avnet"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 300,
+          "price": 9.43084,
+          "currency": "USD"
+         },
+         {
+          "quantity": 600,
+          "price": 8.51851,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1200,
+          "price": 8.21571,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2700,
+          "price": 8.17336,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25200,
+          "price": 8.13101,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 91,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 13.79,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 11.72,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 10.986,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 10.4616,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 9.9624,
+          "currency": "USD"
+         },
+         {
+          "quantity": 250,
+          "price": 9.33908,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 8.89376,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 8.4698,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TTI Asia"
+      },
+      "offers": [
+       {
+        "inventoryLevel": -3,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 300,
+          "price": 27.07,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TTI Europe"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 300,
+          "price": 8.17,
+          "currency": "EUR"
+         },
+         {
+          "quantity": 900,
+          "price": 8.08,
+          "currency": "EUR"
+         },
+         {
+          "quantity": 1500,
+          "price": 7.83,
+          "currency": "EUR"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Mouser"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 91,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 13.39,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 11.72,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 10.98,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 10.46,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 9.96,
+          "currency": "USD"
+         },
+         {
+          "quantity": 250,
+          "price": 9.33,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 9.32,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 8.95,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 9.32,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Maritex"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 5,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 24.366,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 18.2866,
+          "currency": "USD"
+         },
+         {
+          "quantity": 30,
+          "price": 16.7929,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 15.2294,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "UnikeyIC"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 5,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 15.1578,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 12.7277,
+          "currency": "USD"
+         },
+         {
+          "quantity": 30,
+          "price": 12.3909,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 12.0299,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Chipsmall Limited"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 8716,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 14.6566,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 13.19094,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 8.42754,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 8.06113,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 7.3283,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Quest"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 8,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 20.7363,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 3,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 10.95,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2,
+          "price": 7.3,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Fly-Wing Technology"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 2,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 6.511984,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 6.219207,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ODG (Origin Data Global)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 3605,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 5,
+          "price": 9.4331,
+          "currency": "USD"
+         },
+         {
+          "quantity": 11,
+          "price": 8.909,
+          "currency": "USD"
+         },
+         {
+          "quantity": 18,
+          "price": 7.8609,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 7.3368,
+          "currency": "USD"
+         },
+         {
+          "quantity": 34,
+          "price": 6.8128,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "LCSC"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 9.3513,
+          "currency": "USD"
+         },
+         {
+          "quantity": 30,
+          "price": 8.9959,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Digi-ic_SMART PIONEER"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 58473,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Cytech Systems"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 273,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Abacus Technologies"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Unikeyic (ICkey)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 5,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 15.1578,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 12.7277,
+          "currency": "USD"
+         },
+         {
+          "quantity": 30,
+          "price": 12.3909,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 12.0299,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

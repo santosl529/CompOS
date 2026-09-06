@@ -1,0 +1,46 @@
+{
+ "mpn": "4590R-105J",
+ "fetched_at": "2026-09-05T20:31:15",
+ "pro_fields": false,
+ "block": {
+  "hits": 1,
+  "parts": [
+   {
+    "id": "16960047",
+    "mpn": "4590R-105J",
+    "name": "API Delevan 4590R-105J",
+    "octopartUrl": "https://octopart.com/part/api-delevan/4590R-105J",
+    "manufacturer": {
+     "name": "API Delevan"
+    },
+    "medianPrice1000": {
+     "price": 5.2668,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 1,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 133,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 5.2668,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,2555 @@
+{
+ "key": "5fd7385f012a316cbf2b5094",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1-0161",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:21:52",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "IC REG LIN 3.3V 800MA SOT-223-3",
+     "DetailedDescription": "Linear Voltage Regulator IC Positive Fixed 1 Output 800mA SOT-223-3"
+    },
+    "Manufacturer": {
+     "Id": 1016,
+     "Name": "MaxLinear, Inc."
+    },
+    "ManufacturerProductNumber": "SPX1117M3-L-3-3/TR",
+    "UnitPrice": 0.3,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/maxlinear-inc/SPX1117M3-L-3-3-TR/2472291",
+    "DatasheetUrl": "https://www.maxlinear.com/ds/spx1117.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6311/1016%7ESOT223-3%7EM3%7E4.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1016-1848-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.12353,
+        "TotalPrice": 308.825
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.11968,
+        "TotalPrice": 598.4
+       },
+       {
+        "BreakQuantity": 7500,
+        "UnitPrice": 0.11775,
+        "TotalPrice": 883.125
+       },
+       {
+        "BreakQuantity": 12500,
+        "UnitPrice": 0.11561,
+        "TotalPrice": 1445.125
+       },
+       {
+        "BreakQuantity": 17500,
+        "UnitPrice": 0.11436,
+        "TotalPrice": 2001.3
+       },
+       {
+        "BreakQuantity": 25000,
+        "UnitPrice": 0.11316,
+        "TotalPrice": 2829.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 5000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2500,
+      "StandardPackage": 2500,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "1016-1848-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.3,
+        "TotalPrice": 0.3
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.204,
+        "TotalPrice": 2.04
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.1812,
+        "TotalPrice": 4.53
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.1555,
+        "TotalPrice": 15.55
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.14332,
+        "TotalPrice": 35.83
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.13596,
+        "TotalPrice": 67.98
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.12991,
+        "TotalPrice": 129.91
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 6160,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "1016-1848-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.3,
+        "TotalPrice": 0.3
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.204,
+        "TotalPrice": 2.04
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.1812,
+        "TotalPrice": 4.53
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.1555,
+        "TotalPrice": 15.55
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.14332,
+        "TotalPrice": 35.83
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.13596,
+        "TotalPrice": 67.98
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.12991,
+        "TotalPrice": 129.91
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 6160,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 6160,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6185148583001",
+    "Parameters": [
+     {
+      "ParameterId": 255,
+      "ParameterText": "Output Configuration",
+      "ParameterType": "String",
+      "ValueId": "389019",
+      "ValueText": "Positive"
+     },
+     {
+      "ParameterId": 41,
+      "ParameterText": "Output Type",
+      "ParameterType": "String",
+      "ValueId": "347431",
+      "ValueText": "Fixed"
+     },
+     {
+      "ParameterId": 1065,
+      "ParameterText": "Number of Regulators",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 573,
+      "ParameterText": "Voltage - Input (Max)",
+      "ParameterType": "String",
+      "ValueId": "143803",
+      "ValueText": "20V"
+     },
+     {
+      "ParameterId": 1779,
+      "ParameterText": "Voltage - Output (Min/Fixed)",
+      "ParameterType": "String",
+      "ValueId": "174115",
+      "ValueText": "3.3V"
+     },
+     {
+      "ParameterId": 1429,
+      "ParameterText": "Voltage - Output (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2065,
+      "ParameterText": "Voltage Dropout (Max)",
+      "ParameterType": "String",
+      "ValueId": "51199",
+      "ValueText": "1.3V @ 800mA"
+     },
+     {
+      "ParameterId": 129,
+      "ParameterText": "Current - Output",
+      "ParameterType": "String",
+      "ValueId": "286223",
+      "ValueText": "800mA"
+     },
+     {
+      "ParameterId": 477,
+      "ParameterText": "Current - Quiescent (Iq)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "10 mA",
+      "ValueText": "10 mA"
+     },
+     {
+      "ParameterId": 2064,
+      "ParameterText": "PSRR",
+      "ParameterType": "String",
+      "ValueId": "273666",
+      "ValueText": "70dB (120Hz)"
+     },
+     {
+      "ParameterId": 1880,
+      "ParameterText": "Control Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2066,
+      "ParameterText": "Protection Features",
+      "ParameterType": "String",
+      "ValueId": "382816",
+      "ValueText": "Over Current, Over Temperature"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "413435",
+      "ValueText": "TO-261-4, TO-261AA"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "405382",
+      "ValueText": "SOT-223-3"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 335497,
+     "Name": "SPX1117"
+    },
+    "Category": {
+     "CategoryId": 32,
+     "ParentId": 0,
+     "Name": "Integrated Circuits (ICs)",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+     "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2025,
+       "ParentId": 32,
+       "Name": "Power Management (PMIC)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+       "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+       "ChildCategories": [
+        {
+         "CategoryId": 699,
+         "ParentId": 2025,
+         "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+         "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8542.39.0090"
+    },
+    "OtherNames": [
+     "SPX1117M3-L-3-3/TR-ND",
+     "1016-1848-6",
+     "SPX1117M3L33/TR",
+     "1016-1848-2",
+     "1016-1848-1"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "FERRITE BEAD 330 OHM 0201 1LN",
+     "DetailedDescription": "330 Ohms @ 100 MHz 1 Signal Line Ferrite Bead 0201 (0603 Metric) 200mA 1Ohm"
+    },
+    "Manufacturer": {
+     "Id": 490,
+     "Name": "Murata Electronics"
+    },
+    "ManufacturerProductNumber": "BLM03HD331SN1D",
+    "UnitPrice": 0.33,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/murata-electronics/BLM03HD331SN1D/4359159",
+    "DatasheetUrl": "https://pim.murata.com/asset/pim4/ferriteBeadInductortypefilter/ENFA0034_PDF_FERRITEBEADINDUCTORTYPEFILTER?lastModifiedDatetime=20250707191112",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/5481/409-Chip-Ferritte-Beads-Black-Field.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "490-11016-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.08613,
+        "TotalPrice": 1291.95
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.08125,
+        "TotalPrice": 2437.5
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 490,
+       "Name": "Murata Electronics"
+      },
+      "QuantityAvailableforPackageType": 60000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 15000,
+      "StandardPackage": 15000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "490-11016-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.33,
+        "TotalPrice": 0.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.233,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2016,
+        "TotalPrice": 5.04
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.1802,
+        "TotalPrice": 9.01
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.1605,
+        "TotalPrice": 16.05
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.1368,
+        "TotalPrice": 34.2
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.1204,
+        "TotalPrice": 60.2
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.10518,
+        "TotalPrice": 105.18
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.09945,
+        "TotalPrice": 497.25
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 490,
+       "Name": "Murata Electronics"
+      },
+      "QuantityAvailableforPackageType": 76255,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "490-11016-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.33,
+        "TotalPrice": 0.33
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.233,
+        "TotalPrice": 2.33
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2016,
+        "TotalPrice": 5.04
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.1802,
+        "TotalPrice": 9.01
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.1605,
+        "TotalPrice": 16.05
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.1368,
+        "TotalPrice": 34.2
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.1204,
+        "TotalPrice": 60.2
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.10518,
+        "TotalPrice": 105.18
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.09945,
+        "TotalPrice": 497.25
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 490,
+       "Name": "Murata Electronics"
+      },
+      "QuantityAvailableforPackageType": 76255,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 76255,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 21,
+      "ParameterText": "Filter Type",
+      "ParameterType": "String",
+      "ValueId": "402741",
+      "ValueText": "Signal Line"
+     },
+     {
+      "ParameterId": 2169,
+      "ParameterText": "Number of Lines",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 2280,
+      "ParameterText": "Impedance @ Frequency",
+      "ParameterType": "CoupledUnitOfMeasure",
+      "ValueId": "330 Ohms @ 100 MHz",
+      "ValueText": "330 Ohms @ 100 MHz"
+     },
+     {
+      "ParameterId": 1923,
+      "ParameterText": "Current Rating (Max)",
+      "ParameterType": "String",
+      "ValueId": "140417",
+      "ValueText": "200mA"
+     },
+     {
+      "ParameterId": 1924,
+      "ParameterText": "DC Resistance (DCR) (Max)",
+      "ParameterType": "String",
+      "ValueId": "120732",
+      "ValueText": "1Ohm"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39078",
+      "ValueText": "0201 (0603 Metric)"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 966,
+      "ParameterText": "Height (Max)",
+      "ParameterType": "String",
+      "ValueId": "4779",
+      "ValueText": "0.013\" (0.33mm)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "5415",
+      "ValueText": "0.024\" L x 0.012\" W (0.60mm x 0.30mm)"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 178182,
+     "Name": "BLM03HD"
+    },
+    "Category": {
+     "CategoryId": 36,
+     "ParentId": 0,
+     "Name": "Filters",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/120/MFG_Star-Tec-LFS_tmb.jpg",
+     "SeoDescription": "The filter product category includes a wide variety of devices and materials used for the separation, suppression, or selection of electrical and magnetic signals on the basis of frequency. Products designed for use across a wide range of contexts are included, ranging from power lines carrying kiloamperes at DC to radio receivers detecting microvolt-level signals at frequencies of tens of gigahertz.",
+     "ChildCategories": [
+      {
+       "CategoryId": 841,
+       "ParentId": 36,
+       "Name": "Ferrite Beads and Chips",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/281/882/MPZ2012xxxxxxxx_tmb.jpg",
+       "SeoDescription": "Ferrite cores are devices that are designed to prevent high frequency noise or EMI (electromagnetic interference). These ferrite cores are made to be placed within an electric circuit. Key characteristics are the filter type (differential, signal, or power), number of lines, max current rating, impedance and a specified frequency, and mounting type (free hanging, surface mount, or through-hole).",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "24",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 9985,
+     "Name": "EMIFIL\u00ae, BLM03"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8548.00.0000"
+    },
+    "OtherNames": [
+     "490-11016-1",
+     "490-11016-2",
+     "BLM03HD331SN1D-ND",
+     "490-11016-3",
+     "490-11016-6",
+     "490-11016-3-ND"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "IC REG LINEAR 3.3V 150MA SOT23-5",
+     "DetailedDescription": "Linear Voltage Regulator IC Positive Fixed 1 Output 150mA SOT-23-5"
+    },
+    "Manufacturer": {
+     "Id": 1016,
+     "Name": "MaxLinear, Inc."
+    },
+    "ManufacturerProductNumber": "SPX5205M5-L-3-3/TR",
+    "UnitPrice": 0.38,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/maxlinear-inc/SPX5205M5-L-3-3-TR/2472458",
+    "DatasheetUrl": "https://www.maxlinear.com/ds/spx5205.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6344/1016%7ESOT23-5%7EM5%7E5.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1016-1878-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.16064,
+        "TotalPrice": 481.92
+       },
+       {
+        "BreakQuantity": 6000,
+        "UnitPrice": 0.15602,
+        "TotalPrice": 936.12
+       },
+       {
+        "BreakQuantity": 9000,
+        "UnitPrice": 0.1537,
+        "TotalPrice": 1383.3
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.15114,
+        "TotalPrice": 2267.1
+       },
+       {
+        "BreakQuantity": 21000,
+        "UnitPrice": 0.14964,
+        "TotalPrice": 3142.44
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.1482,
+        "TotalPrice": 4446.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 27000,
+      "MinimumOrderQuantity": 3000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "1016-1878-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.38,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.264,
+        "TotalPrice": 2.64
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2348,
+        "TotalPrice": 5.87
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2024,
+        "TotalPrice": 20.24
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.18704,
+        "TotalPrice": 46.76
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.17774,
+        "TotalPrice": 88.87
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.17009,
+        "TotalPrice": 170.09
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 29842,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "1016-1878-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.38,
+        "TotalPrice": 0.38
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.264,
+        "TotalPrice": 2.64
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2348,
+        "TotalPrice": 5.87
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2024,
+        "TotalPrice": 20.24
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.18704,
+        "TotalPrice": 46.76
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.17774,
+        "TotalPrice": 88.87
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.17009,
+        "TotalPrice": 170.09
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 29842,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 29842,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6185148583001",
+    "Parameters": [
+     {
+      "ParameterId": 255,
+      "ParameterText": "Output Configuration",
+      "ParameterType": "String",
+      "ValueId": "389019",
+      "ValueText": "Positive"
+     },
+     {
+      "ParameterId": 41,
+      "ParameterText": "Output Type",
+      "ParameterType": "String",
+      "ValueId": "347431",
+      "ValueText": "Fixed"
+     },
+     {
+      "ParameterId": 1065,
+      "ParameterText": "Number of Regulators",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 573,
+      "ParameterText": "Voltage - Input (Max)",
+      "ParameterType": "String",
+      "ValueId": "108742",
+      "ValueText": "16V"
+     },
+     {
+      "ParameterId": 1779,
+      "ParameterText": "Voltage - Output (Min/Fixed)",
+      "ParameterType": "String",
+      "ValueId": "174115",
+      "ValueText": "3.3V"
+     },
+     {
+      "ParameterId": 1429,
+      "ParameterText": "Voltage - Output (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2065,
+      "ParameterText": "Voltage Dropout (Max)",
+      "ParameterType": "String",
+      "ValueId": "20292",
+      "ValueText": "0.35V @ 150mA"
+     },
+     {
+      "ParameterId": 129,
+      "ParameterText": "Current - Output",
+      "ParameterType": "String",
+      "ValueId": "100303",
+      "ValueText": "150mA"
+     },
+     {
+      "ParameterId": 477,
+      "ParameterText": "Current - Quiescent (Iq)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "5 \u00b5A",
+      "ValueText": "5 \u00b5A"
+     },
+     {
+      "ParameterId": 2196,
+      "ParameterText": "Current - Supply (Max)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "2.5 mA",
+      "ValueText": "2.5 mA"
+     },
+     {
+      "ParameterId": 2064,
+      "ParameterText": "PSRR",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1880,
+      "ParameterText": "Control Features",
+      "ParameterType": "String",
+      "ValueId": "344111",
+      "ValueText": "Enable"
+     },
+     {
+      "ParameterId": 2066,
+      "ParameterText": "Protection Features",
+      "ParameterType": "String",
+      "ValueId": "382838",
+      "ValueText": "Over Current, Over Temperature, Reverse Polarity"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "400230",
+      "ValueText": "SC-74A, SOT-753"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "405420",
+      "ValueText": "SOT-23-5"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 335516,
+     "Name": "SPX5205"
+    },
+    "Category": {
+     "CategoryId": 32,
+     "ParentId": 0,
+     "Name": "Integrated Circuits (ICs)",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+     "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2025,
+       "ParentId": 32,
+       "Name": "Power Management (PMIC)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+       "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+       "ChildCategories": [
+        {
+         "CategoryId": 699,
+         "ParentId": 2025,
+         "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+         "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8542.39.0090"
+    },
+    "OtherNames": [
+     "1016-1878-6",
+     "2832-SPX5205M5-L-3-3/TR",
+     "SPX5205M5-L-3-3/TR-ND",
+     "SPX5205M5L33/TR",
+     "1016-1878-1",
+     "1016-1878-2"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "U SHAPED CLIP",
+     "DetailedDescription": "Supplier Device Package"
+    },
+    "Manufacturer": {
+     "Id": 1779,
+     "Name": "Ferroxcube"
+    },
+    "ManufacturerProductNumber": "CLM-E14/PLT14",
+    "UnitPrice": 0.5,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/ferroxcube/CLM-E14-PLT14/7034135",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2365/Shape_Material_Chart.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2584/MFG_CLM-E14%5EPLT14.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1779-1290-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.5,
+        "TotalPrice": 0.5
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.458,
+        "TotalPrice": 4.58
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.4404,
+        "TotalPrice": 11.01
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.4276,
+        "TotalPrice": 21.38
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.4151,
+        "TotalPrice": 41.51
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.39892,
+        "TotalPrice": 99.73
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.38698,
+        "TotalPrice": 193.49
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.37533,
+        "TotalPrice": 375.33
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.34935,
+        "TotalPrice": 1746.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1779,
+       "Name": "Ferroxcube"
+      },
+      "QuantityAvailableforPackageType": 12325,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 12325,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "330651",
+      "ValueText": "Clamp"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "342322",
+      "ValueText": "E"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 46,
+     "ParentId": 0,
+     "Name": "Magnetics - Transformer, Inductor Components",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/135/MFG_PRT-11363_tmb%2864x64%29.jpg",
+     "SeoDescription": "The magnetic component product category includes products used for assembling custom or prototype magnetic components, such as polyurethane- or polyamide-insulated copper wire (magnet wire), gapped and ungapped ferrite cores, and coil formers (bobbins) around which such wire can be wound and subsequently assembled with a core to produce a transformer or inductor with user-controlled characteristics.",
+     "ChildCategories": [
+      {
+       "CategoryId": 935,
+       "ParentId": 46,
+       "Name": "Bobbins (Coil Formers), Mounts, Hardware",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/200/289/945/B66252BM1_tmb.jpg",
+       "SeoDescription": "Products in this family are used in the construction of custom magnetic components such as transformers, or for the assembly of such into an end application. In addition to bobbins that provide a surface onto which the desired number of windings for a device can be wound, mounting and assembly hardware such as retaining clips/clamps, insulating washers, adjustment screws, and others are also included. Specifically excluded from this product family are the magnetic core components and wire typically used for the construction of magnetic components; these items are catalogued separately.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "22",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "Not Applicable",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8504.90.9690"
+    },
+    "OtherNames": [
+     "432202101611",
+     "1779-1290",
+     "F0MEE01400CLM0000P"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "IC REG LIN POS ADJ 500MA SOT23-5",
+     "DetailedDescription": "Linear Voltage Regulator IC Positive Adjustable 1 Output 500mA SOT-23-5"
+    },
+    "Manufacturer": {
+     "Id": 1016,
+     "Name": "MaxLinear, Inc."
+    },
+    "ManufacturerProductNumber": "SPX3819M5-L/TR",
+    "UnitPrice": 0.51,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/maxlinear-inc/SPX3819M5-L-TR/2472388",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6489/SPX3819.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6344/1016%7ESOT23-5%7EM5%7E5.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1016-1871-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.23713,
+        "TotalPrice": 711.39
+       },
+       {
+        "BreakQuantity": 6000,
+        "UnitPrice": 0.23075,
+        "TotalPrice": 1384.5
+       },
+       {
+        "BreakQuantity": 9000,
+        "UnitPrice": 0.22756,
+        "TotalPrice": 2048.04
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.22402,
+        "TotalPrice": 3360.3
+       },
+       {
+        "BreakQuantity": 21000,
+        "UnitPrice": 0.22196,
+        "TotalPrice": 4661.16
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.21997,
+        "TotalPrice": 6599.1
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 31280,
+      "MinimumOrderQuantity": 3000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "1016-1871-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.51,
+        "TotalPrice": 0.51
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.358,
+        "TotalPrice": 3.58
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.32,
+        "TotalPrice": 8.0
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2781,
+        "TotalPrice": 27.81
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.258,
+        "TotalPrice": 64.5
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.24594,
+        "TotalPrice": 122.97
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.23599,
+        "TotalPrice": 235.99
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 31479,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "1016-1871-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.51,
+        "TotalPrice": 0.51
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.358,
+        "TotalPrice": 3.58
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.32,
+        "TotalPrice": 8.0
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2781,
+        "TotalPrice": 27.81
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.258,
+        "TotalPrice": 64.5
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.24594,
+        "TotalPrice": 122.97
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.23599,
+        "TotalPrice": 235.99
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1016,
+       "Name": "MaxLinear, Inc."
+      },
+      "QuantityAvailableforPackageType": 31479,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 31479,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6185148583001",
+    "Parameters": [
+     {
+      "ParameterId": 255,
+      "ParameterText": "Output Configuration",
+      "ParameterType": "String",
+      "ValueId": "389019",
+      "ValueText": "Positive"
+     },
+     {
+      "ParameterId": 41,
+      "ParameterText": "Output Type",
+      "ParameterType": "String",
+      "ValueId": "310372",
+      "ValueText": "Adjustable"
+     },
+     {
+      "ParameterId": 1065,
+      "ParameterText": "Number of Regulators",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 573,
+      "ParameterText": "Voltage - Input (Max)",
+      "ParameterType": "String",
+      "ValueId": "108742",
+      "ValueText": "16V"
+     },
+     {
+      "ParameterId": 1779,
+      "ParameterText": "Voltage - Output (Min/Fixed)",
+      "ParameterType": "String",
+      "ValueId": "46727",
+      "ValueText": "1.235V"
+     },
+     {
+      "ParameterId": 1429,
+      "ParameterText": "Voltage - Output (Max)",
+      "ParameterType": "String",
+      "ValueId": "98416",
+      "ValueText": "15.3V"
+     },
+     {
+      "ParameterId": 2065,
+      "ParameterText": "Voltage Dropout (Max)",
+      "ParameterType": "String",
+      "ValueId": "34171",
+      "ValueText": "0.7V @ 500mA"
+     },
+     {
+      "ParameterId": 129,
+      "ParameterText": "Current - Output",
+      "ParameterType": "String",
+      "ValueId": "236734",
+      "ValueText": "500mA"
+     },
+     {
+      "ParameterId": 477,
+      "ParameterText": "Current - Quiescent (Iq)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "8 \u00b5A",
+      "ValueText": "8 \u00b5A"
+     },
+     {
+      "ParameterId": 2196,
+      "ParameterText": "Current - Supply (Max)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "30 mA",
+      "ValueText": "30 mA"
+     },
+     {
+      "ParameterId": 2064,
+      "ParameterText": "PSRR",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1880,
+      "ParameterText": "Control Features",
+      "ParameterType": "String",
+      "ValueId": "344111",
+      "ValueText": "Enable"
+     },
+     {
+      "ParameterId": 2066,
+      "ParameterText": "Protection Features",
+      "ParameterType": "String",
+      "ValueId": "382838",
+      "ValueText": "Over Current, Over Temperature, Reverse Polarity"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212478",
+      "ValueText": "-40\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "400230",
+      "ValueText": "SC-74A, SOT-753"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "405420",
+      "ValueText": "SOT-23-5"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 335511,
+     "Name": "SPX3819"
+    },
+    "Category": {
+     "CategoryId": 32,
+     "ParentId": 0,
+     "Name": "Integrated Circuits (ICs)",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+     "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2025,
+       "ParentId": 32,
+       "Name": "Power Management (PMIC)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+       "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+       "ChildCategories": [
+        {
+         "CategoryId": 699,
+         "ParentId": 2025,
+         "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+         "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "26",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8542.39.0070"
+    },
+    "OtherNames": [
+     "SPX3819M5-L/TR-ND",
+     "1016-1871-1",
+     "1016-1871-2",
+     "SPX3819M5L/TR",
+     "1016-1871-6"
+    ]
+   }
+  ],
+  "ProductsCount": 2134,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 4350,
+     "Value": "2J Antennas",
+     "ProductCount": 2
+    },
+    {
+     "Id": 19,
+     "Value": "3M",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1067,
+     "Value": "3M (TC)",
+     "ProductCount": 2
+    },
+    {
+     "Id": 6308,
+     "Value": "ABB Electrification (Thomas and Betts)",
+     "ProductCount": 4
+    },
+    {
+     "Id": 1662,
+     "Value": "ABLIC Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 535,
+     "Value": "Abracon LLC",
+     "ProductCount": 2
+    },
+    {
+     "Id": 4294,
+     "Value": "Aces Connectors",
+     "ProductCount": 1
+    },
+    {
+     "Id": 684,
+     "Value": "Advanced Thermal Solutions Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 785,
+     "Value": "Alpha & Omega Semiconductor Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1178,
+     "Value": "Amphenol Aerospace Operations",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1818,
+     "Value": "Amphenol Anytek",
+     "ProductCount": 10
+    },
+    {
+     "Id": 626,
+     "Value": "Amphenol CONEC",
+     "ProductCount": 4
+    },
+    {
+     "Id": 664,
+     "Value": "Amphenol ICC (Commercial Products)",
+     "ProductCount": 3
+    },
+    {
+     "Id": 609,
+     "Value": "Amphenol ICC (FCI)",
+     "ProductCount": 59
+    },
+    {
+     "Id": 339,
+     "Value": "Amphenol Industrial Operations",
+     "ProductCount": 9
+    },
+    {
+     "Id": 1819,
+     "Value": "Amphenol Spectra-Strip",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3936,
+     "Value": "Amphenol Technical Products International",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5984,
+     "Value": "Amphenol XMA",
+     "ProductCount": 1
+    },
+    {
+     "Id": 475,
+     "Value": "ams OSRAM AG",
+     "ProductCount": 1
+    },
+    {
+     "Id": 505,
+     "Value": "Analog Devices Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 627,
+     "Value": "Antenova",
+     "ProductCount": 1
+    },
+    {
+     "Id": 43,
+     "Value": "Aries Electronics",
+     "ProductCount": 2
+    },
+    {
+     "Id": 974,
+     "Value": "Asahi Kasei Microdevices/AKM",
+     "ProductCount": 1
+    },
+    {
+     "Id": 123,
+     "Value": "Assmann WSW Components",
+     "ProductCount": 6
+    },
+    {
+     "Id": 2622,
+     "Value": "Astrodyne TDI",
+     "ProductCount": 6
+    },
+    {
+     "Id": 6650,
+     "Value": "ATE Electronics s.r.l.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3441,
+     "Value": "ATGBICS",
+     "ProductCount": 4
+    },
+    {
+     "Id": 4728,
+     "Value": "Automation Components, Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2938,
+     "Value": "Basler Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 135,
+     "Value": "Belden Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 828,
+     "Value": "Bosch Sensortec",
+     "ProductCount": 1
+    },
+    {
+     "Id": 118,
+     "Value": "Bourns Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 108,
+     "Value": "C&K",
+     "ProductCount": 10
+    },
+    {
+     "Id": 432,
+     "Value": "Carling Technologies",
+     "ProductCount": 27
+    },
+    {
+     "Id": 1864,
+     "Value": "Carlo Gavazzi Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1233,
+     "Value": "Cicoil",
+     "ProductCount": 4
+    },
+    {
+     "Id": 24,
+     "Value": "Cinch Connectivity Solutions Johnson",
+     "ProductCount": 1
+    },
+    {
+     "Id": 641,
+     "Value": "Comchip Technology",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2080,
+     "Value": "Conta-Clip, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 744,
+     "Value": "Crystek Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 428,
+     "Value": "Cypress Semiconductor Corp",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2721,
+     "Value": "DComponents",
+     "ProductCount": 1
+    },
+    {
+     "Id": 197,
+     "Value": "Delevan",
+     "ProductCount": 1
+    },
+    {
+     "Id": 603,
+     "Value": "Delta Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2035,
+     "Value": "Delta Electronics/Components",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2037,
+     "Value": "Delta Electronics/Cyntec",
+     "ProductCount": 1
+    },
+    {
+     "Id": 602,
+     "Value": "Digi",
+     "ProductCount": 3
+    },
+    {
+     "Id": 8,
+     "Value": "DigiKey",
+     "ProductCount": 9
+    },
+    {
+     "Id": 5879,
+     "Value": "Dwyer",
+     "ProductCount": 21
+    },
+    {
+     "Id": 1948,
+     "Value": "EAO",
+     "ProductCount": 2
+    },
+    {
+     "Id": 283,
+     "Value": "Eaton - Electronics Division",
+     "ProductCount": 1
+    },
+    {
+     "Id": 6215,
+     "Value": "Eaton Wiring Devices",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3235,
+     "Value": "Eclipse Tools",
+     "ProductCount": 1
+    },
+    {
+     "Id": 842,
+     "Value": "EnerSys",
+     "ProductCount": 1
+    },
+    {
+     "Id": 917,
+     "Value": "EPC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1904,
+     "Value": "Espressif Systems",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2082,
+     "Value": "Essentra Access Solutions",
+     "ProductCount": 1
+    },
+    {
+     "Id": 145,
+     "Value": "Essentra Components",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5328,
+     "Value": "Fairview Microwave",
+     "ProductCount": 10
+    },
+    {
+     "Id": 1914,
+     "Value": "Fanstel Corp.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1779,
+     "Value": "Ferroxcube",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2171,
+     "Value": "Festo Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 631,
+     "Value": "Fox Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2128,
+     "Value": "Gedore Tools, Inc.",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1448,
+     "Value": "Glenair",
+     "ProductCount": 2
+    },
+    {
+     "Id": 131,
+     "Value": "Greenlee Communications",
+     "ProductCount": 1
+    },
+    {
+     "Id": 4701,
+     "Value": "H&H Industrial Products, Inc.",
+     "ProductCount": 43
+    },
+    {
+     "Id": 164,
+     "Value": "Hammond Manufacturing",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1195,
+     "Value": "HARTING",
+     "ProductCount": 8
+    },
+    {
+     "Id": 6660,
+     "Value": "Hebotec GmbH",
+     "ProductCount": 15
+    },
+    {
+     "Id": 1436,
+     "Value": "HellermannTyton",
+     "ProductCount": 5
+    },
+    {
+     "Id": 3720,
+     "Value": "Heyco Products Corporation",
+     "ProductCount": 2
+    },
+    {
+     "Id": 26,
+     "Value": "Hirose Electric Co Ltd",
+     "ProductCount": 12
+    },
+    {
+     "Id": 602382,
+     "Value": "Hoff-Trex\u00ae",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1441,
+     "Value": "Hoffman Enclosures, Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 448,
+     "Value": "Infineon Technologies",
+     "ProductCount": 8
+    },
+    {
+     "Id": 1982,
+     "Value": "Insignis Technology Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1647,
+     "Value": "Inspired LED, LLC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1923,
+     "Value": "IQD Frequency Products",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1003,
+     "Value": "ITT Cannon, LLC",
+     "ProductCount": 8
+    },
+    {
+     "Id": 2419,
+     "Value": "J.W. Winco",
+     "ProductCount": 5
+    },
+    {
+     "Id": 2291,
+     "Value": "Jacob GmbH",
+     "ProductCount": 6
+    },
+    {
+     "Id": 1908,
+     "Value": "Jauch Quartz",
+     "ProductCount": 1
+    },
+    {
+     "Id": 709,
+     "Value": "Johanson Dielectrics Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 712,
+     "Value": "Johanson Technology Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2315,
+     "Value": "Kamaya Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 399,
+     "Value": "KEMET",
+     "ProductCount": 3
+    },
+    {
+     "Id": 36,
+     "Value": "Keystone Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1956,
+     "Value": "Knowles Johanson Manufacturing",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1608,
+     "Value": "Knowles Syfer",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1674,
+     "Value": "Knowles Voltronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 478,
+     "Value": "KYOCERA AVX",
+     "ProductCount": 40
+    },
+    {
+     "Id": 240,
+     "Value": "Laird-Signal Integrity Products",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2181,
+     "Value": "LAPP",
+     "ProductCount": 8
+    },
+    {
+     "Id": 220,
+     "Value": "Lattice Semiconductor Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 18,
+     "Value": "Littelfuse Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1416,
+     "Value": "Lumileds",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1016,
+     "Value": "MaxLinear, Inc.",
+     "ProductCount": 917
+    },
+    {
+     "Id": 1267,
+     "Value": "Memsic Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2997,
+     "Value": "Meritek",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2378,
+     "Value": "Mersen USA Newburyport-MA L.L.C.",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1849,
+     "Value": "METZ CONNECT USA Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 150,
+     "Value": "Microchip Technology",
+     "ProductCount": 2
+    },
+    {
+     "Id": 557,
+     "Value": "Micron Technology Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 54,
+     "Value": "Mill-Max Manufacturing Corp.",
+     "ProductCount": 41
+    },
+    {
+     "Id": 23,
+     "Value": "Molex",
+     "ProductCount": 26
+    },
+    {
+     "Id": 1454,
+     "Value": "Molex - Temp Flex",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1589,
+     "Value": "Monolithic Power Systems Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 490,
+     "Value": "Murata Electronics",
+     "ProductCount": 3
+    },
+    {
+     "Id": 5088,
+     "Value": "Murrelektronik, Inc",
+     "ProductCount": 154
+    },
+    {
+     "Id": 2160,
+     "Value": "Murrplastik Systems, Inc.",
+     "ProductCount": 10
+    },
+    {
+     "Id": 14,
+     "Value": "National Semiconductor",
+     "ProductCount": 1
+    },
+    {
+     "Id": 644,
+     "Value": "NDK (NIHON DEMPA KOGYO CO., LTD)",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1727,
+     "Value": "Nexperia USA Inc.",
+     "ProductCount": 5
+    },
+    {
+     "Id": 493,
+     "Value": "Nichicon",
+     "ProductCount": 1
+    },
+    {
+     "Id": 563,
+     "Value": "Nidec Components",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1188,
+     "Value": "Olimex LTD",
+     "ProductCount": 1
+    },
+    {
+     "Id": 555,
+     "Value": "OmniOn Power\u2122",
+     "ProductCount": 1
+    },
+    {
+     "Id": 884,
+     "Value": "OmniVision Technologies Inc",
+     "ProductCount": 3
+    },
+    {
+     "Id": 236,
+     "Value": "Omron Automation and Safety",
+     "ProductCount": 1
+    },
+    {
+     "Id": 52,
+     "Value": "On Shore Technology Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 488,
+     "Value": "onsemi",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1110,
+     "Value": "Panasonic Industrial Automation Sales",
+     "ProductCount": 10
+    },
+    {
+     "Id": 10,
+     "Value": "Panasonic Industry",
+     "ProductCount": 2
+    },
+    {
+     "Id": 298,
+     "Value": "Panduit Corp",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3985,
+     "Value": "Pasternack",
+     "ProductCount": 7
+    },
+    {
+     "Id": 2046,
+     "Value": "Pepperl+Fuchs, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 277,
+     "Value": "Phoenix Contact",
+     "ProductCount": 1
+    },
+    {
+     "Id": 596,
+     "Value": "Power Integrations",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1212,
+     "Value": "Preci-Dip",
+     "ProductCount": 33
+    },
+    {
+     "Id": 1046,
+     "Value": "pSemi",
+     "ProductCount": 1
+    },
+    {
+     "Id": 553,
+     "Value": "Pulse Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1871,
+     "Value": "Pycom Ltd.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 660,
+     "Value": "Qualcomm",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2201,
+     "Value": "Radiall USA, Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 945,
+     "Value": "Recom Power",
+     "ProductCount": 2
+    },
+    {
+     "Id": 20,
+     "Value": "Renesas Electronics Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3451,
+     "Value": "RFE/Fuzetec",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1028,
+     "Value": "Richtek USA Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 4080,
+     "Value": "Rishabh Instruments",
+     "ProductCount": 1
+    },
+    {
+     "Id": 846,
+     "Value": "Rohm Semiconductor",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1510,
+     "Value": "Samsung Semiconductor, Inc.",
+     "ProductCount": 5
+    },
+    {
+     "Id": 612,
+     "Value": "Samtec Inc.",
+     "ProductCount": 14
+    },
+    {
+     "Id": 486,
+     "Value": "SCHURTER Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1649,
+     "Value": "Sensirion AG",
+     "ProductCount": 1
+    },
+    {
+     "Id": 897,
+     "Value": "Seoul Semiconductor Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1882,
+     "Value": "SICK, Inc.",
+     "ProductCount": 6
+    },
+    {
+     "Id": 1645,
+     "Value": "Sierra Wireless",
+     "ProductCount": 1
+    },
+    {
+     "Id": 336,
+     "Value": "Silicon Labs",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1473,
+     "Value": "SiTime",
+     "ProductCount": 216
+    },
+    {
+     "Id": 738,
+     "Value": "Stackpole Electronics Inc",
+     "ProductCount": 1
+    },
+    {
+     "Id": 374,
+     "Value": "Standex-Meder Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 404,
+     "Value": "Stanley Electric Co",
+     "ProductCount": 1
+    },
+    {
+     "Id": 497,
+     "Value": "STMicroelectronics",
+     "ProductCount": 3
+    },
+    {
+     "Id": 308,
+     "Value": "Sumida America Components Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2786,
+     "Value": "Sumitomo Electric Interconnect Products, Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 587,
+     "Value": "Taiyo Yuden",
+     "ProductCount": 1
+    },
+    {
+     "Id": 132,
+     "Value": "Tamura",
+     "ProductCount": 1
+    },
+    {
+     "Id": 445,
+     "Value": "TDK",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1428,
+     "Value": "TDK InvenSense",
+     "ProductCount": 1
+    },
+    {
+     "Id": 844,
+     "Value": "TE Connectivity Aerospace, Defense and Marine",
+     "ProductCount": 35
+    },
+    {
+     "Id": 17,
+     "Value": "TE Connectivity AMP Connectors",
+     "ProductCount": 27
+    },
+    {
+     "Id": 2132,
+     "Value": "TE Connectivity Application Tooling",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1508,
+     "Value": "TE Connectivity Deutsch Connectors",
+     "ProductCount": 1
+    },
+    {
+     "Id": 223,
+     "Value": "TE Connectivity Measurement Specialties",
+     "ProductCount": 5
+    },
+    {
+     "Id": 1712,
+     "Value": "TE Connectivity Passive Product",
+     "ProductCount": 1
+    },
+    {
+     "Id": 41,
+     "Value": "TE Connectivity Potter & Brumfield Relays",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2452,
+     "Value": "TE Intercontec",
+     "ProductCount": 2
+    },
+    {
+     "Id": 943,
+     "Value": "Telit Cinterion",
+     "ProductCount": 1
+    },
+    {
+     "Id": 296,
+     "Value": "Texas Instruments",
+     "ProductCount": 7
+    },
+    {
+     "Id": 893,
+     "Value": "Torex Semiconductor Ltd",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601788,
+     "Value": "Tri-Star Electronics",
+     "ProductCount": 3
+    },
+    {
+     "Id": 5737,
+     "Value": "Trumeter",
+     "ProductCount": 1
+    },
+    {
+     "Id": 987,
+     "Value": "TT Electronics/BI",
+     "ProductCount": 8
+    },
+    {
+     "Id": 989,
+     "Value": "TT Electronics/IRC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 985,
+     "Value": "TT Electronics/Welwyn",
+     "ProductCount": 1
+    },
+    {
+     "Id": 672,
+     "Value": "u-blox",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5181,
+     "Value": "UNC Group, LLC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 44,
+     "Value": "Vector Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 749,
+     "Value": "Vishay",
+     "ProductCount": 1
+    },
+    {
+     "Id": 56,
+     "Value": "Vishay Beyschlag/Draloric/BC Components",
+     "ProductCount": 13
+    },
+    {
+     "Id": 541,
+     "Value": "Vishay Dale",
+     "ProductCount": 5
+    },
+    {
+     "Id": 764,
+     "Value": "Vishay Dale Thin Film",
+     "ProductCount": 1
+    },
+    {
+     "Id": 909,
+     "Value": "Vishay Electro-Films",
+     "ProductCount": 1
+    },
+    {
+     "Id": 718,
+     "Value": "Vishay Sprague",
+     "ProductCount": 2
+    },
+    {
+     "Id": 720,
+     "Value": "Vishay Vitramon",
+     "ProductCount": 2
+    },
+    {
+     "Id": 2946,
+     "Value": "WAGO Corporation",
+     "ProductCount": 3
+    },
+    {
+     "Id": 600247,
+     "Value": "Wahl Temp-Plate\u00ae",
+     "ProductCount": 7
+    },
+    {
+     "Id": 1292,
+     "Value": "Walsin Technology Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2266,
+     "Value": "WEC",
+     "ProductCount": 2
+    },
+    {
+     "Id": 281,
+     "Value": "Weidm\u00fcller",
+     "ProductCount": 10
+    },
+    {
+     "Id": 602543,
+     "Value": "Wilder Technologies",
+     "ProductCount": 1
+    },
+    {
+     "Id": 732,
+     "Value": "W\u00fcrth Elektronik",
+     "ProductCount": 8
+    },
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601923,
+     "Value": "ZINGZ",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

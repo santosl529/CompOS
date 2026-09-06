@@ -1,0 +1,2228 @@
+{
+ "key": "6f9b0dcdcba2689c252b5d71",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "electrical plug connector body",
+  "Limit": 10,
+  "Offset": 0,
+  "FilterOptionsRequest": {}
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T13:50:48",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CONN SMA PLUG STR 50 OHM SOLDER",
+     "DetailedDescription": "SMA Connector Plug, Male Pin 50 Ohms Free Hanging (In-Line) Solder"
+    },
+    "Manufacturer": {
+     "Id": 115,
+     "Name": "Amphenol RF"
+    },
+    "ManufacturerProductNumber": "132193",
+    "UnitPrice": 10.53,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-rf/132193/1011883",
+    "DatasheetUrl": "https://www.amphenolrf.com/en-us/assets/file/4065786377/",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/10/132193.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "ACX1206-ND",
+      "PackageType": {
+       "Id": 62,
+       "Name": "Bag"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 10.53,
+        "TotalPrice": 10.53
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 8.946,
+        "TotalPrice": 89.46
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 8.3848,
+        "TotalPrice": 209.62
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 7.9846,
+        "TotalPrice": 399.23
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 7.6035,
+        "TotalPrice": 760.35
+       },
+       {
+        "BreakQuantity": 300,
+        "UnitPrice": 7.03667,
+        "TotalPrice": 2111.001
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 6.78778,
+        "TotalPrice": 3393.89
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 6.46418,
+        "TotalPrice": 6464.18
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 115,
+       "Name": "Amphenol RF"
+      },
+      "QuantityAvailableforPackageType": 490,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 490,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 801,
+      "ParameterText": "Connector Style",
+      "ParameterType": "String",
+      "ValueId": "403853",
+      "ValueText": "SMA"
+     },
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "387942",
+      "ValueText": "Plug, Male Pin"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 1652,
+      "ParameterText": "Shield Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 60,
+      "ParameterText": "Impedance",
+      "ParameterType": "String",
+      "ValueId": "770446",
+      "ValueText": "50 Ohms"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "349292",
+      "ValueText": "Free Hanging (In-Line)"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 164,
+      "ParameterText": "Cable Group",
+      "ParameterType": "String",
+      "ValueId": "396436",
+      "ValueText": "RG-178, 178A, 178B, 196, 196A, M17/93-RG178"
+     },
+     {
+      "ParameterId": 518,
+      "ParameterText": "Fastening Type",
+      "ParameterType": "String",
+      "ValueId": "411801",
+      "ValueText": "Threaded"
+     },
+     {
+      "ParameterId": 2157,
+      "ParameterText": "Frequency - Max",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "12.4 GHz",
+      "ValueText": "12.4 GHz"
+     },
+     {
+      "ParameterId": 2171,
+      "ParameterText": "Number of Ports",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1401,
+      "ParameterText": "Housing Color",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "420800",
+      "ValueText": "Weatherproof"
+     },
+     {
+      "ParameterId": 1654,
+      "ParameterText": "Center Contact Material",
+      "ParameterType": "String",
+      "ValueId": "322862",
+      "ValueText": "Brass"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 158126,
+     "Name": "1321"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2007,
+       "ParentId": 20,
+       "Name": "Coaxial Connectors (RF)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/302/375/MFG_112954_tmb%2864x64%29.jpg",
+       "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+       "ChildCategories": [
+        {
+         "CategoryId": 437,
+         "ParentId": 2007,
+         "Name": "Coaxial Connector (RF) Assemblies",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/201/184/6741_tmb.jpg",
+         "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4010"
+    },
+    "OtherNames": [
+     "ACX1206",
+     "SMA1111G2-3GT50G-196AU-50",
+     "3937-132193"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONN SMB PLUG STR 50OHM SOLDER",
+     "DetailedDescription": "SMB Connector Plug, Female Socket 50 Ohms Free Hanging (In-Line) Solder"
+    },
+    "Manufacturer": {
+     "Id": 1003,
+     "Name": "ITT Cannon, LLC"
+    },
+    "ManufacturerProductNumber": "B51-024-0000220",
+    "UnitPrice": 12.88,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/itt-cannon-llc/B51-024-0000220/2403808",
+    "DatasheetUrl": "https://www.ittcannon.com/file-download/?fileURL=https://pricing.ittcannon.com/mc/servlet/PDFGeneratorServlet/B51-024-0000220_SPEC.pdf?PARTNO=B51-024-0000220",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/379/B51-024-0000220.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1003-1032-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 12.88,
+        "TotalPrice": 12.88
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 10.944,
+        "TotalPrice": 109.44
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 10.2588,
+        "TotalPrice": 256.47
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 9.769,
+        "TotalPrice": 488.45
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 9.3027,
+        "TotalPrice": 930.27
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 8.72064,
+        "TotalPrice": 2180.16
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 8.30482,
+        "TotalPrice": 4152.41
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 7.90892,
+        "TotalPrice": 7908.92
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1003,
+       "Name": "ITT Cannon, LLC"
+      },
+      "QuantityAvailableforPackageType": 2712,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 2712,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 801,
+      "ParameterText": "Connector Style",
+      "ParameterType": "String",
+      "ValueId": "404096",
+      "ValueText": "SMB"
+     },
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "387920",
+      "ValueText": "Plug, Female Socket"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 1652,
+      "ParameterText": "Shield Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 60,
+      "ParameterText": "Impedance",
+      "ParameterType": "String",
+      "ValueId": "770446",
+      "ValueText": "50 Ohms"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "349292",
+      "ValueText": "Free Hanging (In-Line)"
+     },
+     {
+      "ParameterId": 1061,
+      "ParameterText": "Mounting Feature",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 164,
+      "ParameterText": "Cable Group",
+      "ParameterType": "String",
+      "ValueId": "396419",
+      "ValueText": "RG-174, 316"
+     },
+     {
+      "ParameterId": 518,
+      "ParameterText": "Fastening Type",
+      "ParameterType": "String",
+      "ValueId": "404607",
+      "ValueText": "Snap-On"
+     },
+     {
+      "ParameterId": 2157,
+      "ParameterText": "Frequency - Max",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "4 GHz",
+      "ValueText": "4 GHz"
+     },
+     {
+      "ParameterId": 2171,
+      "ParameterText": "Number of Ports",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1401,
+      "ParameterText": "Housing Color",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1654,
+      "ParameterText": "Center Contact Material",
+      "ParameterType": "String",
+      "ValueId": "322862",
+      "ValueText": "Brass"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 577036,
+     "Name": "B51-024"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2007,
+       "ParentId": 20,
+       "Name": "Coaxial Connectors (RF)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/302/375/MFG_112954_tmb%2864x64%29.jpg",
+       "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+       "ChildCategories": [
+        {
+         "CategoryId": 437,
+         "ParentId": 2007,
+         "Name": "Coaxial Connector (RF) Assemblies",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/201/184/6741_tmb.jpg",
+         "SeoDescription": "Products in the coaxial connector family are interconnect devices used with cable materials consisting of a central conductor surrounded by insulation material and an outer conductor of circular cross section, designed to maintain a consistent characteristic impedance over the length of the material in order to serve as a suitable transmission line for high frequency signals.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "24",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4010"
+    },
+    "OtherNames": [
+     "2266-B51-024-0000220",
+     "SMB PLUG STR RG316 & RG174",
+     "1003-1032",
+     "SMBPLUGSTRRG316&RG174",
+     "2992-B51-024-0000220"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SAD11JL",
+    "UnitPrice": 121.87,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SAD11JL/25024492",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6376/AirBorn%20W%20Series%20PCB%20Connector%20Datasheet.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SAD11JL-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2,
+        "UnitPrice": 121.87,
+        "TotalPrice": 243.74
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 119.43,
+        "TotalPrice": 1194.3
+       },
+       {
+        "BreakQuantity": 20,
+        "UnitPrice": 117.05,
+        "TotalPrice": 2341.0
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 114.7,
+        "TotalPrice": 11470.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 112.41,
+        "TotalPrice": 56205.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 95,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2,
+      "StandardPackage": 2,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 95,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SAD11JL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SACJT",
+    "UnitPrice": 135.76,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SACJT/25023530",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6376/AirBorn%20W%20Series%20PCB%20Connector%20Datasheet.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SACJT-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 135.76,
+        "TotalPrice": 135.76
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 133.04,
+        "TotalPrice": 13304.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 130.38,
+        "TotalPrice": 65190.0
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 127.77,
+        "TotalPrice": 127770.0
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 125.22,
+        "TotalPrice": 626100.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 211,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 211,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SACJT"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SACJTL",
+    "UnitPrice": 151.73,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SACJTL/25039020",
+    "DatasheetUrl": "https://resources.jrhelec.com/documents/datasheets/Airborn-W-Series-138.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SACJTL-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2,
+        "UnitPrice": 151.73,
+        "TotalPrice": 303.46
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 148.69,
+        "TotalPrice": 1486.9
+       },
+       {
+        "BreakQuantity": 20,
+        "UnitPrice": 145.72,
+        "TotalPrice": 2914.4
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 142.81,
+        "TotalPrice": 14281.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 139.95,
+        "TotalPrice": 69975.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 239,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2,
+      "StandardPackage": 2,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 239,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SACJTL"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SAD9JT",
+    "UnitPrice": 128.42,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SAD9JT/25039232",
+    "DatasheetUrl": "https://resources.jrhelec.com/documents/datasheets/Airborn-W-Series-138.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SAD9JT-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2,
+        "UnitPrice": 128.42,
+        "TotalPrice": 256.84
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 125.86,
+        "TotalPrice": 1258.6
+       },
+       {
+        "BreakQuantity": 20,
+        "UnitPrice": 123.34,
+        "TotalPrice": 2466.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 120.87,
+        "TotalPrice": 12087.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 118.45,
+        "TotalPrice": 59225.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 51,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2,
+      "StandardPackage": 2,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 51,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SAD9JT"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SAD9JTB",
+    "UnitPrice": 128.42,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SAD9JTB/25096152",
+    "DatasheetUrl": "https://resources.jrhelec.com/documents/datasheets/Airborn-W-Series-138.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SAD9JTB-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2,
+        "UnitPrice": 128.42,
+        "TotalPrice": 256.84
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 125.86,
+        "TotalPrice": 1258.6
+       },
+       {
+        "BreakQuantity": 20,
+        "UnitPrice": 123.34,
+        "TotalPrice": 2466.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 120.87,
+        "TotalPrice": 12087.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 118.45,
+        "TotalPrice": 59225.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 51,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2,
+      "StandardPackage": 2,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 51,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SAD9JTB"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SAD9JTA",
+    "UnitPrice": 128.42,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SAD9JTA/25097981",
+    "DatasheetUrl": "https://resources.jrhelec.com/documents/datasheets/Airborn-W-Series-138.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SAD9JTA-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2,
+        "UnitPrice": 128.42,
+        "TotalPrice": 256.84
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 125.86,
+        "TotalPrice": 1258.6
+       },
+       {
+        "BreakQuantity": 20,
+        "UnitPrice": 123.34,
+        "TotalPrice": 2466.8
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 120.87,
+        "TotalPrice": 12087.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 118.45,
+        "TotalPrice": 59225.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 51,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 2,
+      "StandardPackage": 2,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 51,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SAD9JTA"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SAD11JTA",
+    "UnitPrice": 128.42,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SAD11JTA/25039320",
+    "DatasheetUrl": "https://resources.jrhelec.com/documents/datasheets/Airborn-W-Series-138.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SAD11JTA-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 128.42,
+        "TotalPrice": 128.42
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 125.86,
+        "TotalPrice": 12586.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 123.34,
+        "TotalPrice": 61670.0
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 120.87,
+        "TotalPrice": 120870.0
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 118.45,
+        "TotalPrice": 592250.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 42,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 42,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SAD11JTA"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "Straight Plug Body Cable and Pla",
+     "DetailedDescription": "Position Header Spacer Connector 0.100\" (2.54mm) Gold Through Hole"
+    },
+    "Manufacturer": {
+     "Id": 601874,
+     "Name": "AirBorn"
+    },
+    "ManufacturerProductNumber": "WTA20SAD11JTB",
+    "UnitPrice": 128.42,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/jrh-electronics/WTA20SAD11JTB/25039417",
+    "DatasheetUrl": "https://resources.jrhelec.com/documents/datasheets/Airborn-W-Series-138.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6778/MFG_WTA10.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-WTA20SAD11JTB-ND",
+      "PackageType": {
+       "Id": 804,
+       "Name": "Retail Package"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 128.42,
+        "TotalPrice": 128.42
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 125.86,
+        "TotalPrice": 12586.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 123.34,
+        "TotalPrice": 61670.0
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 120.87,
+        "TotalPrice": 120870.0
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 118.45,
+        "TotalPrice": 592250.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 42,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 42,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": true,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": true,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2322,
+      "ParameterText": "Length - Overall Pin",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2323,
+      "ParameterText": "Length - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2324,
+      "ParameterText": "Length - Stack Height",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2325,
+      "ParameterText": "Length - Tail",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 906,
+      "ParameterText": "Contact Finish - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 907,
+      "ParameterText": "Contact Finish Thickness - Post (Mating)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "320162",
+      "ValueText": "Black, Gray"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 400,
+         "ParentId": 2027,
+         "Name": "Board Spacers, Stackers (Board to Board)",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/201/1-829315-0_tmb%2864x64%29.jpg",
+         "SeoDescription": "Rectangular header type connectors are designed to connect circuits on one PCB to circuits on another providing insulation and board spacing. They are selected by pitch (distance between pin centers), stack height, and the number of positions and rows. They are typically soldered in place, with surface mount and through-hole versions available in gold, tin and tin-lead options.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "0",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 138061,
+     "Name": "MIL-DTL-55302"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH not applicable",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.8000"
+    },
+    "OtherNames": [
+     "3937-WTA20SAD11JTB"
+    ]
+   }
+  ],
+  "ProductsCount": 37,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 6308,
+     "Value": "ABB Electrification (Thomas and Betts)",
+     "ProductCount": 7
+    },
+    {
+     "Id": 601874,
+     "Value": "AirBorn",
+     "ProductCount": 17
+    },
+    {
+     "Id": 115,
+     "Value": "Amphenol RF",
+     "ProductCount": 5
+    },
+    {
+     "Id": 1003,
+     "Value": "ITT Cannon, LLC",
+     "ProductCount": 6
+    },
+    {
+     "Id": 844,
+     "Value": "TE Connectivity Aerospace, Defense and Marine",
+     "ProductCount": 2
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

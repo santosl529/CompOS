@@ -1,0 +1,549 @@
+{
+ "key": "raw_6b2e99c826e1217f",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "D38999/20MC98PN"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:05",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 9,
+     "parts": [
+      {
+       "id": "2465890",
+       "mpn": "D38999/20MC98PN",
+       "name": "Amphenol D38999/20MC98PN",
+       "octopartUrl": "https://octopart.com/part/amphenol/D38999%2F20MC98PN",
+       "manufacturer": {
+        "name": "Amphenol"
+       },
+       "medianPrice1000": {
+        "price": 80.30199999999999,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 2853,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Powell Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 496,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 25,
+             "price": 196,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 156.74,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 130.66,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "PEI-Genesis"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 17,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 33.21,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 31.28,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "JRH Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 1057,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 261.24194,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 208.93548,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 174.14516,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Powell Europe"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 12,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 127.41,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5,
+             "price": 102.99,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 89.39,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 64.24,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 51.66,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Arrow Electronics"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 8,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 25,
+             "price": 35.23,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Verical"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 8,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 8,
+             "price": 35.23,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "TTI"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 1177,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 86.81,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5,
+             "price": 84.96,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 78.41,
+             "currency": "USD"
+            },
+            {
+             "quantity": 15,
+             "price": 77.63,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 73.24,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 64.09,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 63.44,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Heilind Americas"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 168,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 143.8388,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5,
+             "price": 135.1212,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 125.6056,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 112.8861,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 89.154,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Interstate Connecting Components"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 168,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 143.8388,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5,
+             "price": 135.1212,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 125.6056,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 112.8861,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 89.154,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Newark"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 129.92,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5,
+             "price": 122.5,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 120.02,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 117.62,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 12,
+           "factoryLeadDays": 112,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 145.29,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 123.506,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 115.7812,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 110.2624,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Avnet"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": 126,
+           "prices": [
+            {
+             "quantity": 25,
+             "price": 117.48185,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 91.89334,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 74.87556,
+             "currency": "USD"
+            },
+            {
+             "quantity": 200,
+             "price": 73.16948,
+             "currency": "USD"
+            },
+            {
+             "quantity": 400,
+             "price": 71.45,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Mouser"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 18,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 120.71,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 108.81,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 102.91,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 102.91,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 102.91,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 102.91,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "UnikeyIC"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 18,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 130.3668,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 117.5148,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Abacus Technologies"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": []
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Unikeyic (ICkey)"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 18,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 130.3668,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 117.5148,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "59fee309-7174-4539-a465-bd2cf347acdf"
+  }
+ },
+ "from_cache": false
+}

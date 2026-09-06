@@ -1,0 +1,309 @@
+{
+ "key": "raw_491e524b8887a55c",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "885342208026"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:30:55",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "155541069",
+       "mpn": "885342208026",
+       "name": "Wurth Elektronik 885342208026",
+       "octopartUrl": "https://octopart.com/part/wurth-elektronik/885342208026",
+       "manufacturer": {
+        "name": "Wurth Elektronik"
+       },
+       "medianPrice1000": {
+        "price": 0.099,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 50069,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Newark"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 1865,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.109,
+             "currency": "USD"
+            },
+            {
+             "quantity": 25,
+             "price": 0.091,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.089,
+             "currency": "USD"
+            },
+            {
+             "quantity": 250,
+             "price": 0.087,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.086,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.084,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2500,
+             "price": 0.082,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5000,
+             "price": 0.08,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 1865,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 100,
+             "price": 0.089,
+             "currency": "USD"
+            },
+            {
+             "quantity": 250,
+             "price": 0.087,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 0.086,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.084,
+             "currency": "USD"
+            },
+            {
+             "quantity": 2500,
+             "price": 0.082,
+             "currency": "USD"
+            },
+            {
+             "quantity": 5000,
+             "price": 0.08,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "DigiKey"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 8231,
+           "factoryLeadDays": 280,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.1,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.099,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 8231,
+           "factoryLeadDays": 280,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.1,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.099,
+             "currency": "USD"
+            }
+           ]
+          },
+          {
+           "inventoryLevel": 8231,
+           "factoryLeadDays": 280,
+           "prices": [
+            {
+             "quantity": 2000,
+             "price": 0.09425,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "Mouser"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 7332,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.1,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.099,
+             "currency": "USD"
+            },
+            {
+             "quantity": 50,
+             "price": 0.099,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.099,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.099,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.095,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "ICSuperman Co."
+         },
+         "offers": [
+          {
+           "inventoryLevel": 4654,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.08,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.0776,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.076,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.0736,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.072,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        },
+        {
+         "isAuthorized": false,
+         "company": {
+          "name": "Bettlink"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 2200,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 1,
+             "price": 0.13622,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10,
+             "price": 0.10089,
+             "currency": "USD"
+            },
+            {
+             "quantity": 100,
+             "price": 0.08774,
+             "currency": "USD"
+            },
+            {
+             "quantity": 1000,
+             "price": 0.082,
+             "currency": "USD"
+            },
+            {
+             "quantity": 10000,
+             "price": 0.07367,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "eeb53490-4413-4f95-96cc-e891f1fcb2a0"
+  }
+ },
+ "from_cache": false
+}

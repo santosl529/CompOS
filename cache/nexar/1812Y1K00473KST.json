@@ -1,0 +1,430 @@
+{
+ "mpn": "1812Y1K00473KST",
+ "fetched_at": "2026-09-05T20:30:54",
+ "pro_fields": false,
+ "block": {
+  "hits": 2,
+  "parts": [
+   {
+    "id": "67090002",
+    "mpn": "1812Y1K00473KST",
+    "name": "Knowles 1812Y1K00473KST",
+    "octopartUrl": "https://octopart.com/part/knowles-syfer/1812Y1K00473KST",
+    "manufacturer": {
+     "name": "Knowles"
+    },
+    "medianPrice1000": {
+     "price": 0.82353,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 117463,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Onlinecomponents.com"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 70,
+        "prices": [
+         {
+          "quantity": 250,
+          "price": 1.3913,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 1.2872,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.7401,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2500,
+          "price": 0.425,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5000,
+          "price": 0.4075,
+          "currency": "USD"
+         },
+         {
+          "quantity": 7500,
+          "price": 0.4065,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.3967,
+          "currency": "USD"
+         },
+         {
+          "quantity": 15000,
+          "price": 0.3957,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "RFMW"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 2726,
+        "factoryLeadDays": 72,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2.04,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.372,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 1.106,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 1.0238,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 2726,
+        "factoryLeadDays": 72,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2.04,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.372,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 1.106,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 1.0238,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 2500,
+        "factoryLeadDays": 72,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 0.88476,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1500,
+          "price": 0.82016,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Master Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 70,
+        "prices": [
+         {
+          "quantity": 250,
+          "price": 1.3913,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 1.2872,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.7401,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2500,
+          "price": 0.425,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5000,
+          "price": 0.4075,
+          "currency": "USD"
+         },
+         {
+          "quantity": 7500,
+          "price": 0.4065,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.3967,
+          "currency": "USD"
+         },
+         {
+          "quantity": 15000,
+          "price": 0.3957,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TTI Europe"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 1.63,
+          "currency": "EUR"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.91,
+          "currency": "EUR"
+         },
+         {
+          "quantity": 2500,
+          "price": 0.551,
+          "currency": "EUR"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TTI Asia"
+      },
+      "offers": [
+       {
+        "inventoryLevel": -3,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Arrow Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 500,
+          "price": 1.7808,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.9918,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2500,
+          "price": 0.8489,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Mouser"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 774,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2.01,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.35,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 1.09,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 1.09,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 1.09,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 1.09,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Chipsmall Limited"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 105900,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 2.28,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 1.52,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.912,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 0.836,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.76,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ODG (Origin Data Global)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 2350,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 17,
+          "price": 2.6842,
+          "currency": "USD"
+         },
+         {
+          "quantity": 36,
+          "price": 2.5263,
+          "currency": "USD"
+         },
+         {
+          "quantity": 58,
+          "price": 2.3684,
+          "currency": "USD"
+         },
+         {
+          "quantity": 82,
+          "price": 2.2105,
+          "currency": "USD"
+         },
+         {
+          "quantity": 110,
+          "price": 2.0526,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Cytech Systems"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 487,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

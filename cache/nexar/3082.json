@@ -1,0 +1,398 @@
+{
+ "mpn": "3082",
+ "fetched_at": "2026-09-05T20:31:19",
+ "pro_fields": false,
+ "block": {
+  "hits": 32,
+  "parts": [
+   {
+    "id": "19707797",
+    "mpn": "3082",
+    "name": "Keystone 3082",
+    "octopartUrl": "https://octopart.com/part/keystone/3082",
+    "manufacturer": {
+     "name": "Keystone"
+    },
+    "medianPrice1000": {
+     "price": 0.316,
+     "currency": "USD",
+     "quantity": 1000
+    },
+    "totalAvail": 16074,
+    "sellers": [
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Arrow Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 4000,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.235,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "TME"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 56,
+        "prices": [
+         {
+          "quantity": 10,
+          "price": 0.476,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.468,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 56,
+        "prices": [
+         {
+          "quantity": 10,
+          "price": 0.476,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.468,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Sager Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 56,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.285,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Newark"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.316,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5000,
+          "price": 0.293,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.287,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Heilind Americas"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 0,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Interstate Connecting Components"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 0,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "DigiKey"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1073,
+        "factoryLeadDays": 35,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.62,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.518,
+          "currency": "USD"
+         },
+         {
+          "quantity": 25,
+          "price": 0.4816,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.4304,
+          "currency": "USD"
+         },
+         {
+          "quantity": 500,
+          "price": 0.37792,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.35733,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2500,
+          "price": 0.33182,
+          "currency": "USD"
+         },
+         {
+          "quantity": 5000,
+          "price": 0.31374,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Future Electronics"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 84,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.29,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2000,
+          "price": 0.285,
+          "currency": "USD"
+         }
+        ]
+       },
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 84,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.29,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2000,
+          "price": 0.285,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "RS (Formerly Allied Electronics)"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.46,
+          "currency": "USD"
+         },
+         {
+          "quantity": 2000,
+          "price": 0.434,
+          "currency": "USD"
+         },
+         {
+          "quantity": 4000,
+          "price": 0.422,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Carlton-Bates"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": true,
+      "company": {
+       "name": "Mouser"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1,
+          "price": 0.71,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10,
+          "price": 0.546,
+          "currency": "USD"
+         },
+         {
+          "quantity": 50,
+          "price": 0.517,
+          "currency": "USD"
+         },
+         {
+          "quantity": 100,
+          "price": 0.463,
+          "currency": "USD"
+         },
+         {
+          "quantity": 1000,
+          "price": 0.316,
+          "currency": "USD"
+         },
+         {
+          "quantity": 10000,
+          "price": 0.293,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Verical"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 4000,
+        "factoryLeadDays": null,
+        "prices": [
+         {
+          "quantity": 1000,
+          "price": 0.2342,
+          "currency": "USD"
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Classic Components"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 6000,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "ICSuperman Co."
+      },
+      "offers": [
+       {
+        "inventoryLevel": 1000,
+        "factoryLeadDays": null,
+        "prices": []
+       }
+      ]
+     },
+     {
+      "isAuthorized": false,
+      "company": {
+       "name": "Heilind Asia"
+      },
+      "offers": [
+       {
+        "inventoryLevel": 0,
+        "factoryLeadDays": 0,
+        "prices": []
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

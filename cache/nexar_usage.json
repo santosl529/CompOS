@@ -1,0 +1,267 @@
+{
+ "live_requests_total": 62,
+ "matched_parts_total": 62,
+ "mpns": {
+  "0409-201-1800": {
+   "first_seen": "2026-09-05T20:31:08",
+   "matched": 1
+  },
+  "0409-201-2400": {
+   "first_seen": "2026-09-05T20:31:08",
+   "matched": 1
+  },
+  "07-0201-0237": {
+   "first_seen": "2026-09-05T20:31:19",
+   "matched": 1
+  },
+  "07-0201-0875": {
+   "first_seen": "2026-09-05T20:31:17",
+   "matched": 1
+  },
+  "07-0202-0094": {
+   "first_seen": "2026-09-05T20:31:20",
+   "matched": 1
+  },
+  "0805J0500100MCTE07": {
+   "first_seen": "2026-09-05T20:30:57",
+   "matched": 1
+  },
+  "0805J0500120MCTE07": {
+   "first_seen": "2026-09-05T20:30:58",
+   "matched": 1
+  },
+  "0805J0500220MCTE07": {
+   "first_seen": "2026-09-05T20:30:58",
+   "matched": 1
+  },
+  "1-206062-3": {
+   "first_seen": "2026-09-05T20:31:09",
+   "matched": 1
+  },
+  "10BQ100": {
+   "first_seen": "2026-09-05T20:31:15",
+   "matched": 1
+  },
+  "110991327": {
+   "first_seen": "2026-09-05T20:31:18",
+   "matched": 1
+  },
+  "1812Y1K00473KST": {
+   "first_seen": "2026-09-05T20:30:54",
+   "matched": 1
+  },
+  "1825AC473KAT1A": {
+   "first_seen": "2026-09-05T20:30:54",
+   "matched": 1
+  },
+  "1N4002": {
+   "first_seen": "2026-09-05T20:31:15",
+   "matched": 1
+  },
+  "1N4002G": {
+   "first_seen": "2026-09-05T20:31:16",
+   "matched": 1
+  },
+  "2118707-2": {
+   "first_seen": "2026-09-05T20:31:21",
+   "matched": 1
+  },
+  "217-36CTRE6": {
+   "first_seen": "2026-09-05T20:31:18",
+   "matched": 1
+  },
+  "3020403": {
+   "first_seen": "2026-09-05T20:31:20",
+   "matched": 1
+  },
+  "30205005": {
+   "first_seen": "2026-09-05T20:31:21",
+   "matched": 1
+  },
+  "3082": {
+   "first_seen": "2026-09-05T20:31:19",
+   "matched": 1
+  },
+  "3522150RJT": {
+   "first_seen": "2026-09-05T20:30:53",
+   "matched": 1
+  },
+  "3540150RJT": {
+   "first_seen": "2026-09-05T20:30:53",
+   "matched": 1
+  },
+  "4590-105J": {
+   "first_seen": "2026-09-05T20:31:14",
+   "matched": 1
+  },
+  "4590-105K": {
+   "first_seen": "2026-09-05T20:31:14",
+   "matched": 1
+  },
+  "4590R-105J": {
+   "first_seen": "2026-09-05T20:31:15",
+   "matched": 1
+  },
+  "885342208026": {
+   "first_seen": "2026-09-05T20:30:55",
+   "matched": 1
+  },
+  "9420801.14": {
+   "first_seen": "2026-09-05T20:31:16",
+   "matched": 1
+  },
+  "9420801.16.T": {
+   "first_seen": "2026-09-05T20:31:17",
+   "matched": 1
+  },
+  "AC05AT0001500JAC00": {
+   "first_seen": "2026-09-05T20:30:52",
+   "matched": 1
+  },
+  "C330C104G2G5TA": {
+   "first_seen": "2026-09-05T20:30:56",
+   "matched": 1
+  },
+  "C330C104G2G5TA7301": {
+   "first_seen": "2026-09-05T20:30:56",
+   "matched": 1
+  },
+  "C330C104GAG5TA": {
+   "first_seen": "2026-09-05T20:30:57",
+   "matched": 1
+  },
+  "CC0603KRX7RABB103": {
+   "first_seen": "2026-09-05T20:30:55",
+   "matched": 1
+  },
+  "D38999/20GD97JB": {
+   "first_seen": "2026-09-05T20:31:09",
+   "matched": 1
+  },
+  "D38999/20GD97JC": {
+   "first_seen": "2026-09-05T20:31:10",
+   "matched": 1
+  },
+  "D38999/20GD97JD": {
+   "first_seen": "2026-09-05T20:31:10",
+   "matched": 1
+  },
+  "D38999/20GE2PC": {
+   "first_seen": "2026-09-05T20:31:06",
+   "matched": 1
+  },
+  "D38999/20GE2PD": {
+   "first_seen": "2026-09-05T20:31:07",
+   "matched": 1
+  },
+  "D38999/20GE2PE": {
+   "first_seen": "2026-09-05T20:31:07",
+   "matched": 1
+  },
+  "D38999/20GF30HD": {
+   "first_seen": "2026-09-05T20:31:02",
+   "matched": 1
+  },
+  "D38999/20GF30HE": {
+   "first_seen": "2026-09-05T20:31:02",
+   "matched": 1
+  },
+  "D38999/20GF30HN": {
+   "first_seen": "2026-09-05T20:31:03",
+   "matched": 1
+  },
+  "D38999/20JC98PN": {
+   "first_seen": "2026-09-05T20:31:05",
+   "matched": 1
+  },
+  "D38999/20JE26PN": {
+   "first_seen": "2026-09-05T20:31:12",
+   "matched": 1
+  },
+  "D38999/20JE26SN": {
+   "first_seen": "2026-09-05T20:31:13",
+   "matched": 1
+  },
+  "D38999/20MC98PN": {
+   "first_seen": "2026-09-05T20:31:05",
+   "matched": 1
+  },
+  "D38999/20MC98SN": {
+   "first_seen": "2026-09-05T20:31:06",
+   "matched": 1
+  },
+  "D38999/24GH97JN": {
+   "first_seen": "2026-09-05T20:30:59",
+   "matched": 1
+  },
+  "D38999/24GH99JB": {
+   "first_seen": "2026-09-05T20:30:59",
+   "matched": 1
+  },
+  "D38999/24GH99JC": {
+   "first_seen": "2026-09-05T20:31:00",
+   "matched": 1
+  },
+  "D38999/25YG24XC": {
+   "first_seen": "2026-09-05T20:31:03",
+   "matched": 1
+  },
+  "D38999/25YG24XD": {
+   "first_seen": "2026-09-05T20:31:04",
+   "matched": 1
+  },
+  "D38999/25YG24XE": {
+   "first_seen": "2026-09-05T20:31:04",
+   "matched": 1
+  },
+  "D38999/26FE26PN": {
+   "first_seen": "2026-09-05T20:31:13",
+   "matched": 1
+  },
+  "D38999/26GC4JC": {
+   "first_seen": "2026-09-05T20:31:11",
+   "matched": 1
+  },
+  "D38999/26GC4JD": {
+   "first_seen": "2026-09-05T20:31:11",
+   "matched": 1
+  },
+  "D38999/40WB2PC": {
+   "first_seen": "2026-09-05T20:31:12",
+   "matched": 1
+  },
+  "TXR15AB00-1008AI": {
+   "first_seen": "2026-09-05T20:31:00",
+   "matched": 1
+  },
+  "TXR40AB00-1210BI": {
+   "first_seen": "2026-09-05T20:31:01",
+   "matched": 1
+  },
+  "TXR40AB90-2412BI": {
+   "first_seen": "2026-09-05T20:31:01",
+   "matched": 1
+  }
+ },
+ "runs": [
+  {
+   "at": "2026-09-05T20:30:44",
+   "matched": 1,
+   "mode": "verify_counting_1",
+   "mpn": "1N4002"
+  },
+  {
+   "at": "2026-09-05T20:30:44",
+   "matched": 1,
+   "mode": "verify_counting_2",
+   "mpn": "1N4002"
+  },
+  {
+   "at": "2026-09-05T20:30:52",
+   "live": 60,
+   "matched": 60,
+   "mode": "enrich",
+   "requested": 60
+  }
+ ]
+}

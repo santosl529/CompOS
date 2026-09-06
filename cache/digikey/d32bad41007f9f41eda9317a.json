@@ -1,0 +1,2361 @@
+{
+ "key": "d32bad41007f9f41eda9317a",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1203-1",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:21:37",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "LED GREEN CLEAR SMD",
+     "DetailedDescription": "Green 571nm LED Indication - Discrete 2V 0805 (2012 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 160,
+     "Name": "Lite-On Inc."
+    },
+    "ManufacturerProductNumber": "LTST-C171KGKT",
+    "UnitPrice": 0.16,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/liteon/LTST-C171KGKT/386799",
+    "DatasheetUrl": "https://optoelectronics.liteon.com/upload/download/DS22-2000-118/LTST-C171KGKT.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1117/LTST-C171TBKT%2CLTST-C171KGKT%2CLTST-C171KRKT.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "160-1426-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 3000,
+        "UnitPrice": 0.04776,
+        "TotalPrice": 143.28
+       },
+       {
+        "BreakQuantity": 6000,
+        "UnitPrice": 0.04432,
+        "TotalPrice": 265.92
+       },
+       {
+        "BreakQuantity": 9000,
+        "UnitPrice": 0.04255,
+        "TotalPrice": 382.95
+       },
+       {
+        "BreakQuantity": 15000,
+        "UnitPrice": 0.04055,
+        "TotalPrice": 608.25
+       },
+       {
+        "BreakQuantity": 21000,
+        "UnitPrice": 0.03936,
+        "TotalPrice": 826.56
+       },
+       {
+        "BreakQuantity": 30000,
+        "UnitPrice": 0.03819,
+        "TotalPrice": 1145.7
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 160,
+       "Name": "LITEON"
+      },
+      "QuantityAvailableforPackageType": 435000,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 3000,
+      "StandardPackage": 3000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "160-1426-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.16,
+        "TotalPrice": 0.16
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.109,
+        "TotalPrice": 1.09
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0752,
+        "TotalPrice": 7.52
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.05966,
+        "TotalPrice": 29.83
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.05448,
+        "TotalPrice": 54.48
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 160,
+       "Name": "LITEON"
+      },
+      "QuantityAvailableforPackageType": 436957,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "160-1426-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.16,
+        "TotalPrice": 0.16
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.109,
+        "TotalPrice": 1.09
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.0752,
+        "TotalPrice": 7.52
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.05966,
+        "TotalPrice": 29.83
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.05448,
+        "TotalPrice": 54.48
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 160,
+       "Name": "LITEON"
+      },
+      "QuantityAvailableforPackageType": 436957,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 436957,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "351158",
+      "ValueText": "Green"
+     },
+     {
+      "ParameterId": 207,
+      "ParameterText": "Configuration",
+      "ParameterType": "String",
+      "ValueId": "407938",
+      "ValueText": "Standard"
+     },
+     {
+      "ParameterId": 525,
+      "ParameterText": "Lens Color",
+      "ParameterType": "String",
+      "ValueId": "332225",
+      "ValueText": "Colorless"
+     },
+     {
+      "ParameterId": 1843,
+      "ParameterText": "Lens Transparency",
+      "ParameterType": "String",
+      "ValueId": "330893",
+      "ValueText": "Clear"
+     },
+     {
+      "ParameterId": 206,
+      "ParameterText": "Millicandela Rating",
+      "ParameterType": "String",
+      "ValueId": "194586",
+      "ValueText": "35mcd"
+     },
+     {
+      "ParameterId": 2028,
+      "ParameterText": "Lens Style",
+      "ParameterType": "String",
+      "ValueId": "393133",
+      "ValueText": "Rectangle with Flat Top"
+     },
+     {
+      "ParameterId": 2029,
+      "ParameterText": "Lens Size",
+      "ParameterType": "String",
+      "ValueId": "51482",
+      "ValueText": "1.40mm x 1.25mm"
+     },
+     {
+      "ParameterId": 319,
+      "ParameterText": "Voltage - Forward (Vf) (Typ)",
+      "ParameterType": "String",
+      "ValueId": "168722",
+      "ValueText": "2V"
+     },
+     {
+      "ParameterId": 543,
+      "ParameterText": "Current - Test",
+      "ParameterType": "String",
+      "ValueId": "143056",
+      "ValueText": "20mA"
+     },
+     {
+      "ParameterId": 551,
+      "ParameterText": "Viewing Angle",
+      "ParameterType": "String",
+      "ValueId": "89843",
+      "ValueText": "130\u00b0"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 969,
+      "ParameterText": "Wavelength - Dominant",
+      "ParameterType": "String",
+      "ValueId": "245658",
+      "ValueText": "571nm"
+     },
+     {
+      "ParameterId": 968,
+      "ParameterText": "Wavelength - Peak",
+      "ParameterType": "String",
+      "ValueId": "245782",
+      "ValueText": "574nm"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39329",
+      "ValueText": "0805 (2012 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "122881",
+      "ValueText": "2.00mm L x 1.25mm W"
+     },
+     {
+      "ParameterId": 966,
+      "ParameterText": "Height (Max)",
+      "ParameterType": "String",
+      "ValueId": "37079",
+      "ValueText": "0.90mm"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 322716,
+     "Name": "LTST-C171"
+    },
+    "Category": {
+     "CategoryId": 7,
+     "ParentId": 0,
+     "Name": "Optoelectronics",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/388/510/MFG_ELI70-CR_tmb%2864x64%29.jpg",
+     "SeoDescription": "Broadly defined, optoelectronic products are devices that convert electricity to light, and accessory or supporting items such as reflectors or mounting hardware designed for use with such products. It is a diverse product category, including LEDs, fiber optic transmitters and receivers, LCD, OLED, and VFD displays, EL wire, incandescent lamps, lasers, light pipes and xenon flash tubes, among many other product types.",
+     "ChildCategories": [
+      {
+       "CategoryId": 105,
+       "ParentId": 7,
+       "Name": "LED Indication - Discrete",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/626/HLMP-3507%2CHLMP-3680%2CHLMP-3962_tmb%2864x64%29.jpg",
+       "SeoDescription": "Light emitting diodes are semiconductor devices that emit light when conducting current. LEDs in this family are single or array configuration for status indication on printed circuit boards. They are differentiated by package/case, wavelength, viewing angle, forward voltage, current rating, millicandela rating, color, and mounting type. Configurations include common anode or cathode and bidirectional.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "2A  (4 Weeks)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8541.41.0000"
+    },
+    "OtherNames": [
+     "160-1426-6",
+     "Q12031171",
+     "LTSTC171KGKT",
+     "160-1426-1",
+     "160-1426-2"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "IC REG LINEAR 5V 500MA DPAK",
+     "DetailedDescription": "Linear Voltage Regulator IC Positive Fixed 1 Output 500mA DPAK"
+    },
+    "Manufacturer": {
+     "Id": 497,
+     "Name": "STMicroelectronics"
+    },
+    "ManufacturerProductNumber": "L78M05CDT-TR",
+    "UnitPrice": 0.4,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/stmicroelectronics/L78M05CDT-TR/585727",
+    "DatasheetUrl": "https://www.st.com/content/ccc/resource/technical/document/datasheet/d7/5f/dc/5c/d5/b6/48/7c/CD00000447.pdf/files/CD00000447.pdf/jcr:content/translations/en.CD00000447.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/6256/497%7EDPAK%28TO252-3%29%7E%7E2.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "497-1203-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.17356,
+        "TotalPrice": 433.9
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 0.16846,
+        "TotalPrice": 842.3
+       },
+       {
+        "BreakQuantity": 7500,
+        "UnitPrice": 0.16591,
+        "TotalPrice": 1244.325
+       },
+       {
+        "BreakQuantity": 12500,
+        "UnitPrice": 0.16308,
+        "TotalPrice": 2038.5
+       },
+       {
+        "BreakQuantity": 17500,
+        "UnitPrice": 0.16142,
+        "TotalPrice": 2824.85
+       },
+       {
+        "BreakQuantity": 25000,
+        "UnitPrice": 0.15983,
+        "TotalPrice": 3995.75
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 497,
+       "Name": "STMicroelectronics"
+      },
+      "QuantityAvailableforPackageType": 52500,
+      "MinimumOrderQuantity": 2500,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "497-1203-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.4,
+        "TotalPrice": 0.4
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.28,
+        "TotalPrice": 2.8
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2496,
+        "TotalPrice": 6.24
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2159,
+        "TotalPrice": 21.59
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.19976,
+        "TotalPrice": 49.94
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.19004,
+        "TotalPrice": 95.02
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.18202,
+        "TotalPrice": 182.02
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 497,
+       "Name": "STMicroelectronics"
+      },
+      "QuantityAvailableforPackageType": 53767,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "497-1203-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.4,
+        "TotalPrice": 0.4
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.28,
+        "TotalPrice": 2.8
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.2496,
+        "TotalPrice": 6.24
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.2159,
+        "TotalPrice": 21.59
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.19976,
+        "TotalPrice": 49.94
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.19004,
+        "TotalPrice": 95.02
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.18202,
+        "TotalPrice": 182.02
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 497,
+       "Name": "STMicroelectronics"
+      },
+      "QuantityAvailableforPackageType": 53767,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 53767,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "https://www.digikey.com/api/videos/videoplayer/smallplayer/6185148583001",
+    "Parameters": [
+     {
+      "ParameterId": 255,
+      "ParameterText": "Output Configuration",
+      "ParameterType": "String",
+      "ValueId": "389019",
+      "ValueText": "Positive"
+     },
+     {
+      "ParameterId": 41,
+      "ParameterText": "Output Type",
+      "ParameterType": "String",
+      "ValueId": "347431",
+      "ValueText": "Fixed"
+     },
+     {
+      "ParameterId": 1065,
+      "ParameterText": "Number of Regulators",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 573,
+      "ParameterText": "Voltage - Input (Max)",
+      "ParameterType": "String",
+      "ValueId": "194844",
+      "ValueText": "35V"
+     },
+     {
+      "ParameterId": 1779,
+      "ParameterText": "Voltage - Output (Min/Fixed)",
+      "ParameterType": "String",
+      "ValueId": "249171",
+      "ValueText": "5V"
+     },
+     {
+      "ParameterId": 1429,
+      "ParameterText": "Voltage - Output (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2065,
+      "ParameterText": "Voltage Dropout (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 129,
+      "ParameterText": "Current - Output",
+      "ParameterType": "String",
+      "ValueId": "236734",
+      "ValueText": "500mA"
+     },
+     {
+      "ParameterId": 477,
+      "ParameterText": "Current - Quiescent (Iq)",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "6 mA",
+      "ValueText": "6 mA"
+     },
+     {
+      "ParameterId": 2064,
+      "ParameterText": "PSRR",
+      "ParameterType": "String",
+      "ValueId": "259503",
+      "ValueText": "62dB (120Hz)"
+     },
+     {
+      "ParameterId": 1880,
+      "ParameterText": "Control Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 2066,
+      "ParameterText": "Protection Features",
+      "ParameterType": "String",
+      "ValueId": "382847",
+      "ValueText": "Over Current, Over Temperature, Short Circuit"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "38921",
+      "ValueText": "0\u00b0C ~ 150\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "802136",
+      "ValueText": "TO-252-3, DPAK (2 Leads + Tab), SC-63"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "340440",
+      "ValueText": "DPAK"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 22083,
+     "Name": "L78M05"
+    },
+    "Category": {
+     "CategoryId": 32,
+     "ParentId": 0,
+     "Name": "Integrated Circuits (ICs)",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+     "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2025,
+       "ParentId": 32,
+       "Name": "Power Management (PMIC)",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/314/540/846%3B-TO220CP-3%3B-%3B-3_tmb.jpg",
+       "SeoDescription": "PMIC, or Power Management Integrated Circuits, refers to a wide range of application-specific ICs or chips. Included in this category is PMICs for AC/DC Converters, Battery Chargers, Battery Management, Current Regulation, Display Drivers, Energy Metering, Full/Half-Bridge Drivers, Gate Drivers, Hot Swap Controllers, Laser Drivers, LED Drivers, Lighting/Ballast Controllers, Motor Drivers, OR Controllers, Power Factor Correction, Power Distribution Switches, PoE Controllers, Power Supply Controllers, RMS to DC Converters, Supervisors, Thermal Management, V/F and F/V Controllers, various Voltage Regulators, and More.",
+       "ChildCategories": [
+        {
+         "CategoryId": 699,
+         "ParentId": 2025,
+         "Name": "Voltage Regulators - Linear, Low Drop Out (LDO) Regulators",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/957/739/296_SOT-23-3%20PKG_tmb.jpg",
+         "SeoDescription": "Linear voltage regulators, including LDO (Low Drop Out) types, are used to provide a stable output voltage that is nominally invariant with respect to changes in load current, input voltage, or environmental factors. Their operating principle requires that the input voltage be maintained above the desired output voltage by some minimum amount, and function on the basis of converting whatever excess voltage is present at the input to heat. While this renders them less efficient than switch-mode voltage regulators for most applications, they are often better suited for applications with high sensitivity to noise.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "30",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8542.39.0090"
+    },
+    "OtherNames": [
+     "497-1203-2",
+     "497-1203-1",
+     "L78M05CDTTR",
+     "497-1203-2-NDR",
+     "497-1203-6",
+     "497-1203-1-NDR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "IC D-TYPE TRANSP 8:8 20-SOIC",
+     "DetailedDescription": "D-Type Transparent Latch 1 Channel 8:8 IC Tri-State 20-SOIC"
+    },
+    "Manufacturer": {
+     "Id": 296,
+     "Name": "Texas Instruments"
+    },
+    "ManufacturerProductNumber": "SN74HC573ADWR",
+    "UnitPrice": 0.75,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/texas-instruments/SN74HC573ADWR/276846",
+    "DatasheetUrl": "https://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=https%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74hc573a",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/8922/MFG_296%7E4040000-4%7EDW%7E20.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "296-1203-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 2000,
+        "UnitPrice": 0.37151,
+        "TotalPrice": 743.02
+       },
+       {
+        "BreakQuantity": 4000,
+        "UnitPrice": 0.36137,
+        "TotalPrice": 1445.48
+       },
+       {
+        "BreakQuantity": 6000,
+        "UnitPrice": 0.35629,
+        "TotalPrice": 2137.74
+       },
+       {
+        "BreakQuantity": 10000,
+        "UnitPrice": 0.35066,
+        "TotalPrice": 3506.6
+       },
+       {
+        "BreakQuantity": 14000,
+        "UnitPrice": 0.34737,
+        "TotalPrice": 4863.18
+       },
+       {
+        "BreakQuantity": 20000,
+        "UnitPrice": 0.34421,
+        "TotalPrice": 6884.2
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 296,
+       "Name": "Texas Instruments"
+      },
+      "QuantityAvailableforPackageType": 4000,
+      "MinimumOrderQuantity": 2000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "296-1203-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.8,
+        "TotalPrice": 0.8
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.568,
+        "TotalPrice": 5.68
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.5104,
+        "TotalPrice": 12.76
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.4471,
+        "TotalPrice": 44.71
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.41696,
+        "TotalPrice": 104.24
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.39878,
+        "TotalPrice": 199.39
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.3941,
+        "TotalPrice": 394.1
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 296,
+       "Name": "Texas Instruments"
+      },
+      "QuantityAvailableforPackageType": 4080,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "296-1203-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.75,
+        "TotalPrice": 0.75
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.536,
+        "TotalPrice": 5.36
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.4816,
+        "TotalPrice": 12.04
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.4218,
+        "TotalPrice": 42.18
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.39336,
+        "TotalPrice": 98.34
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.37622,
+        "TotalPrice": 188.11
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.37179,
+        "TotalPrice": 371.79
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 296,
+       "Name": "Texas Instruments"
+      },
+      "QuantityAvailableforPackageType": 4080,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 4080,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 247,
+      "ParameterText": "Logic Type",
+      "ParameterType": "String",
+      "ValueId": "341761",
+      "ValueText": "D-Type Transparent Latch"
+     },
+     {
+      "ParameterId": 130,
+      "ParameterText": "Circuit",
+      "ParameterType": "String",
+      "ValueId": "285367",
+      "ValueText": "8:8"
+     },
+     {
+      "ParameterId": 41,
+      "ParameterText": "Output Type",
+      "ParameterType": "String",
+      "ValueId": "416041",
+      "ValueText": "Tri-State"
+     },
+     {
+      "ParameterId": 276,
+      "ParameterText": "Voltage - Supply",
+      "ParameterType": "String",
+      "ValueId": "169019",
+      "ValueText": "2V ~ 6V"
+     },
+     {
+      "ParameterId": 591,
+      "ParameterText": "Independent Circuits",
+      "ParameterType": "Double",
+      "ValueId": "1",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 859,
+      "ParameterText": "Delay Time - Propagation",
+      "ParameterType": "String",
+      "ValueId": "151795",
+      "ValueText": "23ns"
+     },
+     {
+      "ParameterId": 592,
+      "ParameterText": "Current - Output High, Low",
+      "ParameterType": "String",
+      "ValueId": "271763",
+      "ValueText": "7.8mA, 7.8mA"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "212617",
+      "ValueText": "-40\u00b0C ~ 85\u00b0C"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409393",
+      "ValueText": "Surface Mount"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "143707",
+      "ValueText": "20-SOIC (0.295\", 7.50mm Width)"
+     },
+     {
+      "ParameterId": 1291,
+      "ParameterText": "Supplier Device Package",
+      "ParameterType": "String",
+      "ValueId": "143701",
+      "ValueText": "20-SOIC"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 2340,
+     "Name": "74HC573"
+    },
+    "Category": {
+     "CategoryId": 32,
+     "ParentId": 0,
+     "Name": "Integrated Circuits (ICs)",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/153/598/8-SOIC%2CM8_tmb.jpg",
+     "SeoDescription": "Integrated circuits combine a large number of transistors and other elementary electronic components in miniaturized form into a single physical device, that is designed for a specific purpose or function and characterized by its performance of that function rather than by the behavior of its component pieces. Examples include microcontrollers, battery monitors and charge controllers, analog to digital converters, operational amplifiers, logic gates, voltage regulators, gate drivers, motro controllers, and others.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2019,
+       "ParentId": 32,
+       "Name": "Logic",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/312/8-TSSOP%2C-8-MSOP-3x3mm_tmb.jpg",
+       "SeoDescription": "Logic components operate using two voltage levels. These two levels are referred to as High or Low, On or Off, True or False, or simply 1 or 0. There are many components included in this category, such as Buffers, Drivers, Receivers, Transceivers, Comparators, Counters, Dividers, FIFOs Memory, Flip Flops, Gates, Inverters, Latches, Multivibrators, Parity Generators, Shift Registers, Signal Switches, Multiplexers, Decoders, Translators, Level Shifters, Universal Bus FUnctions, and More.",
+       "ChildCategories": [
+        {
+         "CategoryId": 708,
+         "ParentId": 2019,
+         "Name": "Latches",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/014/954/296%3B4040064-5%3BPW%3B20_tmb.jpg",
+         "SeoDescription": "Latches are elementary digital memory devices similar to flip-flops, but different in that the retained logic state can change at any time a latch enable (or similarly named) signal is in a valid logic state. Latches described as \"transparent\" further allow the device outputs to reflect the current state of the inputs while the latch enable signal is valid, as opposed to changing state only when the retained state has been fixed.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "16",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 110,
+     "Name": "74HC"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8542.39.0090"
+    },
+    "OtherNames": [
+     "-SN74HC573ADWRG4",
+     "-SN74HC573ADWRE4",
+     "-SN74HC573ADWRE4-NDR",
+     "296-1203-2",
+     "296-1203-1",
+     "-296-1203-1",
+     "-SN74HC573ADWR-NDR",
+     "296-1203-6",
+     "2156-SN74HC573ADWR",
+     "-296-1203-1-ND",
+     "SN74HC573ADWRE4",
+     "SN74HC573ADWRE4-ND",
+     "TEXTISSN74HC573ADWR",
+     "-SN74HC573ADWRG4-NDR"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONTACT PIN 20-24AWG CRIMP GOLD",
+     "DetailedDescription": "Pin Contact 20-24 AWG Size 20 Crimp Gold"
+    },
+    "Manufacturer": {
+     "Id": 1508,
+     "Name": "TE Connectivity Deutsch Connectors"
+    },
+    "ManufacturerProductNumber": "M39029/4-110",
+    "UnitPrice": 0.78,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-deutsch-connectors/M39029-4-110/4840026",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F0625-4-0000%7FH%7Fpdf%7FEnglish%7FENG_CD_0625-4-0000_H.pdf%7F0641-1-2031L",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/4846/1208_M39029%5E4-110.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1506-1047-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.78,
+        "TotalPrice": 0.78
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.663,
+        "TotalPrice": 6.63
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.6212,
+        "TotalPrice": 15.53
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.5914,
+        "TotalPrice": 29.57
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.5632,
+        "TotalPrice": 56.32
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.52788,
+        "TotalPrice": 131.97
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.50266,
+        "TotalPrice": 251.33
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.47866,
+        "TotalPrice": 478.66
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.44868,
+        "TotalPrice": 1121.7
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1508,
+       "Name": "TE Connectivity Deutsch Connectors"
+      },
+      "QuantityAvailableforPackageType": 74757,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 74757,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "389454",
+      "ValueText": "Power, Machined"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "387327",
+      "ValueText": "Pin"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "137796",
+      "ValueText": "20"
+     },
+     {
+      "ParameterId": 931,
+      "ParameterText": "Wire Gauge or Range - AWG",
+      "ParameterType": "String",
+      "ValueId": "141128",
+      "ValueText": "20-24 AWG"
+     },
+     {
+      "ParameterId": 932,
+      "ParameterText": "Wire Gauge or Range - mm\u00b2",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1942,
+      "ParameterText": "Wire Gauge or Range - Coaxial",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "333922",
+      "ValueText": "Copper Alloy"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "235726",
+      "ValueText": "50.0\u00b5in (1.27\u00b5m)"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "375798",
+      "ValueText": "Military"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "788711",
+      "ValueText": "MIL-C-39029"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 162689,
+     "Name": "M39029"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2005,
+       "ParentId": 20,
+       "Name": "Circular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/104/197/T4130512051-000_tmb.jpg",
+       "SeoDescription": "Circular Connectors or circular interconnects are plugs and receptacles that are made in a circular look with multiple pins or sockets. The characteristics are connector type, number of positions, shell size-insert, shell size MIL, mounting type, and fastening type. The connector types are distributor, h-distributor, insert, jack and plug, line drain, line source, panel drain, panel feed-through, plug and receptacle, plug, receptacle, t-distributor, and terminal outlet.",
+       "ChildCategories": [
+        {
+         "CategoryId": 330,
+         "ParentId": 2005,
+         "Name": "Circular Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/821/133/M39029%5E56-348_tmb%2864x64%29.jpg",
+         "SeoDescription": "Circular Connector Contacts are male or female terminals that are used in\u00a0circular connectors.\u00a0The available types are coaxial, fluidic, machined, power, quadrax, radsok, signal, stamped, thermocouple, triax, and twinax.\u00a0 They come\u00a0as\u00a0either pins or sockets and range\u00a0in contact size from 0 to 23.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "20",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "0641-1-2031L",
+     "1506-1047-MIL",
+     "1506-1047"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONN D-SUB SOCKET 20-24AWG CRIMP",
+     "DetailedDescription": "D-Sub Contact Female Socket Gold 20-24 AWG Crimp Machined"
+    },
+    "Manufacturer": {
+     "Id": 1508,
+     "Name": "TE Connectivity Deutsch Connectors"
+    },
+    "ManufacturerProductNumber": "M39029/63-368",
+    "UnitPrice": 0.86,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/te-connectivity-deutsch-connectors/M39029-63-368/4840048",
+    "DatasheetUrl": "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=205090&DocType=Customer%20Drawing&DocLang=English&DocFormat=pdf&PartCntxt=205090-1",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/2589/M39029%5E63-368.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1506-1069-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.86,
+        "TotalPrice": 0.86
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.733,
+        "TotalPrice": 7.33
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 0.6876,
+        "TotalPrice": 17.19
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.6546,
+        "TotalPrice": 32.73
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.6232,
+        "TotalPrice": 62.32
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.58416,
+        "TotalPrice": 146.04
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.55624,
+        "TotalPrice": 278.12
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.52967,
+        "TotalPrice": 529.67
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.49651,
+        "TotalPrice": 1241.275
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1508,
+       "Name": "TE Connectivity Deutsch Connectors"
+      },
+      "QuantityAvailableforPackageType": 200106,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 200106,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 183,
+      "ParameterText": "Type",
+      "ParameterType": "String",
+      "ValueId": "402723",
+      "ValueText": "Signal"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "346565",
+      "ValueText": "Female Socket"
+     },
+     {
+      "ParameterId": 1409,
+      "ParameterText": "Contact Form",
+      "ParameterType": "String",
+      "ValueId": "370858",
+      "ValueText": "Machined"
+     },
+     {
+      "ParameterId": 78,
+      "ParameterText": "Wire Gauge",
+      "ParameterType": "String",
+      "ValueId": "141128",
+      "ValueText": "20-24 AWG"
+     },
+     {
+      "ParameterId": 31,
+      "ParameterText": "Contact Termination",
+      "ParameterType": "String",
+      "ValueId": "334919",
+      "ValueText": "Crimp"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "319471",
+      "ValueText": "Beryllium Copper"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "235726",
+      "ValueText": "50.0\u00b5in (1.27\u00b5m)"
+     },
+     {
+      "ParameterId": 1704,
+      "ParameterText": "Termination Finish",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1705,
+      "ParameterText": "Termination Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 709,
+      "ParameterText": "Contact Size",
+      "ParameterType": "String",
+      "ValueId": "137796",
+      "ValueText": "20"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1977,
+      "ParameterText": "Grade",
+      "ParameterType": "String",
+      "ValueId": "375798",
+      "ValueText": "Military"
+     },
+     {
+      "ParameterId": 2700,
+      "ParameterText": "Qualification",
+      "ParameterType": "String",
+      "ValueId": "788711",
+      "ValueText": "MIL-C-39029"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 162689,
+     "Name": "M39029"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2011,
+       "ParentId": 20,
+       "Name": "D-Sub, D-Shaped Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/761/1727040074_tmb%2864x64%29.jpg",
+       "SeoDescription": "D-subminiature connectors are named for the D-shaped shroud present at their mating end and the relatively high interconnect density offered at the time of their introduction. Products in this family, which are described as \"connectors\", incorporate the electrical contacts and the insulation system holding them in position as an integral unit. They are commonly used for board mount applications, although they can also be used\u00a0for solder terminated cable mount.",
+       "ChildCategories": [
+        {
+         "CategoryId": 332,
+         "ParentId": 2011,
+         "Name": "D-Sub, D-Shaped Connector Contacts",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/675/825/M39029%5E63-368_tmb%2864x64%29.jpg",
+         "SeoDescription": "D-Sub, D-Shaped Connector Contacts are male or female terminals\u00a0for coaxial, pneumatic, power, signal, or voltage\u00a0applications\u00a0that are used with connectors that have a shield or molded base that is in the form of a \"D\". The typical wire gauges\u00a0range from 2 to 36 AWG, and cover a broad range of\u00a0coaxial cables such\u00a0as\u00a0RG174, RG178, RG179, RG180, RG187, RG188, RG196, RG316, RF58, RG141, and RG404.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "12",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Affected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.90.4000"
+    },
+    "OtherNames": [
+     "HD 20 SOCKET CONTACT",
+     "033-0012-00",
+     "205090-9",
+     "4-16211-7507",
+     "1506-1069",
+     "1506-1069-MIL",
+     "2562-201-2031L",
+     "CC5846-000"
+    ]
+   }
+  ],
+  "ProductsCount": 1384,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 19,
+     "Value": "3M",
+     "ProductCount": 8
+    },
+    {
+     "Id": 4876,
+     "Value": "80/20, LLC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 6308,
+     "Value": "ABB Electrification (Thomas and Betts)",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1662,
+     "Value": "ABLIC Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 535,
+     "Value": "Abracon LLC",
+     "ProductCount": 2
+    },
+    {
+     "Id": 2162,
+     "Value": "Advanced Cable Ties, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 5812,
+     "Value": "Advanced Energy",
+     "ProductCount": 1
+    },
+    {
+     "Id": 684,
+     "Value": "Advanced Thermal Solutions Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2084,
+     "Value": "Advantech Corporation",
+     "ProductCount": 4
+    },
+    {
+     "Id": 601874,
+     "Value": "AirBorn",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1851,
+     "Value": "AK-Nord GmbH",
+     "ProductCount": 1
+    },
+    {
+     "Id": 620,
+     "Value": "Allegro MicroSystems",
+     "ProductCount": 1
+    },
+    {
+     "Id": 785,
+     "Value": "Alpha & Omega Semiconductor Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1920,
+     "Value": "Altech Corporation",
+     "ProductCount": 2
+    },
+    {
+     "Id": 664,
+     "Value": "Amphenol ICC (Commercial Products)",
+     "ProductCount": 3
+    },
+    {
+     "Id": 609,
+     "Value": "Amphenol ICC (FCI)",
+     "ProductCount": 3
+    },
+    {
+     "Id": 339,
+     "Value": "Amphenol Industrial Operations",
+     "ProductCount": 1
+    },
+    {
+     "Id": 889,
+     "Value": "Amphenol Sine Systems Corp",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3936,
+     "Value": "Amphenol Technical Products International",
+     "ProductCount": 1
+    },
+    {
+     "Id": 505,
+     "Value": "Analog Devices Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 123,
+     "Value": "Assmann WSW Components",
+     "ProductCount": 4
+    },
+    {
+     "Id": 243,
+     "Value": "Aven Tools",
+     "ProductCount": 1
+    },
+    {
+     "Id": 135,
+     "Value": "Belden Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 2267,
+     "Value": "Brady Corporation",
+     "ProductCount": 2
+    },
+    {
+     "Id": 432,
+     "Value": "Carling Technologies",
+     "ProductCount": 3
+    },
+    {
+     "Id": 1864,
+     "Value": "Carlo Gavazzi Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 116,
+     "Value": "Cinch Connectivity Solutions",
+     "ProductCount": 2
+    },
+    {
+     "Id": 24,
+     "Value": "Cinch Connectivity Solutions Johnson",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2032,
+     "Value": "CML Micro",
+     "ProductCount": 22
+    },
+    {
+     "Id": 1175,
+     "Value": "CNC Tech",
+     "ProductCount": 16
+    },
+    {
+     "Id": 641,
+     "Value": "Comchip Technology",
+     "ProductCount": 2
+    },
+    {
+     "Id": 2080,
+     "Value": "Conta-Clip, Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 364,
+     "Value": "Curtis Industries",
+     "ProductCount": 10
+    },
+    {
+     "Id": 32,
+     "Value": "CW Industries",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3145,
+     "Value": "Dantona Industries",
+     "ProductCount": 2
+    },
+    {
+     "Id": 197,
+     "Value": "Delevan",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2035,
+     "Value": "Delta Electronics/Components",
+     "ProductCount": 1
+    },
+    {
+     "Id": 350,
+     "Value": "Dialight",
+     "ProductCount": 7
+    },
+    {
+     "Id": 8,
+     "Value": "DigiKey",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5879,
+     "Value": "Dwyer",
+     "ProductCount": 2
+    },
+    {
+     "Id": 141,
+     "Value": "E-Switch",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2041,
+     "Value": "Eaton - Bussmann Electrical Division",
+     "ProductCount": 1
+    },
+    {
+     "Id": 283,
+     "Value": "Eaton - Electronics Division",
+     "ProductCount": 1
+    },
+    {
+     "Id": 6135,
+     "Value": "Encore Wire",
+     "ProductCount": 2
+    },
+    {
+     "Id": 145,
+     "Value": "Essentra Components",
+     "ProductCount": 5
+    },
+    {
+     "Id": 1080,
+     "Value": "Everlight Electronics Co Ltd",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2171,
+     "Value": "Festo Corporation",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3182,
+     "Value": "GAPTEC Electronic",
+     "ProductCount": 2
+    },
+    {
+     "Id": 2128,
+     "Value": "Gedore Tools, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1448,
+     "Value": "Glenair",
+     "ProductCount": 9
+    },
+    {
+     "Id": 1195,
+     "Value": "HARTING",
+     "ProductCount": 32
+    },
+    {
+     "Id": 952,
+     "Value": "Harwin Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3802,
+     "Value": "Helix Linear",
+     "ProductCount": 604
+    },
+    {
+     "Id": 3720,
+     "Value": "Heyco Products Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 602342,
+     "Value": "HHIP",
+     "ProductCount": 1
+    },
+    {
+     "Id": 26,
+     "Value": "Hirose Electric Co Ltd",
+     "ProductCount": 3
+    },
+    {
+     "Id": 1797,
+     "Value": "Hirschmann",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1441,
+     "Value": "Hoffman Enclosures, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 480,
+     "Value": "Honeywell Sensing and Productivity Solutions",
+     "ProductCount": 1
+    },
+    {
+     "Id": 448,
+     "Value": "Infineon Technologies",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1830,
+     "Value": "Inolux",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1923,
+     "Value": "IQD Frequency Products",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3013,
+     "Value": "ITG Electronics, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1003,
+     "Value": "ITT Cannon, LLC",
+     "ProductCount": 43
+    },
+    {
+     "Id": 670,
+     "Value": "JAE Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1908,
+     "Value": "Jauch Quartz",
+     "ProductCount": 1
+    },
+    {
+     "Id": 709,
+     "Value": "Johanson Dielectrics Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 712,
+     "Value": "Johanson Technology Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 455,
+     "Value": "JST Sales America Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 399,
+     "Value": "KEMET",
+     "ProductCount": 4
+    },
+    {
+     "Id": 1763,
+     "Value": "Knowles Novacap",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1608,
+     "Value": "Knowles Syfer",
+     "ProductCount": 1
+    },
+    {
+     "Id": 478,
+     "Value": "KYOCERA AVX",
+     "ProductCount": 6
+    },
+    {
+     "Id": 903,
+     "Value": "Laird Technologies EMI",
+     "ProductCount": 1
+    },
+    {
+     "Id": 240,
+     "Value": "Laird-Signal Integrity Products",
+     "ProductCount": 4
+    },
+    {
+     "Id": 2181,
+     "Value": "LAPP",
+     "ProductCount": 5
+    },
+    {
+     "Id": 1798,
+     "Value": "Leader Tech Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1124,
+     "Value": "LEMO",
+     "ProductCount": 1
+    },
+    {
+     "Id": 160,
+     "Value": "Lite-On Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 3963,
+     "Value": "Littelfuse Aerospace",
+     "ProductCount": 1
+    },
+    {
+     "Id": 18,
+     "Value": "Littelfuse Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1000,
+     "Value": "LOCTITE",
+     "ProductCount": 3
+    },
+    {
+     "Id": 458,
+     "Value": "Mallory Sonalert Products Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1849,
+     "Value": "METZ CONNECT USA Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1033,
+     "Value": "Micro-Measurements (Division of Vishay Precision Group)",
+     "ProductCount": 1
+    },
+    {
+     "Id": 150,
+     "Value": "Microchip Technology",
+     "ProductCount": 9
+    },
+    {
+     "Id": 557,
+     "Value": "Micron Technology Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1471,
+     "Value": "MikroElektronika",
+     "ProductCount": 1
+    },
+    {
+     "Id": 54,
+     "Value": "Mill-Max Manufacturing Corp.",
+     "ProductCount": 17
+    },
+    {
+     "Id": 602349,
+     "Value": "Milnec",
+     "ProductCount": 4
+    },
+    {
+     "Id": 23,
+     "Value": "Molex",
+     "ProductCount": 100
+    },
+    {
+     "Id": 4134,
+     "Value": "Molex",
+     "ProductCount": 2
+    },
+    {
+     "Id": 490,
+     "Value": "Murata Electronics",
+     "ProductCount": 3
+    },
+    {
+     "Id": 811,
+     "Value": "Murata Power Solutions Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5088,
+     "Value": "Murrelektronik, Inc",
+     "ProductCount": 14
+    },
+    {
+     "Id": 644,
+     "Value": "NDK (NIHON DEMPA KOGYO CO., LTD)",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1727,
+     "Value": "Nexperia USA Inc.",
+     "ProductCount": 5
+    },
+    {
+     "Id": 493,
+     "Value": "Nichicon",
+     "ProductCount": 1
+    },
+    {
+     "Id": 37,
+     "Value": "NorComp Inc.",
+     "ProductCount": 31
+    },
+    {
+     "Id": 390,
+     "Value": "NVE Corp/Isolation Products",
+     "ProductCount": 1
+    },
+    {
+     "Id": 954,
+     "Value": "NXP Semiconductors",
+     "ProductCount": 1
+    },
+    {
+     "Id": 568,
+     "Value": "NXP USA Inc.",
+     "ProductCount": 4
+    },
+    {
+     "Id": 2262,
+     "Value": "Omnetics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 236,
+     "Value": "Omron Automation and Safety",
+     "ProductCount": 6
+    },
+    {
+     "Id": 255,
+     "Value": "Panasonic Electric Works",
+     "ProductCount": 3
+    },
+    {
+     "Id": 1110,
+     "Value": "Panasonic Industrial Automation Sales",
+     "ProductCount": 9
+    },
+    {
+     "Id": 298,
+     "Value": "Panduit Corp",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3985,
+     "Value": "Pasternack",
+     "ProductCount": 8
+    },
+    {
+     "Id": 2222,
+     "Value": "Phoenix America",
+     "ProductCount": 2
+    },
+    {
+     "Id": 277,
+     "Value": "Phoenix Contact",
+     "ProductCount": 5
+    },
+    {
+     "Id": 501,
+     "Value": "Pomona Electronics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1212,
+     "Value": "Preci-Dip",
+     "ProductCount": 11
+    },
+    {
+     "Id": 3505,
+     "Value": "PT Speed",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1516,
+     "Value": "QT Brightek (QTB)",
+     "ProductCount": 1
+    },
+    {
+     "Id": 660,
+     "Value": "Qualcomm",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2201,
+     "Value": "Radiall USA, Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601349,
+     "Value": "Raychem",
+     "ProductCount": 39
+    },
+    {
+     "Id": 2328,
+     "Value": "Remington Industries",
+     "ProductCount": 8
+    },
+    {
+     "Id": 20,
+     "Value": "Renesas Electronics Corporation",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3100,
+     "Value": "Rennsteig Tools, Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2737,
+     "Value": "RF Industries",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1028,
+     "Value": "Richtek USA Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 696,
+     "Value": "Riedon products by Bourns",
+     "ProductCount": 1
+    },
+    {
+     "Id": 846,
+     "Value": "Rohm Semiconductor",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2223,
+     "Value": "Same Sky (Formerly CUI Devices)",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1276,
+     "Value": "Samsung Electro-Mechanics",
+     "ProductCount": 1
+    },
+    {
+     "Id": 612,
+     "Value": "Samtec Inc.",
+     "ProductCount": 44
+    },
+    {
+     "Id": 723,
+     "Value": "Sensata-Airpax",
+     "ProductCount": 4
+    },
+    {
+     "Id": 1882,
+     "Value": "SICK, Inc.",
+     "ProductCount": 17
+    },
+    {
+     "Id": 3473,
+     "Value": "Siemens",
+     "ProductCount": 1
+    },
+    {
+     "Id": 271,
+     "Value": "SL POWER / Advanced Energy",
+     "ProductCount": 1
+    },
+    {
+     "Id": 601885,
+     "Value": "Southco Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 497,
+     "Value": "STMicroelectronics",
+     "ProductCount": 2
+    },
+    {
+     "Id": 308,
+     "Value": "Sumida America Components Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1497,
+     "Value": "SunLED",
+     "ProductCount": 1
+    },
+    {
+     "Id": 587,
+     "Value": "Taiyo Yuden",
+     "ProductCount": 1
+    },
+    {
+     "Id": 445,
+     "Value": "TDK",
+     "ProductCount": 2
+    },
+    {
+     "Id": 994,
+     "Value": "TE Connectivity",
+     "ProductCount": 3
+    },
+    {
+     "Id": 844,
+     "Value": "TE Connectivity Aerospace, Defense and Marine",
+     "ProductCount": 5
+    },
+    {
+     "Id": 17,
+     "Value": "TE Connectivity AMP Connectors",
+     "ProductCount": 62
+    },
+    {
+     "Id": 2132,
+     "Value": "TE Connectivity Application Tooling",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1508,
+     "Value": "TE Connectivity Deutsch Connectors",
+     "ProductCount": 12
+    },
+    {
+     "Id": 223,
+     "Value": "TE Connectivity Measurement Specialties",
+     "ProductCount": 2
+    },
+    {
+     "Id": 839,
+     "Value": "Tensility International Corp",
+     "ProductCount": 1
+    },
+    {
+     "Id": 296,
+     "Value": "Texas Instruments",
+     "ProductCount": 6
+    },
+    {
+     "Id": 1951,
+     "Value": "Traco Power",
+     "ProductCount": 1
+    },
+    {
+     "Id": 989,
+     "Value": "TT Electronics/IRC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 985,
+     "Value": "TT Electronics/Welwyn",
+     "ProductCount": 1
+    },
+    {
+     "Id": 887,
+     "Value": "TXC CORPORATION",
+     "ProductCount": 1
+    },
+    {
+     "Id": 672,
+     "Value": "u-blox",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5578,
+     "Value": "Vigortronix",
+     "ProductCount": 1
+    },
+    {
+     "Id": 749,
+     "Value": "Vishay",
+     "ProductCount": 1
+    },
+    {
+     "Id": 541,
+     "Value": "Vishay Dale",
+     "ProductCount": 2
+    },
+    {
+     "Id": 764,
+     "Value": "Vishay Dale Thin Film",
+     "ProductCount": 1
+    },
+    {
+     "Id": 720,
+     "Value": "Vishay Vitramon",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1292,
+     "Value": "Walsin Technology Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2266,
+     "Value": "WEC",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1740,
+     "Value": "WeEn Semiconductors",
+     "ProductCount": 2
+    },
+    {
+     "Id": 281,
+     "Value": "Weidm\u00fcller",
+     "ProductCount": 3
+    },
+    {
+     "Id": 431,
+     "Value": "Wiha",
+     "ProductCount": 1
+    },
+    {
+     "Id": 732,
+     "Value": "W\u00fcrth Elektronik",
+     "ProductCount": 7
+    },
+    {
+     "Id": 13,
+     "Value": "YAGEO",
+     "ProductCount": 2
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

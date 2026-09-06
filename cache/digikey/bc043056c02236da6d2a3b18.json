@@ -1,0 +1,1210 @@
+{
+ "key": "bc043056c02236da6d2a3b18",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "1000-0161",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:23:25",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CONN HDR DIP MALE PIN 10POS TIN",
+     "DetailedDescription": "10 Position DIP, DIL - Header Connector Post Tin"
+    },
+    "Manufacturer": {
+     "Id": 1212,
+     "Name": "Preci-Dip"
+    },
+    "ManufacturerProductNumber": "151-80-310-00-016101",
+    "UnitPrice": 10.08,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/preci-dip/151-80-310-00-016101/4095308",
+    "DatasheetUrl": "https://precidip.com/wp-content/uploads/2024/10/CATALOG-DILSOCKETS.pdf",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-151-80-310-00-016101-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 10.08,
+        "TotalPrice": 10.08
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 9.88,
+        "TotalPrice": 988.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 9.68,
+        "TotalPrice": 4840.0
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 9.49,
+        "TotalPrice": 9490.0
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 9.3,
+        "TotalPrice": 46500.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 16,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "151-80-310-00-016101-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 252,
+        "UnitPrice": 3.47639,
+        "TotalPrice": 876.05028
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1212,
+       "Name": "Preci-Dip"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 252,
+      "StandardPackage": 42,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 16,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "339133",
+      "ValueText": "DIP, DIL - Header"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "389042",
+      "ValueText": "Post"
+     },
+     {
+      "ParameterId": 88,
+      "ParameterText": "Number of Positions",
+      "ParameterType": "String",
+      "ValueId": "63986",
+      "ValueText": "10"
+     },
+     {
+      "ParameterId": 89,
+      "ParameterText": "Pitch",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 2172,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "Double",
+      "ValueId": "2",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 563,
+      "ParameterText": "Row Spacing",
+      "ParameterType": "String",
+      "ValueId": "18160",
+      "ValueText": "0.300\" (7.62mm)"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 30,
+      "ParameterText": "Contact Finish",
+      "ParameterType": "String",
+      "ValueId": "412237",
+      "ValueText": "Tin"
+     },
+     {
+      "ParameterId": 834,
+      "ParameterText": "Contact Finish Thickness",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 37,
+      "ParameterText": "Color",
+      "ParameterType": "String",
+      "ValueId": "319929",
+      "ValueText": "Black"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 592420,
+     "Name": "151-80"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 318,
+         "ParentId": 2027,
+         "Name": "Headers, Specialty Pin",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/366/477/D01-9923246_tmb%2864x64%29.jpg",
+         "SeoDescription": "This type of header contains a variety of special pin types within a plastic base to be connected to a board. Connector types include: DIP, DIL, header, plug, SIP, and SIL. Contact types include: forked, male, post, slotted, solder cup, and turret. These are available in a variety of position and pitch options. Mounting types are surface mount and through-hole.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 3593,
+     "Name": "151"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4040"
+    },
+    "OtherNames": [
+     "3937-151-80-310-00-016101"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONN HEADER VERT 10POS 2.54MM",
+     "DetailedDescription": "Connector Header Through Hole 10 position 0.100\" (2.54mm)"
+    },
+    "Manufacturer": {
+     "Id": 1212,
+     "Name": "Preci-Dip"
+    },
+    "ManufacturerProductNumber": "451-10-210-00-016101",
+    "UnitPrice": 15.32,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/preci-dip/451-10-210-00-016101/4108328",
+    "DatasheetUrl": "",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/1290/451-10-2xx-00-xxx101.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-451-10-210-00-016101-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 15.32,
+        "TotalPrice": 15.32
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 15.02,
+        "TotalPrice": 1502.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 14.72,
+        "TotalPrice": 7360.0
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 14.42,
+        "TotalPrice": 14420.0
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 14.13,
+        "TotalPrice": 70650.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 16,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "451-10-210-00-016101-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 160,
+        "UnitPrice": 7.08263,
+        "TotalPrice": 1133.2208
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1212,
+       "Name": "Preci-Dip"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 160,
+      "StandardPackage": 160,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 16,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "353507",
+      "ValueText": "Header"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "371353",
+      "ValueText": "Male Pin"
+     },
+     {
+      "ParameterId": 1790,
+      "ParameterText": "Pitch - Mating",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 88,
+      "ParameterText": "Number of Positions",
+      "ParameterType": "String",
+      "ValueId": "63986",
+      "ValueText": "10"
+     },
+     {
+      "ParameterId": 90,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "String",
+      "ValueId": "121326",
+      "ValueText": "2"
+     },
+     {
+      "ParameterId": 2024,
+      "ParameterText": "Row Spacing - Mating",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 564,
+      "ParameterText": "Number of Positions Loaded",
+      "ParameterType": "String",
+      "ValueId": "312745",
+      "ValueText": "All"
+     },
+     {
+      "ParameterId": 91,
+      "ParameterText": "Style",
+      "ParameterType": "String",
+      "ValueId": "321611",
+      "ValueText": "Board to Board"
+     },
+     {
+      "ParameterId": 2021,
+      "ParameterText": "Shrouding",
+      "ParameterType": "String",
+      "ValueId": "417859",
+      "ValueText": "Unshrouded"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 518,
+      "ParameterText": "Fastening Type",
+      "ParameterType": "String",
+      "ValueId": "390971",
+      "ValueText": "Push-Pull"
+     },
+     {
+      "ParameterId": 2025,
+      "ParameterText": "Contact Length - Mating",
+      "ParameterType": "String",
+      "ValueId": "10308",
+      "ValueText": "0.118\" (3.00mm)"
+     },
+     {
+      "ParameterId": 2012,
+      "ParameterText": "Contact Length - Post",
+      "ParameterType": "String",
+      "ValueId": "10888",
+      "ValueText": "0.126\" (3.20mm)"
+     },
+     {
+      "ParameterId": 2022,
+      "ParameterText": "Overall Contact Length",
+      "ParameterType": "String",
+      "ValueId": "42748",
+      "ValueText": "1.079\" (27.40mm)"
+     },
+     {
+      "ParameterId": 2018,
+      "ParameterText": "Insulation Height",
+      "ParameterType": "String",
+      "ValueId": "10080",
+      "ValueText": "0.110\" (2.79mm)"
+     },
+     {
+      "ParameterId": 2011,
+      "ParameterText": "Contact Shape",
+      "ParameterType": "String",
+      "ValueId": "329807",
+      "ValueText": "Circular"
+     },
+     {
+      "ParameterId": 1791,
+      "ParameterText": "Contact Finish - Mating",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 1792,
+      "ParameterText": "Contact Finish Thickness - Mating",
+      "ParameterType": "String",
+      "ValueId": "64614",
+      "ValueText": "10.0\u00b5in (0.25\u00b5m)"
+     },
+     {
+      "ParameterId": 1795,
+      "ParameterText": "Contact Finish - Post",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "322862",
+      "ValueText": "Brass"
+     },
+     {
+      "ParameterId": 2023,
+      "ParameterText": "Insulation Material",
+      "ParameterType": "String",
+      "ValueId": "388529",
+      "ValueText": "Polycyclohexylenedimethylene Terephthalate (PCT), Polyester, Glass Filled"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 903,
+      "ParameterText": "Material Flammability Rating",
+      "ParameterType": "String",
+      "ValueId": "417627",
+      "ValueText": "UL94 V-0"
+     },
+     {
+      "ParameterId": 1693,
+      "ParameterText": "Insulation Color",
+      "ParameterType": "String",
+      "ValueId": "319929",
+      "ValueText": "Black"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "201594",
+      "ValueText": "3A"
+     },
+     {
+      "ParameterId": 63,
+      "ParameterText": "Voltage Rating",
+      "ParameterType": "String",
+      "ValueId": "100692",
+      "ValueText": "150VDC"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 504320,
+     "Name": "451-10"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 314,
+         "ParentId": 2027,
+         "Name": "Headers, Male Pins",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/507/986/45212-600230_tmb.jpg",
+         "SeoDescription": "This type of header contains male pins within a plastic base and is meant to be mated with a rectangular cable connector or a female socket header for board-to-board connection. These come in a variety of position and pitch options, with some having a breakaway option to manually change position count with ease. Some are shrouded with 1 to 4 walls or unshrouded. Mounting types include panel mount, board edge, stacking, surface mount, and through-hole.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 40500,
+     "Name": "451"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4040"
+    },
+    "OtherNames": [
+     "3937-451-10-210-00-016101"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CONN HEADER VERT 10POS 2.54MM",
+     "DetailedDescription": "Connector Header Through Hole 10 position 0.100\" (2.54mm)"
+    },
+    "Manufacturer": {
+     "Id": 1212,
+     "Name": "Preci-Dip"
+    },
+    "ManufacturerProductNumber": "351-10-110-00-016101",
+    "UnitPrice": 15.32,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/preci-dip/351-10-110-00-016101/4101647",
+    "DatasheetUrl": "",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/966/351-xxpos-gold.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "3937-351-10-110-00-016101-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 15.32,
+        "TotalPrice": 15.32
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 15.02,
+        "TotalPrice": 1502.0
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 14.72,
+        "TotalPrice": 7360.0
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 14.42,
+        "TotalPrice": 14420.0
+       },
+       {
+        "BreakQuantity": 5000,
+        "UnitPrice": 14.13,
+        "TotalPrice": 70650.0
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": true,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 3937,
+       "Name": "JRH Electronics"
+      },
+      "QuantityAvailableforPackageType": 16,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "351-10-110-00-016101-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 160,
+        "UnitPrice": 7.08263,
+        "TotalPrice": 1133.2208
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 1212,
+       "Name": "Preci-Dip"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 160,
+      "StandardPackage": 160,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 16,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 28,
+      "ParameterText": "Connector Type",
+      "ParameterType": "String",
+      "ValueId": "353507",
+      "ValueText": "Header"
+     },
+     {
+      "ParameterId": 512,
+      "ParameterText": "Contact Type",
+      "ParameterType": "String",
+      "ValueId": "371353",
+      "ValueText": "Male Pin"
+     },
+     {
+      "ParameterId": 1790,
+      "ParameterText": "Pitch - Mating",
+      "ParameterType": "String",
+      "ValueId": "9726",
+      "ValueText": "0.100\" (2.54mm)"
+     },
+     {
+      "ParameterId": 88,
+      "ParameterText": "Number of Positions",
+      "ParameterType": "String",
+      "ValueId": "63986",
+      "ValueText": "10"
+     },
+     {
+      "ParameterId": 90,
+      "ParameterText": "Number of Rows",
+      "ParameterType": "String",
+      "ValueId": "39665",
+      "ValueText": "1"
+     },
+     {
+      "ParameterId": 2024,
+      "ParameterText": "Row Spacing - Mating",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 564,
+      "ParameterText": "Number of Positions Loaded",
+      "ParameterType": "String",
+      "ValueId": "312745",
+      "ValueText": "All"
+     },
+     {
+      "ParameterId": 91,
+      "ParameterText": "Style",
+      "ParameterType": "String",
+      "ValueId": "321611",
+      "ValueText": "Board to Board"
+     },
+     {
+      "ParameterId": 2021,
+      "ParameterText": "Shrouding",
+      "ParameterType": "String",
+      "ValueId": "417859",
+      "ValueText": "Unshrouded"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "411897",
+      "ValueText": "Through Hole"
+     },
+     {
+      "ParameterId": 589,
+      "ParameterText": "Termination",
+      "ParameterType": "String",
+      "ValueId": "405002",
+      "ValueText": "Solder"
+     },
+     {
+      "ParameterId": 518,
+      "ParameterText": "Fastening Type",
+      "ParameterType": "String",
+      "ValueId": "390971",
+      "ValueText": "Push-Pull"
+     },
+     {
+      "ParameterId": 2025,
+      "ParameterText": "Contact Length - Mating",
+      "ParameterType": "String",
+      "ValueId": "10308",
+      "ValueText": "0.118\" (3.00mm)"
+     },
+     {
+      "ParameterId": 2012,
+      "ParameterText": "Contact Length - Post",
+      "ParameterType": "String",
+      "ValueId": "10888",
+      "ValueText": "0.126\" (3.20mm)"
+     },
+     {
+      "ParameterId": 2022,
+      "ParameterText": "Overall Contact Length",
+      "ParameterType": "String",
+      "ValueId": "42748",
+      "ValueText": "1.079\" (27.40mm)"
+     },
+     {
+      "ParameterId": 2018,
+      "ParameterText": "Insulation Height",
+      "ParameterType": "String",
+      "ValueId": "10281",
+      "ValueText": "0.116\" (2.95mm)"
+     },
+     {
+      "ParameterId": 2011,
+      "ParameterText": "Contact Shape",
+      "ParameterType": "String",
+      "ValueId": "329807",
+      "ValueText": "Circular"
+     },
+     {
+      "ParameterId": 1791,
+      "ParameterText": "Contact Finish - Mating",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 1792,
+      "ParameterText": "Contact Finish Thickness - Mating",
+      "ParameterType": "String",
+      "ValueId": "64614",
+      "ValueText": "10.0\u00b5in (0.25\u00b5m)"
+     },
+     {
+      "ParameterId": 1795,
+      "ParameterText": "Contact Finish - Post",
+      "ParameterType": "String",
+      "ValueId": "350796",
+      "ValueText": "Gold"
+     },
+     {
+      "ParameterId": 1084,
+      "ParameterText": "Contact Material",
+      "ParameterType": "String",
+      "ValueId": "322862",
+      "ValueText": "Brass"
+     },
+     {
+      "ParameterId": 2023,
+      "ParameterText": "Insulation Material",
+      "ParameterType": "String",
+      "ValueId": "388529",
+      "ValueText": "Polycyclohexylenedimethylene Terephthalate (PCT), Polyester, Glass Filled"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 697,
+      "ParameterText": "Ingress Protection",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 903,
+      "ParameterText": "Material Flammability Rating",
+      "ParameterType": "String",
+      "ValueId": "417627",
+      "ValueText": "UL94 V-0"
+     },
+     {
+      "ParameterId": 1693,
+      "ParameterText": "Insulation Color",
+      "ParameterType": "String",
+      "ValueId": "319929",
+      "ValueText": "Black"
+     },
+     {
+      "ParameterId": 66,
+      "ParameterText": "Current Rating (Amps)",
+      "ParameterType": "String",
+      "ValueId": "201594",
+      "ValueText": "3A"
+     },
+     {
+      "ParameterId": 63,
+      "ParameterText": "Voltage Rating",
+      "ParameterType": "String",
+      "ValueId": "100692",
+      "ValueText": "150VDC"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 503384,
+     "Name": "351-10"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2027,
+       "ParentId": 20,
+       "Name": "Rectangular Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/244/550/C-Grid-III-90131%282-POS%29tin_tmb%2864x64%29.jpg",
+       "SeoDescription": "Rectangular Connectors include a wide variety of connector solutions for power, data, and signal applications. As the name implies, they are rectangular in shape and can provide ease to the design process. Many of the most commonly found connectors and connector accessories fall into this category.",
+       "ChildCategories": [
+        {
+         "CategoryId": 314,
+         "ParentId": 2027,
+         "Name": "Headers, Male Pins",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/507/986/45212-600230_tmb.jpg",
+         "SeoDescription": "This type of header contains male pins within a plastic base and is meant to be mated with a rectangular cable connector or a female socket header for board-to-board connection. These come in a variety of position and pitch options, with some having a breakaway option to manually change position count with ease. Some are shrouded with 1 to 4 walls or unshrouded. Mounting types include panel mount, board edge, stacking, surface mount, and through-hole.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "11",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 4175,
+     "Name": "351"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8536.69.4040"
+    },
+    "OtherNames": [
+     "3937-351-10-110-00-016101"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RB 161-7 SHELF SUPPORT 161-7MM",
+     "DetailedDescription": "Shelf"
+    },
+    "Manufacturer": {
+     "Id": 2160,
+     "Name": "Murrplastik Systems, Inc."
+    },
+    "ManufacturerProductNumber": "1000016107",
+    "UnitPrice": 1.92,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/murrplastik-systems-inc/1000016107/26561105",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6940/RB_Datasheet.pdf",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "2160-1000016107-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 1.92,
+        "TotalPrice": 1.92
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2160,
+       "Name": "Murrplastik Systems, Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "401965",
+      "ValueText": "Shelf"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 34,
+     "ParentId": 0,
+     "Name": "Industrial Automation and Controls",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/953/537/MFG_1528_997_tmb.jpg",
+     "SeoDescription": "The industrial automation and control product category encompasses a wide variety of products used for industrial machine and process control, monitoring, and operator interface applications. They typically feature a higher level of integration than similar component-level products, and are designed to be usable as functional building blocks without further manufacturing steps, such as assembly onto a printed circuit board.",
+     "ChildCategories": [
+      {
+       "CategoryId": 800,
+       "ParentId": 34,
+       "Name": "Industrial Automation Accessories",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/016/073/MFG_8611320000_tmb%2864x64%29.jpg",
+       "SeoDescription": "Supplementary items used with other devices in this category.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "5",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "",
+     "HtsusCode": ""
+    },
+    "OtherNames": [
+     "2160-1000016107"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "RB 161-K SHELF SUPPORT 161 MM,",
+     "DetailedDescription": "Shelf"
+    },
+    "Manufacturer": {
+     "Id": 2160,
+     "Name": "Murrplastik Systems, Inc."
+    },
+    "ManufacturerProductNumber": "1000016104",
+    "UnitPrice": 2.67,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/murrplastik-systems-inc/1000016104/26560449",
+    "DatasheetUrl": "//mm.digikey.com/Volume0/opasdata/d220001/medias/docus/6940/RB_Datasheet.pdf",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "2160-1000016104-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 2.67,
+        "TotalPrice": 2.67
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 2160,
+       "Name": "Murrplastik Systems, Inc."
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "401965",
+      "ValueText": "Shelf"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 34,
+     "ParentId": 0,
+     "Name": "Industrial Automation and Controls",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/953/537/MFG_1528_997_tmb.jpg",
+     "SeoDescription": "The industrial automation and control product category encompasses a wide variety of products used for industrial machine and process control, monitoring, and operator interface applications. They typically feature a higher level of integration than similar component-level products, and are designed to be usable as functional building blocks without further manufacturing steps, such as assembly onto a printed circuit board.",
+     "ChildCategories": [
+      {
+       "CategoryId": 800,
+       "ParentId": 34,
+       "Name": "Industrial Automation Accessories",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/016/073/MFG_8611320000_tmb%2864x64%29.jpg",
+       "SeoDescription": "Supplementary items used with other devices in this category.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "5",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 139742,
+     "Name": "EVOCHAIN\u00ae"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "",
+     "ExportControlClassNumber": "",
+     "HtsusCode": ""
+    },
+    "OtherNames": [
+     "2160-1000016104"
+    ]
+   }
+  ],
+  "ProductsCount": 10,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 2496,
+     "Value": "Amphenol Procom",
+     "ProductCount": 1
+    },
+    {
+     "Id": 432,
+     "Value": "Carling Technologies",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2160,
+     "Value": "Murrplastik Systems, Inc.",
+     "ProductCount": 2
+    },
+    {
+     "Id": 1212,
+     "Value": "Preci-Dip",
+     "ProductCount": 6
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

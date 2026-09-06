@@ -1,0 +1,1149 @@
+{
+ "key": "7e369b321355d502ac8a5dc7",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "20418-2",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:22:05",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "DSUB F SCREW LOCK ASSBLY 1=2",
+     "DetailedDescription": "Jackscrew Socket For D-Sub Connectors"
+    },
+    "Manufacturer": {
+     "Id": 664,
+     "Name": "Amphenol ICC (Commercial Products)"
+    },
+    "ManufacturerProductNumber": "L17D204182",
+    "UnitPrice": 1.45,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/L17D204182/4884440",
+    "DatasheetUrl": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17d204182.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/748/L17D204182.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "L17D204182-ND",
+      "PackageType": {
+       "Id": 62,
+       "Name": "Bag"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 1.45,
+        "TotalPrice": 1.45
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 1.23,
+        "TotalPrice": 12.3
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 1.1524,
+        "TotalPrice": 28.81
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 1.0974,
+        "TotalPrice": 54.87
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 1.0449,
+        "TotalPrice": 104.49
+       },
+       {
+        "BreakQuantity": 250,
+        "UnitPrice": 0.9794,
+        "TotalPrice": 244.85
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.93262,
+        "TotalPrice": 466.31
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 0.88811,
+        "TotalPrice": 888.11
+       },
+       {
+        "BreakQuantity": 2500,
+        "UnitPrice": 0.83252,
+        "TotalPrice": 2081.3
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 664,
+       "Name": "Amphenol CS (Commercial Products)"
+      },
+      "QuantityAvailableforPackageType": 175,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 500,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 175,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "361907",
+      "ValueText": "Jackscrew Socket"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "341494",
+      "ValueText": "D-Sub Connectors"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "352973",
+      "ValueText": "Hardware Included"
+     },
+     {
+      "ParameterId": 1077,
+      "ParameterText": "Length - Threaded Portion Below Head",
+      "ParameterType": "String",
+      "ValueId": "19152",
+      "ValueText": "0.327\" (8.31mm)"
+     },
+     {
+      "ParameterId": 748,
+      "ParameterText": "Length - Below Head",
+      "ParameterType": "String",
+      "ValueId": "19151",
+      "ValueText": "0.327\" (8.30mm)"
+     },
+     {
+      "ParameterId": 121,
+      "ParameterText": "Thread Size",
+      "ParameterType": "String",
+      "ValueId": "219644",
+      "ValueText": "4-40 Socket, 4-40 Screw"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 174105,
+     "Name": "L17D20418"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2011,
+       "ParentId": 20,
+       "Name": "D-Sub, D-Shaped Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/761/1727040074_tmb%2864x64%29.jpg",
+       "SeoDescription": "D-subminiature connectors are named for the D-shaped shroud present at their mating end and the relatively high interconnect density offered at the time of their introduction. Products in this family, which are described as \"connectors\", incorporate the electrical contacts and the insulation system holding them in position as an integral unit. They are commonly used for board mount applications, although they can also be used\u00a0for solder terminated cable mount.",
+       "ChildCategories": [
+        {
+         "CategoryId": 447,
+         "ParentId": 2011,
+         "Name": "D-Sub, D-Shaped Connector Jackscrews",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/429/863001TLF_1_tmb%2864x64%29.jpg",
+         "SeoDescription": "Jack Screws or Screw Lock assemblies solidify the connection between D-Sub connectors by physically screwing the male and female connectors together. It is important to note that some jackscrews come with hardware included, while others require additional hardware that is not included.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90528,
+     "Name": "L17D2"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": []
+   },
+   {
+    "Description": {
+     "ProductDescription": "SCREWLOCK W/NUT/WASH 1=10SETS",
+     "DetailedDescription": "Jackscrew Socket For D-Sub Connectors"
+    },
+    "Manufacturer": {
+     "Id": 664,
+     "Name": "Amphenol ICC (Commercial Products)"
+    },
+    "ManufacturerProductNumber": "L17D204182X",
+    "UnitPrice": 8.88,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/L17D204182X/1971897",
+    "DatasheetUrl": "https://www.waldomemea.com/productfiles/mf-acp/acp-l17d204182x-48256568.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/194/L17D204182X_pack.JPG",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "L17D204182X-ND",
+      "PackageType": {
+       "Id": 62,
+       "Name": "Bag"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 8.88,
+        "TotalPrice": 8.88
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 7.545,
+        "TotalPrice": 75.45
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 7.072,
+        "TotalPrice": 176.8
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 6.7344,
+        "TotalPrice": 336.72
+       },
+       {
+        "BreakQuantity": 200,
+        "UnitPrice": 6.10685,
+        "TotalPrice": 1221.37
+       },
+       {
+        "BreakQuantity": 400,
+        "UnitPrice": 5.81558,
+        "TotalPrice": 2326.232
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 5.6517,
+        "TotalPrice": 3391.02
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 5.45183,
+        "TotalPrice": 5451.83
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 664,
+       "Name": "Amphenol CS (Commercial Products)"
+      },
+      "QuantityAvailableforPackageType": 2453,
+      "MinimumOrderQuantity": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 2453,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "361907",
+      "ValueText": "Jackscrew Socket"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "341494",
+      "ValueText": "D-Sub Connectors"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "352973",
+      "ValueText": "Hardware Included"
+     },
+     {
+      "ParameterId": 1077,
+      "ParameterText": "Length - Threaded Portion Below Head",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 748,
+      "ParameterText": "Length - Below Head",
+      "ParameterType": "String",
+      "ValueId": "19151",
+      "ValueText": "0.327\" (8.30mm)"
+     },
+     {
+      "ParameterId": 121,
+      "ParameterText": "Thread Size",
+      "ParameterType": "String",
+      "ValueId": "219644",
+      "ValueText": "4-40 Socket, 4-40 Screw"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 174105,
+     "Name": "L17D20418"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2011,
+       "ParentId": 20,
+       "Name": "D-Sub, D-Shaped Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/761/1727040074_tmb%2864x64%29.jpg",
+       "SeoDescription": "D-subminiature connectors are named for the D-shaped shroud present at their mating end and the relatively high interconnect density offered at the time of their introduction. Products in this family, which are described as \"connectors\", incorporate the electrical contacts and the insulation system holding them in position as an integral unit. They are commonly used for board mount applications, although they can also be used\u00a0for solder terminated cable mount.",
+       "ChildCategories": [
+        {
+         "CategoryId": 447,
+         "ParentId": 2011,
+         "Name": "D-Sub, D-Shaped Connector Jackscrews",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/429/863001TLF_1_tmb%2864x64%29.jpg",
+         "SeoDescription": "Jack Screws or Screw Lock assemblies solidify the connection between D-Sub connectors by physically screwing the male and female connectors together. It is important to note that some jackscrews come with hardware included, while others require additional hardware that is not included.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 818,
+     "Name": "-"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "2266-L17D204182X"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "DSUB F SCREW LOCK ASSBLY 1=10",
+     "DetailedDescription": "Jackscrew Socket For D-Sub Connectors"
+    },
+    "Manufacturer": {
+     "Id": 664,
+     "Name": "Amphenol ICC (Commercial Products)"
+    },
+    "ManufacturerProductNumber": "L17D204182SM3EX",
+    "UnitPrice": 12.0,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/L17D204182SM3EX/4884449",
+    "DatasheetUrl": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17d204182sm3ex.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/308/L17D204182SM3EX.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "L17D204182SM3EX-ND",
+      "PackageType": {
+       "Id": 62,
+       "Name": "Bag"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 12.0,
+        "TotalPrice": 12.0
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 10.194,
+        "TotalPrice": 101.94
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 9.5552,
+        "TotalPrice": 238.88
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 9.099,
+        "TotalPrice": 454.95
+       },
+       {
+        "BreakQuantity": 200,
+        "UnitPrice": 8.2513,
+        "TotalPrice": 1650.26
+       },
+       {
+        "BreakQuantity": 400,
+        "UnitPrice": 7.8578,
+        "TotalPrice": 3143.12
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 7.63642,
+        "TotalPrice": 4581.852
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 7.36641,
+        "TotalPrice": 7366.41
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 664,
+       "Name": "Amphenol CS (Commercial Products)"
+      },
+      "QuantityAvailableforPackageType": 303,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 200,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 303,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "361907",
+      "ValueText": "Jackscrew Socket"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "341494",
+      "ValueText": "D-Sub Connectors"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "352973",
+      "ValueText": "Hardware Included"
+     },
+     {
+      "ParameterId": 1077,
+      "ParameterText": "Length - Threaded Portion Below Head",
+      "ParameterType": "String",
+      "ValueId": "29317",
+      "ValueText": "0.622\" (15.80mm)"
+     },
+     {
+      "ParameterId": 748,
+      "ParameterText": "Length - Below Head",
+      "ParameterType": "String",
+      "ValueId": "29317",
+      "ValueText": "0.622\" (15.80mm)"
+     },
+     {
+      "ParameterId": 121,
+      "ParameterText": "Thread Size",
+      "ParameterType": "String",
+      "ValueId": "219646",
+      "ValueText": "4-40 Socket, M3 Screw"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 174105,
+     "Name": "L17D20418"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2011,
+       "ParentId": 20,
+       "Name": "D-Sub, D-Shaped Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/761/1727040074_tmb%2864x64%29.jpg",
+       "SeoDescription": "D-subminiature connectors are named for the D-shaped shroud present at their mating end and the relatively high interconnect density offered at the time of their introduction. Products in this family, which are described as \"connectors\", incorporate the electrical contacts and the insulation system holding them in position as an integral unit. They are commonly used for board mount applications, although they can also be used\u00a0for solder terminated cable mount.",
+       "ChildCategories": [
+        {
+         "CategoryId": 447,
+         "ParentId": 2011,
+         "Name": "D-Sub, D-Shaped Connector Jackscrews",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/429/863001TLF_1_tmb%2864x64%29.jpg",
+         "SeoDescription": "Jack Screws or Screw Lock assemblies solidify the connection between D-Sub connectors by physically screwing the male and female connectors together. It is important to note that some jackscrews come with hardware included, while others require additional hardware that is not included.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90528,
+     "Name": "L17D2"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "2266-L17D204182SM3EX"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "CAP CER 5600PF 50V X7R 0603",
+     "DetailedDescription": "5600 pF \u00b110% 50V Ceramic Capacitor X7R 0603 (1608 Metric)"
+    },
+    "Manufacturer": {
+     "Id": 399,
+     "Name": "KEMET"
+    },
+    "ManufacturerProductNumber": "C0603S562K5RACAUTO",
+    "UnitPrice": 0.48,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/kemet/C0603S562K5RACAUTO/9924895",
+    "DatasheetUrl": "https://yageogroup.com/content/datasheet/asset/file/KEM_C1014_X7R_FE-CAP_SMD",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/423/0603-%281608-Metric%29-1%2C60x0%2C80x0%2C87mm.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "399-20418-2-ND",
+      "PackageType": {
+       "Id": 1,
+       "Name": "Tape & Reel (TR)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 4000,
+        "UnitPrice": 0.11778,
+        "TotalPrice": 471.12
+       },
+       {
+        "BreakQuantity": 12000,
+        "UnitPrice": 0.10756,
+        "TotalPrice": 1290.72
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 399,
+       "Name": "KEMET"
+      },
+      "QuantityAvailableforPackageType": 4000,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 4000,
+      "StandardPackage": 4000,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "399-20418-1-ND",
+      "PackageType": {
+       "Id": 2,
+       "Name": "Cut Tape (CT)"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.48,
+        "TotalPrice": 0.48
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.288,
+        "TotalPrice": 2.88
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.2116,
+        "TotalPrice": 10.58
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.188,
+        "TotalPrice": 18.8
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.14834,
+        "TotalPrice": 74.17
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 399,
+       "Name": "KEMET"
+      },
+      "QuantityAvailableforPackageType": 5342,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     },
+     {
+      "DigiKeyProductNumber": "399-20418-6-ND",
+      "PackageType": {
+       "Id": 243,
+       "Name": "Digi-Reel\u00ae"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 0.48,
+        "TotalPrice": 0.48
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 0.288,
+        "TotalPrice": 2.88
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 0.2116,
+        "TotalPrice": 10.58
+       },
+       {
+        "BreakQuantity": 100,
+        "UnitPrice": 0.188,
+        "TotalPrice": 18.8
+       },
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 0.14834,
+        "TotalPrice": 74.17
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 399,
+       "Name": "KEMET"
+      },
+      "QuantityAvailableforPackageType": 5342,
+      "MaxQuantityForDistribution": 200000,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 1,
+      "DigiReelFee": 7.0
+     }
+    ],
+    "QuantityAvailable": 5342,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 2049,
+      "ParameterText": "Capacitance",
+      "ParameterType": "UnitOfMeasure",
+      "ValueId": "5600 pF",
+      "ValueText": "5600 pF"
+     },
+     {
+      "ParameterId": 3,
+      "ParameterText": "Tolerance",
+      "ParameterType": "String",
+      "ValueId": "1340",
+      "ValueText": "\u00b110%"
+     },
+     {
+      "ParameterId": 14,
+      "ParameterText": "Voltage - Rated",
+      "ParameterType": "String",
+      "ValueId": "238738",
+      "ValueText": "50V"
+     },
+     {
+      "ParameterId": 17,
+      "ParameterText": "Temperature Coefficient",
+      "ParameterType": "String",
+      "ValueId": "422415",
+      "ValueText": "X7R"
+     },
+     {
+      "ParameterId": 252,
+      "ParameterText": "Operating Temperature",
+      "ParameterType": "String",
+      "ValueId": "242918",
+      "ValueText": "-55\u00b0C ~ 125\u00b0C"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "348303",
+      "ValueText": "Floating Electrode"
+     },
+     {
+      "ParameterId": 707,
+      "ParameterText": "Ratings",
+      "ParameterType": "String",
+      "ValueId": "312105",
+      "ValueText": "AEC-Q200"
+     },
+     {
+      "ParameterId": 405,
+      "ParameterText": "Applications",
+      "ParameterType": "String",
+      "ValueId": "316912",
+      "ValueText": "Automotive"
+     },
+     {
+      "ParameterId": 1531,
+      "ParameterText": "Failure Rate",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 69,
+      "ParameterText": "Mounting Type",
+      "ParameterType": "String",
+      "ValueId": "409416",
+      "ValueText": "Surface Mount, MLCC"
+     },
+     {
+      "ParameterId": 16,
+      "ParameterText": "Package / Case",
+      "ParameterType": "String",
+      "ValueId": "39246",
+      "ValueText": "0603 (1608 Metric)"
+     },
+     {
+      "ParameterId": 46,
+      "ParameterText": "Size / Dimension",
+      "ParameterType": "String",
+      "ValueId": "7802",
+      "ValueText": "0.063\" L x 0.031\" W (1.60mm x 0.80mm)"
+     },
+     {
+      "ParameterId": 1500,
+      "ParameterText": "Height - Seated (Max)",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 1501,
+      "ParameterText": "Thickness (Max)",
+      "ParameterType": "String",
+      "ValueId": "5991",
+      "ValueText": "0.034\" (0.87mm)"
+     },
+     {
+      "ParameterId": 508,
+      "ParameterText": "Lead Spacing",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     },
+     {
+      "ParameterId": 4,
+      "ParameterText": "Lead Style",
+      "ParameterType": "String",
+      "ValueId": "1",
+      "ValueText": "-"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 467223,
+     "Name": "C0603S"
+    },
+    "Category": {
+     "CategoryId": 3,
+     "ParentId": 0,
+     "Name": "Capacitors",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/640/398/BCAP0350%20E270%20T11_tmb%2864x64%29.jpg",
+     "SeoDescription": "Capacitor products, also known as \"condensers\", are generally named and organized in reference to the dielectric material incorporated within. Along with variations in construction methods, the choice of dielectric material has strong influence on a given device's relative cost, size, parametric stability, and suitability for a particular application.",
+     "ChildCategories": [
+      {
+       "CategoryId": 60,
+       "ParentId": 3,
+       "Name": "Ceramic Capacitors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/300/365/960/CGA-Series-0402-%281005-Metric%29_tmb.jpg",
+       "SeoDescription": "A capacitor is a passive electronic device that stores electric charge. Ceramic capacitors consist of two or more alternating layers of ceramic material as the dielectric and metal layers acting as the non-polarized electrodes. Applications include automotive, bypass, decoupling, filtering, RF, and ESD protection. Through-hole versions are often disc or \"blob\" shaped with two wire leads.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "24",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 70764,
+     "Name": "SMD Auto X7R FE"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unaffected",
+     "RohsStatus": "ROHS3 Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8532.24.0020"
+    },
+    "OtherNames": [
+     "399-20418-6",
+     "399-20418-2",
+     "399-20418-1"
+    ]
+   },
+   {
+    "Description": {
+     "ProductDescription": "DSUB F SCREW LOCK ASSBLY 1=10",
+     "DetailedDescription": "Jackscrew Socket For D-Sub Connectors"
+    },
+    "Manufacturer": {
+     "Id": 664,
+     "Name": "Amphenol ICC (Commercial Products)"
+    },
+    "ManufacturerProductNumber": "L17D204182LX",
+    "UnitPrice": 7.23,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/amphenol-cs-commercial-products/L17D204182LX/4884444",
+    "DatasheetUrl": "https://cdn.amphenol-cs.com/media/wysiwyg/files/drawing/l17d204182lx.pdf",
+    "PhotoUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/medias/images/3014/L17D204182LX-%28primary%29.jpg",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "L17D204182LX-ND",
+      "PackageType": {
+       "Id": 62,
+       "Name": "Bag"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 1,
+        "UnitPrice": 7.23,
+        "TotalPrice": 7.23
+       },
+       {
+        "BreakQuantity": 10,
+        "UnitPrice": 6.139,
+        "TotalPrice": 61.39
+       },
+       {
+        "BreakQuantity": 25,
+        "UnitPrice": 5.7544,
+        "TotalPrice": 143.86
+       },
+       {
+        "BreakQuantity": 50,
+        "UnitPrice": 5.4796,
+        "TotalPrice": 273.98
+       },
+       {
+        "BreakQuantity": 200,
+        "UnitPrice": 4.96895,
+        "TotalPrice": 993.79
+       },
+       {
+        "BreakQuantity": 400,
+        "UnitPrice": 4.73188,
+        "TotalPrice": 1892.752
+       },
+       {
+        "BreakQuantity": 600,
+        "UnitPrice": 4.59852,
+        "TotalPrice": 2759.112
+       },
+       {
+        "BreakQuantity": 1000,
+        "UnitPrice": 4.43587,
+        "TotalPrice": 4435.87
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": true,
+      "Supplier": {
+       "Id": 664,
+       "Name": "Amphenol CS (Commercial Products)"
+      },
+      "QuantityAvailableforPackageType": 479,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 1,
+      "StandardPackage": 200,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "QuantityAvailable": 479,
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": true,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [
+     {
+      "ParameterId": 184,
+      "ParameterText": "Accessory Type",
+      "ParameterType": "String",
+      "ValueId": "361907",
+      "ValueText": "Jackscrew Socket"
+     },
+     {
+      "ParameterId": 47,
+      "ParameterText": "For Use With/Related Products",
+      "ParameterType": "String",
+      "ValueId": "341494",
+      "ValueText": "D-Sub Connectors"
+     },
+     {
+      "ParameterId": 5,
+      "ParameterText": "Features",
+      "ParameterType": "String",
+      "ValueId": "352973",
+      "ValueText": "Hardware Included"
+     },
+     {
+      "ParameterId": 1077,
+      "ParameterText": "Length - Threaded Portion Below Head",
+      "ParameterType": "String",
+      "ValueId": "25986",
+      "ValueText": "0.511\" (12.98mm)"
+     },
+     {
+      "ParameterId": 748,
+      "ParameterText": "Length - Below Head",
+      "ParameterType": "String",
+      "ValueId": "26001",
+      "ValueText": "0.512\" (13.00mm)"
+     },
+     {
+      "ParameterId": 121,
+      "ParameterText": "Thread Size",
+      "ParameterType": "String",
+      "ValueId": "219644",
+      "ValueText": "4-40 Socket, 4-40 Screw"
+     }
+    ],
+    "BaseProductNumber": {
+     "Id": 174105,
+     "Name": "L17D20418"
+    },
+    "Category": {
+     "CategoryId": 20,
+     "ParentId": 0,
+     "Name": "Connectors, Interconnects",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/002/279/043/204507-1_tmb%2864x64%29.jpg",
+     "SeoDescription": "Connector and interconnect products facilitate the joining of electrical or fiber optic conductors & cables. An enormous variety of styles are available, to accommodate most any application; banana plugs for lab equipment, coaxial connectors for RF, modular plugs for network and phone systems, spade and ring terminals for connecting discrete wires to terminal blocks, terminal blocks, sockets for transistors and integrated circuits, standard AC power connectors, headphone plugs and jacks, high-voltage connectors, USB connectors, and many, many more.",
+     "ChildCategories": [
+      {
+       "CategoryId": 2011,
+       "ParentId": 20,
+       "Name": "D-Sub, D-Shaped Connectors",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/100/761/1727040074_tmb%2864x64%29.jpg",
+       "SeoDescription": "D-subminiature connectors are named for the D-shaped shroud present at their mating end and the relatively high interconnect density offered at the time of their introduction. Products in this family, which are described as \"connectors\", incorporate the electrical contacts and the insulation system holding them in position as an integral unit. They are commonly used for board mount applications, although they can also be used\u00a0for solder terminated cable mount.",
+       "ChildCategories": [
+        {
+         "CategoryId": 447,
+         "ParentId": 2011,
+         "Name": "D-Sub, D-Shaped Connector Jackscrews",
+         "ProductCount": 0,
+         "NewProductCount": 0,
+         "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/001/149/429/863001TLF_1_tmb%2864x64%29.jpg",
+         "SeoDescription": "Jack Screws or Screw Lock assemblies solidify the connection between D-Sub connectors by physically screwing the male and female connectors together. It is important to note that some jackscrews come with hardware included, while others require additional hardware that is not included.",
+         "ChildCategories": []
+        }
+       ]
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "18",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 90528,
+     "Name": "L17D2"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "RoHS Compliant",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "EAR99",
+     "HtsusCode": "8538.90.8180"
+    },
+    "OtherNames": [
+     "5831-L17D204182LX"
+    ]
+   }
+  ],
+  "ProductsCount": 314,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 664,
+     "Value": "Amphenol ICC (Commercial Products)",
+     "ProductCount": 10
+    },
+    {
+     "Id": 72,
+     "Value": "Apex Tool Group",
+     "ProductCount": 286
+    },
+    {
+     "Id": 116,
+     "Value": "Cinch Connectivity Solutions",
+     "ProductCount": 1
+    },
+    {
+     "Id": 4252,
+     "Value": "di-soric",
+     "ProductCount": 1
+    },
+    {
+     "Id": 5879,
+     "Value": "Dwyer",
+     "ProductCount": 2
+    },
+    {
+     "Id": 3720,
+     "Value": "Heyco Products Corporation",
+     "ProductCount": 1
+    },
+    {
+     "Id": 448,
+     "Value": "Infineon Technologies",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1003,
+     "Value": "ITT Cannon, LLC",
+     "ProductCount": 3
+    },
+    {
+     "Id": 670,
+     "Value": "JAE Electronics",
+     "ProductCount": 4
+    },
+    {
+     "Id": 399,
+     "Value": "KEMET",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2337,
+     "Value": "SAB North America",
+     "ProductCount": 1
+    },
+    {
+     "Id": 612,
+     "Value": "Samtec Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 1882,
+     "Value": "SICK, Inc.",
+     "ProductCount": 1
+    },
+    {
+     "Id": 2946,
+     "Value": "WAGO Corporation",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}

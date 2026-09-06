@@ -1,0 +1,70 @@
+{
+ "key": "raw_92fa13dfde0cf833",
+ "method": "POST",
+ "url": "https://api.nexar.com/graphql",
+ "params": null,
+ "json_body": {
+  "query": "\nquery Enrich($mpn: String!) {\n  supMultiMatch(queries: [{ mpn: $mpn, limit: 1 }], currency: \"USD\", country: \"US\") {\n    hits\n    parts {\n      id\n      mpn\n      name\n      octopartUrl\n      manufacturer { name }\n      medianPrice1000 { price currency quantity }\n      totalAvail\n      sellers {\n        isAuthorized\n        company { name }\n        offers {\n          inventoryLevel\n          factoryLeadDays\n          prices { quantity price currency }\n        }\n      }\n    }\n  }\n}\n",
+  "variables": {
+   "mpn": "D38999/25YG24XD"
+  }
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:31:04",
+ "body": {
+  "data": {
+   "supMultiMatch": [
+    {
+     "hits": 1,
+     "parts": [
+      {
+       "id": "58734955",
+       "mpn": "D38999/25YG24XD",
+       "name": "TE Connectivity / DEUTSCH D38999/25YG24XD",
+       "octopartUrl": "https://octopart.com/part/te-connectivity-deutsch/D38999%2F25YG24XD",
+       "manufacturer": {
+        "name": "TE Connectivity / DEUTSCH"
+       },
+       "medianPrice1000": {
+        "price": 200.22,
+        "currency": "USD",
+        "quantity": 1000
+       },
+       "totalAvail": 0,
+       "sellers": [
+        {
+         "isAuthorized": true,
+         "company": {
+          "name": "RS (Formerly Allied Electronics)"
+         },
+         "offers": [
+          {
+           "inventoryLevel": 0,
+           "factoryLeadDays": null,
+           "prices": [
+            {
+             "quantity": 100,
+             "price": 217.63,
+             "currency": "USD"
+            },
+            {
+             "quantity": 500,
+             "price": 200.22,
+             "currency": "USD"
+            }
+           ]
+          }
+         ]
+        }
+       ]
+      }
+     ]
+    }
+   ]
+  },
+  "extensions": {
+   "requestId": "db966816-26f8-480c-9c7f-fd4d07bcd5da"
+  }
+ },
+ "from_cache": false
+}

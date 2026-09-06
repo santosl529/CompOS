@@ -1,0 +1,129 @@
+{
+ "key": "f497310ce83b4a4df8f0d655",
+ "method": "POST",
+ "url": "https://api.digikey.com/products/v4/search/keyword",
+ "params": null,
+ "json_body": {
+  "Keywords": "031-1287-003",
+  "Limit": 5,
+  "Offset": 0
+ },
+ "status": 200,
+ "fetched_at": "2026-09-05T20:22:44",
+ "body": {
+  "Products": [
+   {
+    "Description": {
+     "ProductDescription": "CNT ASM S DPXMA 22 P/C LIF",
+     "DetailedDescription": ""
+    },
+    "Manufacturer": {
+     "Id": 1003,
+     "Name": "ITT Cannon, LLC"
+    },
+    "ManufacturerProductNumber": "CNT ASM S DPXMA 22 P/C LIF",
+    "UnitPrice": 11.5192,
+    "ProductUrl": "https://www.digikey.com/en/products/detail/itt-cannon-llc/CNT-ASM-S-DPXMA-22-P-C-LIF/27488575",
+    "DatasheetUrl": "https://d3opzdukpbxlns.cloudfront.net/14a27333-37af-40ef-8a4c-5dcfe4f67c6f/4186c35008db4f169487095daea6ae58?response-content-disposition=inline%3B%20filename%2A%3DUTF-8%27%27ITT-Cannon-Microminiature-Connectors-Catalog.pdf&response-content-type=application%2Fpdf&Expires=1772884800&Signature=C9laHFqJWIjNgJ8FXf7mjxjQXT7TVRJGHxrTdApKGydAiNy~36p6DKR3vbyINUwFYqg-plHrQYgbtyL9AvFGBLaX5GemW-M2OP8JDKta5QoTZqVD7xzVHBVEhQ-R2UE7ApeqxpGOMZU8Kd3hQKK-OTgV0snV9UNCWgLiMc1WwuAwPaG39CKSv4eSEHKcBa5rtuKBvx~FdsPJfyIaUK79Vv6YqTqJZnzB-Mzeilgzb9iX8hXIJ1C0uyDWUh7sa6d70Z0u6WgzBTM69kbKrRGxiGugPlkub1UOmIK4qik7vAjWU-oMTtLphMf2kyumCFlsEExRyTQzdcNC-egNe8-IrA__&Key-Pair-Id=APKAI33AGAEAYCXFBDTA",
+    "PhotoUrl": "",
+    "ProductVariations": [
+     {
+      "DigiKeyProductNumber": "1003-CNTASMSDPXMA22P/CLIF-ND",
+      "PackageType": {
+       "Id": 3,
+       "Name": "Bulk"
+      },
+      "StandardPricing": [
+       {
+        "BreakQuantity": 500,
+        "UnitPrice": 11.5192,
+        "TotalPrice": 5759.6
+       }
+      ],
+      "MyPricing": [],
+      "MarketPlace": false,
+      "TariffActive": false,
+      "Supplier": {
+       "Id": 1003,
+       "Name": "ITT Cannon, LLC"
+      },
+      "QuantityAvailableforPackageType": 0,
+      "MaxQuantityForDistribution": 999999999,
+      "MinimumOrderQuantity": 500,
+      "StandardPackage": 1,
+      "DigiReelFee": 0.0
+     }
+    ],
+    "ProductStatus": {
+     "Id": 0,
+     "Status": "Active"
+    },
+    "BackOrderNotAllowed": false,
+    "NormallyStocking": false,
+    "Discontinued": false,
+    "EndOfLife": false,
+    "Ncnr": false,
+    "PrimaryVideoUrl": "",
+    "Parameters": [],
+    "BaseProductNumber": {},
+    "Category": {
+     "CategoryId": 1,
+     "ParentId": 0,
+     "Name": "Uncategorized",
+     "ProductCount": 0,
+     "NewProductCount": 0,
+     "ImageUrl": "https://mm.digikey.com/Volume0/opasdata/d220001/derivates/3/010/110/1983880000_View1_tmb.jpg",
+     "SeoDescription": "",
+     "ChildCategories": [
+      {
+       "CategoryId": 48,
+       "ParentId": 1,
+       "Name": "Unclassified",
+       "ProductCount": 0,
+       "NewProductCount": 0,
+       "ImageUrl": "",
+       "SeoDescription": "Products not currently assigned to a family class are temporarily assigned to unclassified products in the uncategorized category.",
+       "ChildCategories": []
+      }
+     ]
+    },
+    "ManufacturerLeadWeeks": "14",
+    "ManufacturerPublicQuantity": 0,
+    "Series": {
+     "Id": 0,
+     "Name": "*"
+    },
+    "Classifications": {
+     "ReachStatus": "REACH Unknown",
+     "RohsStatus": "Unknown",
+     "MoistureSensitivityLevel": "1  (Unlimited)",
+     "ExportControlClassNumber": "",
+     "HtsusCode": ""
+    },
+    "OtherNames": [
+     "031-1287-003",
+     "CNTASMSDPXMA22PCLIF",
+     "1003-CNTASMSDPXMA22P/CLIF"
+    ]
+   }
+  ],
+  "ProductsCount": 1,
+  "ExactMatches": [],
+  "FilterOptions": {
+   "Manufacturers": [
+    {
+     "Id": 1003,
+     "Value": "ITT Cannon, LLC",
+     "ProductCount": 1
+    }
+   ]
+  },
+  "SearchLocaleUsed": {
+   "Site": "US",
+   "Language": "en",
+   "Currency": "USD"
+  },
+  "AppliedParametricFiltersDto": []
+ },
+ "from_cache": false
+}
